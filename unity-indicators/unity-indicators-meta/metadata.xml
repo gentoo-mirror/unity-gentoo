@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email></email>
+		<name>unity-gentoo overlay</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">shiznix</remote-id>
+		<bugs-to>https://github.com/shiznix/unity-gentoo/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="battery">Battery power indicator</flag>
+		<flag name="bluetooth">Bluetooth settings and transfers indicator</flag>
+		<flag name="datetime">Date, time and calendar indicator</flag>
+		<flag name="keyboard">Keyboard layout indicator</flag>
+		<flag name="paste">Copy/Paste clipboard indicator</flag>
+		<flag name="sensors">Hardware sensors indicator such as CPU temp</flag>
+		<flag name="session">Session management indicator</flag>
+		<flag name="sound">Audio control and application launching indicator</flag>
+		<flag name="weather">Weather indicator</flag>
+	</use>
+</pkgmetadata>

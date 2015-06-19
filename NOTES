@@ -1,0 +1,166 @@
+* To rebuild all packages against new GTK libs using qdepends (part of app-portage/portage-utils):
+emerge -1 `qdepends -CNQ x11-libs/gtk+ 2> /dev/null`
+
+* Using portage tree libindicate packages
+	- unity-indicators/indicator-appmenu requires
+		dev-libs/libdbusmenu, dev-libs/libindicator and dev-libs/libappindicator all be built with x11-libs/gtk:2 support
+	- Many indicators (bluetooth, weather, etc.) require dev-libs/libappindicator be built with Python GTK+-2.x bindings to function
+	- Gentoo is in the position of dropping GTK+-2.x Ubuntu Ayatana libraries from tree so we must maintain our own versions of
+		dev-libs/libdbusmenu
+		dev-libs/libindicator
+		dev-libs/libappindicator
+
+* Core python deps. for the Dash lens to work
+	dev-libs/dee
+	dev-libs/libappindicator
+	dev-libs/libunity
+	unity-lenses/unity-lens-video
+
+* Reasons for patching/maintaining packages:
+dev-cpp/gtest				# Customised ebuild to install /usr/src/gtest/* files lacking from main tree ebuild
+dev-cpp/gmock				# Customised ebuild to install /usr/src/gmock/* files lacking from main tree ebuild
+dev-libs/dee				# Portage tree versions can lag, maintained for patches and version control
+dev-libs/glib				# Critical underlying package to function of Unity, maintained for patches and version control
+dev-libs/gobject-introspection		# See glib reason above
+dev-libs/gobject-introspection-common	# See glib reason above
+dev-libs/libappindicator		# See "Using portage tree libindicate packages" item above
+dev-libs/libdbusmenu			# See "Using portage tree libindicate packages" item above
+dev-libs/libindicator			# See "Using portage tree libindicate packages" above
+dev-util/gdbus-codegen			# Needs to be maintained in line with dev-libs/glib (see above)
+gnome-base/gconf			# Installs 'update-gconf-defaults' script used by compiz to install compizconfig default settings into gconf registry
+gnome-base/gnome-core-apps		# Included to pull in lower versions of empathy, gnome-menus and nautilus
+gnome-base/gnome-desktop		# Patched to sync user selected background to accountsservice as used by lightdm background screen
+gnome-base/gnome-menus			# Needed for some menu patches but mostly to set XDG_MENU_PREFIX when running in gnome fallback mode
+gnome-base/gnome-session		# Installs session files for launching Unity desktop
+gnome-base/gnome-settings-daemon	# unity-settings-daemon relies on files created from patchset, compiz at runtime needs 'terminal' key in 'org.gnome.settings-daemon.plugins.media-keys' schema
+gnome-base/gsettings-desktop-schemas	# Includes Unity desktop settings patches
+gnome-base/nautilus			# Give progressbar on Dash launcher nautilus icon
+gnome-extra/nm-applet			# Shows nm-applet in indicator panel
+gnome-extra/polkit-gnome		# Patched to have polkit-gnome-authentication-agent-1 xdg-autostart on Unity login
+mail-client/thunderbird			# Requires patching for global appmenu
+media-libs/mesa				# Patched for mir display server support
+media-sound/banshee			# Patched/compiled for indicator-sound support, Meego UI and other Ubuntu UI improvements
+media-sound/pulseaudio			# Patched for indicator-sound 'cork' support
+media-sound/rhythmbox			# Patched/compiled for indicator-sound support, menu quicklist, Magnatune and other Ubuntu UI improvements
+net-im/empathy				# Integrates with Unity online accounts, associated plugins and the messages indicator
+net-im/telepathy-mission-control	# Enables Ubuntu libaccounts-sso integration
+net-libs/gnome-online-accounts		# Allow access to Gnome Online Accounts (GOA) via Ubuntu Online Accounts (UOA)
+www-client/chromium			# Requires patching for webapps browser plugin (x11-misc/webaccounts-browser-extension[chromium])
+www-client/firefox			# Requires patching for webapps browser plugin and global appmenu
+x11-base/xorg-server			# Provides Xmir patch
+x11-drivers/xf86-video-ati		# Provides Mir display server support with 'mir' useflag and patch
+x11-drivers/xf86-video-intel		# Provides Mir display server support with 'mir' useflag and patch
+x11-drivers/xf86-video-nouveau		# Provides Mir display server support with 'mir' useflag and patch
+x11-libs/gtk+				# Needed for global appmenu
+x11-wm/metacity				# Patched to support compiz window decoration
+
+* By design, some indicators or their features will not appear until they meet certain criteria
+	- indicator-messages	# Won't appear until a messaging type application is run first (eg. empathy, evolution (via indicator-evolution), pidgin, webapp)
+	- indicator-keyboard	# Won't appear until at least one input source is specified and 'Show current input source in menu bar' is checked in System Settings > Text Entry
+	- indicator-session	# Won't show username until 'Show my login in menu bar' is checked in System Settings > User Accounts
+					and then only if user has been added to /etc/passwd using useradd's '--comment' GECOS field
+
+* Unity user specific settings locations
+	- Dconf registry accessible via gsettings or dconf-editor
+	- ~/.{cache,config,local}/...
+	- /var/lib/AccountsService/users/<user>
+
+* Empathy and message indicator integration
+	- To reset all empathy accounts and configurations:
+		rm -rfv ~/.cache/telepathy
+		rm -rfv ~/.local/share/telepathy
+		rm -rfv ~/.config/libaccounts-glib
+		rm -rfv ~/.config/Empathy
+	- To debug signond, edit /etc/signond.conf and change 'LoggingLevel=...'
+	- To debug signon-ui:
+		killall signon-ui
+		export SSOUI_LOGGING_LEVEL=2
+		signon-ui
+	- To debug telepathy packages:
+		G_MESSAGES_DEBUG=all FOO_PERSIST=1 FOO_DEBUG=all /path/to/telepathy-foo 2>&1 | tee foo.log
+
+* Webapps integration
+	- Requires the following packages:
+		- dev-libs/libunity-webapps			(Integrates browser plugins with the desktop via libunity)
+		- unity-base/webapps				(Contains site specific webapps)
+		- unity-base/webapps-base			(Contains site specific webapps)
+		- x11-misc/webapps-greasemonkey			(Unity Websites Integration browser plugin)
+		- x11-misc/webaccounts-browser-extension	(Ubuntu Online Accounts browser plugin)
+		- x11-misc/unity-firefox-extension		(Unity Desktop Integration browser plugin)
+		- x11-misc/unity-chromium-extension		(Unity Desktop Integration browser plugin)
+
+	- Problems:
+		- 'unity-webapps-runner' (unity-base/unity-webapps) is used by the *.desktop files installed by
+			Ubuntu packages but will only work if either chromium or firefox are set as the default browser
+			Default browser setting is read from desktop user's ~/.local/share/applications/mimeapps.list
+	- Other stuff:
+		- Webapps shown in the messages indicator are provided by the desktop user's ~/.local/share/applications/<provider>.desktop
+		- Available webapps are stored in the desktop user's ~/.local/share/unity-webapps/availableapps-v2.db
+		- Installed webapps are stored in the desktop user's ~/.local/share/unity-webapps/apps2.db
+	- To reset all installed webapps back to zero (and so get re-prompted to integrate each site), and remove indicator integration:
+		rm -rfv ~/.local/share/applications/<webapp_provider>.desktop
+		gsettings set com.canonical.unity.webapps allowed-domains ['']
+		Reset browser extension installed websites:
+			- Chromium:	Settings > Advanced Settings > Installed Websites > Exceptions
+			- Firefox:	Edit > Preferences > Desktop Integration > Exceptions
+	- Possible TODO:
+		- Package Ubuntu's version of app-misc/geoclue so that the Amazon webapp regional settings work when running 'unity-webapps-runner -a'
+
+* Debugging Unity
+	- Emerge unity-base/unity with the 'debug' USE flag enabled, and restart xsession
+	- Check ~/.xsession-errors and syslog
+	- gsettings get org.compiz.core:/org/compiz/profiles/unity/plugins/core/ active-plugins
+
+* Ubuntu Single Signon
+	- Check ~/.cache/sso/sso-client*.log
+
+* Mir EGL Display Server
+	- Circular dependencies between mir-base/mir and media-libs/mesa
+		- Mesa requires mir support patch
+		=== UTOPIC ===
+		- mir-base/mir requires libGL from media-libs/mesa to build
+		- media-libs/mesa with mir enabled requires mirclient from mir-base/mir
+			- SOLUTION:
+				- Introduce media-libs/mesa-mir ebuild that installs only the mesa EGL related files and DEPENDS on mir-base/mir
+				- Introduce 'mir' useflag to media-libs/mesa which when enabled removes all EGL related files and PDEPENDS on media-libs/mesa-mir
+		=== VIVID ===
+		- mir-base/mir now requires entire vanilla media-libs/mesa[-mir] to build
+		- media-libs/mesa with mir enabled requires mirclient from mir-base/mir
+			- SOLUTION:
+				- Remove and block media-libs/mesa-mir ebuild
+				- Insert check in media-libs/mesa ebuild that dies with message if mesa is trying to build with mir enabled before mir-base/mir is installed
+
+* Ubuntu use the 'upstart' init system to start desktop services (systemd init is used for boot services only), notes below:
+	* '/usr/bin/upstart --user' should set the $UPSTART_SESSION env variable
+		- $UPSTART_SESSION env variable will only be set (inherited from upstart process) if the desktop session is a child process of the parent 'upstart' process
+			ie. Upstart cannot be started within the desktop session, upstart needs to be the process that starts the desktop session
+	* /usr/bin/initctl needs the $UPSTART_SESSION env variable set for it's many jobs to execute correctly
+	* To communicate properly over dbus, the dbus process also needs to be a child of the upstart process (as started by /usr/share/upstart/sessions/dbus.conf)
+
+## Healthy process tree example for a Unity desktop session using upstart to start it ##
+
+ 5001 ?        SLsl   0:01 /usr/sbin/lightdm
+ 6205 tty7     Ssl+   0:04  \_ /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 6273 ?        Sl     0:00  \_ lightdm --session-child 12 19
+ 6350 ?        Ss     0:00      \_ /usr/bin/upstart --user
+ 6374 ?        S      0:00          \_ upstart-udev-bridge --daemon --user
+ 6384 ?        Ss     0:00          \_ dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-UvIvPBq4Ih
+ 6394 ?        Ssl    0:00          \_ upstart-dconf-bridge
+ 6400 ?        Ss     0:00          \_ /usr/libexec/hud/window-stack-bridge
+ 6406 ?        Sl     0:00          \_ /usr/libexec/bamf/bamfdaemon
+ 6415 ?        Ss     0:00          \_ initctl emit xsession SESSION=unity SESSIONTYPE=gnome-session
+ 6418 ?        Sl     0:00          \_ /usr/libexec/at-spi-bus-launcher
+ 6425 ?        S      0:00          |   \_ /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 6419 ?        Ssl    0:00          \_ gnome-session --session=unity
+ 6495 ?        Sl     0:03          |   \_ /usr/libexec/unity-settings-daemon
+ 6512 ?        S      0:00          |   |   \_ syndaemon -i 0.5 -t -K -R
+ 6508 ?        Sl     0:03          |   \_ compiz
+
+$ echo $UPSTART_SESSION 
+unix:abstract=/com/ubuntu/upstart-session/1000/6350
+
+## Upstart Session Launch ##
+* On xsession start, /etc/X11/xinit/xinitrc.d/99upstart sets the required env variables and launches 'exec upstart --user'
+	- Note that no other file after '99upstart' in alphanumerical order will be parsed
+* Upstart processes it's *.conf files in /usr/share/upstart/sessions/
+* Upstart job /usr/share/upstart/sessions/gnome-session.conf starts 'gnome-session --session=$DESKTOP_SESSION'

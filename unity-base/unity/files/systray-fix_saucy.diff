@@ -1,0 +1,92 @@
+diff -Nru unity-7.1.2+13.10.20131014.1/panel/PanelTray.cpp unity-7.1.2+13.10.20131014.1systray1/panel/PanelTray.cpp
+--- unity-7.1.2+13.10.20131014.1/panel/PanelTray.cpp	2013-10-14 07:23:50.000000000 -0400
++++ unity-7.1.2+13.10.20131014.1systray1/panel/PanelTray.cpp	2013-11-05 11:13:23.459288031 -0500
+@@ -133,7 +133,7 @@
+   glib::String res_name;
+   na_tray_child_get_wm_class(icon, &res_name, &res_class);
+ 
+-  bool accept = FilterTray(title.Str(), res_name.Str(), res_class.Str());
++  bool accept = true;
+ 
+   if (accept)
+   {
+diff -Nru unity-7.1.2+13.10.20131014.1/tests/CMakeLists.txt unity-7.1.2+13.10.20131014.1systray1/tests/CMakeLists.txt
+--- unity-7.1.2+13.10.20131014.1/tests/CMakeLists.txt	2013-10-14 07:23:50.000000000 -0400
++++ unity-7.1.2+13.10.20131014.1systray1/tests/CMakeLists.txt	2013-11-05 11:14:46.954799699 -0500
+@@ -270,7 +270,6 @@
+                  test_panel_menu_view.cpp
+                  test_panel_service.cpp
+                  test_panel_style.cpp
+-                 test_panel_tray.cpp
+                  test_panel_view.cpp
+                  test_places_group.cpp
+                  test_preview_player.cpp
+diff -Nru unity-7.1.2+13.10.20131014.1/tests/test_panel_tray.cpp unity-7.1.2+13.10.20131014.1systray1/tests/test_panel_tray.cpp
+--- unity-7.1.2+13.10.20131014.1/tests/test_panel_tray.cpp	2013-10-14 07:23:50.000000000 -0400
++++ unity-7.1.2+13.10.20131014.1systray1/tests/test_panel_tray.cpp	1969-12-31 19:00:00.000000000 -0500
+@@ -1,65 +0,0 @@
+-/*
+- * Copyright 2013 Canonical Ltd.
+- *
+- * This program is free software: you can redistribute it and/or modify it
+- * under the terms of the GNU General Public License version 3, as published
+- * by the  Free Software Foundation.
+- *
+- * This program is distributed in the hope that it will be useful, but
+- * WITHOUT ANY WARRANTY; without even the implied warranties of
+- * MERCHANTABILITY, SATISFACTORY QUALITY or FITNESS FOR A PARTICULAR
+- * PURPOSE.  See the GNU General Public License for more details.
+- *
+- * You should have received a copy of the GNU General Public License
+- * version 3 along with this program.  If not, see
+- * <http://www.gnu.org/licenses/>
+- *
+- * Authored by: Andrea Azzarone <andrea.azzarone@canonical.com>
+- *
+- */
+-
+-#include <gtest/gtest.h>
+-
+-#include "panel/PanelTray.h"
+-
+- TEST(TestPanelTray, FilterTray)
+- {
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("JavaEmbeddedFrame", "", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "JavaEmbeddedFrame", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "", "JavaEmbeddedFrame"));
+-
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("Wine", "", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "Wine", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "", "Wine"));
+-
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("JavaEmbeddedFrameUbuntu", "", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "JavaEmbeddedFrameUbuntu", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "", "JavaEmbeddedFrameUbuntu"));
+-
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("WineUbuntu", "", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "WineUbuntu", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("", "", "WineUbuntu"));
+-
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("UbuntuJavaEmbeddedFrame", "", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "UbuntuJavaEmbeddedFrame", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "", "UbuntuJavaEmbeddedFrame"));
+-
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("UbuntuWine", "", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "UbuntuWine", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "", "UbuntuWine"));
+-
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("UbuntuJavaEmbeddedFrameUbuntu", "", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "UbuntuJavaEmbeddedFrameUbuntu", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "", "UbuntuJavaEmbeddedFrameUbuntu"));
+-
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("UbuntuWineUbuntu", "", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "UbuntuWineUbuntu", ""));
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("", "", "UbuntuWineUbuntu"));
+-
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("Wine", "Ubuntu", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("Ubuntu", "JavaEmbeddedFrame", ""));
+-  EXPECT_TRUE(unity::PanelTray::FilterTray("Wine", "JavaEmbeddedFrame", "Ubuntu"));
+-
+-  EXPECT_FALSE(unity::PanelTray::FilterTray("Ubuntu", "Unity", "Hello world!"));
+-}
+-

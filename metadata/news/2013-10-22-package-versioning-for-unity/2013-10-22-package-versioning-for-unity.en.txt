@@ -1,0 +1,77 @@
+Title: Package versioning for the unity-gentoo overlay
+Author: shiznix <rickfharris@yahoo.com.au>
+Author: Mirko Guenther <renegart@gmx.de>
+Content-Type: text/plain
+Posted: 2013-10-22
+Revision: 10
+News-Item-Format: 1.0
+Display-If-Installed: sys-apps/portage
+
+Be aware!!
+The unity-gentoo overlay includes package versions that are heavily patched by Ubuntu.
+To preserve the function of these integrated packages from being broken by main portage tree upgrades,
+the affected packages need to be masked from being emerged from the main portage tree
+
+Packages affected are:
+dev-cpp/gtest
+dev-libs/dee
+dev-libs/glib
+dev-libs/gobject-introspection
+dev-libs/gobject-introspection-common
+dev-libs/libappindicator
+dev-libs/libdbusmenu
+dev-libs/libindicator
+gnome-base/gconf
+gnome-base/gnome-control-center
+gnome-base/gnome-fallback
+gnome-base/gnome-menus
+gnome-base/gnome-session
+gnome-base/gnome-settings-daemon
+gnome-base/gsettings-desktop-schemas
+gnome-base/nautilus
+gnome-extra/gnome-screensaver
+gnome-extra/activity-log-manager
+gnome-extra/nm-applet
+gnome-extra/polkit-gnome
+gnome-extra/zeigeist
+media-libs/mesa
+media-sound/rhythmbox
+net-im/empathy
+net-im/telepathy-mission-control
+net-libs/gnome-online-accounts
+sys-apps/accountsservice
+www-client/chromium
+www-client/firefox
+x11-base/xorg-server
+x11-drivers/xf86-video-ati
+x11-drivers/xf86-video-intel
+x11-drivers/xf86-video-nouveau
+x11-libs/gtk+
+x11-libs/libXfixes
+x11-libs/libXi
+x11-misc/lightdm
+x11-proto/fixesproto
+x11-themes/gtk-engines-unico
+x11-wm/metacity
+
+
+## Setup of overlay package masking and use flags ##
+
+package.unmask files override package.mask files, so be sure that none of the packages listed above already lie in your
+	/etc/portage/package.unmask file, or if they do that they unmask in a repo specific way
+		eg. www-client/chromium::unity-gentoo
+
+It is necessary to mask certain packages that would normally be emerged from the main portage tree:
+	'ln -s /var/lib/layman/unity-gentoo/unity-portage.pmask /etc/portage/package.mask/unity-portage.pmask'
+
+All packages are keyword masked and can be unmasked by entering the following into your package.keywords file:
+	*/*::unity-gentoo
+
+A package keywords file containing a base set of packages for Unity installation is maintained for convenience at /var/lib/layman/unity-gentoo/unity-portage.pkeywords:
+	'ln -s /var/lib/layman/unity-gentoo/unity-portage.pkeywords /etc/portage/package.keywords/unity-portage.pkeywords'
+
+A package unmask file is maintained at /var/lib/layman/unity-gentoo/unity-portage.punmask:
+	'ln -s /var/lib/layman/unity-gentoo/unity-portage.punmask /etc/portage/package.unmask/unity-portage.punmask'
+
+A package USE file is maintained at /var/lib/layman/unity-gentoo/unity-portage.puse:
+	'ln -s /var/lib/layman/unity-gentoo/unity-portage.puse /etc/portage/package.use/unity-portage.puse'
