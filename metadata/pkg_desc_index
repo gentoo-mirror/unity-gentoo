@@ -176,7 +176,7 @@ unity-lenses/unity-lens-video 0.3.15_p0_p01: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 43.0.2357.130_p0_p00150401: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 39.0_p0_p00150401: Firefox Web Browser
+www-client/firefox 40.0_p0_p00150401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150416-r1: Unity webapps browser application
 x11-base/xorg-server 1.17.1_p0_p03: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p1_p02: ATI video driver patched for Mir display server
