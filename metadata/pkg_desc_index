@@ -112,7 +112,6 @@ sys-apps/upstart 1.13.2_p0_p13-r1: Desktop services daemon used by the Unity des
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 3.19.8_p25_p26: Ubuntu patched kernel sources
-sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.1_p0_p01_p20150202: BAMF Application Matching Framework
