@@ -20,7 +20,7 @@ dev-libs/libindicator 12.10.2_p0_p01_p20140922: A set of symbols and convenience
 dev-libs/libqtdbusmock 0.3_p0_p01_p20150331: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p0_p01: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libsignon-glib 1.12_p0_p01_p2015041003: GObject introspection data for the Signon library for the Unity desktop
-dev-libs/libtimezonemap 0.4.3: GTK+3 timezone map widget used by the Unity desktop
+dev-libs/libtimezonemap 0.4.3.1: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p0_p01_p20140808: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p0_p01_p2014121702: Webapps integration with the Unity desktop
@@ -81,9 +81,9 @@ gnome-base/gnome-session 3.14.0_p2_p05-r1: Gnome session manager patched for the
 gnome-base/gnome-settings-daemon 3.14.2_p3_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.14.2_p0_p9: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.14.2_p0_p0901: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 0.9.10.1_p0_p04: GNOME applet for NetworkManager
+gnome-extra/nm-applet 0.9.10.1_p0_p0401: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 31.8.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/thumbnailer 1.3_p0_p01_p20150312: Ubuntu's thumbnailer service
@@ -97,7 +97,7 @@ net-im/empathy 3.12.9_p1_p0101: Telepathy instant messaging and video/audio call
 net-im/telepathy-mission-control 5.16.3_p1_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/gnome-online-accounts 3.14.2_p1_p01: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.7.9_p0_p00150401: Web browser engine library for Qt
+net-libs/oxide-qt 1.8.4_p0_p00150401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 0.9_p0_p01_p20150203: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -111,7 +111,7 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410: Session init system job for lau
 sys-apps/upstart 1.13.2_p0_p13-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p25_p26: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p26_p28: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -138,7 +138,7 @@ unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1: Unity Desktop Confi
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p01_p20150408: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p0101_p20150408: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20140416: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
@@ -176,7 +176,7 @@ unity-lenses/unity-lens-video 0.3.15_p0_p01: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 44.0.2403.89_p0_p00150401: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 40.0_p0_p00150401: Firefox Web Browser
+www-client/firefox 40.0_p0_p00150404: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150416-r1: Unity webapps browser application
 x11-base/xorg-server 1.17.1_p0_p03: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p1_p02: ATI video driver patched for Mir display server
