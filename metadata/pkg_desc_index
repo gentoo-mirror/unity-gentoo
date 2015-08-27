@@ -85,7 +85,7 @@ gnome-base/nautilus 3.14.2_p0_p0901: A file manager for the GNOME desktop patche
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 0.9.10.1_p0_p0401: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
-mail-client/thunderbird 31.8.0_p0_p00150401: Thunderbird Mail Client
+mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/thumbnailer 1.3_p0_p01_p20150312: Ubuntu's thumbnailer service
 media-libs/mesa 10.5.2_p0_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p2_p05: Import, organize, play, and share your music (patched for Unity)
