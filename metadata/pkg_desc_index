@@ -93,7 +93,7 @@ media-sound/pulseaudio 6.0_p0_p06 6.0_p0_p10: A networked sound server with an a
 media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p01: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.12.1_p0_p01_p20150324 0.15.1_p0_p01_p20150825: Mir is a display server technology
 mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.0_p0_p01_p20150817: Compositor for Mir display server that switches graphics and input between running sessions
-net-im/empathy 3.12.9_p1_p0101 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
+net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/gnome-online-accounts 3.14.2_p1_p01: GNOME framework for accessing online accounts
