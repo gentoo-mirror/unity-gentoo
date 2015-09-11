@@ -87,7 +87,7 @@ gnome-extra/nm-applet 0.9.10.1_p0_p07 0.9.10.1_p0_p0401: GNOME applet for Networ
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.2_p0_p01_p20150801: Ubuntu's thumbnailer service
-media-libs/mesa 10.5.2_p0_p01 10.6.3_p1_p01: OpenGL-like graphic library for Linux
+media-libs/mesa 10.5.9_p2_p01 10.6.3_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p2_p05 2.9.0_p3_p01: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 6.0_p0_p06 6.0_p0_p10: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p01: Music management and playback software for GNOME patched for the Unity desktop
@@ -97,7 +97,7 @@ net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging an
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/gnome-online-accounts 3.14.2_p1_p01: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.8.4_p0_p02 1.8.4_p0_p00150401: Web browser engine library for Qt
+net-libs/oxide-qt 1.9.1_p0_p01 1.9.1_p0_p00150401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 0.9_p0_p01_p20150203 1.0_p0_p02_p20150724: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -111,7 +111,7 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p14: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p26_p28 4.1.0_p3_p03: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p28_p30 4.1.0_p3_p03: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -158,7 +158,7 @@ unity-extra/unity-tweak-tool 0.0.6_p_p02-r2: Configuration manager for the Unity
 unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20150728: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
-unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150302 15.02.0_p0_p01_p20150627: Indicator for application menus used by the Unity desktop
+unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150627 15.02.0_p0_p01_p20150821: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20141006-r2 0.0.6_p0_p01_p20150813: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150406-r1 13.10.0_p0_p02_p20150728: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20150310-r1: Keyboard indicator used by the Unity desktop
