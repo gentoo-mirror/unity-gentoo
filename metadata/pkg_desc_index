@@ -48,7 +48,7 @@ dev-qt/qtfeedback 5.0_p0_p09 5.0_p0_p11: Qt Feedback module
 dev-qt/qtgraphicaleffects 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-qt/qtgui 5.4.1_p2_p0401 5.4.2_p2_p03: The GUI module and platform plugins for the Qt5 toolkit
 dev-qt/qtlocation 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qtmultimedia 5.4.1_p1_p01: The Multimedia module for the Qt5 framework
+dev-qt/qtmultimedia 5.4.1_p1_p01 5.4.2_p1_p02: The Multimedia module for the Qt5 framework
 dev-qt/qtnetwork 5.4.1 5.4.2: Network abstraction library for the Qt5 framework
 dev-qt/qtopengl 5.4.1 5.4.2: OpenGL support library for the Qt5 framework (deprecated)
 dev-qt/qtpim 5.0_p0_p09 5.0_p0_p11: Qt PIM module, Organizer library
