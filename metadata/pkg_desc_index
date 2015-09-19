@@ -12,7 +12,7 @@ dev-libs/gobject-introspection 1.42.0 1.44.0: Introspection infrastructure for g
 dev-libs/gobject-introspection-common 1.42.0 1.44.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.18_p0_p01_p20150116: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p0_p01_p20141110: Application indicators used by the Unity desktop
-dev-libs/libcolumbus 1.1.0_p0_p02_p20150806 1.1.0_p0_p03_p2014032503: Error tolerant matching engine used by the Unity desktop
+dev-libs/libcolumbus 1.1.0_p0_p03_p2014032503 1.1.0a_p0_p02_p20150806: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 12.10.3_p0_p01_p2015041002: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20140619 0.9.3_p0_p01_p20150604: A library providing Qt implementation of DBusMenu specification
 dev-libs/libhybris 0.1.0_p0_p39 0.1.0_p0_p40: Allows to run bionic-based HW adaptations in glibc systems
@@ -27,7 +27,7 @@ dev-libs/libunity-webapps 2.5.0_p0_p01_p2014121702: Webapps integration with the
 dev-libs/properties-cpp 0.0.1_p0_p01_p20140730: Simple convenience library for handling properties and signals in C++11
 dev-libs/userspace-rcu 0.8.4: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p0_p01 1.4_p0_p01_p2015082401: Select objects in an object tree using XPath queries
-dev-python/autopilot 1.5.1_p0_p01_p20150522 1.5.1_p0_p01_p20150723 1.5.1_p0_p01_p20150908: Utility to write and run integration tests easily
+dev-python/autopilot 1.5.1_p0_p01_p20150522 1.5.1_p0_p01_p20150908: Utility to write and run integration tests easily
 dev-python/configglue 1.0: Library that glues together python's optparse.OptionParser and ConfigParser.ConfigParser
 dev-python/dirspec 13.10_p0_p03 13.10_p0_p04: Python User Folders Specification Library
 dev-python/polib 1.0.6 1.0.7: A library to manipulate gettext files (po and mo files)
@@ -74,7 +74,7 @@ dev-util/lttng-tools 2.5.0 2.6.0: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.5.0 2.6.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p3_p01 3.2.6_p3_p03: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.12.0: Sub-meta package for the core applications integrated with GNOME 3
-gnome-base/gnome-desktop 3.14.1_p1_p02 3.16.2_p2_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.14.1_p1_p02 3.16.2_p2_p02: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.10.1_p0_p05 3.13.3_p6_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.14.0_p2_p01 3.16.1_p3_p02: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.14.0_p2_p05-r1 3.16.0_p1_p02: Gnome session manager patched for the Unity desktop
@@ -83,14 +83,14 @@ gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02 3.16.1_p1_p01: Collection of 
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.14.2_p0_p10 3.14.2_p0_p0901: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 0.9.10.1_p0_p07 0.9.10.1_p0_p0401: GNOME applet for NetworkManager
+gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
-media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.2_p0_p01_p20150801: Ubuntu's thumbnailer service
+media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
 media-libs/mesa 10.5.9_p2_p01 10.6.3_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p2_p05 2.9.0_p3_p01: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 6.0_p0_p06 6.0_p0_p11: A networked sound server with an advanced plugin system patched for the Unity desktop
-media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p01: Music management and playback software for GNOME patched for the Unity desktop
+media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p02: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.12.1_p0_p01_p20150324 0.15.1_p0_p01_p20150903: Mir is a display server technology
 mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.1_p0_p01_p20150904: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
@@ -108,7 +108,7 @@ sys-apps/accountsservice 0.6.37_p1_p1001 0.6.40_p2_p04: D-Bus interfaces for que
 sys-apps/click 0.4.38.5 0.4.39.1_p0_p01_p20150702: Ubuntu mobile platform package management framework
 sys-apps/remote-login-service 1.0.0_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p14: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p16: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 3.19.8_p28_p30 4.2.0_p10_p11: Ubuntu patched kernel sources
@@ -125,7 +125,7 @@ unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1: Online account plugin fo
 unity-base/grail 3.1.0_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150211 0.0.4_p0_p01_p20150608: GSettings deskop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20140924-r1 14.10_p0_p01_p2015082001: Backend for the Unity HUD
-unity-base/nux 4.0.7_p0_p01_p20150802 4.0.7_p0_p01_p2015041001: Visual rendering toolkit for the Unity desktop
+unity-base/nux 4.0.7_p0_p01_p2015041001 4.0.7a_p0_p01_p20150802: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.16_p0_p01_p20150319 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/signon 8.57_p0_p01_p2015020401 8.57_p0_p02_p20150616: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
@@ -134,11 +134,11 @@ unity-base/signon-ui 0.17_p0_p01_p20150410 0.17_p0_p01_p20150810: Single Sign On
 unity-base/ubuntu-docs 15.04.3: Help files for the Unity desktop
 unity-base/unity 7.3.2_p0_p01_p20150420-r2 7.3.2_p0_p01_p2015091001: The Ubuntu Unity Desktop
 unity-base/unity-build-env 15.04 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p20150902: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p20150915: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04 15.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p01_p20150825 15.04.1_p0_p0101_p20150408: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20150917: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20140416 2.4.17_p0_p01_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01 2.4.17_p0_p01_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
@@ -154,11 +154,11 @@ unity-extra/lightdm-remote-session-freerdp 1.0_p0_p02: Configuration and a scrip
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 15.04.4_p0_p01-r1 15.10.1_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
-unity-extra/unity-tweak-tool 0.0.6_p_p02-r2: Configuration manager for the Unity desktop environment
+unity-extra/unity-tweak-tool 0.0.6_p_p02-r2 0.0.6_p_p03: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20150728: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
-unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150627 15.02.0_p0_p01_p20150821: Indicator for application menus used by the Unity desktop
+unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150821 15.02.0a_p0_p01_p20150627: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20141006-r2 0.0.6_p0_p01_p20150915: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150406-r1 13.10.0_p0_p01_p20150909: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20150310-r1: Keyboard indicator used by the Unity desktop
@@ -175,15 +175,15 @@ unity-lenses/unity-lens-photos 1.0_p0_p01: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p0_p01: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 44.0.2403.89_p0_p01 44.0.2403.89_p0_p00150401: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 44.0.2403.89_p0_p00150401 44.0.2403.89a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 40.0.3_p0_p00150401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150913: Unity webapps browser application
-x11-base/xorg-server 1.17.1_p0_p03 1.17.2_p1_p06: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.17.1_p0_p03 1.17.2_p1_p07: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p1_p02 7.5.0a_p0_p01: ATI video driver patched for Mir display server
-x11-drivers/xf86-video-intel 2.99.917_p0_p02_p20150808 2.99.917_p1_p0202-r1: X.Org driver for Intel cards
+x11-drivers/xf86-video-intel 2.99.917_p1_p0202-r1 2.99.917a_p0_p02_p20150808: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.11_p1_p02 1.0.11_p1_p03: Accelerated Open Source driver for nVidia cards
 x11-libs/accounts-qml-module 0.5_p0_p01_p2015041501 0.5_p0_p02_p2015041501: Expose Unity Online Accounts API to QML applications
-x11-libs/content-hub 0.0_p0_p01_p20150909 0.0_p0_p0100_p20150331-r1: Content sharing/picking service to allow apps to exchange content
+x11-libs/content-hub 0.0_p0_p0100_p20150331-r1 0.0a_p0_p01_p20150909: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p01_p20140317 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p04_p20140807 0.1_p0_p06_p20140807: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r1 3.16.6_p1_p01: Gimp ToolKit patched for the Unity desktop
@@ -192,8 +192,8 @@ x11-libs/ubuntu-ui-toolkit 1.2.1458_p0_p01_p20150422 1.3.1627_p0_p01_p20150908: 
 x11-libs/unity-action-api 1.1.0_p0_p01_p20140304 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
 x11-libs/unity-webapps-qml 0.1_p0_p01_p20150409 0.1_p0_p02_p20150422: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p0_p02: Application menu module for Qt
-x11-misc/appmenu-qt5 0.3.0_p0_p01_p20150722 0.3.0_p0_p03_p20150121: Application menu module for Qt
-x11-misc/lightdm 1.14.2_p0_p01-r3 1.16.0_p0_p01: A lightweight display manager
+x11-misc/appmenu-qt5 0.3.0_p0_p03_p20150121 0.3.0a_p0_p01_p20150903: Application menu module for Qt
+x11-misc/lightdm 1.14.2_p0_p01-r3 1.16.2_p0_p01: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20150126 0.9.35_p0_p01_p20150915: Canonical's on-screen-display notification agent
 x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
