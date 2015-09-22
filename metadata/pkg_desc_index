@@ -79,9 +79,9 @@ gnome-base/gnome-menus 3.0.1-r3 3.10.1_p0_p05 3.13.3_p6_p01: The GNOME menu syst
 gnome-base/gnome-panel 3.14.0_p2_p01 3.16.1_p3_p02: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.14.0_p2_p05-r1 3.16.0_p1_p02: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.14.2_p3_p01 3.16.2_p3_p01: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02 3.16.1_p1_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02-r1 3.16.1_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.14.2_p0_p10 3.14.2_p0_p0901: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.14.2_p0_p0901 3.14.2a_p0_p10: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
@@ -133,6 +133,7 @@ unity-base/signon-plugin-oauth2 0.21_p0_p01_p20150327 0.22_p0_p02_p20150603: Sin
 unity-base/signon-ui 0.17_p0_p01_p20150410 0.17_p0_p01_p20150810: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 15.04.3: Help files for the Unity desktop
 unity-base/unity 7.3.2_p0_p01_p20150420-r2 7.3.2_p0_p01_p2015091001: The Ubuntu Unity Desktop
+unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
 unity-base/unity-build-env 15.04 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p20150915: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
@@ -186,7 +187,7 @@ x11-libs/accounts-qml-module 0.5_p0_p01_p2015041501 0.5_p0_p02_p2015041501: Expo
 x11-libs/content-hub 0.0_p0_p0100_p20150331-r1 0.0a_p0_p01_p20150909: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p01_p20140317 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p04_p20140807 0.1_p0_p06_p20140807: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r1 3.16.6_p1_p01: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r2 3.16.6_p1_p01: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.13_p0_p03_p2014081901 1.13_p0_p04_p2014081901: QT library for Single Sign On framework for the Unity desktop
 x11-libs/ubuntu-ui-toolkit 1.2.1458_p0_p01_p20150422 1.3.1627_p0_p01_p20150908: Qt Components for the Unity desktop - QML plugin
 x11-libs/unity-action-api 1.1.0_p0_p01_p20140304 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
