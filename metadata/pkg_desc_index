@@ -24,6 +24,7 @@ dev-libs/libtimezonemap 0.4.3.1 0.4.4: GTK+3 timezone map widget used by the Uni
 dev-libs/libunity 7.1.4_p0_p01_p20140808 7.1.4_p0_p01_p20150911: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p0_p01_p2014121702: Webapps integration with the Unity desktop
+dev-libs/persistent-cache-cpp 1.0.4_p0_p01_p2015081902: Cache of key-value pairs with persistent storage for C++11
 dev-libs/properties-cpp 0.0.1_p0_p01_p20140730: Simple convenience library for handling properties and signals in C++11
 dev-libs/userspace-rcu 0.8.4: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p0_p01 1.4_p0_p01_p2015082401: Select objects in an object tree using XPath queries
@@ -68,6 +69,7 @@ dev-qt/qtx11extras 5.4.1 5.4.2: Linux/X11-specific support library for the Qt5 f
 dev-qt/qtxml 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-qt/qtxmlpatterns 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-util/android-headers 4.4.2_p0_p04: Android Platform Headers from AOSP releases
+dev-util/cmake-extras 0.4_p0_p01_p20150918: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p0_p01_p20150218 15.04.0_p0_p02_p20150218: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.44.1 2.45.7: GDBus code and documentation generator
 dev-util/lttng-tools 2.5.0 2.6.0: Linux Trace Toolkit - next generation
@@ -184,7 +186,7 @@ x11-drivers/xf86-video-ati 7.5.0_p1_p02 7.5.0a_p0_p01: ATI video driver patched 
 x11-drivers/xf86-video-intel 2.99.917_p1_p0202-r1 2.99.917a_p0_p02_p20150808: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.11_p1_p02 1.0.11_p1_p03: Accelerated Open Source driver for nVidia cards
 x11-libs/accounts-qml-module 0.5_p0_p01_p2015041501 0.5_p0_p02_p2015041501: Expose Unity Online Accounts API to QML applications
-x11-libs/content-hub 0.0_p0_p0100_p20150331-r1 0.0a_p0_p01_p20150909: Content sharing/picking service to allow apps to exchange content
+x11-libs/content-hub 0.0_p0_p0100_p20150331-r1 0.1_p0_p01_p20150922: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p01_p20140317 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p04_p20140807 0.1_p0_p06_p20140807: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r2 3.16.6_p1_p01: Gimp ToolKit patched for the Unity desktop
