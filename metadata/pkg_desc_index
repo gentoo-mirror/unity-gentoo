@@ -7,7 +7,7 @@ dev-cpp/gflags 2.0 2.1.2: Google's C++ argument parsing library
 dev-cpp/gmock 1.7.0: Google's C++ mocking framework
 dev-cpp/gtest 1.7.0 1.7.0a: Google C++ Testing Framework
 dev-libs/dee 1.2.7_p0_p01_p20150304 1.2.7_p0_p02_p20150304: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.44.1_p1_p01 2.45.7: The GLib library of C routines patched for the Unity desktop
+dev-libs/glib 2.44.1_p1_p01 2.45.8: The GLib library of C routines patched for the Unity desktop
 dev-libs/gobject-introspection 1.42.0 1.44.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.42.0 1.44.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.18_p0_p01_p20150116: Library for single signon for the Unity desktop
@@ -18,7 +18,7 @@ dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20140619 0.9.3_p0_p01_p20150604: A library
 dev-libs/libhybris 0.1.0_p0_p39 0.1.0_p0_p40: Allows to run bionic-based HW adaptations in glibc systems
 dev-libs/libindicator 12.10.2_p0_p01_p20140922: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.3_p0_p01_p20150331 0.3_p0_p01_p20150604: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p0_p01 0.2_p0_p01_p20150604: Library to facilitate testing DBus interactions in Qt applications
+dev-libs/libqtdbustest 0.2_p0_p01 0.2_p0_p01_p20150918: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libsignon-glib 1.12_p0_p01_p2015041003 1.12_p0_p01_p2015042001: GObject introspection data for the Signon library for the Unity desktop
 dev-libs/libtimezonemap 0.4.3.1 0.4.4: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p0_p01_p20140808 7.1.4_p0_p01_p20150911: Library for instrumenting and integrating with all aspects of the Unity shell
@@ -52,7 +52,7 @@ dev-qt/qtlocation 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application
 dev-qt/qtmultimedia 5.4.1_p1_p01 5.4.2_p1_p02: The Multimedia module for the Qt5 framework
 dev-qt/qtnetwork 5.4.1 5.4.2: Network abstraction library for the Qt5 framework
 dev-qt/qtopengl 5.4.1 5.4.2: OpenGL support library for the Qt5 framework (deprecated)
-dev-qt/qtpim 5.0_p0_p09 5.0_p0_p11: Qt PIM module, Organizer library
+dev-qt/qtpim 5.0_p0_p09 5.0_p0_p12: Qt PIM module, Organizer library
 dev-qt/qtprintsupport 5.4.1 5.4.2: Printing support library for the Qt5 framework
 dev-qt/qtquick1 5.4.1 5.4.2: Legacy declarative framework for Qt4 compatibility for building dynamic user interfaces
 dev-qt/qtquickcontrols 5.4.1 5.4.2: Set of controls used in conjunction with Qt Quick to build complete interfaces
@@ -71,7 +71,7 @@ dev-qt/qtxmlpatterns 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ applicat
 dev-util/android-headers 4.4.2_p0_p04: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.4_p0_p01_p20150918: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p0_p01_p20150218 15.04.0_p0_p02_p20150218: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.44.1 2.45.7: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.44.1 2.45.8: GDBus code and documentation generator
 dev-util/lttng-tools 2.5.0 2.6.0: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.5.0 2.6.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p3_p01 3.2.6_p3_p03: GNOME configuration system and daemon patched for the Unity desktop
@@ -89,12 +89,12 @@ gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for Netwo
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
-media-libs/mesa 10.5.9_p2_p01 10.6.3_p1_p01: OpenGL-like graphic library for Linux
+media-libs/mesa 10.5.9_p2_p01 11.0.0_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p2_p05 2.9.0_p3_p01: Import, organize, play, and share your music (patched for Unity)
-media-sound/pulseaudio 6.0_p0_p06 6.0_p0_p11: A networked sound server with an advanced plugin system patched for the Unity desktop
-media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p02: Music management and playback software for GNOME patched for the Unity desktop
-mir-base/mir 0.12.1_p0_p01_p20150324 0.15.1_p0_p01_p20150903: Mir is a display server technology
-mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.1_p0_p01_p20150904: Compositor for Mir display server that switches graphics and input between running sessions
+media-sound/pulseaudio 6.0_p0_p06-r1 6.0_p0_p12: A networked sound server with an advanced plugin system patched for the Unity desktop
+media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p03: Music management and playback software for GNOME patched for the Unity desktop
+mir-base/mir 0.12.1_p0_p01_p20150324 0.16.0_p0_p01_p2015092101: Mir is a display server technology
+mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.2_p0_p01_p20150922: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
@@ -113,7 +113,7 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p16: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p28_p30 4.2.0_p10_p11: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p28_p30 4.2.0_p11_p13: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -127,17 +127,17 @@ unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1: Online account plugin fo
 unity-base/grail 3.1.0_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150211 0.0.4_p0_p01_p20150608: GSettings deskop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20140924-r1 14.10_p0_p01_p2015082001: Backend for the Unity HUD
-unity-base/nux 4.0.7_p0_p01_p2015041001 4.0.7a_p0_p01_p20150802: Visual rendering toolkit for the Unity desktop
+unity-base/nux 4.0.7_p0_p01_p2015041001 4.0.8_p0_p01_p2015092101: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.16_p0_p01_p20150319 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/signon 8.57_p0_p01_p2015020401 8.57_p0_p02_p20150616: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
 unity-base/signon-plugin-oauth2 0.21_p0_p01_p20150327 0.22_p0_p02_p20150603: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20150410 0.17_p0_p01_p20150810: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 15.04.3: Help files for the Unity desktop
-unity-base/unity 7.3.2_p0_p01_p20150420-r2 7.3.2_p0_p01_p2015091001: The Ubuntu Unity Desktop
+unity-base/unity 7.3.2_p0_p01_p20150420-r2 7.3.2_p0_p01_p20150921: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
 unity-base/unity-build-env 15.04 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p20150915: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p20150923: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04 15.10: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04 15.10: Unity Desktop - merge this to pull in all Unity packages
@@ -178,10 +178,10 @@ unity-lenses/unity-lens-photos 1.0_p0_p01: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p0_p01: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 44.0.2403.89_p0_p00150401 44.0.2403.89a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 40.0.3_p0_p00150401: Firefox Web Browser
-www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150913: Unity webapps browser application
-x11-base/xorg-server 1.17.1_p0_p03 1.17.2_p1_p07: X.Org X servers patched for the Unity desktop
+www-client/chromium 45.0.2454.85_p0_p00150401 45.0.2454.85a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/firefox 41.0_p0_p00150401: Firefox Web Browser
+www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150922: Unity webapps browser application
+x11-base/xorg-server 1.17.1_p0_p0301 1.17.2_p1_p07: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p1_p02 7.5.0a_p0_p01: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p1_p0202-r1 2.99.917a_p0_p02_p20150808: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.11_p1_p02 1.0.11_p1_p03: Accelerated Open Source driver for nVidia cards
@@ -189,7 +189,7 @@ x11-libs/accounts-qml-module 0.5_p0_p01_p2015041501 0.5_p0_p02_p2015041501: Expo
 x11-libs/content-hub 0.0_p0_p0100_p20150331-r1 0.1_p0_p01_p20150922: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p01_p20140317 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p04_p20140807 0.1_p0_p06_p20140807: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r2 3.16.6_p1_p01: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.27_p0_p01 2.24.28_p1_p01 3.14.13_p0_p01-r2 3.16.7_p0_p01: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.13_p0_p03_p2014081901 1.13_p0_p04_p2014081901: QT library for Single Sign On framework for the Unity desktop
 x11-libs/ubuntu-ui-toolkit 1.2.1458_p0_p01_p20150422 1.3.1627_p0_p01_p20150908: Qt Components for the Unity desktop - QML plugin
 x11-libs/unity-action-api 1.1.0_p0_p01_p20140304 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
@@ -200,9 +200,9 @@ x11-misc/lightdm 1.14.2_p0_p01-r3 1.16.2_p0_p01: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20150126 0.9.35_p0_p01_p20150915: Canonical's on-screen-display notification agent
 x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
-x11-misc/unity-firefox-extension 3.0.0_p0_p01: Firefox extension for Unity desktop integration
-x11-misc/webaccounts-browser-extension 0.5_p0_p04: Ubuntu Online Accounts browser extension
-x11-misc/webapps-greasemonkey 2.3.6_p0_p01_p20140701: WebApps: Websites integration Firefox plug-in for Unity desktop
+x11-misc/unity-firefox-extension 3.0.0_p0_p01150401: Firefox extension for Unity desktop integration
+x11-misc/webaccounts-browser-extension 0.5_p0_p04150401: Ubuntu Online Accounts browser extension
+x11-misc/webapps-greasemonkey 2.3.6_p0_p01150401_p20140701: WebApps: Websites integration Firefox plug-in for Unity desktop
 x11-misc/x11vnc 0.9.13 0.9.13a: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.8 0.6.9: A nice and well polished icon theme
