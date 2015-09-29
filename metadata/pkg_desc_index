@@ -7,7 +7,7 @@ dev-cpp/gflags 2.0 2.1.2: Google's C++ argument parsing library
 dev-cpp/gmock 1.7.0: Google's C++ mocking framework
 dev-cpp/gtest 1.7.0 1.7.0a: Google C++ Testing Framework
 dev-libs/dee 1.2.7_p0_p01_p20150304 1.2.7_p0_p02_p20150304: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.44.1_p1_p01 2.45.8: The GLib library of C routines patched for the Unity desktop
+dev-libs/glib 2.44.1_p1_p01 2.46.0: The GLib library of C routines patched for the Unity desktop
 dev-libs/gobject-introspection 1.42.0 1.44.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.42.0 1.44.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.18_p0_p01_p20150116: Library for single signon for the Unity desktop
@@ -71,7 +71,7 @@ dev-qt/qtxmlpatterns 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ applicat
 dev-util/android-headers 4.4.2_p0_p04: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.4_p0_p01_p20150918: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p0_p01_p20150218 15.04.0_p0_p02_p20150218: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.44.1 2.45.8: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.44.1 2.46.0: GDBus code and documentation generator
 dev-util/lttng-tools 2.5.0 2.6.0: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.5.0 2.6.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p3_p01 3.2.6_p3_p03: GNOME configuration system and daemon patched for the Unity desktop
