@@ -87,6 +87,7 @@ gnome-base/nautilus 3.14.2_p0_p0901 3.14.2a_p0_p10: A file manager for the GNOME
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
+gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
 media-libs/mesa 10.5.9_p2_p01 11.0.0_p1_p01: OpenGL-like graphic library for Linux
