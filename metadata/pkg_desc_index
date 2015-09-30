@@ -47,12 +47,12 @@ dev-qt/qtdbus 5.4.1 5.4.2: The D-Bus module for the Qt5 framework
 dev-qt/qtdeclarative 5.4.1_p1_p05 5.4.2_p1_p06: The QML and Quick modules for the Qt5 framework
 dev-qt/qtfeedback 5.0_p0_p09 5.0_p0_p11: Qt Feedback module
 dev-qt/qtgraphicaleffects 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qtgui 5.4.1_p2_p0401 5.4.2_p2_p03: The GUI module and platform plugins for the Qt5 toolkit
+dev-qt/qtgui 5.4.1_p2_p0401 5.4.2_p2_p06: The GUI module and platform plugins for the Qt5 toolkit
 dev-qt/qtlocation 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-qt/qtmultimedia 5.4.1_p1_p01 5.4.2_p1_p02: The Multimedia module for the Qt5 framework
 dev-qt/qtnetwork 5.4.1 5.4.2: Network abstraction library for the Qt5 framework
 dev-qt/qtopengl 5.4.1 5.4.2: OpenGL support library for the Qt5 framework (deprecated)
-dev-qt/qtpim 5.0_p0_p09 5.0_p0_p12: Qt PIM module, Organizer library
+dev-qt/qtpim 5.0_p0_p09 5.0_p0_p13: Qt PIM module, Organizer library
 dev-qt/qtprintsupport 5.4.1 5.4.2: Printing support library for the Qt5 framework
 dev-qt/qtquick1 5.4.1 5.4.2: Legacy declarative framework for Qt4 compatibility for building dynamic user interfaces
 dev-qt/qtquickcontrols 5.4.1 5.4.2: Set of controls used in conjunction with Qt Quick to build complete interfaces
@@ -81,7 +81,7 @@ gnome-base/gnome-menus 3.0.1-r3 3.10.1_p0_p05 3.13.3_p6_p01: The GNOME menu syst
 gnome-base/gnome-panel 3.14.0_p2_p01 3.16.1_p3_p02: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.14.0_p2_p05-r1 3.16.0_p1_p02: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.14.2_p3_p01 3.16.2_p3_p01: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02-r1 3.16.1_p1_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02-r1 3.18.0_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.14.2_p0_p0901 3.14.2a_p0_p10: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
@@ -95,7 +95,7 @@ media-sound/banshee 2.9.0_p2_p05 2.9.0_p3_p01: Import, organize, play, and share
 media-sound/pulseaudio 6.0_p0_p06-r1 6.0_p0_p12: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.1_p1_p03 3.2.1_p1_p03: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.12.1_p0_p01_p20150324 0.16.0_p0_p01_p2015092101: Mir is a display server technology
-mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.2_p0_p01_p20150922: Compositor for Mir display server that switches graphics and input between running sessions
+mir-base/unity-system-compositor 0.0.5_p0_p01_p20150227 0.1.3_p0_p01_p2015092501: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
@@ -114,7 +114,7 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p16: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p28_p30 4.2.0_p11_p13: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p30_p33 4.2.0_p12_p14: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -163,7 +163,7 @@ unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20150728: Widgets 
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150821 15.02.0a_p0_p01_p20150627: Indicator for application menus used by the Unity desktop
-unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20141006-r2 0.0.6_p0_p01_p20150915: System bluetooth indicator used by the Unity desktop
+unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20141006-r2 0.0.6_p0_p01_p20150929: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150406-r1 13.10.0_p0_p01_p20150909: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20150310-r1: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p0_p01_p20150403-r1 13.10.1_p0_p01_p20150505: Indicator that collects messages that need a response used by the Unity desktop
@@ -181,8 +181,8 @@ unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 45.0.2454.85_p0_p00150401 45.0.2454.85a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 41.0_p0_p00150401: Firefox Web Browser
-www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150922: Unity webapps browser application
-x11-base/xorg-server 1.17.1_p0_p0301 1.17.2_p1_p07: X.Org X servers patched for the Unity desktop
+www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150929: Unity webapps browser application
+x11-base/xorg-server 1.17.1_p0_p0301 1.17.2_p1_p09: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p1_p02 7.5.0a_p0_p01: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p1_p0202-r1 2.99.917a_p0_p02_p20150808: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.11_p1_p02 1.0.11_p1_p03: Accelerated Open Source driver for nVidia cards
@@ -197,7 +197,7 @@ x11-libs/unity-action-api 1.1.0_p0_p01_p20140304 1.1.0_p0_p02_p20140304: Allow a
 x11-libs/unity-webapps-qml 0.1_p0_p01_p20150409 0.1_p0_p02_p20150422: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p0_p03_p20150121 0.3.0a_p0_p01_p20150903: Application menu module for Qt
-x11-misc/lightdm 1.14.2_p0_p01-r3 1.16.2_p0_p01: A lightweight display manager
+x11-misc/lightdm 1.14.2_p0_p01-r3 1.16.3_p0_p01: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20150126 0.9.35_p0_p01_p20150915: Canonical's on-screen-display notification agent
 x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
@@ -206,9 +206,9 @@ x11-misc/webaccounts-browser-extension 0.5_p0_p04150401: Ubuntu Online Accounts 
 x11-misc/webapps-greasemonkey 2.3.6_p0_p01150401_p20140701: WebApps: Websites integration Firefox plug-in for Unity desktop
 x11-misc/x11vnc 0.9.13 0.9.13a: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
-x11-themes/humanity-icon-theme 0.6.8 0.6.9: A nice and well polished icon theme
+x11-themes/humanity-icon-theme 0.6.8 0.6.10: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p0_p01_p20150202: Icons for on-screen-display notification agent
 x11-themes/ubuntu-themes 14.04_p0_p01_p20150410-r1 14.04_p0_p01_p20150910: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 15.04.1_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 15.04.1_p0_p01 15.10.1_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
 x11-wm/metacity 3.14.3_p1_p07 3.17.2_p4_p01: GNOME default window manager
