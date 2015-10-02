@@ -107,7 +107,7 @@ net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoI
 net-misc/url-dispatcher 0.1_p0_p01_p20150123-r2 0.1_p0_p02_p20150717: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 net-wireless/blueman 9999: GTK+ Bluetooth Manager, designed to be simple and intuitive for everyday bluetooth tasks
 net-wireless/bluez 5.28: Bluetooth Tools and System Daemons for Linux
-sys-apps/accountsservice 0.6.37_p1_p1001 0.6.40_p2_p04: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 0.6.37_p1_p1001-r1 0.6.40_p2_p04: D-Bus interfaces for querying and manipulating user account information
 sys-apps/click 0.4.38.5 0.4.39.1_p0_p01_p20150702: Ubuntu mobile platform package management framework
 sys-apps/remote-login-service 1.0.0_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session init system job for launching applications
@@ -142,7 +142,7 @@ unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p2015
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04 15.10: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04 15.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20150917: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20150930: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20140416 2.4.17_p0_p01_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01 2.4.17_p0_p01_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
