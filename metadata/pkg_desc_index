@@ -6,11 +6,12 @@ app-eselect/eselect-lightdm 0.1 0.2: Utility to change the LightDM greeter being
 dev-cpp/gflags 2.0 2.1.2: Google's C++ argument parsing library
 dev-cpp/gmock 1.7.0: Google's C++ mocking framework
 dev-cpp/gtest 1.7.0 1.7.0a: Google C++ Testing Framework
+dev-libs/dbus-cpp 5.0.0_p0_p02: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p0_p01_p20150304 1.2.7_p0_p02_p20150304: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.44.1_p1_p01 2.46.0: The GLib library of C routines patched for the Unity desktop
 dev-libs/gobject-introspection 1.42.0 1.44.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.42.0 1.44.0: Build infrastructure for GObject Introspection
-dev-libs/libaccounts-glib 1.18_p0_p01_p20150116: Library for single signon for the Unity desktop
+dev-libs/libaccounts-glib 1.18_p0_p01_p20150116-r1: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p0_p01_p20141110: Application indicators used by the Unity desktop
 dev-libs/libcolumbus 1.1.0_p0_p03_p2014032503 1.1.0a_p0_p02_p20150806: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 12.10.3_p0_p01_p2015041002: Library to pass menu structure across DBus
@@ -25,7 +26,9 @@ dev-libs/libunity 7.1.4_p0_p01_p20140808 7.1.4_p0_p01_p20150911: Library for ins
 dev-libs/libunity-misc 4.0.5_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p0_p01_p2014121702: Webapps integration with the Unity desktop
 dev-libs/persistent-cache-cpp 1.0.4_p0_p01_p2015081902: Cache of key-value pairs with persistent storage for C++11
+dev-libs/process-cpp 3.0.1_p0_p01: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.1_p0_p01_p20140730: Simple convenience library for handling properties and signals in C++11
+dev-libs/trust-store 2.0.0_p0_p01_p2015083103: API for creating, reading, updating and deleting trust requests answered by users
 dev-libs/userspace-rcu 0.8.4: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p0_p01 1.4_p0_p01_p2015082401: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.5.1_p0_p01_p20150522 1.5.1_p0_p01_p20150908: Utility to write and run integration tests easily
@@ -89,6 +92,7 @@ gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for Netwo
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
+media-gfx/shotwell 0.22.0_p0_p04: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
 media-libs/mesa 10.5.9_p2_p01 11.0.0_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p2_p05 2.9.0_p3_p01: Import, organize, play, and share your music (patched for Unity)
@@ -104,6 +108,7 @@ net-libs/oxide-qt 1.9.1_p0_p01 1.9.1_p0_p00150401: Web browser engine library fo
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 0.9_p0_p01_p20150203 1.0_p0_p02_p20150724: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
+net-libs/ubuntuone-credentials 15.10_p_p01_p20150713: Ubuntu One authentication library
 net-misc/url-dispatcher 0.1_p0_p01_p20150123-r2 0.1_p0_p02_p20150717: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 net-wireless/blueman 9999: GTK+ Bluetooth Manager, designed to be simple and intuitive for everyday bluetooth tasks
 net-wireless/bluez 5.28: Bluetooth Tools and System Daemons for Linux
@@ -135,6 +140,8 @@ unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.21_p0_p01_p20150327 0.22_p0_p02_p20150603: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20150410 0.17_p0_p01_p20150810: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 15.04.3: Help files for the Unity desktop
+unity-base/ubuntu-system-settings 0.3_p0_p01_p20150924: System Settings application for Ubuntu Touch
+unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806: Online Accounts setup for Ubuntu Touch
 unity-base/unity 7.3.2_p0_p01_p20150420-r2 7.3.2_p0_p01_p20150921: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
 unity-base/unity-build-env 15.04 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
