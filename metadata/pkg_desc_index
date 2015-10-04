@@ -24,7 +24,7 @@ dev-libs/libsignon-glib 1.12_p0_p01_p2015041003 1.12_p0_p01_p2015042001: GObject
 dev-libs/libtimezonemap 0.4.3.1 0.4.4: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p0_p01_p20140808 7.1.4_p0_p01_p20150911: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p0_p01: Miscellaneous modules for the Unity desktop
-dev-libs/libunity-webapps 2.5.0_p0_p01_p2014121702: Webapps integration with the Unity desktop
+dev-libs/libunity-webapps 2.5.0_p0_p01_p20151002 2.5.0_p0_p01_p2014121702: Webapps integration with the Unity desktop
 dev-libs/persistent-cache-cpp 1.0.4_p0_p01_p2015081902: Cache of key-value pairs with persistent storage for C++11
 dev-libs/process-cpp 3.0.1_p0_p01: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.1_p0_p01_p20140730: Simple convenience library for handling properties and signals in C++11
@@ -33,7 +33,7 @@ dev-libs/userspace-rcu 0.8.4: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p0_p01 1.4_p0_p01_p2015082401: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.5.1_p0_p01_p20150522 1.5.1_p0_p01_p20150908: Utility to write and run integration tests easily
 dev-python/configglue 1.0: Library that glues together python's optparse.OptionParser and ConfigParser.ConfigParser
-dev-python/dirspec 13.10_p0_p03 13.10_p0_p04: Python User Folders Specification Library
+dev-python/dirspec 13.10_p0_p03 13.10_p1_p01: Python User Folders Specification Library
 dev-python/polib 1.0.6 1.0.7: A library to manipulate gettext files (po and mo files)
 dev-python/pyjunitxml 0.6: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.4 0.4a: Python unittest extension for running tests in different scenarios
@@ -87,7 +87,7 @@ gnome-base/gnome-settings-daemon 3.14.2_p3_p01 3.16.2_p3_p01: Gnome Settings Dae
 gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02-r1 3.18.0_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.14.2_p0_p0901 3.14.2a_p0_p10: A file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p0_p19: Blacklist configuration user interface for Zeitgeist
+gnome-extra/activity-log-manager 0.9.7_p0_p19 0.9.7_p0_p20: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105-r9: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
@@ -149,7 +149,7 @@ unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p2015
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04 15.10: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04 15.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20150930: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20151001: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20140416 2.4.17_p0_p01_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01 2.4.17_p0_p01_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
@@ -166,7 +166,7 @@ unity-extra/lightdm-remote-session-uccsconfigure 1.1_p0_p02: Configuration files
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 15.04.4_p0_p01-r1 15.10.1_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.6_p_p02-r2 0.0.6_p_p03: Configuration manager for the Unity desktop environment
-unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20150728: Widgets and other objects used for indicators by the Unity desktop
+unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20151002: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150821 15.02.0a_p0_p01_p20150627: Indicator for application menus used by the Unity desktop
@@ -215,7 +215,7 @@ x11-misc/x11vnc 0.9.13 0.9.13a: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.8 0.6.10: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p0_p01_p20150202: Icons for on-screen-display notification agent
-x11-themes/ubuntu-themes 14.04_p0_p01_p20150410-r1 14.04_p0_p01_p20150910: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 15.04.1_p0_p01 15.10.1_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-themes 14.04_p0_p01_p20150410-r1 14.04_p0_p01_p20151001: Monochrome icons for the Unity desktop (default icon theme)
+x11-themes/ubuntu-wallpapers 15.04.1_p0_p01 15.10.2_p0_p02: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
 x11-wm/metacity 3.14.3_p1_p07 3.17.2_p4_p01: GNOME default window manager
