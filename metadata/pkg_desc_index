@@ -33,7 +33,6 @@ dev-libs/userspace-rcu 0.8.4: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p0_p01 1.4_p0_p01_p2015082401: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.5.1_p0_p01_p20150522 1.5.1_p0_p01_p20150908: Utility to write and run integration tests easily
 dev-python/configglue 1.0: Library that glues together python's optparse.OptionParser and ConfigParser.ConfigParser
-dev-python/dirspec 13.10_p0_p03 13.10_p1_p01: Python User Folders Specification Library
 dev-python/polib 1.0.6 1.0.7: A library to manipulate gettext files (po and mo files)
 dev-python/pyjunitxml 0.6: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.4 0.4a: Python unittest extension for running tests in different scenarios
@@ -119,12 +118,12 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p16: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p30_p33 4.2.0_p12_p14: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p30_p33 4.2.0_p14_p16: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.1_p0_p01_p20150202 0.5.2_p0_p01_p2015062701: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.1_p0_p01_p2015041001 0.9.12.2_p0_p01_p20150908: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/compiz 0.9.12.1_p0_p01_p2015041001 0.9.12.2_p0_p01_p20151002: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 1.2.0 2.1.0: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
@@ -169,7 +168,7 @@ unity-extra/unity-tweak-tool 0.0.6_p_p02-r2 0.0.6_p_p03: Configuration manager f
 unity-indicators/ido 13.10.0_p0_p01_p20150319 13.10.0_p0_p01_p20151002: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
-unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150821 15.02.0a_p0_p01_p20150627: Indicator for application menus used by the Unity desktop
+unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20150821 15.02.0a_p0_p01_p20151002: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20141006-r2 0.0.6_p0_p01_p20150929: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150406-r1 13.10.0_p0_p01_p20150909: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20150310-r1: Keyboard indicator used by the Unity desktop
@@ -178,7 +177,7 @@ unity-indicators/indicator-power 12.10.6_p0_p01_p20150402-r1 12.10.6_p0_p01_p201
 unity-indicators/indicator-session 12.10.5_p0_p01_p20150327-r2 12.10.5_p0_p01_p20150915: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p0_p01_p20150413-r1 12.10.2_p0_p01_p20150915: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 14.04: Unity Desktop - merge this to pull in all Unity indicators
-unity-lenses/unity-lens-applications 7.1.0_p0_p02_p20131011 7.1.0_p0_p03_p2015080401: Application lens for the Unity desktop
+unity-lenses/unity-lens-applications 7.1.0_p0_p01_p20151002 7.1.0_p0_p02_p20131011: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p0_p01: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.0_p0_p01_p20141219: Music lens for the Unity desktop
@@ -216,6 +215,6 @@ x11-plugins/pidgin-libnotify 0.14_p9_p02: pidgin-libnotify provides popups for p
 x11-themes/humanity-icon-theme 0.6.8 0.6.10: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p0_p01_p20150202: Icons for on-screen-display notification agent
 x11-themes/ubuntu-themes 14.04_p0_p01_p20150410-r1 14.04_p0_p01_p20151001: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 15.04.1_p0_p01 15.10.2_p0_p02: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 15.04.1_p0_p01 15.10.3_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
 x11-wm/metacity 3.14.3_p1_p07 3.17.2_p4_p01: GNOME default window manager
