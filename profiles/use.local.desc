@@ -26,6 +26,8 @@ dev-qt/qtgui:kms - Build the KMS platform plugin
 dev-qt/qtmultimedia:qml - Build QML/QtQuick bindings and imports
 dev-qt/qtmultimedia:widgets - Build the QtMultimediaWidgets module
 dev-qt/qtopengl:gles2 - Use OpenGL ES instead of desktop OpenGL
+dev-qt/qtpositioning:geoclue - Use enhanced location information from app-misc/geoclue
+dev-qt/qtpositioning:qml - Build QML bindings
 dev-qt/qtquick1:designer - Build plugin for dev-qt/designer
 dev-qt/qtquickcontrols:widgets - Enable QtWidgets support
 dev-qt/qtscript:scripttools - Build the QtScriptTools module (requires QtWidgets)

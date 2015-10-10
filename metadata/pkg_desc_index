@@ -50,11 +50,11 @@ dev-qt/qtdeclarative 5.4.1_p1_p05 5.4.2_p1_p06: The QML and Quick modules for th
 dev-qt/qtfeedback 5.0_p0_p09 5.0_p0_p11: Qt Feedback module
 dev-qt/qtgraphicaleffects 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-qt/qtgui 5.4.1_p2_p0401 5.4.2_p2_p06: The GUI module and platform plugins for the Qt5 toolkit
-dev-qt/qtlocation 5.4.1 5.4.2: The Qt toolkit is a comprehensive C++ application development framework
 dev-qt/qtmultimedia 5.4.1_p1_p01 5.4.2_p1_p02: The Multimedia module for the Qt5 framework
 dev-qt/qtnetwork 5.4.1 5.4.2: Network abstraction library for the Qt5 framework
 dev-qt/qtopengl 5.4.1 5.4.2: OpenGL support library for the Qt5 framework (deprecated)
 dev-qt/qtpim 5.0_p0_p09 5.0_p0_p13: Qt PIM module, Organizer library
+dev-qt/qtpositioning 5.4.1 5.4.2: Physical position determination library for the Qt5 framework
 dev-qt/qtprintsupport 5.4.1 5.4.2: Printing support library for the Qt5 framework
 dev-qt/qtquick1 5.4.1 5.4.2: Legacy declarative framework for Qt4 compatibility for building dynamic user interfaces
 dev-qt/qtquickcontrols 5.4.1 5.4.2: Set of controls used in conjunction with Qt Quick to build complete interfaces
