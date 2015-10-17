@@ -1,6 +1,7 @@
 app-accessibility/onboard 1.1.1_p0_p01 1.1.2_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
 app-accessibility/sphinx-voxforge-en 0.1.1_p0_p01: English sphinx language and acoustic models built from Voxforge audio corpus
 app-accessibility/unity-voice 0.1_p0_p01_p20150416-r1 0.1_p0_p01_p20151005: A simple 'command and control' type voice recognition service, using pocketsphinx under the hood.
+app-backup/copy-agent 3.2.01.0481: Sync, protect, and share your files with Copy from Barracuda.
 app-backup/deja-dup 32.0_p0_p05 34.0_p1_p03: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.1 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gflags 2.0 2.1.2: Google's C++ argument parsing library
@@ -85,7 +86,7 @@ gnome-base/gnome-session 3.14.0_p2_p05-r1 3.16.0_p1_p02-r1: Gnome session manage
 gnome-base/gnome-settings-daemon 3.14.2_p3_p01 3.16.3_p0_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.14.1_p1_p02-r1 3.18.0_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.14.2_p0_p0901 3.14.2a_p0_p12: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.14.2_p0_p0901-r1 3.14.2a_p0_p12-r1: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p19 0.9.7_p0_p20: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
