@@ -92,7 +92,7 @@ gnome-extra/activity-log-manager 0.9.7_p0_p19 0.9.7_p0_p22: Blacklist configurat
 gnome-extra/nm-applet 0.9.10.1_p0_p0401 0.9.10.1a_p0_p07: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
-mail-client/thunderbird 38.2.0_p0_p00150401: Thunderbird Mail Client
+mail-client/thunderbird 38.3.0_p0_p00150401: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p0_p05: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 1.3_p0_p01_p20150312 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
 media-libs/mesa 10.5.9_p2_p01 11.0.2_p1_p04: OpenGL-like graphic library for Linux
@@ -105,7 +105,7 @@ net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging an
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/gnome-online-accounts 3.14.2_p1_p01 3.16.0_p0_p01: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.9.5_p0_p01 1.9.5_p0_p00150401: Web browser engine library for Qt
+net-libs/oxide-qt 1.9.5_p0_p01 1.10.3_p0_p00150401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 0.9_p0_p01_p20150203 1.0_p0_p02_p20150724: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -120,7 +120,7 @@ sys-apps/ubuntu-app-launch 0.4_p0_p01_p20150410 0.5_p0_p01_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p13-r1 1.13.2_p0_p16: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p0_p0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 3.19.8_p30_p34 4.2.0_p16_p19: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 3.19.8_p31_p36 4.2.0_p16_p19: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
@@ -188,7 +188,7 @@ unity-lenses/unity-lens-photos 1.0_p0_p01: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p0_p01: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 45.0.2454.85_p0_p00150401 45.0.2454.85a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 45.0.2454.101_p0_p00150401 45.0.2454.101a_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 41.0.2_p0_p00150401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150416-r1 0.23_p0_p01_p20150929: Unity webapps browser application
 x11-base/xorg-server 1.17.1_p0_p0301 1.17.2_p1_p09: X.Org X servers patched for the Unity desktop
