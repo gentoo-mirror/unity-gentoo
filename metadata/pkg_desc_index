@@ -105,7 +105,7 @@ net-im/empathy 3.12.9_p1_p0101-r1 3.12.10_p0_p02: Telepathy instant messaging an
 net-im/telepathy-mission-control 5.16.3_p1_p01 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p02_p2015041501: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/gnome-online-accounts 3.14.2_p1_p01 3.16.0_p0_p01: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.9.5_p0_p01 1.10.3_p0_p00150401: Web browser engine library for Qt
+net-libs/oxide-qt 1.10.3_p0_p00150401 1.10.3_p0_p00151001: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 0.9_p0_p01_p20150203 1.0_p0_p02_p20150724: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -151,7 +151,7 @@ unity-base/unity-control-center 15.04.0_p0_p01_p20150410-r1 15.04.0_p0_p01_p2015
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.04 15.10: Language translations pack for Unity desktop
 unity-base/unity-meta 15.04 15.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20151012: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p0102_p20150408 15.04.1a_p0_p01_p20151021: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20140416 2.4.17_p0_p01_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01 2.4.17_p0_p01_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
