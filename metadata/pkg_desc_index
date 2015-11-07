@@ -146,7 +146,7 @@ unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002: System Settings applicat
 unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806: Online Accounts setup for Ubuntu Touch
 unity-base/unity 7.3.2_p0_p01_p20151016: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
-unity-base/unity-build-env 15.10-r1: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
+unity-base/unity-build-env 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20150923: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.10: Language translations pack for Unity desktop
