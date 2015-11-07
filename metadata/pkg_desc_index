@@ -4,7 +4,6 @@ app-accessibility/unity-voice 0.1_p0_p01_p20151005: A simple 'command and contro
 app-backup/copy-agent 3.2.01.0481: Sync, protect, and share your files with Copy from Barracuda.
 app-backup/deja-dup 34.0_p1_p03: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.1 0.2: Utility to change the LightDM greeter being used
-dev-cpp/gflags 2.1.2: Google's C++ argument parsing library
 dev-cpp/gmock 1.7.0: Google's C++ mocking framework
 dev-cpp/gtest 1.7.0: Google C++ Testing Framework
 dev-libs/dbus-cpp 5.0.0_p0_p02: Dbus-binding leveraging C++-11
@@ -75,7 +74,7 @@ dev-qt/qtxmlpatterns 5.4.2: The Qt toolkit is a comprehensive C++ application de
 dev-util/android-headers 4.4.2_p0_p04: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.4_p0_p01_p20150918: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p0_p01_p20151002: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.44.1 2.46.1: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.46.1: GDBus code and documentation generator
 dev-util/lttng-tools 2.6.0: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.6.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p3_p05: GNOME configuration system and daemon patched for the Unity desktop
