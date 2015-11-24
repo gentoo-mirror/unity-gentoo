@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=dev-qt/qtcore:4
+DESCRIPTION=Sync, protect, and share your files with Copy from Barracuda.
+EAPI=5
+HOMEPAGE=https://www.copy.com
+KEYWORDS=~x86 ~amd64
+LICENSE=Barracuda Networks Inc.
+RDEPEND=dev-qt/qtcore:4
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://copy.com/install/linux/Copy.tgz -> copy-agent-3.2.01.0481.tgz
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:- src_install:-
+_eclasses_=user	906f3c8eb3a2350a4f1191a89baa3e46
+_md5_=fcb465374ff367fe59f5a3e8e89c64cb

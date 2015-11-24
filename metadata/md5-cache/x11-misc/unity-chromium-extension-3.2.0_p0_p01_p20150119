@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=dev-libs/libunity-webapps:= app-editors/vim-core www-client/chromium test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) dev-lang/perl virtual/pkgconfig
+DESCRIPTION=Chromium extension: Unity Integration
+EAPI=5
+HOMEPAGE=https://launchpad.net/unity-chromium-extension
+IUSE=test debug test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/libunity-webapps:= dev-qt/qtchooser
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/universe/u/unity-chromium-extension/unity-chromium-extension_3.2.0+15.04.20150119.orig.tar.gz mirror://ubuntu/pool/universe/u/unity-chromium-extension/unity-chromium-extension_3.2.0+15.04.20150119-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:- src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	virtualx	7d550983f9b6adb3e7091f4090ddae2f
+_md5_=0d26b3968265d08bbd666d642b3c617a

@@ -1,0 +1,16 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam[audit] x11-libs/libX11 >=x11-libs/libxklavier-5 introspection? ( >=dev-libs/gobject-introspection-1 ) mir? ( mir-base/unity-system-compositor ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) dev-util/gtk-doc-am dev-util/intltool gnome-base/gnome-common sys-devel/gettext virtual/pkgconfig || ( dev-lang/vala:0.20[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DESCRIPTION=A lightweight display manager
+EAPI=5
+HOMEPAGE=https://launchpad.net/lightdm
+IUSE=lightdm_greeters_gtk lightdm_greeters_kde +lightdm_greeters_unity +introspection qt4 qt5 mir test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 LGPL-3
+PDEPEND=lightdm_greeters_gtk? ( x11-misc/lightdm-gtk-greeter ) lightdm_greeters_kde? ( x11-misc/lightdm-kde ) lightdm_greeters_unity? ( unity-extra/unity-greeter )
+RDEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam[audit] x11-libs/libX11 >=x11-libs/libxklavier-5 introspection? ( >=dev-libs/gobject-introspection-1 ) mir? ( mir-base/unity-system-compositor ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) sys-auth/pambase x11-apps/xrandr >=app-eselect/eselect-lightdm-0.2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/l/lightdm/lightdm_1.16.5.orig.tar.gz mirror://ubuntu/pool/main/l/lightdm/lightdm_1.16.5-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:- src_unpack:base src_prepare:- src_configure:- src_compile:base src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	pam	3ecd5b75e39b0bb05a3183c08fcdfdb4	readme.gentoo	e37aea783a61ae55fab947df247eebea	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	user	906f3c8eb3a2350a4f1191a89baa3e46	vala	15f7a43101d2ff0c6dcdab272c02f469
+_md5_=2fde3b8fed9f591ee67c3160f14eef8f

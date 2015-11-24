@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=dev-qt/qtfeedback:5 x11-libs/unity-action-api dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtpim:5 dev-qt/qtsvg:5 dev-qt/qttest:5 media-gfx/thumbnailer doc? ( dev-qt/qdoc:5 ) >=sys-apps/sed-4 test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) dev-lang/perl virtual/pkgconfig test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DESCRIPTION=Qt Components for the Unity desktop - QML plugin
+EAPI=5
+HOMEPAGE=https://launchpad.net/ubuntu-ui-toolkit
+IUSE=doc examples test test debug test test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtfeedback:5 x11-libs/unity-action-api dev-qt/qtchooser
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/u/ubuntu-ui-toolkit/ubuntu-ui-toolkit_1.3.1627+15.10.20150908.orig.tar.gz mirror://ubuntu/pool/main/u/ubuntu-ui-toolkit/ubuntu-ui-toolkit_1.3.1627+15.10.20150908-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:- src_unpack:qt5-build src_prepare:- src_configure:qt5-build src_compile:qt5-build src_test:- src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	gnome2-utils	588052cacdf74572e68bdfeaece20534	multilib	3972ca401cf7dbb430df9995f5d8d580	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	virtualx	7d550983f9b6adb3e7091f4090ddae2f
+_md5_=9c6cb128abb3aafb17cdb8baac5eeeb7

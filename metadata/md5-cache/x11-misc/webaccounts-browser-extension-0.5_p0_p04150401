@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=dev-libs/libaccounts-glib:= app-editors/vim-core dev-libs/json-glib gnome-base/dconf unity-base/gnome-control-center-signon firefox? ( || ( www-client/firefox www-client/firefox-bin ) x11-misc/unity-firefox-extension ) chromium? ( www-client/chromium x11-misc/unity-chromium-extension ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Ubuntu Online Accounts browser extension
+EAPI=5
+HOMEPAGE=https://launchpad.net/online-accounts-browser-extension
+IUSE=+chromium firefox
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/libaccounts-glib:=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/w/webaccounts-browser-extension/webaccounts-browser-extension_0.5.orig.tar.gz mirror://ubuntu/pool/main/w/webaccounts-browser-extension/webaccounts-browser-extension_0.5-0ubuntu4.15.04.1.diff.gz
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	f20548a2f7b0128068388cd2ec26708a	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb
+_md5_=3f909ba5d94ab6e007fa8c92429e7091

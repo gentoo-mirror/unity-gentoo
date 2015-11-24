@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup unpack
+DEPEND=dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 dev-qt/qtsql:4 dev-qt/qttest:4 dev-qt/qtxmlpatterns:4 doc? ( app-doc/doxygen ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtsql:5 dev-qt/qttest:5 dev-qt/qtxml:5 )
+DESCRIPTION=Single Sign On framework for the Unity desktop
+EAPI=5
+HOMEPAGE=https://launchpad.net/signon
+IUSE=+debug doc qt5
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/s/signon/signon_8.57+15.10.20150616.orig.tar.gz mirror://ubuntu/pool/main/s/signon/signon_8.57+15.10.20150616-0ubuntu2~gcc5.1.diff.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt4-r2 src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	qmake-utils	bd69cb386c63df4642cf1392b50c8d81	qt4-r2	cb2cb5856695b300266b425da70e82d8	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb
+_md5_=e50ccd0c44a4f3da83cebb8328e16120
