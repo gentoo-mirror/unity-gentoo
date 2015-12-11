@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=x11-libs/content-hub dev-libs/glib dev-libs/libunity dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtdeclarative:5 unity-base/hud unity-indicators/indicator-messages x11-libs/accounts-qml-module x11-libs/libnotify x11-libs/ubuntu-ui-toolkit x11-libs/unity-action-api || ( >=dev-lang/python-2.7.5-r2:2.7 ) test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) dev-lang/perl virtual/pkgconfig
+DEPEND=x11-libs/content-hub dev-libs/glib dev-libs/libunity dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtdeclarative:5 unity-base/hud unity-indicators/indicator-messages x11-libs/accounts-qml-module x11-libs/libnotify x11-libs/ubuntu-ui-toolkit x11-libs/unity-action-api || ( ) test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost ) dev-lang/perl virtual/pkgconfig
 DESCRIPTION=Unity Webapps QML component
 EAPI=5
 HOMEPAGE=https://launchpad.net/unity-webapps-qml
@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/u/unity-webapps-qml/unity-webapps-qml_0.1+15.04.20150422.orig.tar.gz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:- src_unpack:qt5-build src_prepare:- src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
-_eclasses_=eutils	d9bd2ddd85a58e470b49ca997e255a4c	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	python-any-r1	d48ce17f8005e9e5ca321f002d0fea6b	python-utils-r1	a5050c5c19fd08ed14d5d9f1792154fc	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	virtualx	e0b4d88543a7001a6b55bc2c81dcfd48
+_eclasses_=eutils	d9bd2ddd85a58e470b49ca997e255a4c	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	python-any-r1	18215b242007be1e9d7fd95683aaf4c0	python-utils-r1	8839d3b63783f5eebbe020034404fae1	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	virtualx	e0b4d88543a7001a6b55bc2c81dcfd48
 _md5_=6ab452b99a697f8750e84ccffa80ecbd
