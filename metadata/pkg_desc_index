@@ -88,7 +88,7 @@ gnome-base/gsettings-desktop-schemas 3.18.0_p0_p01: Collection of GSettings sche
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.14.2_p0_p13: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p22: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 0.9.10.1_p0_p07: GNOME applet for NetworkManager
+gnome-extra/nm-applet 1.0.6_p2_p03: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 38.4.0_p0_p00151001: Thunderbird Mail Client
