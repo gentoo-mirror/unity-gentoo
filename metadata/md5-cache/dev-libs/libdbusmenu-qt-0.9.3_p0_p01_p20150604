@@ -11,5 +11,5 @@ RESTRICT=mirror test
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/libd/libdbusmenu-qt/libdbusmenu-qt_0.9.3+15.10.20150604.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:cmake-utils src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=cmake-utils	8f9b4a16a74424949f28dee874ec2d34	eutils	d9bd2ddd85a58e470b49ca997e255a4c	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	e0b4d88543a7001a6b55bc2c81dcfd48
+_eclasses_=cmake-utils	b657a2689df4f46725711250cf9c8a32	eutils	d9bd2ddd85a58e470b49ca997e255a4c	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	e0b4d88543a7001a6b55bc2c81dcfd48
 _md5_=3a459823f8c8ba7733a589ecae08aa0e
