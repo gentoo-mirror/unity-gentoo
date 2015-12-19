@@ -190,7 +190,7 @@ unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101: Home scope that aggregat
 www-client/chromium 47.0.2526.73_p0_p00151001: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 43.0_p0_p00151001: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150929: Unity webapps browser application
-x11-base/xorg-server 1.17.2_p1_p0901: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.17.2_p1_p0901-r1: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.5.0_p0_p01: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p0_p04_p20150808: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.11_p1_p03: Accelerated Open Source driver for nVidia cards
