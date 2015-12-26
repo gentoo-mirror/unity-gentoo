@@ -8,8 +8,8 @@ KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 RDEPEND=!build? ( >=sys-libs/ncurses-5.2 sys-devel/make dev-lang/perl sys-devel/bc )
 RESTRICT=binchecks mirror strip
-SLOT=4.2.6_p19_p23
-SRC_URI=mirror://ubuntu/pool/main/l/linux/linux_4.2.0.orig.tar.gz mirror://ubuntu/pool/main/l/linux/linux_4.2.0-19.23.diff.gz amd64? ( http://kernel.ubuntu.com/~kernel-ppa/configs/utopic/amd64-config.flavour.generic ) x86? ( http://kernel.ubuntu.com/~kernel-ppa/configs/utopic/i386-config.flavour.generic )
+SLOT=4.2.6_p22_p27
+SRC_URI=mirror://ubuntu/pool/main/l/linux/linux_4.2.0.orig.tar.gz mirror://ubuntu/pool/main/l/linux/linux_4.2.0-22.27.diff.gz amd64? ( http://kernel.ubuntu.com/~kernel-ppa/configs/utopic/amd64-config.flavour.generic ) x86? ( http://kernel.ubuntu.com/~kernel-ppa/configs/utopic/i386-config.flavour.generic )
 _eclass_exported_funcs=pkg_pretend:mount-boot pkg_prerm:mount-boot pkg_preinst:kernel-2 pkg_postrm:kernel-2 pkg_postinst:- pkg_setup:- src_unpack:- src_prepare:- src_compile:kernel-2 src_test:kernel-2 src_install:-
 _eclasses_=eutils	d9bd2ddd85a58e470b49ca997e255a4c	kernel-2	ef694b0e1e5876dc1f8cb80992dd7cb9	mount-boot	41ed556fa5641393d5323e421c8e5bcf	multilib	3972ca401cf7dbb430df9995f5d8d580	python-any-r1	8eb13cdf35f6e43c48107b911900b2cc	python-utils-r1	30887c5e8630bbf27b5cf0fd74564323	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	b1c2303e3c9f2675236228f2c1aad5fb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=631224751d99d423b400dbdaae72dc92
