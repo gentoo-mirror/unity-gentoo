@@ -13,7 +13,7 @@ dev-libs/gobject-introspection 1.44.0: Introspection infrastructure for generati
 dev-libs/gobject-introspection-common 1.44.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.18_p0_p01_p20150116: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p0_p01_p20141110: Application indicators used by the Unity desktop
-dev-libs/libcolumbus 1.1.0_p0_p02_p20150806: Error tolerant matching engine used by the Unity desktop
+dev-libs/libcolumbus 1.1.0_p0_p02_p20150806-r1: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 12.10.3_p0_p01_p2015041002: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20150604: A library providing Qt implementation of DBusMenu specification
 dev-libs/libhybris 0.1.0_p0_p40: Allows to run bionic-based HW adaptations in glibc systems
