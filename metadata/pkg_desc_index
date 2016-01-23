@@ -2,7 +2,7 @@ app-accessibility/onboard 1.1.2_p0_p01: Simple on-screen Keyboard with macros an
 app-accessibility/sphinx-voxforge-en 0.1.1_p0_p01: English sphinx language and acoustic models built from Voxforge audio corpus
 app-accessibility/unity-voice 0.1_p0_p01_p20151005: A simple 'command and control' type voice recognition service, using pocketsphinx under the hood.
 app-backup/copy-agent 3.2.01.0481: Sync, protect, and share your files with Copy from Barracuda.
-app-backup/deja-dup 34.0_p1_p03: Simple backup tool using duplicity back-end
+app-backup/deja-dup 34.0_p1_p03-r1: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.1 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gmock 1.7.0: Google's C++ mocking framework
 dev-cpp/gtest 1.7.0: Google C++ Testing Framework
@@ -93,13 +93,13 @@ gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used t
 gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 38.5.1_p0_p00151001: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p0_p05: Open source photo manager for GNOME patched for the Unity desktop
-media-gfx/thumbnailer 2.3_p0_p01_p2015091501: Ubuntu's thumbnailer service
+media-gfx/thumbnailer 2.3_p0_p01_p2015091501-r1: Ubuntu's thumbnailer service
 media-libs/mesa 11.0.7_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p3_p01: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 6.0_p0_p13: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.2.1_p1_p0301: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.17.0_p0_p01_p2015100802: Mir is a display server technology
-mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801: Compositor for Mir display server that switches graphics and input between running sessions
+mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.10_p0_p02: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p1_p04: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20150723: Online account plugin for gnome-control-center used by the Unity desktop
