@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/libd/libdbusmenu-qt/libdbusmenu-qt_0.9.3+15.10.20150604.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:cmake-utils src_configure:- src_compile:- src_test:- src_install:-
 _eclasses_=cmake-utils	b657a2689df4f46725711250cf9c8a32	eutils	8982475656ba7ade9b3201397efbd612	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	3e2b5de63b3e2db17d695082299471a7	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
-_md5_=3a459823f8c8ba7733a589ecae08aa0e
+_md5_=c15684d29939ae082e8b91cb22a75745
