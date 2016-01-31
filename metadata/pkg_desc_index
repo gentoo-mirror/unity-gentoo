@@ -45,7 +45,7 @@ unity-extra/unity-greeter 15.10.1_p0_p01-r1: The greeter (login screen) applicat
 unity-extra/unity-tweak-tool 0.0.6_p_p03: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p0_p01_p20151002: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
-unity-indicators/indicator-application 12.10.1_p0_p01_p20150128: Application indicators used by the Unity desktop
+unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20151002: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20150929: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150909: Date and Time Indicator used by the Unity desktop
