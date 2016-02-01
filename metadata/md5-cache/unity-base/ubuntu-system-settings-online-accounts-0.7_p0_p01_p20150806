@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/universe/u/ubuntu-system-settings-online-accounts/ubuntu-system-settings-online-accounts_0.7+15.10.20150806.orig.tar.gz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:- src_unpack:qt5-build src_prepare:- src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
-_eclasses_=eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	30887c5e8630bbf27b5cf0fd74564323	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	3e2b5de63b3e2db17d695082299471a7	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
+_eclasses_=eutils	28fb3e5852485af1c348d446b0b98389	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	30887c5e8630bbf27b5cf0fd74564323	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	3e2b5de63b3e2db17d695082299471a7	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
 _md5_=e9585b9405af57045791fff049badd9a
