@@ -1,7 +1,7 @@
 mir-base/mir 0.17.0_p0_p01_p2015100802: Mir is a display server technology
 mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1: Compositor for Mir display server that switches graphics and input between running sessions
 unity-base/bamf 0.5.2_p0_p01_p2015062701: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.2_p0_p01_p20151015: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/compiz 0.9.12.2_p0_p01_p20151202: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
@@ -19,7 +19,7 @@ unity-base/signon-ui 0.17_p0_p01_p20150810: Single Sign On framework for the Uni
 unity-base/ubuntu-docs 15.10.1: Help files for the Unity desktop
 unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002: System Settings application for Ubuntu Touch
 unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806: Online Accounts setup for Ubuntu Touch
-unity-base/unity 7.3.2_p0_p01_p20151016: The Ubuntu Unity Desktop
+unity-base/unity 7.3.3_p0_p01_p20151203: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
 unity-base/unity-build-env 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20150923: Unity Desktop Configuration Tool
