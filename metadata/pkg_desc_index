@@ -10,7 +10,7 @@ unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1: Online account plugin fo
 unity-base/grail 3.1.0_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1: GSettings deskop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20151012: Backend for the Unity HUD
-unity-base/nux 4.0.8_p0_p01_p2015092101: Visual rendering toolkit for the Unity desktop
+unity-base/nux 4.0.8_p0_p01_p2015092101-r1: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/signon 8.57_p0_p02_p20150616: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
@@ -19,7 +19,7 @@ unity-base/signon-ui 0.17_p0_p01_p20150810: Single Sign On framework for the Uni
 unity-base/ubuntu-docs 15.10.1: Help files for the Unity desktop
 unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002: System Settings application for Ubuntu Touch
 unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806: Online Accounts setup for Ubuntu Touch
-unity-base/unity 7.3.3_p0_p01_p20151203: The Ubuntu Unity Desktop
+unity-base/unity 7.3.3_p0_p01_p20151203-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
 unity-base/unity-build-env 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20150923: Unity Desktop Configuration Tool
