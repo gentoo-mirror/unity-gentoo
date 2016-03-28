@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0/wily
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator
 _eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	7c08f3dc8322230f5ef0b75abc38b5ce
-_md5_=0849119168066e199146a6a2bcce721b
+_md5_=a54dec32f2d04325244e542a66dee8ce

@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/s/signon-ui/signon-ui_0.17+15.10.20150810.orig.tar.gz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:qt5-build src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	qt5-build	361152b117b77f35dc1df4fd9e14d312	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	7c08f3dc8322230f5ef0b75abc38b5ce	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
-_md5_=e7b10af3621e5e72f5b421781bed11ee
+_md5_=641ab3fe7dd2ac0386385b3a9934a03a

@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/l/lightdm-remote-session-uccsconfigure/lightdm-remote-session-uccsconfigure_1.1.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	7c08f3dc8322230f5ef0b75abc38b5ce
-_md5_=d1f35ad0ce79d522f87e258492954707
+_md5_=547d73a8a432b9ef4118c68da78f6438

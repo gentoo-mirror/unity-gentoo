@@ -8,7 +8,7 @@ unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
 unity-base/geis 2.2.17_p0_p01_p20150728: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
-unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1: GSettings deskop-wide schemas for the Unity desktop
+unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20151012: Backend for the Unity HUD
 unity-base/nux 4.0.8_p0_p01_p2015092101-r1: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate

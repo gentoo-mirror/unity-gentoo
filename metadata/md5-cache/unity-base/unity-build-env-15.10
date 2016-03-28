@@ -6,4 +6,4 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/wily
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_install:-
-_md5_=03d69cc632ad499b724da1d775312eff
+_md5_=925d96be36f72be70ced9392eb059c6b
