@@ -12,5 +12,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/u/unity-lens-photos/unity-lens-photos_1.0+14.04.20140318.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:distutils-r1 src_compile:distutils-r1 src_test:distutils-r1 src_install:-
-_eclasses_=distutils-r1	4e8ac1ba76ddacd8f7c0289aa586a34c	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	23282f70222356a176cfbc77dfdf9c65
+_eclasses_=distutils-r1	4e8ac1ba76ddacd8f7c0289aa586a34c	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	1901873d862429f8269a2b0dc20212d5
 _md5_=ab3ad68db0feac8c10080306d4d975e8
