@@ -1,7 +1,7 @@
 DEFINED_PHASES=install postinst prepare setup
 DEPEND=|| ( media-sound/rhythmbox media-sound/banshee ) dev-db/sqlite:3 dev-libs/dee:= dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity:= gnome-base/gnome-menus:3 media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 net-libs/libsoup net-libs/libsoup-gnome net-libs/liboauth sys-libs/tdb unity-base/unity || ( dev-lang/vala:0.22[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Music lens for the Unity desktop
-EAPI=5
+EAPI=6
 HOMEPAGE=https://launchpad.net/unity-lens-music
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/u/unity-lens-music/unity-lens-music_6.9.0+15.04.20141219.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	9d81603248f2ba3ec59124320d123e5e	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	980c9e6cfdab75a8f6e6ce2d22519cec	vala	f946609697ad4b4b1d85b997f0c70204
-_md5_=1c4bb1deeefeff8c0b1d22ce0cbed363
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	9d81603248f2ba3ec59124320d123e5e	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	ubuntu-versionator	23282f70222356a176cfbc77dfdf9c65	vala	f946609697ad4b4b1d85b997f0c70204
+_md5_=281300135f7b743019c4a950bae2822f
