@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
 DEPEND=dev-libs/glib:2 dev-libs/icu:= dev-libs/libhybris dev-libs/libqtdbusmock dev-libs/libqtdbustest dev-libs/libtimezonemap dev-libs/trust-store dev-qt/qtcore:5 net-libs/ubuntuone-credentials net-misc/networkmanager sys-apps/accountsservice sys-apps/click sys-auth/polkit sys-power/upower sys-devel/make >=dev-util/cmake-2.8.12
 DESCRIPTION=System Settings application for Ubuntu Touch
-EAPI=5
+EAPI=6
 HOMEPAGE=https://launchpad.net/ubuntu-system-settings
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
@@ -9,5 +9,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/universe/u/ubuntu-system-settings/ubuntu-system-settings_0.3+15.10.20151002.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
-_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	1901873d862429f8269a2b0dc20212d5	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=c39ad6f55c4beb01282a2cda3e4c0b92
+_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	642d63122ff6429f30a1c95ccbadd047	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=18f2257791ae137616dcc2614235439c
