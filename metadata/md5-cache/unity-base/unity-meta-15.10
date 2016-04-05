@@ -9,5 +9,5 @@ LICENSE=metapackage
 RESTRICT=mirror
 SLOT=0/wily
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator
-_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	642d63122ff6429f30a1c95ccbadd047
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	2de8fca1e44de097dfccd7fd8a6ace15
 _md5_=a34ae8311c6997b3e5384f0c3d24732f

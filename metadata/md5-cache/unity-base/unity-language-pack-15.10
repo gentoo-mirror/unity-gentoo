@@ -1,7 +1,7 @@
 DEFINED_PHASES=install postinst prepare setup
 DEPEND=sys-devel/gettext
 DESCRIPTION=Language translations pack for Unity desktop
-EAPI=5
+EAPI=6
 HOMEPAGE=https://translations.launchpad.net/ubuntu
 IUSE=linguas_aa linguas_af linguas_am linguas_an linguas_ar linguas_as linguas_ast linguas_az linguas_be linguas_be@latin linguas_bem linguas_ber linguas_bg linguas_bn linguas_bo linguas_br linguas_bs linguas_ca linguas_ca@valencia linguas_crh linguas_cs linguas_csb linguas_cv linguas_cy linguas_da linguas_de linguas_dv linguas_dz linguas_el linguas_en linguas_en_AU linguas_en_CA linguas_en_GB linguas_en@shaw linguas_en_US linguas_en_US@piglatin linguas_eo linguas_es linguas_et linguas_eu linguas_fa linguas_fi linguas_fil linguas_fo linguas_fr linguas_fur linguas_fy linguas_ga linguas_gd linguas_gl linguas_gu linguas_gv linguas_ha linguas_he linguas_hi linguas_hr linguas_ht linguas_hu linguas_hy linguas_ia linguas_id linguas_ig linguas_is linguas_it linguas_ja linguas_ka linguas_kk linguas_kl linguas_km linguas_kn linguas_ko linguas_ks linguas_ku linguas_kw linguas_ky linguas_la linguas_lb linguas_lg linguas_li linguas_lo linguas_lt linguas_lv linguas_mai linguas_mg linguas_mhr linguas_mi linguas_mk linguas_ml linguas_mn linguas_mr linguas_ms linguas_mt linguas_my linguas_nan linguas_nb linguas_nds linguas_nds@NFE linguas_ne linguas_nl linguas_nn linguas_nso linguas_oc linguas_om linguas_or linguas_os linguas_pa linguas_pap linguas_pl linguas_ps linguas_pt linguas_pt_BR linguas_ro linguas_ru linguas_rw linguas_sa linguas_sc linguas_sd linguas_se linguas_shs linguas_si linguas_sk linguas_sl linguas_sn linguas_so linguas_sq linguas_sr linguas_sr@ije linguas_sr@latin linguas_sr@Latn linguas_st linguas_sv linguas_sw linguas_ta linguas_te linguas_tg linguas_th linguas_ti linguas_tk linguas_tl linguas_tr linguas_ts linguas_tt linguas_ug linguas_uk linguas_ur linguas_uz linguas_uz@cyrillic linguas_uz@Latn linguas_ve linguas_vi linguas_wa linguas_wae linguas_wo linguas_xh linguas_yi linguas_yo linguas_zh linguas_zu
 KEYWORDS=~amd64 ~x86
@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
-_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	642d63122ff6429f30a1c95ccbadd047
-_md5_=2511a54118480df8d2d25236a8bddd93
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	2de8fca1e44de097dfccd7fd8a6ace15
+_md5_=95046947bdddc943fca2f5d08aa3d776

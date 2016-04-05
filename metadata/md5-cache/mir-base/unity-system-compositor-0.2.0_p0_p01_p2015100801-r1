@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=dev-libs/boost:= dev-libs/protobuf media-libs/mesa[egl,gbm,gles2] mir-base/mir:= dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),python_single_target_python2_7(+)] x11-base/xorg-server[mir] sys-devel/make >=dev-util/cmake-2.8.12
+DEPEND=dev-libs/boost:= dev-libs/protobuf media-libs/mesa[egl,gbm] mir-base/mir:= <=dev-python/pillow-2.8.1[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),python_single_target_python2_7(+)] x11-base/xorg-server[mir] sys-devel/make >=dev-util/cmake-2.8.12
 DESCRIPTION=Compositor for Mir display server that switches graphics and input between running sessions
-EAPI=5
+EAPI=6
 HOMEPAGE=https://launchpad.net/unity-system-compositor
 IUSE=test python_targets_python2_7
 KEYWORDS=~amd64 ~x86
@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/universe/u/unity-system-compositor/unity-system-compositor_0.2.0+15.10.20151008.1.orig.tar.gz mirror://ubuntu/pool/universe/u/unity-system-compositor/unity-system-compositor_0.2.0+15.10.20151008.1-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	642d63122ff6429f30a1c95ccbadd047	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=c740739b5200552fad89b437e862ee86
+_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	2de8fca1e44de097dfccd7fd8a6ace15	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=76af6baec61ff10993c916f9e8f49aaa
