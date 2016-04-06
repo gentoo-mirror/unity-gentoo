@@ -1,34 +1,34 @@
 mir-base/mir 0.17.0_p0_p01_p2015100802: Mir is a display server technology
 mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1: Compositor for Mir display server that switches graphics and input between running sessions
-unity-base/bamf 0.5.2_p0_p01_p2015062701: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.2_p0_p01_p20151202: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160331: BAMF Application Matching Framework
+unity-base/compiz 0.9.12.2_p0_p01_p20151202 0.9.12.2_p0_p01_p20160331: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
-unity-base/geis 2.2.17_p0_p01_p20150728: An implementation of the GEIS (Gesture Engine Interface and Support) interface
-unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1: Online account plugin for unity-control-center used by the Unity desktop
-unity-base/grail 3.1.0_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
-unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1: GSettings desktop-wide schemas for the Unity desktop
+unity-base/geis 2.2.17_p0_p01_p20150728 2.2.17_p0_p01_p20160126: An implementation of the GEIS (Gesture Engine Interface and Support) interface
+unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1 0.1.8_p0_p01_p20160201: Online account plugin for unity-control-center used by the Unity desktop
+unity-base/grail 3.1.0_p0_p01 3.1.0_p0_p01_p20160125: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
+unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1 0.0.5_p0_p01_p20160307: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20151012: Backend for the Unity HUD
-unity-base/nux 4.0.8_p0_p01_p2015092101-r1: Visual rendering toolkit for the Unity desktop
-unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
-unity-base/signon 8.57_p0_p02_p20150616: Single Sign On framework for the Unity desktop
+unity-base/nux 4.0.8_p0_p01_p20160209 4.0.8_p0_p01_p2015092101-r1: Visual rendering toolkit for the Unity desktop
+unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p20151117 0.2.17.1_p0_p01_p2015060401: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
+unity-base/signon 8.57_p0_p02_p20150616 8.58_p0_p01_p20151106: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
-unity-base/signon-plugin-oauth2 0.22_p0_p02_p20150603: Single Signon oauth2 plugin used by the Unity desktop
-unity-base/signon-ui 0.17_p0_p01_p20150810: Single Sign On framework for the Unity desktop
-unity-base/ubuntu-docs 15.10.1: Help files for the Unity desktop
-unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002: System Settings application for Ubuntu Touch
-unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806: Online Accounts setup for Ubuntu Touch
-unity-base/unity 7.3.3_p0_p01_p20151203-r1: The Ubuntu Unity Desktop
-unity-base/unity-api 7.100_p0_p01_p20150903: API for Unity shell integration
-unity-base/unity-build-env 15.10: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20150923: Unity Desktop Configuration Tool
-unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118: GTK+ module for exporting old-style menus as GMenuModels
+unity-base/signon-plugin-oauth2 0.22_p0_p02_p20150603 0.23_p0_p01_p20151209: Single Signon oauth2 plugin used by the Unity desktop
+unity-base/signon-ui 0.17_p0_p01_p20150810 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
+unity-base/ubuntu-docs 15.10.1 16.04.2: Help files for the Unity desktop
+unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002 0.3_p0_p01_p20160325: System Settings application for Ubuntu Touch
+unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806 0.7_p0_p01_p20160322: Online Accounts setup for Ubuntu Touch
+unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p2016040101: The Ubuntu Unity Desktop
+unity-base/unity-api 7.100_p0_p01_p20150903 7.108_p0_p01_p20160322: API for Unity shell integration
+unity-base/unity-build-env 15.10 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
+unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p01_p20160315: Unity Desktop Configuration Tool
+unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.10: Language translations pack for Unity desktop
-unity-base/unity-meta 15.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p01_p20151029: Unity Settings Daemon
-unity-base/webapps 2.4.17_p0_p01_p20150616: WebApps: Complete set of Apps for the Unity desktop
-unity-base/webapps-base 2.4.17_p0_p01_p20150616: WebApps: Initial set of Apps for the Unity desktop
+unity-base/unity-meta 15.10 16.04: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-settings-daemon 15.04.1_p0_p01_p20151029 15.04.1_p0_p01_p20160209: Unity Settings Daemon
+unity-base/webapps 2.4.17_p0_p01_p20150616 2.4.17_p0_p02_p20150616: WebApps: Complete set of Apps for the Unity desktop
+unity-base/webapps-base 2.4.17_p0_p01_p20150616 2.4.17_p0_p02_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/glipper 2.4: A PyGTK+ based advanced clipboard manager
 unity-extra/indicator-classicmenu 0.07_p0_p02: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup test
+DEPEND=app-i18n/ibus dev-cpp/gtest dev-libs/boost dev-libs/glib:2 dev-libs/libpcre dev-libs/libsigc++:2 gnome-base/gnome-common media-libs/glew:= media-libs/libpng:0 sys-apps/pciutils >=sys-devel/gcc-4.7 unity-base/geis x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXxf86vm x11-libs/pango x11-proto/dri2proto x11-proto/glproto doc? ( app-doc/doxygen ) test? ( dev-cpp/gmock dev-cpp/gtest ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 test? ( !prefix? ( x11-misc/x11vnc[dummy] ) x11-apps/xhost )
+DESCRIPTION=Visual rendering toolkit for the Unity desktop
+EAPI=6
+HOMEPAGE=http://launchpad.net/nux
+IUSE=debug doc examples test test
+LICENSE=GPL-3 LGPL-3
+RESTRICT=mirror
+SLOT=0/4
+SRC_URI=mirror://ubuntu/pool/main/n/nux/nux_4.0.8+16.04.20160209.orig.tar.gz mirror://ubuntu/pool/main/n/nux/nux_4.0.8+16.04.20160209-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_test:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	9d81603248f2ba3ec59124320d123e5e	libtool	4890219c51da247200223277f993e054	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	2de8fca1e44de097dfccd7fd8a6ace15	xdummy	ce12712244343d4c8349cf91d4dddd3e
+_md5_=3a17430ccaed243a9d30bf4ef62bf43b

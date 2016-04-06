@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure postinst prepare setup
+DEPEND=dev-libs/libaccounts-glib:= dev-libs/libsignon-glib:= dev-libs/libxml2:2 dev-libs/libxslt dev-util/intltool sys-devel/gettext virtual/pkgconfig x11-libs/gtk+:3 x11-proto/xproto x11-proto/xf86miscproto x11-proto/kbproto || ( dev-lang/vala:0.22[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-apps/sed-4
+DESCRIPTION=Online account plugin for unity-control-center used by the Unity desktop
+EAPI=6
+HOMEPAGE=https://launchpad.net/online-accounts-gnome-control-center
+LICENSE=GPL-2+
+RDEPEND=net-im/pidgin[-eds,dbus,gadu,groupwise,idn,meanwhile,networkmanager,sasl,silc,zephyr] net-im/telepathy-logger net-irc/telepathy-idle net-voip/telepathy-gabble net-voip/telepathy-haze net-voip/telepathy-rakia net-voip/telepathy-salut unity-base/signon-ui
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/g/gnome-control-center-signon/gnome-control-center-signon_0.1.8+16.04.20160201.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	9d81603248f2ba3ec59124320d123e5e	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	2de8fca1e44de097dfccd7fd8a6ace15	vala	f946609697ad4b4b1d85b997f0c70204	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
+_md5_=4a8a7f4a74d81625cf879fe277740cdb
