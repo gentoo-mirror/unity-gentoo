@@ -6,4 +6,4 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/xenial
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_install:-
-_md5_=cf0233f637959b825c4bb1b4a6a7b26a
+_md5_=ad4db4249ccc59c75d1c33684e160c24
