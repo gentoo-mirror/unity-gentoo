@@ -1,7 +1,7 @@
 mir-base/mir 0.17.0_p0_p01_p2015100802 0.21.0_p0_p01_p20160330: Mir is a display server technology
 mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1 0.4.3_p0_p01_p20160323: Compositor for Mir display server that switches graphics and input between running sessions
-unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160331: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.2_p0_p01_p20151202 0.9.12.2_p0_p01_p20160331: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160415: BAMF Application Matching Framework
+unity-base/compiz 0.9.12.2_p0_p01_p20151202 0.9.12.2_p0_p01_p20160415: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
@@ -9,7 +9,7 @@ unity-base/geis 2.2.17_p0_p01_p20150728 2.2.17_p0_p01_p20160126: An implementati
 unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1 0.1.8_p0_p01_p20160201: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p0_p01 3.1.0_p0_p01_p20160125: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1 0.0.5_p0_p01_p20160307: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p0_p01_p20151012: Backend for the Unity HUD
+unity-base/hud 14.10_p0_p01_p20151012 14.10_p0_p01_p20160415: Backend for the Unity HUD
 unity-base/nux 4.0.8_p0_p01_p2015092101-r1 4.0.8a_p0_p01_p20160209: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p2015060401 0.2.17.1a_p0_p01_p20151117: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/signon 8.57_p0_p02_p20150616 8.58_p0_p01_p20151106: Single Sign On framework for the Unity desktop
@@ -18,11 +18,10 @@ unity-base/signon-plugin-oauth2 0.22_p0_p02_p20150603 0.23_p0_p01_p20151209: Sin
 unity-base/signon-ui 0.17_p0_p01_p20150810 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 15.10.1 16.04.3: Help files for the Unity desktop
 unity-base/ubuntu-system-settings 0.3_p0_p01_p20151002 0.3_p0_p01_p20160330: System Settings application for Ubuntu Touch
-unity-base/ubuntu-system-settings-online-accounts 0.7_p0_p01_p20150806 0.7_p0_p01_p20160322: Online Accounts setup for Ubuntu Touch
-unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p2016040101: The Ubuntu Unity Desktop
+unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p20160415: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 15.10-r1 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p01_p20160315: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p01_p20160413: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.10 16.04: Language translations pack for Unity desktop
 unity-base/unity-meta 15.10 16.04: Unity Desktop - merge this to pull in all Unity packages
@@ -42,7 +41,7 @@ unity-extra/lightdm-remote-session-freerdp 1.0_p0_p02: Configuration and a scrip
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 15.10.1_p0_p01-r1 16.04.2_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
-unity-extra/unity-tweak-tool 0.0.6_p_p03 0.0.7_p_p01: Configuration manager for the Unity desktop environment
+unity-extra/unity-tweak-tool 0.0.6_p_p03 0.0.7_p_p02: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p0_p01_p20151002: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
@@ -52,7 +51,7 @@ unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150909 15.10_p0_p01_p20160
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20151006 0.0.0_p0_p01_p20151125: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p0_p01_p20150505: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p0_p01_p2015100501 12.10.6a_p0_p01_p20160105: Indicator showing power state used by the Unity desktop
-unity-indicators/indicator-session 12.10.5_p0_p01_p20150915 12.10.5_p0_p01_p20160317: Indicator showing session management, status and user switching used by the Unity desktop
+unity-indicators/indicator-session 12.10.5_p0_p01_p20150915 12.10.5_p0_p01_p20160412: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p0_p01_p20150915-r1 12.10.2_p0_p01_p20160406: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 14.04: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p0_p01_p20151002 7.1.0_p0_p01_p2016021702: Application lens for the Unity desktop
