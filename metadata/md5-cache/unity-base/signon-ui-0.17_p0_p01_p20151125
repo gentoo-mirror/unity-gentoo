@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/s/signon-ui/signon-ui_0.17+16.04.20151125.orig.tar.gz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:qt5-build src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	23ae8c186171e6476af098d2a50d0ee0	qt5-build	cd56e73aef13fa51f2d1eae67ecee878	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	9e25b45b1b2f5d917853644e48388b1a	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	23ae8c186171e6476af098d2a50d0ee0	qt5-build	cd56e73aef13fa51f2d1eae67ecee878	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	9e25b45b1b2f5d917853644e48388b1a	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
 _md5_=5752f3d76b8dc65fe634533f18a979f1
