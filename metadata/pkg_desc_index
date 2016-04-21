@@ -10,7 +10,7 @@ unity-base/gnome-control-center-signon 0.1.7_p0_p01-r1 0.1.8_p0_p01_p20160201: O
 unity-base/grail 3.1.0_p0_p01 3.1.0_p0_p01_p20160125: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.4_p0_p01_p20150608-r1 0.0.5_p0_p01_p20160307: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20151012 14.10_p0_p01_p20160415: Backend for the Unity HUD
-unity-base/nux 4.0.8_p0_p01_p2015092101-r1 4.0.8a_p0_p01_p20160209: Visual rendering toolkit for the Unity desktop
+unity-base/nux 4.0.8_p0_p01_p2015092101-r1 4.0.8a_p0_p02_p20160209: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p0_p01_p2015060401 0.2.17.1a_p0_p01_p20151117: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/signon 8.57_p0_p02_p20150616 8.58_p0_p01_p20151106: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
