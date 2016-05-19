@@ -18,7 +18,7 @@ unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.22_p0_p02_p20150603 0.23_p0_p01_p20151209: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20150810 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 15.10.1 16.04.3: Help files for the Unity desktop
-unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p20160415: The Ubuntu Unity Desktop
+unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p20160415-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 15.10-r1 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p01_p20160413: Unity Desktop Configuration Tool
