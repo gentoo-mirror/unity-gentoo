@@ -1,6 +1,6 @@
 mir-base/mir 0.17.0_p0_p01_p2015100802 0.21.0_p0_p01_p20160330: Mir is a display server technology
 mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1 0.4.3_p0_p01_p20160323: Compositor for Mir display server that switches graphics and input between running sessions
-unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160415: BAMF Application Matching Framework
+unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160415-r1: BAMF Application Matching Framework
 unity-base/compiz 0.9.12.2_p0_p01_p20151202 0.9.12.2_p0_p01_p20160415: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
