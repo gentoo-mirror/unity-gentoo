@@ -1,6 +1,6 @@
 mir-base/mir 0.17.0_p0_p01_p2015100802 0.21.0_p0_p01_p20160330: Mir is a display server technology
 mir-base/unity-system-compositor 0.2.0_p0_p01_p2015100801-r1 0.4.3_p0_p01_p20160323: Compositor for Mir display server that switches graphics and input between running sessions
-unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160415-r1: BAMF Application Matching Framework
+unity-base/bamf 0.5.2_p0_p01_p2015062701 0.5.3_p0_p01_p20160523: BAMF Application Matching Framework
 unity-base/compiz 0.9.12.2_p0_p01_p20151202 0.9.12.2_p0_p01_p20160415: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
@@ -25,7 +25,7 @@ unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p02_p2016041
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.10 16.04: Language translations pack for Unity desktop
 unity-base/unity-meta 15.10 16.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p01_p20151029 15.04.1_p0_p01_p20160209: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p01_p20151029 15.04.1_p0_p02_p20160209: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p01_p20150616 2.4.17_p0_p02_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p01_p20150616 2.4.17_p0_p02_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
