@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install postinst preinst prepare setup
+DEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam[audit] x11-libs/libX11 >=x11-libs/libxklavier-5 introspection? ( >=dev-libs/gobject-introspection-1 ) mir? ( mir-base/unity-system-compositor ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) dev-util/gtk-doc-am dev-util/intltool gnome-base/gnome-common sys-devel/gettext virtual/pkgconfig || ( dev-lang/vala:0.22[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DESCRIPTION=A lightweight display manager
+EAPI=6
+HOMEPAGE=https://launchpad.net/lightdm
+IUSE=lightdm_greeters_gtk lightdm_greeters_kde +lightdm_greeters_unity +introspection qt4 qt5 mir test
+LICENSE=GPL-3 LGPL-3
+PDEPEND=lightdm_greeters_gtk? ( x11-misc/lightdm-gtk-greeter ) lightdm_greeters_kde? ( x11-misc/lightdm-kde ) lightdm_greeters_unity? ( unity-extra/unity-greeter )
+RDEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam[audit] x11-libs/libX11 >=x11-libs/libxklavier-5 introspection? ( >=dev-libs/gobject-introspection-1 ) mir? ( mir-base/unity-system-compositor ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) sys-auth/pambase x11-apps/xrandr >=app-eselect/eselect-lightdm-0.2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/l/lightdm/lightdm_1.18.1-0ubuntu1.tar.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	pam	3ecd5b75e39b0bb05a3183c08fcdfdb4	readme.gentoo-r1	03878c06495db70bc36bd717383c09f7	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	user	906f3c8eb3a2350a4f1191a89baa3e46	vala	f946609697ad4b4b1d85b997f0c70204
+_md5_=111225facbaefac71f32f0b4b85cab34
