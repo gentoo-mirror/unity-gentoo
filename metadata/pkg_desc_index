@@ -106,7 +106,7 @@ net-im/telepathy-mission-control 5.16.3_p1_p04 5.16.3_p1_p06: An account manager
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p01_p20160126: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/geonames 0.2_p0_p01_p20160321: Parse and query the geonames database dump
 net-libs/gnome-online-accounts 3.16.0_p0_p01 3.18.3_p1_p02: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.14.9_p0_p00160401: Web browser engine library for Qt
+net-libs/oxide-qt 1.15.7_p0_p00160401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 1.0_p0_p02_p20150724 1.2_p0_p01_p20160408: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -146,7 +146,7 @@ unity-base/ubuntu-docs 15.10.1 16.04.3: Help files for the Unity desktop
 unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p2016052601: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 15.10-r1 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p02_p20160413: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20150923 15.04.0_p0_p03_p20160413: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p01_p20150118 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 15.10 16.04: Language translations pack for Unity desktop
 unity-base/unity-meta 15.10 16.04: Unity Desktop - merge this to pull in all Unity packages
@@ -171,7 +171,7 @@ unity-indicators/ido 13.10.0_p0_p01_p20151002: Widgets and other objects used fo
 unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20151002 15.02.0_p0_p01_p20151104: Indicator for application menus used by the Unity desktop
-unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20150929 0.0.6_p0_p01_p20160214: System bluetooth indicator used by the Unity desktop
+unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20150929 0.0.6_p0_p01_p20160526: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 13.10.0_p0_p01_p20150909 15.10_p0_p01_p20160406: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20151006 0.0.0_p0_p01_p20151125: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p0_p01_p20150505: Indicator that collects messages that need a response used by the Unity desktop
@@ -220,4 +220,4 @@ x11-themes/notify-osd-icons 0.8_p0_p01_p2015101602-r1: Icons for on-screen-displ
 x11-themes/ubuntu-themes 14.04_p0_p01_p20151001 14.04_p0_p02_p20160415: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 15.10.3_p0_p01 16.04.1_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
-x11-wm/metacity 3.17.2_p4_p01 3.18.4_p0_p0001: GNOME default window manager
+x11-wm/metacity 3.17.2_p4_p01 3.18.4_p0_p0003: GNOME default window manager
