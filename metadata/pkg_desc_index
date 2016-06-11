@@ -120,7 +120,7 @@ sys-apps/ubuntu-app-launch 0.5_p0_p01_p20150817 0.5_p0_p03_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p16 1.13.2_p0_p2101: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.2.8_p36_p42 4.4.8_p22_p40: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.2.8_p38_p45 4.4.8_p24_p43: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
@@ -188,7 +188,7 @@ unity-lenses/unity-lens-video 0.3.15_p0_p01 0.3.15_p0_p01_p2016021201: Video len
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 50.0.2661.102_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 46.0.1_p0_p00160402: Firefox Web Browser
+www-client/firefox 47.0_p0_p00160401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150929 0.23_p0_p01_p20160413: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.17.2_p1_p0901-r1 1.18.3_p1_p0202: X.Org X servers patched for the Unity desktop
