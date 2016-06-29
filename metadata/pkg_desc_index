@@ -120,7 +120,7 @@ sys-apps/ubuntu-app-launch 0.5_p0_p01_p20150817 0.5_p0_p03_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p16 1.13.2_p0_p2101: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.2.8_p38_p45 4.4.10_p24_p43: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.2.8_p41_p48 4.4.10_p28_p47: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
@@ -142,7 +142,7 @@ unity-base/signon 8.57_p0_p02_p20150616 8.58_p0_p01_p20151106: Single Sign On fr
 unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extension for signond used by the Unity desktop
 unity-base/signon-plugin-oauth2 0.22_p0_p02_p20150603 0.23_p0_p01_p20151209: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20150810 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
-unity-base/ubuntu-docs 15.10.1 16.04.3: Help files for the Unity desktop
+unity-base/ubuntu-docs 15.10.1 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.3.3_p0_p01_p20151203-r1 7.4.0_p0_p01_p2016052601: The Ubuntu Unity Desktop
 unity-base/unity-api 7.100_p0_p01_p20150903-r1 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 15.10-r1 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
