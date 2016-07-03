@@ -5,6 +5,7 @@ app-backup/deja-dup 34.0_p1_p03-r1 34.2_p0_p01: Simple backup tool using duplici
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gmock 1.7.0_p_p1_p18092013: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p4 1.7.0_p4_p01: Google C++ Testing Framework
+dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
 dev-libs/dbus-cpp 5.0.0_p0_p02 5.0.0a_p0_p01_p2015102201: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p0_p02_p20150304: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.46.2_p1_p02 2.48.1_p1_p160401: The GLib library of C routines patched for the Unity desktop
@@ -161,6 +162,7 @@ unity-extra/indicator-evolution 0.2.20_p0_p19 0.2.20_p0_p22: Indicator for the E
 unity-extra/indicator-multiload 0.4_p0_p03 0.4_p0_p04: Graphical system load indicator for CPU, ram, etc. used by the Unity desktop
 unity-extra/indicator-privacy 0.05: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.3_p2_p02 1.1.3_p2_p03: Indicator for monitoring hardware temperature used by the Unity desktop
+unity-extra/indicator-remindor 13.02: Indicator application to schedule reminders
 unity-extra/indicator-weather 13.8.0: Weather indicator used by the Unity desktop
 unity-extra/lightdm-remote-session-freerdp 1.0_p0_p02: Configuration and a script to do a remote session using FreeRDP.
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
