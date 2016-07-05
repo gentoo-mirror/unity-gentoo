@@ -107,7 +107,7 @@ net-im/telepathy-mission-control 5.16.3_p1_p04 5.16.3_p1_p06: An account manager
 net-libs/account-plugins 0.12_p0_p01_p20150723 0.12_p0_p01_p20160126: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/geonames 0.2_p0_p01_p20160321: Parse and query the geonames database dump
 net-libs/gnome-online-accounts 3.16.0_p0_p01 3.18.3_p1_p02: GNOME framework for accessing online accounts
-net-libs/oxide-qt 1.15.7_p0_p00160401: Web browser engine library for Qt
+net-libs/oxide-qt 1.15.8_p0_p00160401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 1.0_p0_p02_p20150724 1.2_p0_p01_p20160408: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
@@ -121,7 +121,7 @@ sys-apps/ubuntu-app-launch 0.5_p0_p01_p20150817 0.5_p0_p03_p20150817: Session in
 sys-apps/upstart 1.13.2_p0_p16 1.13.2_p0_p2101: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.2.8_p41_p48 4.4.10_p28_p47: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.2.8_p41_p48 4.4.13_p28_p47: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p4_p27 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
@@ -189,7 +189,7 @@ unity-lenses/unity-lens-photos 1.0_p0_p01: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p0_p01 0.3.15_p0_p01_p2016021201: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2015031101 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 50.0.2661.102_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 51.0.2704.79_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 47.0_p0_p00160401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20150929 0.23_p0_p01_p20160413: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
@@ -201,7 +201,7 @@ x11-libs/accounts-qml-module 0.5_p0_p02_p2015041501 0.6_p0_p01_p20151106: Expose
 x11-libs/content-hub 0.1_p0_p01_p20150922 0.1_p0_p01_p20160309: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p06_p20140807 0.1a_p0_p01_p20160329: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.28_p1_p0101 2.24.30_p1_p01 3.16.7_p0_p03 3.18.9_p1_p03-r1: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.28_p1_p0101 2.24.30_p1_p01 3.16.7_p0_p0303 3.18.9_p1_p03-r1: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.13_p0_p04_p2014081901 1.14_p0_p01_p2015110601: QT library for Single Sign On framework for the Unity desktop
 x11-libs/ubuntu-ui-toolkit 1.3.1627_p0_p01_p20150908 1.3.1918_p0_p01_p20160404: Qt Components for the Unity desktop - QML plugin
 x11-libs/unity-action-api 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
@@ -219,7 +219,7 @@ x11-misc/x11vnc 0.9.13_p0102_p01: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.10: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p0_p01_p2015101602-r1: Icons for on-screen-display notification agent
-x11-themes/ubuntu-themes 14.04_p0_p01_p20151001 14.04_p0_p02_p20160415: Monochrome icons for the Unity desktop (default icon theme)
+x11-themes/ubuntu-themes 14.04_p0_p01_p20151001 14.04_p0_p01_p20160621: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 15.10.3_p0_p01 16.04.1_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
 x11-wm/metacity 3.17.2_p4_p01 3.18.4_p0_p0003: GNOME default window manager
