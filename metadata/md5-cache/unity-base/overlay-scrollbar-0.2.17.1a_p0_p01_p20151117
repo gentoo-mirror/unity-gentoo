@@ -3,10 +3,11 @@ DEPEND=gnome-base/dconf x11-libs/gtk+:2 !<sys-devel/gettext-0.18.1.1-r3 || ( >=s
 DESCRIPTION=Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 EAPI=6
 HOMEPAGE=http://launchpad.net/ayatana-scrollbar
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/o/overlay-scrollbar/overlay-scrollbar_0.2.17.1+16.04.20151117.orig.tar.gz
 _eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=6e3ae4c165c592a2321b3cacbb589adb
+_md5_=13d4a67c68d3cf3e624a2c027e068f64

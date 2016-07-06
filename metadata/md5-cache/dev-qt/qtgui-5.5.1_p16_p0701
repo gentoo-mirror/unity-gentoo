@@ -4,6 +4,7 @@ DESCRIPTION=The GUI module and platform plugins for the Qt5 toolkit
 EAPI=6
 HOMEPAGE=https://www.qt.io/
 IUSE=accessibility dbus egl eglfs evdev +gif gles2 gtkstyle +harfbuzz ibus jpeg +png +udev +xcb debug test
+KEYWORDS=~amd64 ~x86
 LICENSE=|| ( LGPL-2.1 LGPL-3 ) FDL-1.3
 PDEPEND=ibus? ( app-i18n/ibus )
 RDEPEND=dev-libs/glib:2 >=dev-qt/qtcore-5.5.1:5 media-libs/fontconfig media-libs/freetype:2 >=sys-libs/zlib-1.2.5 virtual/opengl dbus? ( ~dev-qt/qtdbus-5.5.1 ) egl? ( media-libs/mesa[egl] ) evdev? ( sys-libs/mtdev ) gtkstyle? ( x11-libs/gtk+:2 x11-libs/pango !!x11-libs/cairo[qt4] ) gles2? ( media-libs/mesa[gles2] ) harfbuzz? ( >=media-libs/harfbuzz-0.9.32:= ) jpeg? ( virtual/jpeg:0 ) png? ( media-libs/libpng:0= ) udev? ( virtual/libudev:= ) xcb? ( x11-libs/libICE x11-libs/libSM >=x11-libs/libX11-1.5 >=x11-libs/libXi-1.6 x11-libs/libXrender >=x11-libs/libxcb-1.10:=[xkb] >=x11-libs/libxkbcommon-0.4.1[X] x11-libs/xcb-util-image x11-libs/xcb-util-keysyms x11-libs/xcb-util-renderutil x11-libs/xcb-util-wm ) dev-qt/qtchooser
@@ -13,4 +14,4 @@ SLOT=5
 SRC_URI=mirror://unity/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.5.1+dfsg.orig.tar.xz mirror://unity/pool/main/q/qtbase-opensource-src/qtbase-opensource-src_5.5.1+dfsg-16ubuntu7.1.debian.tar.xz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:- src_configure:- src_compile:qt5-build src_test:qt5-build src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	qt5-build	cd56e73aef13fa51f2d1eae67ecee878	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
-_md5_=661f08eb1ade8a618d3c9e864af3d2bc
+_md5_=89f432792dcf9c7613c409121da15fd2

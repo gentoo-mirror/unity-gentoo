@@ -4,6 +4,7 @@ DESCRIPTION=Unity webapps browser application
 EAPI=6
 HOMEPAGE=https://launchpad.net/webbrowser-app
 IUSE=python_targets_python3_4
+KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3
 RDEPEND=dev-qt/qtquickcontrols:5[widgets] net-libs/oxide-qt x11-themes/ubuntu-themes dev-lang/python:3.4 >=dev-lang/python-exec-2:=[python_targets_python3_4(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_3(-),-python_single_target_python3_5(-),python_single_target_python3_4(+)]
 REQUIRED_USE=python_targets_python3_4
@@ -12,4 +13,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/w/webbrowser-app/webbrowser-app_0.23+16.04.20160413.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:-
 _eclasses_=cmake-utils	ac5bd012586c6cf0d9826400d9de2830	distutils-r1	674dae153419b2200ae54e879cc65b57	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=7eee98c16dc7fe398f1acbfedd2ab8f1
+_md5_=ee410bfd3fbc67a8f1e095ced9bde1b4

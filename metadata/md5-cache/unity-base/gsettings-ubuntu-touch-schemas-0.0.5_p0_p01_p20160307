@@ -3,6 +3,7 @@ DEPEND=sys-auth/polkit-pkla-compat gnome-base/dconf sys-devel/gettext >=dev-util
 DESCRIPTION=GSettings desktop-wide schemas for the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/gsettings-ubuntu-touch-schemas
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=sys-auth/polkit-pkla-compat
 RESTRICT=mirror
@@ -10,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/g/gsettings-ubuntu-touch-schemas/gsettings-ubuntu-touch-schemas_0.0.5+16.04.20160307.orig.tar.gz
 _eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=1ce7f9c95479553d57d2132bfe06b020
+_md5_=35be3b937345bea0f4a74e1bd891c9e7

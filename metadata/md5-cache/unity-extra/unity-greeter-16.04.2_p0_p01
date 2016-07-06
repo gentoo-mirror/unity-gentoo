@@ -4,6 +4,7 @@ DESCRIPTION=The greeter (login screen) application for Unity. It is implemented 
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity-greeter
 IUSE=accessibility battery +branding networkmanager nls
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=accessibility? ( app-accessibility/onboard app-accessibility/orca ) battery? ( unity-indicators/indicator-power ) networkmanager? ( >=gnome-extra/nm-applet-0.9.8.0 ) >=app-eselect/eselect-lightdm-0.1 >=gnome-base/gsettings-desktop-schemas-3.8 media-fonts/ubuntu-font-family sys-auth/polkit-pkla-compat unity-base/unity-language-pack unity-indicators/indicator-session unity-indicators/indicator-datetime unity-indicators/indicator-sound unity-indicators/indicator-application x11-themes/ubuntu-wallpapers
 RESTRICT=mirror
@@ -11,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity-greeter/unity-greeter_16.04.2-0ubuntu1.tar.xz
 _eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	f43f7a4f9899a285f1c3d1365900332b	vala	7541b78609c301de4ea866a8cc1b53a6	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=33f41f49cb139d84f2a45008d161c8a7
+_md5_=2d8561c8b80be37ef4518f57b2c70c25
