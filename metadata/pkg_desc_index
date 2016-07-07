@@ -46,7 +46,7 @@ dev-qt/qdbus 5.5.1: Interface to Qt applications communicating over D-Bus
 dev-qt/qdoc 5.5.1: Qt documentation generator
 dev-qt/qt3d 5.5.1_p4_p03: Qt 3D QML module
 dev-qt/qtconcurrent 5.5.1: Multi-threading concurrence support library for the Qt5 framework
-dev-qt/qtcore 5.5.1_p16_p07: Cross-platform application development framework
+dev-qt/qtcore 5.5.1_p16_p0701: Cross-platform application development framework
 dev-qt/qtdbus 5.5.1: The D-Bus module for the Qt5 framework
 dev-qt/qtdeclarative 5.5.1_p2_p06: The QML and Quick modules for the Qt5 framework
 dev-qt/qtfeedback 5.0_p0_p13: Qt Feedback module
