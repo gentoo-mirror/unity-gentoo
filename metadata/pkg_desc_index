@@ -15,7 +15,7 @@ dev-libs/libaccounts-glib 1.21_p0_p01_p20160222: Library for single signon for t
 dev-libs/libappindicator 12.10.1_p0_p01_p20141110: Application indicators used by the Unity desktop
 dev-libs/libcolumbus 1.1.0_p0_p04_p20150806: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 12.10.3_p0_p01_p2016022301: Library to pass menu structure across DBus
-dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20160218: A library providing Qt implementation of DBusMenu specification
+dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20160218-r1: A library providing Qt implementation of DBusMenu specification
 dev-libs/libhybris 0.1.0a_p0_p07: Allows to run bionic-based HW adaptations in glibc systems
 dev-libs/libindicator 12.10.2_p0_p01_p20151208: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libinput 1.2.3_p1_p01: Library to handle input devices in Wayland
