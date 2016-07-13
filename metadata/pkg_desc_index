@@ -55,6 +55,7 @@ dev-qt/qtgui 5.5.1_p16_p0701: The GUI module and platform plugins for the Qt5 to
 dev-qt/qtmultimedia 5.5.1_p4_p02: The Multimedia module for the Qt5 framework
 dev-qt/qtnetwork 5.5.1: Network abstraction library for the Qt5 framework
 dev-qt/qtopengl 5.5.1: OpenGL support library for the Qt5 framework (deprecated)
+dev-qt/qtpaths 5.5.1: Command line client to QStandardPaths
 dev-qt/qtpim 5.0_p0_p20: Qt PIM module, Organizer library
 dev-qt/qtpositioning 5.5.1: Physical position determination library for the Qt5 framework
 dev-qt/qtprintsupport 5.5.1: Printing support library for the Qt5 framework
