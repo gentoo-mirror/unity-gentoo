@@ -23,7 +23,7 @@ dev-libs/libqtdbusmock 0.5_p0_p01_p20151009: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p0_p01_p20160216: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libsignon-glib 1.13_p0_p01_p2015120901: GObject introspection data for the Signon library for the Unity desktop
 dev-libs/libtimezonemap 0.4.5: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4_p0_p02_p20151002: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p0_p01_p20160701: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p0_p01_p20160201: Webapps integration with the Unity desktop
 dev-libs/libwacom 0.18: Library for identifying Wacom tablets and their model-specific features
@@ -83,7 +83,7 @@ dev-util/lttng-ust 2.6.2: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p3_p06: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.16.0: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-desktop 3.18.2_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
-gnome-base/gnome-menus 3.0.1-r3 3.13.3_p6_p03: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
+gnome-base/gnome-menus 3.0.1-r3 3.13.3_p6_p0301: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.18.2_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.18.1.2_p1_p01160401: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.18.2_p0_p03: Gnome Settings Daemon patched for the Unity desktop
@@ -202,7 +202,7 @@ x11-libs/accounts-qml-module 0.6_p0_p01_p20151106: Expose Unity Online Accounts 
 x11-libs/content-hub 0.1_p0_p01_p20160309: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1a_p0_p01_p20160329: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.30_p1_p01 3.18.9_p1_p03-r1: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.30_p1_p01 3.18.9_p1_p0301: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.14_p0_p01_p2015110601: QT library for Single Sign On framework for the Unity desktop
 x11-libs/ubuntu-ui-toolkit 1.3.1918_p0_p01_p20160404: Qt Components for the Unity desktop - QML plugin
 x11-libs/unity-action-api 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
