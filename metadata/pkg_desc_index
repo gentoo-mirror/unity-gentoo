@@ -94,7 +94,7 @@ gnome-extra/activity-log-manager 0.9.7_p0_p23: Blacklist configuration user inte
 gnome-extra/nm-applet 1.2.0_p0_p00160403: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
-mail-client/thunderbird 38.8.0_p0_p00160401: Thunderbird Mail Client
+mail-client/thunderbird 45.2.0_p0_p00160401: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p0_p01_p20160108: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p0_p01_p20160321: Ubuntu's thumbnailer service
 media-libs/mesa 11.2.0_p1_p02: OpenGL-like graphic library for Linux
@@ -127,8 +127,8 @@ sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-base/bamf 0.5.3_p0_p01_p20160523: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.2_p0_p01_p20160526: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/bamf 0.5.3_p0_p01_p20160701: BAMF Application Matching Framework
+unity-base/compiz 0.9.12.2_p0_p01_p20160714: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01: uTouch Frame Library
@@ -137,7 +137,7 @@ unity-base/gnome-control-center-signon 0.1.8_p0_p01_p20160201: Online account pl
 unity-base/grail 3.1.0_p0_p01_p20160125: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.5_p0_p01_p20160307: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20160415: Backend for the Unity HUD
-unity-base/nux 4.0.8a_p0_p02_p20160209: Visual rendering toolkit for the Unity desktop
+unity-base/nux 4.0.8_p0_p01_p20160705: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1a_p0_p01_p20151117: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
 unity-base/signon 8.58_p0_p01_p20151106: Single Sign On framework for the Unity desktop
@@ -145,21 +145,21 @@ unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.23_p0_p01_p20151209: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.4.0_p0_p01_p2016052601: The Ubuntu Unity Desktop
+unity-base/unity 7.4.0_p0_p01_p20160715: The Ubuntu Unity Desktop
 unity-base/unity-api 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p03_p20160413: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20160705: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.04: Language translations pack for Unity desktop
 unity-base/unity-meta 16.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p0_p02_p20160209: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p0_p01_p20160701: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p02_p20150616: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p0_p02_p20150616: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/glipper 2.4_p6: A PyGTK+ based advanced clipboard manager
 unity-extra/indicator-classicmenu 0.10.1_p0_p01: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment
 unity-extra/indicator-cpufreq 0.2.2_p0_p02: CPU frequency scaling indicator for the Unity desktop environment
-unity-extra/indicator-evolution 0.2.20_p0_p22: Indicator for the Evolution mail client used by the Unity desktop
+unity-extra/indicator-evolution 0.2.20_p0_p23: Indicator for the Evolution mail client used by the Unity desktop
 unity-extra/indicator-multiload 0.4_p0_p04: Graphical system load indicator for CPU, ram, etc. used by the Unity desktop
 unity-extra/indicator-privacy 0.05: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.3_p2_p03: Indicator for monitoring hardware temperature used by the Unity desktop
@@ -182,7 +182,7 @@ unity-indicators/indicator-power 12.10.6a_p0_p01_p20160105: Indicator showing po
 unity-indicators/indicator-session 12.10.5_p0_p01_p20160412: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p0_p01_p20160406: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 14.04: Unity Desktop - merge this to pull in all Unity indicators
-unity-lenses/unity-lens-applications 7.1.0_p0_p01_p2016021702: Application lens for the Unity desktop
+unity-lenses/unity-lens-applications 7.1.0_p0_p01_p20160701: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p0_p01_p20151217: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p0_p01: Music lens for the Unity desktop
@@ -223,4 +223,4 @@ x11-themes/notify-osd-icons 0.8_p0_p01_p2015101602-r1: Icons for on-screen-displ
 x11-themes/ubuntu-themes 14.04_p0_p01_p20160621: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 16.04.1_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p0_p02_p20141217: Unity desktop icon theme
-x11-wm/metacity 3.18.4_p0_p0003: GNOME default window manager
+x11-wm/metacity 3.18.5_p0_p0001: GNOME default window manager
