@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/r/remote-login-service/remote-login-service_1.0.0.orig.tar.gz mirror://unity/pool/main/r/remote-login-service/remote-login-service_1.0.0-0ubuntu3.debian.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	8c9a204f708e30ee4a460f8c3a0bbbbd
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	3d76aa6581bbcec390794343ac596c1c
 _md5_=9302b497e564d06bf0d7dd5303f89439

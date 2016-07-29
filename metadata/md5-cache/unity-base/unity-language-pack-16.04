@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	8c9a204f708e30ee4a460f8c3a0bbbbd
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	3d76aa6581bbcec390794343ac596c1c
 _md5_=e6a56297ec115fcc83eb3c800f048bb9
