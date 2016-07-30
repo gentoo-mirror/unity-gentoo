@@ -39,41 +39,10 @@ dev-python/polib 1.0.7_p1: A library to manipulate gettext files (po and mo file
 dev-python/pyjunitxml 0.6_p0101_p01: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.4_p4: Python unittest extension for running tests in different scenarios
 dev-python/pywapi 0.3.8_p1: Python wrapper around different weather APIs
-dev-qt/designer 5.5.1: WYSIWYG tool for designing and building Qt-based GUIs
-dev-qt/linguist 5.5.1: Graphical tool for translating Qt applications
-dev-qt/linguist-tools 5.5.1: Tools for working with Qt translation data files
-dev-qt/qdbus 5.5.1: Interface to Qt applications communicating over D-Bus
-dev-qt/qdoc 5.5.1: Qt documentation generator
 dev-qt/qt3d 5.5.1_p4_p03: Qt 3D QML module
-dev-qt/qtconcurrent 5.5.1: Multi-threading concurrence support library for the Qt5 framework
-dev-qt/qtcore 5.5.1_p16_p0701: Cross-platform application development framework
-dev-qt/qtdbus 5.5.1: The D-Bus module for the Qt5 framework
-dev-qt/qtdeclarative 5.5.1_p2_p06: The QML and Quick modules for the Qt5 framework
 dev-qt/qtfeedback 5.0_p0_p13: Qt Feedback module
-dev-qt/qtgraphicaleffects 5.5.1: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qtgui 5.5.1_p16_p0701: The GUI module and platform plugins for the Qt5 toolkit
-dev-qt/qtmultimedia 5.5.1_p4_p02: The Multimedia module for the Qt5 framework
-dev-qt/qtnetwork 5.5.1: Network abstraction library for the Qt5 framework
-dev-qt/qtopengl 5.5.1: OpenGL support library for the Qt5 framework (deprecated)
-dev-qt/qtpaths 5.5.1: Command line client to QStandardPaths
 dev-qt/qtpim 5.0_p0_p20: Qt PIM module, Organizer library
-dev-qt/qtpositioning 5.5.1: Physical position determination library for the Qt5 framework
-dev-qt/qtprintsupport 5.5.1: Printing support library for the Qt5 framework
-dev-qt/qtquick1 5.5.1: Legacy declarative framework for Qt4 compatibility for building dynamic user interfaces
-dev-qt/qtquickcontrols 5.5.1: Set of controls used in conjunction with Qt Quick to build complete interfaces
-dev-qt/qtscript 5.5.1: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qtsensors 5.5.1: Hardware sensor access library for the Qt5 framework
-dev-qt/qtserialport 5.5.1: Serial port abstraction library for the Qt5 framework
-dev-qt/qtsql 5.5.1: SQL abstraction library for the Qt5 tooolkit
-dev-qt/qtsvg 5.5.1: SVG rendering library for the Qt5 framework
 dev-qt/qtsystems 5.0_p0_p02: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qttest 5.5.1: Unit testing library for the Qt5 framework
-dev-qt/qttranslations 5.5.1: Translation files for the Qt5 framework
-dev-qt/qtwebkit 5.5.1_p2_p01: WebKit rendering library for the Qt5 framework
-dev-qt/qtwidgets 5.5.1: Set of UI elements for creating classic desktop-style user interfaces for the Qt5 framework
-dev-qt/qtx11extras 5.5.1: Linux/X11-specific support library for the Qt5 framework
-dev-qt/qtxml 5.5.1: The Qt toolkit is a comprehensive C++ application development framework
-dev-qt/qtxmlpatterns 5.5.1: The Qt toolkit is a comprehensive C++ application development framework
 dev-util/android-headers 23_p0_p02: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.6_p0_p02_p20160215: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p0_p01_p20151002: Run executables under a new DBus session for testing

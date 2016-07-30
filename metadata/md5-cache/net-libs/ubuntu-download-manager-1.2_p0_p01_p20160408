@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=dev-cpp/glog dev-cpp/gmock dev-libs/boost:= dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtnetwork:5 dev-qt/qtsql:5 dev-qt/qttest:5 dev-qt/qtsystems:5 sys-apps/dbus sys-libs/libnih sys-devel/make >=dev-util/cmake-2.8.12
+DEPEND=dev-cpp/glog dev-cpp/gmock dev-libs/boost:= dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtnetwork:5 dev-qt/qtsql:5 dev-qt/qttest:5 dev-qt/qtsystems:5 sys-apps/dbus sys-libs/libnih[dbus] sys-devel/make >=dev-util/cmake-2.8.12
 DESCRIPTION=A daemon that offers a DBus API to perform downloads
 EAPI=6
 HOMEPAGE=https://launchpad.net/ubuntu-download-manager
@@ -11,4 +11,4 @@ SLOT=0/1.2
 SRC_URI=mirror://unity/pool/universe/u/ubuntu-download-manager/ubuntu-download-manager_1.2+16.04.20160408.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
 _eclasses_=cmake-utils	ac5bd012586c6cf0d9826400d9de2830	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	3d76aa6581bbcec390794343ac596c1c	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=700eceaa745f981308393e4ea586acae
+_md5_=d6be8999b1c8c30dfdea8edeeba7e54f
