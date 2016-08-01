@@ -9,5 +9,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/n/notify-osd-icons/notify-osd-icons_0.8+15.10.20151016.2.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	3d76aa6581bbcec390794343ac596c1c
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	48b68221b83f3e98354a867e0f255078
 _md5_=12114e96347bb4c3c640b2a11ce65f51

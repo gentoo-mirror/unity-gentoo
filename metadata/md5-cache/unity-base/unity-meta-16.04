@@ -9,5 +9,5 @@ LICENSE=metapackage
 RESTRICT=mirror
 SLOT=0/xenial
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	3d76aa6581bbcec390794343ac596c1c
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	ubuntu-versionator	48b68221b83f3e98354a867e0f255078
 _md5_=1cd5b35f175415b24446bdf1a78f7de7
