@@ -160,7 +160,6 @@ unity-lenses/unity-lens-video 0.3.15_p0_p01_p2016021201: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 51.0.2704.79_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 47.0_p0_p00160401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20160413: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.3_p1_p0202: X.Org X servers patched for the Unity desktop
