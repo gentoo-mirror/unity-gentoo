@@ -66,7 +66,7 @@ gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 45.2.0_p0_p00160401: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p0_p01_p20160108: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p0_p01_p20160321: Ubuntu's thumbnailer service
-media-libs/mesa 11.2.0_p1_p02: OpenGL-like graphic library for Linux
+media-libs/mesa 11.2.0_p1_p0201: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p7_p02: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 8.0_p0_p3: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.3_p1_p07: Music management and playback software for GNOME patched for the Unity desktop
@@ -160,9 +160,10 @@ unity-lenses/unity-lens-video 0.3.15_p0_p01_p2016021201: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 51.0.2704.79_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/firefox 47.0_p0_p00160401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20160413: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
-x11-base/xorg-server 1.18.3_p1_p0202: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.18.3_p1_p0203: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.7.0_p1: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p1_p01_p20160325-r1: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.12_p1_p02: Accelerated Open Source driver for nVidia cards
