@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst prepare setup
-DEPEND=|| ( media-sound/rhythmbox media-sound/banshee ) dev-db/sqlite:3 dev-libs/dee:= dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity:= gnome-base/gnome-menus:3 media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 net-libs/libsoup net-libs/libsoup-gnome net-libs/liboauth sys-libs/tdb unity-base/unity || ( dev-lang/vala:0.26[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=|| ( media-sound/rhythmbox media-sound/banshee ) dev-db/sqlite:3 dev-libs/dee:= dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity:= gnome-base/gnome-menus:3 media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 sys-libs/tdb unity-base/unity || ( dev-lang/vala:0.26[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Music lens for the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity-lens-music
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity-lens-music/unity-lens-music_6.9.1+16.04.orig.tar.gz mirror://unity/pool/main/u/unity-lens-music/unity-lens-music_6.9.1+16.04-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078	vala	764817a25b405b65269d8619e203a52f
-_md5_=53cf7f094f1e24394bea4dd43e00c1b7
+_md5_=fdbcbf64d1a798a1c7fbb1611739d801
