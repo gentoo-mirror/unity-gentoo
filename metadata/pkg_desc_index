@@ -1,7 +1,7 @@
 app-accessibility/onboard 1.2.0_p0_p05: Simple on-screen Keyboard with macros and easy layout creation
 app-accessibility/sphinx-voxforge-en 0.1.1_p0_p01: English sphinx language and acoustic models built from Voxforge audio corpus
 app-accessibility/unity-voice 0.1_p0_p01_p20151005: A simple 'command and control' type voice recognition service, using pocketsphinx under the hood.
-app-backup/deja-dup 34.2_p0_p01: Simple backup tool using duplicity back-end
+app-backup/deja-dup 34.2_p0_p01-r1: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gmock 1.7.0_p_p1_p18092013: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p4_p01: Google C++ Testing Framework
