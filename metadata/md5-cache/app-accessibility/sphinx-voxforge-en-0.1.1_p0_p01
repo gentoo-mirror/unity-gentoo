@@ -8,5 +8,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/s/sphinx-voxforge-en/sphinx-voxforge-en_0.1.1~daily20130301.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078
 _md5_=f78ed77aed6673bbf291d2f93bab60a8
