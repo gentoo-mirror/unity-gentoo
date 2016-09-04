@@ -149,6 +149,7 @@ unity-indicators/indicator-datetime 15.10_p0_p01_p20160406: Date and Time Indica
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20151125: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p0_p01_p20150505: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6a_p0_p01_p20160105: Indicator showing power state used by the Unity desktop
+unity-indicators/indicator-printers 0.1.7_p0_p02_p20150220: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 12.10.5_p0_p01_p20160412: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p0_p01_p20160406: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 14.04: Unity Desktop - merge this to pull in all Unity indicators
