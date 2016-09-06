@@ -1,13 +1,13 @@
 DEFINED_PHASES=-
-DEPEND=unity-indicators/indicator-applet unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
+DEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
 DESCRIPTION=Unity Desktop - merge this to pull in all Unity indicators
 EAPI=4
 HOMEPAGE=http://unity.ubuntu.com/
 IUSE=+battery bluetooth +datetime +keyboard paste sensors +session +sound weather
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=unity-indicators/indicator-applet unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
+RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
 RESTRICT=mirror
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=f5f2062cf39ec17f8fdc4c40b6be4a1c
+_md5_=8f1d0ef317d0001aced7db5f8249955d
