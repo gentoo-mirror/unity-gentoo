@@ -126,6 +126,7 @@ unity-indicators/unity-indicators-meta:bluetooth - Bluetooth settings and transf
 unity-indicators/unity-indicators-meta:datetime - Date, time and calendar indicator
 unity-indicators/unity-indicators-meta:keyboard - Keyboard layout indicator
 unity-indicators/unity-indicators-meta:paste - Copy/Paste clipboard indicator
+unity-indicators/unity-indicators-meta:printer - Printer jobs indicator
 unity-indicators/unity-indicators-meta:sensors - Hardware sensors indicator such as CPU temp
 unity-indicators/unity-indicators-meta:session - Session management indicator
 unity-indicators/unity-indicators-meta:sound - Audio control and application launching indicator
