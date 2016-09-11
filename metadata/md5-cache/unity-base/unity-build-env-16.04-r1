@@ -1,9 +1,9 @@
 DEFINED_PHASES=install postinst setup
-DESCRIPTION=Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
+DESCRIPTION=Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 EAPI=6
 HOMEPAGE=http://unity.ubuntu.com/
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/xenial
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_install:-
-_md5_=ad4db4249ccc59c75d1c33684e160c24
+_md5_=d1589f65f70013175fb8800a7967f167

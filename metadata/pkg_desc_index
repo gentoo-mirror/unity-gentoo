@@ -117,7 +117,7 @@ unity-base/signon-ui 0.17_p0_p01_p20151125: Single Sign On framework for the Uni
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.4.0_p0_p01_p2016080102: The Ubuntu Unity Desktop
 unity-base/unity-api 7.108_p0_p01_p20160322: API for Unity shell integration
-unity-base/unity-build-env 16.04: Merge this to setup the Unity desktop build environment package.{keywords,mask,use} files
+unity-base/unity-build-env 16.04-r1: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20160705: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.04: Language translations pack for Unity desktop
