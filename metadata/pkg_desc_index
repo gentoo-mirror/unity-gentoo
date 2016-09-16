@@ -151,7 +151,7 @@ unity-indicators/indicator-messages 13.10.1_p0_p01_p20150505: Indicator that col
 unity-indicators/indicator-power 12.10.6a_p0_p01_p20160105: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p0_p02_p20150220-r1: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 12.10.5_p0_p01_p20160412: Indicator showing session management, status and user switching used by the Unity desktop
-unity-indicators/indicator-sound 12.10.2_p0_p01_p20160406: System sound indicator used by the Unity desktop
+unity-indicators/indicator-sound 12.10.2_p0_p01_p20160406-r1: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 16.04: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p0_p01_p20160701: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p0_p01_p20151217: File lens for the Unity desktop
