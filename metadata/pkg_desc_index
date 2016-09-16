@@ -145,7 +145,7 @@ unity-indicators/indicator-applet 12.10.2_p0_p01_p2014112702: Gnome panel indica
 unity-indicators/indicator-application 12.10.1_p0_p01_p20150128-r1: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p0_p01_p20151104: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p0_p01_p20160526: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p0_p01_p20160406: Date and Time Indicator used by the Unity desktop
+unity-indicators/indicator-datetime 15.10_p0_p01_p20160406-r1: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p0_p01_p20151125: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p0_p01_p20150505: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6a_p0_p01_p20160105: Indicator showing power state used by the Unity desktop
