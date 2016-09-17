@@ -8,7 +8,7 @@ dev-cpp/gtest 1.7.0_p4_p01: Google C++ Testing Framework
 dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
 dev-libs/dbus-cpp 5.0.0a_p0_p01_p2015102201: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p0_p02_p20150304: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.48.1_p1_p160401: The GLib library of C routines patched for the Unity desktop
+dev-libs/glib 2.48.1_p1_p160401-r1: The GLib library of C routines patched for the Unity desktop
 dev-libs/gobject-introspection 1.46.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.46.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.21_p0_p01_p20160222: Library for single signon for the Unity desktop
