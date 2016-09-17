@@ -36,7 +36,7 @@ src_prepare() {
 	ubuntu-versionator_src_prepare
 
 	# Add X-GNOME-Gettext-Domain to .desktop launcher to use translation support #
-	find ${S}/data -type f -name "*.desktop.in" -exec sh -c 'echo X-GNOME-Gettext-Domain=unity-control-center >> "$1"' -- {} \;
+	find ${S}/data -type f -name "*.desktop.in" -exec sh -c 'echo X-GNOME-Gettext-Domain=activity-log-manager >> "$1"' -- {} \;
 
 	vala_src_prepare
 	export VALA_API_GEN="$VAPIGEN"
