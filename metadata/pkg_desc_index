@@ -59,7 +59,7 @@ gnome-base/gnome-settings-daemon 3.18.2_p0_p0301: Gnome Settings Daemon patched 
 gnome-base/gsettings-desktop-schemas 3.18.1_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.18.4_p0_p05: A file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p0_p23-r1: Blacklist configuration user interface for Zeitgeist
+gnome-extra/activity-log-manager 0.9.7_p0_p23: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.2.0_p0_p00160404: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
