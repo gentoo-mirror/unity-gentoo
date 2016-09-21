@@ -92,12 +92,13 @@ sys-apps/ubuntu-app-launch 0.5_p0_p03_p20150817: Session init system job for lau
 sys-apps/upstart 1.13.2_p0_p2101: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
+sys-kernel/ubuntu-sources 4.4.16_p36_p55: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-base/bamf 0.5.3_p0_p01_p20160701: BAMF Application Matching Framework
-unity-base/compiz 0.9.12.2_p0_p01_p2016080103: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/bamf 0.5.3_p0_p01_p20160824: BAMF Application Matching Framework
+unity-base/compiz 0.9.12.2_p0_p01_p20160823: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01_p20160809: uTouch Frame Library
@@ -114,7 +115,7 @@ unity-base/signon-keyring-extension 0.6_p0_p02_p20140513: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.23_p0_p01_p20151209: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p0_p01_p20151125: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.4.0_p0_p01_p2016080102: The Ubuntu Unity Desktop
+unity-base/unity 7.4.0_p0_p01_p20160906: The Ubuntu Unity Desktop
 unity-base/unity-api 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 16.04-r1: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p0_p01_p20160705: Unity Desktop Configuration Tool
