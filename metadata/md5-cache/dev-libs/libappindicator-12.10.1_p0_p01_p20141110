@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=3/1.0.0
 SRC_URI=mirror://unity/pool/main/liba/libappindicator/libappindicator_12.10.1+15.04.20141110.orig.tar.gz mirror://unity/pool/main/liba/libappindicator/libappindicator_12.10.1+15.04.20141110-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	c0ed2a2f233d3af6dd556048695dc5cb	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078	vala	764817a25b405b65269d8619e203a52f
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	a7ba86946e6e051a6be9cb445f1b45d3	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078	vala	764817a25b405b65269d8619e203a52f
 _md5_=4880cf9f10bb5d27f9258bc03dd24e53
