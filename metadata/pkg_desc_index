@@ -83,13 +83,13 @@ net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrat
 net-libs/ubuntu-download-manager 1.2_p0_p01_p20160408: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
 net-libs/ubuntuone-credentials 15.11_p_p_p20160323: Ubuntu One authentication library
-net-misc/url-dispatcher 0.1_p0_p02_p20151110: Service to allow sending of URLs and get handlers started, used by the Unity desktop
+net-misc/url-dispatcher 0.1_p0_p02_p20151110-r1: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 sys-apps/accountsservice 0.6.40_p2_p1102: D-Bus interfaces for querying and manipulating user account information
 sys-apps/click 0.4.43_p0_p02_p20160203: Ubuntu mobile platform package management framework
 sys-apps/libertine 1.0.0_p0_p01_p20160411: sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.5_p0_p03_p20150817: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p0_p2101: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p0_p2101-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 4.4.16_p36_p55: Ubuntu patched kernel sources
