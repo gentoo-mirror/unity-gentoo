@@ -1,7 +1,7 @@
-app-accessibility/onboard 1.2.0_p0_p05: Simple on-screen Keyboard with macros and easy layout creation
+app-accessibility/onboard 1.2.0_p0_p05-r1: Simple on-screen Keyboard with macros and easy layout creation
 app-accessibility/sphinx-voxforge-en 0.1.1_p0_p01: English sphinx language and acoustic models built from Voxforge audio corpus
 app-accessibility/unity-voice 0.1_p0_p01_p20151005: A simple 'command and control' type voice recognition service, using pocketsphinx under the hood.
-app-backup/deja-dup 34.2_p0_p01-r1: Simple backup tool using duplicity back-end
+app-backup/deja-dup 34.2_p0_p01-r2: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gmock 1.7.0_p_p1_p18092013: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p4_p01: Google C++ Testing Framework
@@ -58,25 +58,25 @@ gnome-base/gnome-session 3.18.1.2_p1_p01160402: Gnome session manager patched fo
 gnome-base/gnome-settings-daemon 3.18.2_p0_p0301: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.18.1_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.18.4_p0_p05: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.18.4_p0_p05-r1: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p23-r1: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 1.2.0_p0_p00160404: GNOME applet for NetworkManager
-gnome-extra/polkit-gnome 0.105_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
+gnome-extra/nm-applet 1.2.0_p0_p00160404-r1: GNOME applet for NetworkManager
+gnome-extra/polkit-gnome 0.105_p2_p02-r1: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 45.2.0_p0_p00160401: Thunderbird Mail Client
-media-gfx/shotwell 0.22.0_p0_p01_p20160108: Open source photo manager for GNOME patched for the Unity desktop
+media-gfx/shotwell 0.22.0_p0_p01_p20160108-r1: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p0_p01_p20160321: Ubuntu's thumbnailer service
 media-libs/mesa 11.2.0_p1_p0202: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p7_p02: Import, organize, play, and share your music (patched for Unity)
-media-sound/pulseaudio 8.0_p0_p3: A networked sound server with an advanced plugin system patched for the Unity desktop
-media-sound/rhythmbox 3.3_p1_p07: Music management and playback software for GNOME patched for the Unity desktop
+media-sound/pulseaudio 8.0_p0_p3-r1: A networked sound server with an advanced plugin system patched for the Unity desktop
+media-sound/rhythmbox 3.3_p1_p07-r1: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.21.0_p0_p01_p20160330: Mir is a display server technology
 mir-base/unity-system-compositor 0.4.3_p0_p01_p20160323: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.11_p0_p03: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p1_p06: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.12_p0_p01_p20160126: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/geonames 0.2_p0_p01_p20160321: Parse and query the geonames database dump
-net-libs/gnome-online-accounts 3.18.3_p1_p02: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.18.3_p1_p02-r1: GNOME framework for accessing online accounts
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
 net-libs/oxide-qt 1.16.5_p0_p00160401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
@@ -103,7 +103,7 @@ unity-base/dconf-qt 0.0.0.110722_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p0_p01_p20160809: uTouch Frame Library
 unity-base/geis 2.2.17_p0_p01_p20160126: An implementation of the GEIS (Gesture Engine Interface and Support) interface
-unity-base/gnome-control-center-signon 0.1.8_p0_p01_p20160201: Online account plugin for unity-control-center used by the Unity desktop
+unity-base/gnome-control-center-signon 0.1.8_p0_p01_p20160201-r1: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p0_p01_p20160125: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.5_p0_p01_p20160307: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p0_p01_p20160415: Backend for the Unity HUD
@@ -118,9 +118,9 @@ unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.4.0_p0_p01_p20160906: The Ubuntu Unity Desktop
 unity-base/unity-api 7.108_p0_p01_p20160322: API for Unity shell integration
 unity-base/unity-build-env 16.04-r1: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p0_p01_p20160705: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p0_p01_p20160705-r1: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p0_p02_p20150118: GTK+ module for exporting old-style menus as GMenuModels
-unity-base/unity-language-pack 16.04: Language translations pack for Unity desktop
+unity-base/unity-language-pack 16.04-r1: Language translations pack for Unity desktop
 unity-base/unity-meta 16.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings-daemon 15.04.1_p0_p01_p20160701: Unity Settings Daemon
 unity-base/webapps 2.4.17_p0_p02_p20150616: WebApps: Complete set of Apps for the Unity desktop
@@ -163,7 +163,7 @@ unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 52.0.2743.116_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 48.0_p0_p00160401: Firefox Web Browser
-www-client/webbrowser-app 0.23_p0_p01_p20160413: Unity webapps browser application
+www-client/webbrowser-app 0.23_p0_p01_p20160413-r1: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.3_p1_p0203: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.7.0_p1: ATI video driver patched for Mir display server
@@ -173,14 +173,14 @@ x11-libs/accounts-qml-module 0.6_p0_p01_p20151106: Expose Unity Online Accounts 
 x11-libs/content-hub 0.1_p0_p01_p20160309: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p0_p02_p20140317: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p0_p01_p20160329: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.30_p1_p01 3.18.9_p1_p0301: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.30_p1_p01-r1 3.18.9_p1_p0301-r1: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.14_p0_p01_p2015110601: QT library for Single Sign On framework for the Unity desktop
 x11-libs/ubuntu-ui-toolkit 1.3.1918_p0_p01_p20160404: Qt Components for the Unity desktop - QML plugin
 x11-libs/unity-action-api 1.1.0_p0_p02_p20140304: Allow applications to export actions in various forms to the Unity Shell
 x11-libs/unity-webapps-qml 0.1a_p0_p01_p20160114: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p0_p01_p20151130: Application menu module for Qt
-x11-misc/lightdm 1.18.2_p0_p02: A lightweight display manager
+x11-misc/lightdm 1.18.2_p0_p02-r1: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20160415: Canonical's on-screen-display notification agent
 x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
