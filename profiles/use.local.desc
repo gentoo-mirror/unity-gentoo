@@ -121,6 +121,7 @@ unity-base/unity-settings-daemon:i18n - Enable support for enhanced input method
 unity-base/unity-settings-daemon:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
 unity-base/unity-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
 unity-extra/unity-greeter:battery - Build power state indicator for login screen
+unity-indicators/indicator-datetime:eds - Enable support for Evolution-Data-Server
 unity-indicators/indicator-session:help - Enable 'Unity Help' menu item linking to Unity documentation
 unity-indicators/unity-indicators-meta:battery - Battery power indicator
 unity-indicators/unity-indicators-meta:bluetooth - Bluetooth settings and transfers indicator
