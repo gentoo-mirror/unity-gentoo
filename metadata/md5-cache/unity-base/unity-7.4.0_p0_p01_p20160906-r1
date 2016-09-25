@@ -3,7 +3,7 @@ DEPEND=sys-auth/polkit-pkla-compat unity-base/gsettings-ubuntu-touch-schemas uni
 DESCRIPTION=The Ubuntu Unity Desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity
-IUSE=debug doc +branding pch test python_targets_python3_4 test
+IUSE=+branding debug doc pch +systray test python_targets_python3_4 test
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 LGPL-3
 RDEPEND=sys-auth/polkit-pkla-compat unity-base/gsettings-ubuntu-touch-schemas unity-base/session-shortcuts unity-base/unity-language-pack x11-themes/humanity-icon-theme x11-themes/gtk-engines-murrine x11-themes/unity-asset-pool dev-lang/python:3.4 >=dev-lang/python-exec-2:=[python_targets_python3_4(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_3(-),-python_single_target_python3_5(-),python_single_target_python3_4(+)]
@@ -13,4 +13,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity/unity_7.4.0+16.04.20160906.orig.tar.gz mirror://unity/pool/main/u/unity/unity_7.4.0+16.04.20160906-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
 _eclasses_=cmake-utils	f3d38665b0a86e08ba3a5473cdbfafd3	distutils-r1	674dae153419b2200ae54e879cc65b57	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	multilib	165fc17c38d1b11dac2008280dab6e80	pam	3ecd5b75e39b0bb05a3183c08fcdfdb4	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	1797277ea0e7cee5c7de7ce74cf8acd8	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	ubuntu-versionator	48b68221b83f3e98354a867e0f255078	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48	xdummy	ce12712244343d4c8349cf91d4dddd3e
-_md5_=118f9c404a4d5d2be9ff87588b89063f
+_md5_=85ac1ebe43560c6de7aaa8f88583f829
