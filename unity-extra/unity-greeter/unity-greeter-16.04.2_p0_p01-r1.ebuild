@@ -73,12 +73,6 @@ src_install() {
 	# due to being provided by Ubuntu's language-pack packages #
 	rm -rf "${ED}usr/share/locale"
 
-	# Gentoo logo for multi monitor usage #
-	if use branding; then
-		insinto /usr/share/unity-greeter
-		newins "${FILESDIR}/gentoo_cof.png" cof.png
-	fi
-
 	# Branding #
 	insinto /usr/share/unity-greeter
 	newins "${FILESDIR}/gentoo_logo.png" logo.png
