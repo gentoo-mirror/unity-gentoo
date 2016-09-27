@@ -180,7 +180,7 @@ x11-libs/unity-action-api 1.1.0_p0_p02_p20140304: Allow applications to export a
 x11-libs/unity-webapps-qml 0.1a_p0_p01_p20160114: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p0_p01_p20151130: Application menu module for Qt
-x11-misc/lightdm 1.18.2_p0_p02-r1: A lightweight display manager
+x11-misc/lightdm 1.18.2_p0_p02-r2: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20160415: Canonical's on-screen-display notification agent
 x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
