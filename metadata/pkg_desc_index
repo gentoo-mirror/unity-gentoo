@@ -63,7 +63,7 @@ gnome-extra/activity-log-manager 0.9.7_p0_p23-r1: Blacklist configuration user i
 gnome-extra/nm-applet 1.2.0_p0_p00160404-r1: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02-r1: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
-mail-client/thunderbird 45.3.0_p0_p00160402: Thunderbird Mail Client
+mail-client/thunderbird 45.3.0_p0_p00160402-r1: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p0_p01_p20160108-r1: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p0_p01_p20160321: Ubuntu's thumbnailer service
 media-libs/mesa 11.2.0_p1_p0202: OpenGL-like graphic library for Linux
