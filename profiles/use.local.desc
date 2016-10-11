@@ -87,7 +87,28 @@ net-libs/oxide-qt:plugins - Build QML plugins
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
 unity-base/unity-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
 unity-base/unity-control-center:i18n - Enable support for enhanced input methods through app-i18n/ibus
-unity-base/unity-language-pack:l10n_nb - Norwegian Bokmål
+unity-base/unity-language-pack:linguas_aa - Language support for aa
+unity-base/unity-language-pack:linguas_bem - Language support for bem
+unity-base/unity-language-pack:linguas_ber - Language support for ber
+unity-base/unity-language-pack:linguas_cv - Language support for cv
+unity-base/unity-language-pack:linguas_dv - Language support for dv
+unity-base/unity-language-pack:linguas_en_US@piglatin - Language support for en_US@piglatin
+unity-base/unity-language-pack:linguas_fur - Language support for fur
+unity-base/unity-language-pack:linguas_gv - Language support for gv
+unity-base/unity-language-pack:linguas_ha - Language support for ha
+unity-base/unity-language-pack:linguas_ig - Language support for ig
+unity-base/unity-language-pack:linguas_kl - Language support for kl
+unity-base/unity-language-pack:linguas_kw - Language support for kw
+unity-base/unity-language-pack:linguas_mhr - Language support for mhr
+unity-base/unity-language-pack:linguas_nds@NFE - Language support for nds@NFE
+unity-base/unity-language-pack:linguas_os - Language support for os
+unity-base/unity-language-pack:linguas_sa - Language support for sa
+unity-base/unity-language-pack:linguas_sc - Language support for sc
+unity-base/unity-language-pack:linguas_shs - Language support for shs
+unity-base/unity-language-pack:linguas_sn - Language support for sn
+unity-base/unity-language-pack:linguas_sr@ije - Language support for sr@ije
+unity-base/unity-language-pack:linguas_wae - Language support for wae
+unity-base/unity-language-pack:linguas_yo - Language support for yo
 unity-base/unity-meta:accessibility - Gnome accessibility packages
 unity-base/unity-meta:chat - Instant messaging desktop integration via the messages indicator and empathy
 unity-base/unity-meta:gnome - Gnome core applications such as gnome-terminal, totem, eog etc.
