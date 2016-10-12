@@ -161,11 +161,10 @@ unity-lenses/unity-lens-photos 1.0_p0_p01: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p0_p01_p2016021201: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p0_p01_p2016021201: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 52.0.2743.116_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 49.0_p0_p00160401-r1: Firefox Web Browser
 www-client/webbrowser-app 0.23_p0_p01_p20160413-r1: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
-x11-base/xorg-server 1.18.3_p1_p0203: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.18.4_p0_p0001: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.7.0_p1: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p1_p0101_p20160325: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.12_p1_p02: Accelerated Open Source driver for nVidia cards
@@ -183,9 +182,8 @@ x11-misc/appmenu-qt5 0.3.0_p0_p01_p20151130: Application menu module for Qt
 x11-misc/lightdm 1.18.2_p0_p02-r2: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20160415: Canonical's on-screen-display notification agent
-x11-misc/unity-chromium-extension 3.2.0_p0_p01_p20150119: Chromium extension: Unity Integration
 x11-misc/unity-firefox-extension 3.0.0_p0_p01150401: Firefox extension for Unity desktop integration
-x11-misc/webaccounts-browser-extension 0.5_p0_p04150401: Ubuntu Online Accounts browser extension
+x11-misc/webaccounts-browser-extension 0.5_p0_p04150401-r1: Ubuntu Online Accounts browser extension
 x11-misc/webapps-greasemonkey 2.3.6_p0_p01150401_p20140701: WebApps: Websites integration Firefox plug-in for Unity desktop
 x11-misc/x11vnc 0.9.13_p0102_p01: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p9_p02-r1: pidgin-libnotify provides popups for pidgin via a libnotify interface
