@@ -60,7 +60,7 @@ gnome-base/gsettings-desktop-schemas 3.18.1_p1_p01: Collection of GSettings sche
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.18.4_p0_p05-r1: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p0_p23-r1: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 1.2.0_p0_p00160404-r1: GNOME applet for NetworkManager
+gnome-extra/nm-applet 1.2.0_p0_p00160404-r2: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p2_p02-r1: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/yelp 3.14.2: Help browser for GNOME
 mail-client/thunderbird 45.3.0_p0_p00160402-r1: Thunderbird Mail Client
@@ -92,7 +92,7 @@ sys-apps/ubuntu-app-launch 0.5_p0_p03_p20150817: Session init system job for lau
 sys-apps/upstart 1.13.2_p0_p2101-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.4.19_p38_p57: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.4.21_p42_p62: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
