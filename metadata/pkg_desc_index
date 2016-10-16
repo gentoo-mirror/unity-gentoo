@@ -14,7 +14,7 @@ dev-libs/gobject-introspection-common 1.46.0: Build infrastructure for GObject I
 dev-libs/libaccounts-glib 1.21_p0_p01_p20160222: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p0_p01_p20141110: Application indicators used by the Unity desktop
 dev-libs/libcolumbus 1.1.0_p0_p04_p20150806: Error tolerant matching engine used by the Unity desktop
-dev-libs/libdbusmenu 12.10.3_p0_p01_p2016022301: Library to pass menu structure across DBus
+dev-libs/libdbusmenu 16.04.1_p0_p01_p20160927: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_p0_p01_p20160218-r1: A library providing Qt implementation of DBusMenu specification
 dev-libs/libhybris 0.1.0a_p0_p07: Allows to run bionic-based HW adaptations in glibc systems
 dev-libs/libindicator 12.10.2_p0_p01_p20151208: A set of symbols and convenience functions that all indicators would like to use
@@ -91,7 +91,7 @@ sys-apps/ubuntu-app-launch 0.5_p0_p03_p20150817: Session init system job for lau
 sys-apps/upstart 1.13.2_p0_p2101-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.4.21_p42_p62: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.4.21_p43_p63: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p1_p02: Multitouch Protocol Translation Library
@@ -179,7 +179,7 @@ x11-libs/unity-action-api 1.1.0_p0_p02_p20140304: Allow applications to export a
 x11-libs/unity-webapps-qml 0.1a_p0_p01_p20160114: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p0_p01_p20151130: Application menu module for Qt
-x11-misc/lightdm 1.18.2_p0_p02-r2: A lightweight display manager
+x11-misc/lightdm 1.18.3_p0_p01: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p0_p01_p20160415: Canonical's on-screen-display notification agent
 x11-misc/unity-firefox-extension 3.0.0_p0_p01150401: Firefox extension for Unity desktop integration
