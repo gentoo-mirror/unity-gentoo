@@ -77,7 +77,7 @@ net-libs/account-plugins 0.12_p0_p01_p20160126: Online account plugin for gnome-
 net-libs/geonames 0.2_p0_p01_p20160321: Parse and query the geonames database dump
 net-libs/gnome-online-accounts 3.18.3_p1_p02-r1: GNOME framework for accessing online accounts
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
-net-libs/oxide-qt 1.16.5_p0_p00160401: Web browser engine library for Qt
+net-libs/oxide-qt 1.17.9_p0_p00160401: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p0_p01_p20140908: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 1.2_p0_p01_p20160408: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p0_p02_p20131125: A GeoClue provider for Ubuntu GeoIP server
