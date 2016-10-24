@@ -1,0 +1,13 @@
+DEFINED_PHASES=postinst prepare setup
+DESCRIPTION=Configuration files to bring up a session with a browser to configure the UCCS service.
+EAPI=4
+HOMEPAGE=https://launchpad.net/lightdm-remote-session-uccsconfigure
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sys-apps/remote-login-service
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/l/lightdm-remote-session-uccsconfigure/lightdm-remote-session-uccsconfigure_1.1.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9
+_md5_=790cff121a7589ae70b029be9898c732

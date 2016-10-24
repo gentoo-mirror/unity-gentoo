@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-cpp/gmock dev-libs/libqtdbustest net-misc/networkmanager sys-devel/make >=dev-util/cmake-2.8.12
+DESCRIPTION=Qt Bindings for python-dbusmock
+EAPI=6
+HOMEPAGE=https://launchpad.net/libqtdbustest
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/libq/libqtdbusmock/libqtdbusmock_0.5+15.10.20151009.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f3d38665b0a86e08ba3a5473cdbfafd3	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=317c57f2f7a0b759a6146ccaf65554f0

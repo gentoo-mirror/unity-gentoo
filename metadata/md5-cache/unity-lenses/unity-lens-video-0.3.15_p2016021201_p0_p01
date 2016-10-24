@@ -1,0 +1,14 @@
+DEFINED_PHASES=postinst prepare setup
+DEPEND=dev-libs/dee dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee >=dev-libs/libunity-6.91.11 dev-libs/libzeitgeist net-libs/libsoup net-libs/libsoup-gnome >=unity-base/unity-7.1.0 || ( dev-lang/vala:0.26[vapigen(+)] ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Video lens for the Unity desktop
+EAPI=6
+HOMEPAGE=https://launchpad.net/unity-lens-video
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!unity-lenses/unity-scope-video-remote dev-libs/dee:= dev-libs/libunity:=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/unity-lens-video/unity-lens-video_0.3.15+16.04.20160212.1.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9	vala	764817a25b405b65269d8619e203a52f
+_md5_=c4b318250a76e0dcad6e46b5384147e2

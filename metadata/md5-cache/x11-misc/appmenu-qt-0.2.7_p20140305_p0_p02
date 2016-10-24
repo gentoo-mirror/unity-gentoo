@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=>=dev-qt/qtcore-4.8:4 >=dev-qt/qtdbus-4.8:4 >=dev-qt/qtgui-4.8:4 >=dev-libs/libdbusmenu-qt-0.9.0 sys-devel/make >=dev-util/cmake-2.8.12
+DESCRIPTION=Application menu module for Qt
+EAPI=6
+HOMEPAGE=https://launchpad.net/appmenu-qt
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=>=dev-qt/qtcore-4.8:4 >=dev-qt/qtdbus-4.8:4 >=dev-qt/qtgui-4.8:4 >=dev-libs/libdbusmenu-qt-0.9.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/a/appmenu-qt/appmenu-qt_0.2.7+14.04.20140305.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f3d38665b0a86e08ba3a5473cdbfafd3	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=e4e0f0dab93a97bf8f172d5c7c2e2186

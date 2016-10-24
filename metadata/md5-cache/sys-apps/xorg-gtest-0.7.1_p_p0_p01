@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst prepare setup
+DEPEND=dev-util/valgrind x11-base/xorg-server x11-drivers/xf86-video-dummy x11-libs/libX11 x11-libs/libXi doc? ( app-doc/doxygen ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=X.Org dummy testing environment for Google Test
+EAPI=6
+HOMEPAGE=https://launchpad.net/xorg-gtest
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RESTRICT=mirror test
+SLOT=0
+SRC_URI=mirror://unity/pool/main/x/xorg-gtest/xorg-gtest_0.7.1.orig.tar.bz2 mirror://unity/pool/main/x/xorg-gtest/xorg-gtest_0.7.1-0ubuntu1.debian.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_compile:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9
+_md5_=20bcdf1a84b0b746f4f6a9bf9f0a0f7b
