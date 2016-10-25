@@ -159,7 +159,7 @@ unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 53.0.2785.143_p_p0_p00160401: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 49.0_p_p0_p00160401: Firefox Web Browser
-www-client/webbrowser-app 0.23_p20160413_p_p0_p01: Unity webapps browser application
+www-client/webbrowser-app 0.23_p20160413_p_p0_p01-r1: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.4_p_p0_p0001: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.7.0_p1: ATI video driver patched for Mir display server
