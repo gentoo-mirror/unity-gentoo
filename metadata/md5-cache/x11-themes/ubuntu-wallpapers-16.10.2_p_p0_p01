@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup test
+DESCRIPTION=Ubuntu wallpapers
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-wallpapers
+LICENSE=CC-BY-SA-3.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_16.10.2.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_compile:- src_test:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9
+_md5_=498e7bd539e814f25ecd73f89887339d

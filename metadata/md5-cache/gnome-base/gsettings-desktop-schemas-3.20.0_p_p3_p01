@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+DEPEND=dev-libs/glib:2 introspection? ( dev-libs/gobject-introspection ) x11-themes/gnome-backgrounds x11-themes/gtk-engines-unico x11-themes/ubuntu-themes x11-themes/ubuntu-wallpapers dev-util/intltool sys-devel/gettext virtual/pkgconfig app-arch/xz-utils >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Collection of GSettings schemas for GNOME desktop
+EAPI=6
+HOMEPAGE=http://www.gnome.org/
+IUSE=+introspection
+LICENSE=LGPL-2.1+
+RDEPEND=dev-libs/glib:2 introspection? ( dev-libs/gobject-introspection ) x11-themes/gnome-backgrounds x11-themes/gtk-engines-unico x11-themes/ubuntu-themes x11-themes/ubuntu-wallpapers
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_3.20.0.orig.tar.xz mirror://unity/pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_3.20.0-3ubuntu1.debian.tar.xz
+_eclass_exported_funcs=pkg_preinst:gnome2 pkg_postrm:gnome2 pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:gnome2 src_install:gnome2
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	gnome.org	ad34f378a3d57a6f2f2b8b4aaca4543e	gnome2	21c81ea94c12e45a63f7f14fba666e3d	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xdg	a5c4c5ce4f5ce9a2e777f5d9a40a8723	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
+_md5_=cbd576f7b166f82f57626e92587659e5
