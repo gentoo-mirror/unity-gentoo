@@ -113,11 +113,11 @@ unity-base/signon-ui 0.17_p20151125_p0_p01 0.17_p20160406_p0_p01: Single Sign On
 unity-base/ubuntu-docs 16.04.4 16.10.3: Help files for the Unity desktop
 unity-base/unity 7.4.0_p20160906_p0_p01 7.5.0_p2016090601_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 7.108_p20160322_p0_p01 7.119_p20160909_p0_p01: API for Unity shell integration
-unity-base/unity-build-env 16.04-r1: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-build-env 16.04-r1 16.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20160705_p0_p01 15.04.0_p2016100301_p0_p02: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20150118_p0_p02 0.0.0_p20160913_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.04-r2 16.10: Language translations pack for Unity desktop
-unity-base/unity-meta 16.04: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-meta 16.04 16.10: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings-daemon 15.04.1_p20160701_p0_p01 15.04.1_p20161003_p0_p01: Unity Settings Daemon
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
