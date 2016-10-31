@@ -1,4 +1,4 @@
-DEFINED_PHASES=postinst prepare setup
+DEFINED_PHASES=install postinst prepare setup
 DEPEND=dev-libs/glib:2 dev-util/gtk-doc !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Parse and query the geonames database dump
 EAPI=6
@@ -7,6 +7,6 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/g/geonames/geonames_0.2+16.04.20160426-0ubuntu1.tar.gz
-_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	8482bfab6a1d0162474627f4cd4497b9
-_md5_=18036a5971b62e8cb914ada1c7be937b
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	29a6dc4278b900299aacfc4acff259b6
+_md5_=bfdccde6b4907a91231ceafc8cf1216b
