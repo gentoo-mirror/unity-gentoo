@@ -11,4 +11,4 @@ SLOT=0/1.0.0
 SRC_URI=mirror://unity/pool/main/libs/libsignon-glib/libsignon-glib_1.14+16.10.20160802.2.orig.tar.gz mirror://unity/pool/main/libs/libsignon-glib/libsignon-glib_1.14+16.10.20160802.2-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	libtool	4890219c51da247200223277f993e054	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	165fc17c38d1b11dac2008280dab6e80	python-r1	0f6937650a475d673baa5d0c8c0b37b3	python-utils-r1	d142329ab093dd20c1dd0edb5f094108	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	29a6dc4278b900299aacfc4acff259b6	vala	764817a25b405b65269d8619e203a52f
-_md5_=49c1d5076174f9891c5a29a4ba3fc3d2
+_md5_=01086b8cd3738996dd9ce48efcfadda0
