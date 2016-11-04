@@ -59,7 +59,7 @@ gnome-base/nautilus 3.18.4_p_p0_p05 3.20.3_p_p1_p03: A file manager for the GNOM
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.2.0_p_p0_p00160404 1.2.4_p_p0_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
-mail-client/thunderbird 45.3.0_p_p0_p04: Thunderbird Mail Client
+mail-client/thunderbird 45.4.0_p_p0_p00161001: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p01 0.22.0_p20160108_p0_p02: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p20160321_p0_p01 2.4_p2016092602_p0_p01: Ubuntu's thumbnailer service
 media-libs/mesa 11.2.0_p_p1_p0202 12.0.3_p_p1_p02: OpenGL-like graphic library for Linux
@@ -74,7 +74,7 @@ net-libs/account-plugins 0.12_p20160126_p0_p01 0.13_p2016092901_p0_p01: Online a
 net-libs/geonames 0.2_p20160321_p0_p01 0.2_p20160426_p0_p01: Parse and query the geonames database dump
 net-libs/gnome-online-accounts 3.18.3_p_p1_p02 3.20.4_p_p0_p01: GNOME framework for accessing online accounts
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
-net-libs/oxide-qt 1.17.9_p_p0_p01: Web browser engine library for Qt
+net-libs/oxide-qt 1.18.3_p_p0_p00161001: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 1.2_p20160408_p0_p01 1.3_p2016090901_p0_p01: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p20131125_p0_p02: A GeoClue provider for Ubuntu GeoIP server
@@ -158,7 +158,7 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 53.0.2785.143_p_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 49.0_p_p0_p02: Firefox Web Browser
+www-client/firefox 49.0.2_p_p0_p00161002: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20160413_p0_p01 0.23_p20160928_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.4_p_p0_p0001 1.18.4_p_p1_p06: X.Org X servers patched for the Unity desktop
