@@ -55,7 +55,7 @@ gnome-base/gnome-session 3.18.1.2_p_p1_p01160402 3.20.2_p_p1_p07: Gnome session 
 gnome-base/gnome-settings-daemon 3.18.2_p_p0_p0301 3.22.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.18.1_p_p1_p01 3.20.0_p_p3_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.18.4_p_p0_p05 3.20.3_p_p1_p03: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.18.4_p_p0_p05 3.20.3_p_p1_p0301: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.2.0_p_p0_p00160404 1.2.4_p_p0_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02: A dbus session bus service that is used to bring up authentication dialogs
@@ -85,7 +85,7 @@ sys-apps/click 0.4.43_p20160203_p0_p02 0.4.45.1_p20160916_p0_p01: Ubuntu mobile 
 sys-apps/libertine 1.0.0_p20160411_p0_p01 1.4.2_p20161003_p0_p01: sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.5_p20150817_p0_p03 0.9_p20160928_p0_p01: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p_p0_p34 1.13.2_p_p0_p2101: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p_p0_p2101 1.13.2a_p_p0_p34: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 4.4.21_p_p45_p66 4.8.0_p_p26_p28: Ubuntu patched kernel sources
