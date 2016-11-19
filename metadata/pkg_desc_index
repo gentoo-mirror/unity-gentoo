@@ -158,10 +158,10 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 53.0.2785.143_p_p0_p01: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 49.0.2_p_p0_p00161002: Firefox Web Browser
+www-client/firefox 50.0_p_p0_p00161002: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20160413_p0_p01 0.23_p20161018_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
-x11-base/xorg-server 1.18.4_p_p0_p0001 1.18.4_p_p1_p06: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.18.4_p_p0_p0001 1.18.4_p_p1_p0601: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.7.0_p1 7.7.1_p1: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p20160325_p1_p0101 2.99.917_p20160706_p1_p01: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.12_p_p1_p02 1.0.12_p2: Accelerated Open Source driver for nVidia cards
@@ -190,4 +190,4 @@ x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display 
 x11-themes/ubuntu-themes 14.04_p20160804_p0_p01 16.10_p20161024_p0_p01: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 16.04.1_p_p0_p01 16.10.2_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20141217_p0_p02: Unity desktop icon theme
-x11-wm/metacity 3.18.7_p_p0_p0001 3.20.3_p_p1_p02: GNOME default window manager
+x11-wm/metacity 3.18.7_p_p0_p0001 3.20.3_p_p1_p0201: GNOME default window manager
