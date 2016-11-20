@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0/4.0.12
 SRC_URI=mirror://unity/pool/main/libd/libdbusmenu/libdbusmenu_16.04.1+16.04.20160927.orig.tar.gz mirror://unity/pool/main/libd/libdbusmenu/libdbusmenu_16.04.1+16.04.20160927-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	29a6dc4278b900299aacfc4acff259b6	vala	ca3f1c504058f5de407febddfae73167	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00	vala	ca3f1c504058f5de407febddfae73167	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
 _md5_=161c1bc7a4c793b3466ce01602896f2e
