@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=app-admin/cgmanager dev-libs/glib:2 dev-libs/json-glib dev-libs/libzeitgeist dev-util/lttng-tools dev-util/dbus-test-runner mir-base/mir:= sys-apps/click sys-apps/libertine sys-apps/upstart sys-libs/libnih[dbus] sys-devel/make >=dev-util/cmake-2.8.12
+DEPEND=app-admin/cgmanager dev-libs/glib:2 dev-libs/json-glib dev-libs/libzeitgeist dev-libs/properties-cpp dev-util/lttng-tools dev-util/dbus-test-runner mir-base/mir:= sys-apps/click sys-apps/libertine sys-apps/upstart sys-libs/libnih[dbus] sys-devel/make >=dev-util/cmake-2.8.12
 DESCRIPTION=Session init system job for launching applications
 EAPI=6
 HOMEPAGE=https://launchpad.net/ubuntu-app-launch
@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-app-launch/ubuntu-app-launch_0.9+16.10.20160928.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
 _eclasses_=cmake-utils	f3d38665b0a86e08ba3a5473cdbfafd3	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	29a6dc4278b900299aacfc4acff259b6	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=1d328fd95a357edc0c20d2a1fada1ae5
+_md5_=7247a2b1abc90045d14e20ed19bf528d
