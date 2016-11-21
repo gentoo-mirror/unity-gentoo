@@ -4,6 +4,7 @@ DESCRIPTION=The GNOME panel patched for the Unity desktop
 EAPI=6
 HOMEPAGE=http://www.gnome.org/
 IUSE=eds +introspection networkmanager
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+ FDL-1.1+ LGPL-2+
 RDEPEND=!<gnome-base/gnome-session-3.8 >=dev-libs/glib-2.46.0:2 >=dev-libs/libgweather-3.20:2= dev-libs/libxml2:2 gnome-base/dconf gnome-base/gconf:2[introspection?] gnome-base/gdm >=gnome-base/gnome-desktop-3.20:3= >=gnome-base/gnome-menus-3.13:3 gnome-base/gsettings-desktop-schemas gnome-base/librsvg:2 net-libs/telepathy-glib sys-auth/polkit x11-libs/cairo[X] x11-libs/gdk-pixbuf:2 >=x11-libs/gtk+-3.20:3[introspection?] x11-libs/libXau x11-libs/libICE x11-libs/libSM x11-libs/libXrandr x11-libs/libwnck:3 >=x11-libs/pango-1.40[introspection?] eds? ( >=gnome-extra/evolution-data-server-3.20:= ) introspection? ( >=dev-libs/gobject-introspection-1.48 ) networkmanager? ( >=net-misc/networkmanager-1.4 )
 RESTRICT=mirror
@@ -11,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/universe/g/gnome-panel/gnome-panel_3.20.1.orig.tar.xz mirror://unity/pool/universe/g/gnome-panel/gnome-panel_3.20.1-1ubuntu2.debian.tar.xz
 _eclass_exported_funcs=pkg_preinst:gnome2 pkg_postrm:gnome2 pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:gnome2 src_install:gnome2
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	gnome.org	ad34f378a3d57a6f2f2b8b4aaca4543e	gnome2	21c81ea94c12e45a63f7f14fba666e3d	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xdg	a5c4c5ce4f5ce9a2e777f5d9a40a8723	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=5e381ee2bb8429071d7080895245787d
+_md5_=2a6fd015634935f1cd3ab55ac3125a69

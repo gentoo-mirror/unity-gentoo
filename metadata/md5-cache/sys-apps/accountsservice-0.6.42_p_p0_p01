@@ -4,6 +4,7 @@ DESCRIPTION=D-Bus interfaces for querying and manipulating user account informat
 EAPI=6
 HOMEPAGE=http://www.fedoraproject.org/wiki/Features/UserAccountDialog
 IUSE=doc +introspection systemd vala
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
 RDEPEND=>=dev-libs/glib-2.37.3:2 sys-auth/polkit introspection? ( >=dev-libs/gobject-introspection-0.9.12 ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit )
 REQUIRED_USE=vala? ( introspection )
@@ -12,4 +13,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/a/accountsservice/accountsservice_0.6.42.orig.tar.xz mirror://unity/pool/main/a/accountsservice/accountsservice_0.6.42-0ubuntu1.debian.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	systemd	5b6ca8b2fc1307ca593223f327342c96	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00	vala	ca3f1c504058f5de407febddfae73167	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=98b82d5d414581c5a187f39428672d08
+_md5_=4d417c2b0f0b14247ed27790a4c9d546

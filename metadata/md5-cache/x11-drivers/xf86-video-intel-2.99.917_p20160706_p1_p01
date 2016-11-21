@@ -4,6 +4,7 @@ DESCRIPTION=X.Org driver for Intel cards
 EAPI=5
 HOMEPAGE=http://xorg.freedesktop.org/
 IUSE=debug +dri3 mir +sna +udev uxa xvmc dri
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=x11-libs/libXext x11-libs/libXfixes >=x11-libs/pixman-0.27.1 >=x11-libs/libdrm-2.4.29[video_cards_intel] dri3? ( >=x11-base/xorg-server-1.18 ) sna? ( >=x11-base/xorg-server-1.10 ) udev? ( virtual/udev ) xvmc? ( x11-libs/libXvMC >=x11-libs/libxcb-1.5 x11-libs/xcb-util ) x11-base/xorg-server:= dri? ( x11-base/xorg-server[-minimal] x11-libs/libdrm ) x11-base/xorg-server[xorg] x11-libs/libpciaccess
 REQUIRED_USE=|| ( sna uxa )
@@ -12,4 +13,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel_2.99.917+git20160706.orig.tar.gz mirror://unity/pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel_2.99.917+git20160706-1ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postrm:xorg-2 pkg_postinst:- pkg_setup:ubuntu-versionator src_unpack:xorg-2 src_prepare:- src_configure:- src_compile:xorg-2 src_test:autotools-utils src_install:xorg-2
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	linux-info	fd1e29abbb02cbc49f1a14299846e9c4	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xorg-2	b41f09eee8d441f780b7413dba7e120b
-_md5_=970faaede0077f1d3d3fb2ef4bba728f
+_md5_=dec54ff86cb291806b26af45b2f5569a

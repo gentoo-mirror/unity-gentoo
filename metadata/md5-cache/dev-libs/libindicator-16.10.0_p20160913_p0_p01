@@ -3,6 +3,7 @@ DEPEND=>=x11-libs/gtk+-2.18:2 >=x11-libs/gtk+-3.2:3 x11-libs/libXfixes >=dev-lib
 DESCRIPTION=A set of symbols and convenience functions that all indicators would like to use
 EAPI=6
 HOMEPAGE=https://launchpad.net/libindicator
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=>=x11-libs/gtk+-2.18:2 >=x11-libs/gtk+-3.2:3 x11-libs/libXfixes
 RESTRICT=mirror
@@ -10,4 +11,4 @@ SLOT=3/7.0.0
 SRC_URI=mirror://unity/pool/main/libi/libindicator/libindicator_16.10.0+16.10.20160913.orig.tar.gz mirror://unity/pool/main/libi/libindicator/libindicator_16.10.0+16.10.20160913-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00
-_md5_=7e81ce8850efa1bcfadfac48fc34786d
+_md5_=dc72dc5f2693f279b16f5df722a0a9ee

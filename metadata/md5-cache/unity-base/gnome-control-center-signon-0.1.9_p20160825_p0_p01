@@ -3,6 +3,7 @@ DEPEND=dev-libs/libaccounts-glib:= dev-libs/libsignon-glib:= dev-libs/libxml2:2 
 DESCRIPTION=Online account plugin for unity-control-center used by the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/online-accounts-gnome-control-center
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=net-im/pidgin[-eds,dbus,gadu,groupwise,idn,meanwhile,networkmanager,sasl,silc,zephyr] net-im/telepathy-logger net-irc/telepathy-idle net-voip/telepathy-gabble net-voip/telepathy-haze net-voip/telepathy-rakia net-voip/telepathy-salut unity-base/signon-ui
 RESTRICT=mirror
@@ -10,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/g/gnome-control-center-signon/gnome-control-center-signon_0.1.9+16.10.20160825.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	10dcc470f53f6f48c8eac8cf6843cd00	vala	ca3f1c504058f5de407febddfae73167	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=19c6b7de5aa0722a7a55ed48b114d5cc
+_md5_=22270b5d78d27e9a5432846ae9cba906
