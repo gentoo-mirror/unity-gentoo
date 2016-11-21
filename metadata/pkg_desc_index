@@ -24,7 +24,7 @@ dev-libs/libtimezonemap 0.4.5: GTK+3 timezone map widget used by the Unity deskt
 dev-libs/libunity 7.1.4a_p20160516_p0_p01: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p20160201_p0_p02: Webapps integration with the Unity desktop
-dev-libs/libwacom 0.18 0.22: Library for identifying Wacom tablets and their model-specific features
+dev-libs/libwacom 0.22: Library for identifying Wacom tablets and their model-specific features
 dev-libs/persistent-cache-cpp 1.0.4_p20160823_p0_p01: Cache of key-value pairs with persistent storage for C++11
 dev-libs/process-cpp 3.0.1_p_p0_p04: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.1_p20140730_p0_p01: Simple convenience library for handling properties and signals in C++11
@@ -43,7 +43,7 @@ dev-qt/qtpim 5.0_p_p0_p22: Qt PIM module, Organizer library
 dev-util/android-headers 23_p_p0_p04: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.7_p20160513_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.48.1 2.50.0: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.50.0: GDBus code and documentation generator
 dev-util/lttng-tools 2.8.1: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.8.1: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p_p3_p07: GNOME configuration system and daemon patched for the Unity desktop
