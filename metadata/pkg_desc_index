@@ -95,7 +95,6 @@ sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p20160929_p0_p01: BAMF Application Matching Framework
 unity-base/compiz 0.9.13.0_p2016081802_p0_p02: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
-unity-base/dconf-qt 0.0.0.110722_p_p0_p04: Dconf Qt bindings for the Unity desktop
 unity-base/evemu 2.1.0_p_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0a_p20160809_p0_p01: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p01: An implementation of the GEIS (Gesture Engine Interface and Support) interface
@@ -113,11 +112,11 @@ unity-base/signon-ui 0.17_p20160406_p0_p01: Single Sign On framework for the Uni
 unity-base/ubuntu-docs 16.10.3: Help files for the Unity desktop
 unity-base/unity 7.5.0_p2016090601_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 7.119_p20160909_p0_p01: API for Unity shell integration
-unity-base/unity-build-env 16.04-r1 16.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-build-env 16.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p2016100301_p0_p02: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20160913_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.10-r1: Language translations pack for Unity desktop
-unity-base/unity-meta 16.04 16.10: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-meta 16.10: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01: Unity Settings Daemon
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
