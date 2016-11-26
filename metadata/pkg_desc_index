@@ -14,7 +14,7 @@ dev-libs/libappindicator 12.10.1_p20160905_p0_p01: Application indicators used b
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p06: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 16.04.1_p2016092702_p0_p01: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_p20160218_p0_p01: A library providing Qt implementation of DBusMenu specification
-dev-libs/libhybris 0.1.0_p_p0_p23: Allows to run bionic-based HW adaptations in glibc systems
+dev-libs/libhybris 0.1.0_p_p0_p23-r1: Allows to run bionic-based HW adaptations in glibc systems
 dev-libs/libindicator 16.10.0_p20160913_p0_p01: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libinput 1.4.3_p_p0_p01: Library to handle input devices in Wayland
 dev-libs/libqtdbusmock 0.5_p20151009_p0_p01: Qt Bindings for python-dbusmock
@@ -40,7 +40,7 @@ dev-python/pywapi 0.3.8_p1: Python wrapper around different weather APIs
 dev-qt/qt3d 5.6.1_p_p1_p01: Qt 3D QML module
 dev-qt/qtfeedback 5.0_p_p0_p14: Qt Feedback module
 dev-qt/qtpim 5.0_p_p0_p22: Qt PIM module, Organizer library
-dev-util/android-headers 23_p_p0_p04: Android Platform Headers from AOSP releases
+dev-util/android-headers 23_p_p0_p04-r1: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.7_p20160513_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.50.0: GDBus code and documentation generator
