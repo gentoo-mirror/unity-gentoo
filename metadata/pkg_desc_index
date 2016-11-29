@@ -93,7 +93,7 @@ sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-base/bamf 0.5.3_p20160929_p0_p01: BAMF Application Matching Framework
+unity-base/bamf 0.5.3_p20160929_p0_p01-r1: BAMF Application Matching Framework
 unity-base/compiz 0.9.13.0_p2016081802_p0_p02: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.1.0_p_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0a_p20160809_p0_p01: uTouch Frame Library
@@ -101,7 +101,7 @@ unity-base/geis 2.2.17_p20160126_p0_p01: An implementation of the GEIS (Gesture 
 unity-base/gnome-control-center-signon 0.1.9_p20160825_p0_p01: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p20160125_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20160809_p0_p01: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20160415_p0_p01: Backend for the Unity HUD
+unity-base/hud 14.10_p20160415_p0_p01-r1: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20160714_p0_p01: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p01: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
