@@ -51,7 +51,7 @@ gnome-base/gnome-core-apps 3.16.0: Sub-meta package for the core applications in
 gnome-base/gnome-desktop 3.20.2_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.13.3a_p_p6_p04: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.20.1_p_p1_p02: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.20.2_p_p1_p07: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-session 3.20.2_p_p1_p07-r1: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
@@ -85,7 +85,7 @@ sys-apps/click 0.4.45.1_p20160916_p0_p01: Ubuntu mobile platform package managem
 sys-apps/libertine 1.4.2_p20161003_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01: Session init system job for launching applications
-sys-apps/upstart 1.13.2a_p_p0_p34: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 4.8.6_p_p28_p30: Ubuntu patched kernel sources
@@ -93,7 +93,7 @@ sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-base/bamf 0.5.3_p20160929_p0_p01-r1: BAMF Application Matching Framework
+unity-base/bamf 0.5.3_p20160929_p0_p01-r2: BAMF Application Matching Framework
 unity-base/compiz 0.9.13.0_p2016081802_p0_p02: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.1.0_p_p1_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0a_p20160809_p0_p01: uTouch Frame Library
@@ -101,7 +101,7 @@ unity-base/geis 2.2.17_p20160126_p0_p01: An implementation of the GEIS (Gesture 
 unity-base/gnome-control-center-signon 0.1.9_p20160825_p0_p01: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p20160125_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20160809_p0_p01: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20160415_p0_p01-r1: Backend for the Unity HUD
+unity-base/hud 14.10_p20160415_p0_p01-r2: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20160714_p0_p01: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p01: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
@@ -110,14 +110,14 @@ unity-base/signon-keyring-extension 0.6_p20140513_p0_p02: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.24_p20160818_p0_p01: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p20160406_p0_p01: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 16.10.3: Help files for the Unity desktop
-unity-base/unity 7.5.0_p2016090601_p0_p01: The Ubuntu Unity Desktop
+unity-base/unity 7.5.0_p2016090601_p0_p01-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 7.119_p20160909_p0_p01: API for Unity shell integration
 unity-base/unity-build-env 16.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p2016100301_p0_p02: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20160913_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.10-r1: Language translations pack for Unity desktop
 unity-base/unity-meta 16.10: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01-r1: Unity Settings Daemon
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
