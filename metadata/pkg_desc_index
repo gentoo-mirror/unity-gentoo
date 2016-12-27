@@ -79,7 +79,7 @@ net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrat
 net-libs/ubuntu-download-manager 1.3_p2016090901_p0_p01: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p20131125_p0_p02: A GeoClue provider for Ubuntu GeoIP server
 net-libs/ubuntuone-credentials 15.11_p20160920: Ubuntu One authentication library
-net-misc/url-dispatcher 0.1_p2016081601_p0_p01: Service to allow sending of URLs and get handlers started, used by the Unity desktop
+net-misc/url-dispatcher 0.1_p2016081601_p0_p01-r1: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 sys-apps/accountsservice 0.6.42_p_p0_p01: D-Bus interfaces for querying and manipulating user account information
 sys-apps/click 0.4.45.1_p20160916_p0_p01: Ubuntu mobile platform package management framework
 sys-apps/libertine 1.4.2_p20161003_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
