@@ -88,7 +88,7 @@ sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01: Session init system job for lau
 sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 4.8.6_p_p30_p32: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.8.11_p_p32_p34: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
