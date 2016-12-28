@@ -4,6 +4,11 @@ app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being use
 dev-cpp/gmock 1.7.0a_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p_p4_p01: Google C++ Testing Framework
 dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
+dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
+dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
+dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
+dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
+dev-dotnet/taglib-sharp 2.0.4.0 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
 dev-libs/dbus-cpp 5.0.0a_p20160809_p0_p01: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p20150304_p0_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.50.0_p1: The GLib library of C routines patched for the Unity desktop
