@@ -1,15 +1,14 @@
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qttest:5 dev-qt/qtxmlpatterns:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5 net-libs/libproxy[-kde] unity-base/signon x11-libs/libaccounts-qt:= x11-libs/libnotify dev-lang/perl virtual/pkgconfig test? ( ~dev-qt/qttest-0.17_p20160406_p0_p01 )
+DEFINED_PHASES=configure postinst prepare setup
+DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtxmlpatterns:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5 net-libs/libproxy[-kde] unity-base/signon x11-libs/libaccounts-qt:= x11-libs/libnotify test? ( dev-qt/qttest:5 )
 DESCRIPTION=Single Sign On framework for the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/signon-ui
-IUSE=debug test
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=dev-qt/qtchooser
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/s/signon-ui/signon-ui_0.17+16.04.20160406.orig.tar.gz
-_eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:qt5-build src_configure:qt5-build src_compile:qt5-build src_test:qt5-build src_install:qt5-build
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	qt5-build	1b9a786a7eae4dc05152a01b5e71d5d1	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	virtualx	86c9305a59b3e0459e7fbef3a5f30b96
-_md5_=65697518ad8d77f03c5e607c19eb6dc0
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	qmake-utils	0a242e7177789b0028b4045f336dd4db	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32
+_md5_=9f0b0e6d527e77af231055c96cb92506
