@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-libs/libsodium:= pgm? ( =net-libs/openpgm-5.2.122 ) !!net-libs/cppzmq !!net-libs/zeromq sys-apps/util-linux pgm? ( virtual/pkgconfig ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A brokerless kernel
+EAPI=5
+HOMEPAGE=http://www.zeromq.org/
+IUSE=pgm static-libs test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=dev-libs/libsodium:= pgm? ( =net-libs/openpgm-5.2.122 )
+RESTRICT=mirror
+SLOT=0/4.0.0
+SRC_URI=mirror://ubuntu/pool/main/z/zeromq3/zeromq3_4.1.5+git20160811+2fc86bc.orig.tar.gz mirror://ubuntu/pool/main/z/zeromq3/zeromq3_4.1.5+git20160811+2fc86bc-0ubuntu2.debian.tar.xz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:autotools-utils src_test:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32
+_md5_=62ccaa4c235821e3030df8552dc277c4
