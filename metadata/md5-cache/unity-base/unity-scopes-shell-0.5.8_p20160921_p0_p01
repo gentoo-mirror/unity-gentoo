@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=app-misc/location-service dev-libs/boost:= dev-libs/dbus-cpp dev-libs/libqtdbusmock dev-libs/libqtdbustest dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 unity-base/ubuntu-system-settings-online-accounts unity-base/unity unity-base/unity-api unity-base/unity-scopes-api x11-libs/gsettings-qt doc? ( dev-python/sphinx[python_targets_python3_4(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_5(-),python_single_target_python3_4(+)] ) sys-devel/make >=dev-util/cmake-3.5.2 >=sys-apps/sed-4
+DESCRIPTION=QML plugin that exposes Scopes functionality to Unity shell
+EAPI=6
+HOMEPAGE=https://launchpad.net/unity-scopes-shell
+IUSE=doc python_targets_python3_4
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/u/unity-scopes-shell/unity-scopes-shell_0.5.8+16.10.20160921.orig.tar.gz mirror://ubuntu/pool/main/u/unity-scopes-shell/unity-scopes-shell_0.5.8+16.10.20160921-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	fa4d8052a1ccf4fbbfa76361bffebe42	eutils	017377e73405d964cd0137088cddb9c3	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	gnome2-utils	c6dcdf3a2c22b578b16adb945dc85c35	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	66b3bf714f8cfc1b6494db5269b4666e	python-single-r1	19a74c6b5c191723a997dc7e0cc6bb09	python-utils-r1	d142329ab093dd20c1dd0edb5f094108	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
+_md5_=0a5139bce45e6cd816fd28f6648d9fdf
