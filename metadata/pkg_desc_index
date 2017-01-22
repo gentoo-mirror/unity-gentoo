@@ -74,6 +74,7 @@ gnome-extra/polkit-gnome 0.105_p_p2_p02-r1: A dbus session bus service that is u
 mail-client/thunderbird 45.5.1_p_p0_p00161001: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p02: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016092602_p0_p01: Ubuntu's thumbnailer service
+media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/mesa 12.0.3_p_p1_p02: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p_p7_p02: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 9.0_p_p2_p0201: A networked sound server with an advanced plugin system patched for the Unity desktop
