@@ -69,7 +69,7 @@ gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01: Collection of GSettings sc
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.20.3_p_p1_p0301: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23: Blacklist configuration user interface for Zeitgeist
-gnome-extra/nm-applet 1.2.4_p_p0_p02: GNOME applet for NetworkManager
+gnome-extra/nm-applet 1.4.2_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02-r1: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 45.5.1_p_p0_p00161001: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p02: Open source photo manager for GNOME patched for the Unity desktop
