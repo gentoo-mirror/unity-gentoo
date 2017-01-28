@@ -80,7 +80,7 @@ media-sound/banshee 2.9.0_p_p7_p02: Import, organize, play, and share your music
 media-sound/pulseaudio 9.0_p_p2_p0201: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.4.1_p_p1_p01: Music management and playback software for GNOME patched for the Unity desktop
 mir-base/mir 0.24.0_p2016081503_p0_p02: Mir is a display server technology
-mir-base/platform-api 3.0.1_p20160818_p0_p01: Implementation of the Platform API for a Mir server
+mir-base/platform-api 3.0.1_p20160818_p0_p01-r1: Implementation of the Platform API for a Mir server
 mir-base/qtmir 0.4.8_p20160909_p0_p01: Qt platform abstraction (QPA) plugin for a Mir server (desktop)
 mir-base/unity-system-compositor 0.7.1_p2016090901_p0_p01: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.12_p_p3_p01: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
