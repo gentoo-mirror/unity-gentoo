@@ -219,7 +219,7 @@ x11-misc/webaccounts-browser-extension 0.5_p_p0_p04150401: Ubuntu Online Account
 x11-misc/webapps-greasemonkey 2.3.6_p20140701_p0_p01150401: WebApps: Websites integration Firefox plug-in for Unity desktop
 x11-misc/x11vnc 0.9.13_p_p0102_p01: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
-x11-themes/humanity-icon-theme 0.6.11: A nice and well polished icon theme
+x11-themes/humanity-icon-theme 0.6.11.1: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-themes 16.10_p20161024_p0_p01: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 16.10.2_p_p0_p01: Ubuntu wallpapers
