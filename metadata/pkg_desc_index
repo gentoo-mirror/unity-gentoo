@@ -87,7 +87,7 @@ net-im/empathy 3.12.12_p_p3_p01: Telepathy instant messaging and video/audio cal
 net-im/telepathy-mission-control 5.16.3_p_p2_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
 net-libs/account-plugins 0.13_p2016092901_p0_p01: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/geonames 0.2_p20160426_p0_p01: Parse and query the geonames database dump
-net-libs/gnome-online-accounts 3.20.4_p_p0_p01: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.20.5_p_p0_p0001: GNOME framework for accessing online accounts
 net-libs/libphonenumber 7.1.0_p_p5_p01: Google's phone number handling library
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
 net-libs/oxide-qt 1.19.4_p_p0_p00161001: Web browser engine library for Qt
@@ -109,7 +109,7 @@ sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desk
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
-sys-kernel/ubuntu-sources 4.8.11_p_p34_p36: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.8.16_p_p37_p39: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
