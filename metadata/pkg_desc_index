@@ -52,6 +52,7 @@ dev-python/pywapi 0.3.8_p1: Python wrapper around different weather APIs
 dev-qt/qt3d 5.6.1_p_p1_p01: Qt 3D QML module
 dev-qt/qtfeedback 5.0_p_p0_p14: Qt Feedback module
 dev-qt/qtpim 5.0_p_p0_p22: Qt PIM module, Organizer library
+dev-qt/qtsystems 5.0_p_p0_p10: Qt Systems module - system info
 dev-util/android-headers 23_p_p0_p04-r1: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 0.7_p20160513_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
@@ -115,6 +116,7 @@ sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
+unity-apps/ubuntu-terminal-app 0.7.218_p_p_p02: Unity8 Terminal application
 unity-base/bamf 0.5.3_p20160929_p0_p01-r2: BAMF Application Matching Framework
 unity-base/compiz 0.9.13.0_p2016081802_p0_p02: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.1.0_p_p1_p01: Event Emulation for the uTouch Stack

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtsystems:5 x11-libs/ubuntu-ui-toolkit sys-devel/make >=dev-util/cmake-3.5.2
+DESCRIPTION=Unity8 Terminal application
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-terminal-app
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-terminal-app/ubuntu-terminal-app_0.7.218ubuntu2.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	f0c2647fb321257c91c6a967f362d053	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=e37e8f326ab312cb25573f96a1af23c2
