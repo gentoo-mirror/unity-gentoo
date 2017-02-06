@@ -6,4 +6,4 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/yakkety
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_install:-
-_md5_=b068fb6a411bdaf8c972684928c9b1bd
+_md5_=1f179f127122136f9408a27a37e64d4e

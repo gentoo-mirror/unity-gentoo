@@ -10,4 +10,4 @@ SLOT=0/0.0.0
 SRC_URI=mirror://unity/pool/main/i/ido/ido_13.10.0+16.04.20161028.orig.tar.gz mirror://unity/pool/main/i/ido/ido_13.10.0+16.04.20161028-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	vala	ca3f1c504058f5de407febddfae73167
-_md5_=fb1da3c09a60101a3414db28ab40caf4
+_md5_=556489b8486f28b7f17c40a4d638e86d

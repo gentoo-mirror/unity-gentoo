@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/universe/g/google-mock/google-mock_1.7.0-18092013.orig.tar.bz2 mirror://unity/pool/universe/g/google-mock/google-mock_1.7.0-18092013-2.1.debian.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:- src_prepare:- src_configure:- src_install:-
 _eclasses_=libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	19a74c6b5c191723a997dc7e0cc6bb09	python-utils-r1	d275302cd06aedef2ba08f81f3104206	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32
-_md5_=0b752aeed775efde25462cf3ec318d94
+_md5_=740f6e9f2b946d140e04288030ea765c

@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://gnome/sources/gobject-introspection/1.50/gobject-introspection-1.50.0.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	ea170b525f6a38a006be05c9d9429f13	gnome.org	ad34f378a3d57a6f2f2b8b4aaca4543e	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=aa7f66f2616c0d3c5c27bf74ef134b62
+_md5_=74b10b2cb552c411c68b6e8018ac01a1

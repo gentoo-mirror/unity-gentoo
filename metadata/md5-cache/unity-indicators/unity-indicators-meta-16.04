@@ -10,4 +10,4 @@ RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmen
 RESTRICT=mirror
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=203c1191d8750046b0d5e0db2d4b436a
+_md5_=58e9f8a4644f73f4ace805500cb04d2b
