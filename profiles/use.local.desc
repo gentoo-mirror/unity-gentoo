@@ -83,6 +83,8 @@ net-im/empathy:map - Enable world map support through media-libs/libchamplain
 net-im/telepathy-mission-control:upower - Use sys-power/upower to detect suspend and resume
 net-libs/gnome-online-accounts:gnome - Use gnome-base/gnome-control-center to set GNOME online accounts preferences
 net-libs/gnome-online-accounts:uoa - Provide access to Ubuntu Online Accounts via telepathy
+net-libs/libsoup:gssapi - Enable GSSAPI support
+net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
 net-libs/oxide-qt:plugins - Build QML plugins
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
 unity-base/unity-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
