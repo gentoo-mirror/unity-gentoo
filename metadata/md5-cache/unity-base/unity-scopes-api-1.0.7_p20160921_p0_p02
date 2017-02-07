@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=dev-cpp/gmock dev-libs/boost:= dev-libs/capnproto dev-libs/glib:2 dev-libs/json-glib dev-libs/jsoncpp dev-libs/libaccounts-glib dev-libs/libsignon-glib dev-libs/net-cpp dev-libs/process-cpp dev-libs/userspace-rcu dev-util/astyle dev-util/cppcheck dev-util/lttng-tools[ust] dev-util/valgrind net-libs/zeromq3 net-libs/zmqpp sys-libs/libapparmor unity-base/unity-api !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 sys-devel/make >=dev-util/cmake-3.5.2
+DEPEND=dev-cpp/gmock dev-libs/boost:= dev-libs/capnproto dev-libs/glib:2 dev-libs/json-glib dev-libs/jsoncpp dev-libs/libaccounts-glib dev-libs/libsignon-glib dev-libs/net-cpp dev-libs/process-cpp dev-libs/userspace-rcu dev-util/astyle dev-util/cppcheck dev-util/lttng-tools[ust] dev-util/valgrind net-libs/zeromq3 net-libs/zmqpp sys-libs/libapparmor unity-base/unity-api !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 sys-devel/make >=dev-util/cmake-3.6.3
 DESCRIPTION=API for Unity scopes integration
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity-scopes-api
@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/u/unity-scopes-api/unity-scopes-api_1.0.7+16.10.20160921-0ubuntu2.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	cmake-utils	b602fb1ae4bc807a6756bb8b187fbe54	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	cmake-utils	014267c4475c1a625ecec5b16e0db1e6	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=248ca31a14de8823cb8368926a0ee10d

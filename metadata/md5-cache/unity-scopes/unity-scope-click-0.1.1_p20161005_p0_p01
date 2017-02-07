@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=app-admin/packagekit-base app-misc/pay-service dev-cpp/gmock dev-db/sqlite:3 dev-libs/boost:= dev-libs/glib:2 dev-libs/jsoncpp dev-libs/libaccounts-glib dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtnetwork:5 dev-qt/qtsql:5 net-libs/ubuntu-download-manager net-libs/ubuntuone-credentials sys-apps/ubuntu-app-launch sys-apps/upstart unity-base/signon unity-base/unity-scopes-api x11-libs/gsettings-qt sys-devel/make >=dev-util/cmake-3.5.2
+DEPEND=app-admin/packagekit-base app-misc/pay-service dev-cpp/gmock dev-db/sqlite:3 dev-libs/boost:= dev-libs/glib:2 dev-libs/jsoncpp dev-libs/libaccounts-glib dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtnetwork:5 dev-qt/qtsql:5 net-libs/ubuntu-download-manager net-libs/ubuntuone-credentials sys-apps/ubuntu-app-launch sys-apps/upstart unity-base/signon unity-base/unity-scopes-api x11-libs/gsettings-qt sys-devel/make >=dev-util/cmake-3.6.3
 DESCRIPTION=Click Packages Scope for Unity
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity-scope-click
@@ -9,5 +9,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/u/unity-scope-click/unity-scope-click_0.1.1+16.10.20161005.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	b602fb1ae4bc807a6756bb8b187fbe54	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=cmake-utils	014267c4475c1a625ecec5b16e0db1e6	eutils	ea170b525f6a38a006be05c9d9429f13	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	7bb10a841be2368af0c00f27dd67560b	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=075f75a1e1be29aff60df4914fd16d82
