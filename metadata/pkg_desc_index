@@ -127,6 +127,7 @@ unity-base/grail 3.1.0_p20160125_p0_p01: An implementation of the GRAIL (Gesture
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20160809_p0_p01: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p20160415_p0_p01-r2: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20160714_p0_p01: Visual rendering toolkit for the Unity desktop
+unity-base/online-accounts-api 0.1_p2016100301_p0_p01: Online Accounts simplified API (D-Bus service)
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p01161001: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/qtubuntu 0.63_p2016092801_p0_p01: Qt plugins for Ubuntu Platform API (desktop)
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
