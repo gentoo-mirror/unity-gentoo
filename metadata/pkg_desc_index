@@ -1,6 +1,6 @@
 app-accessibility/onboard 1.3.0_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
+app-arch/snapd 2.22.2: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301: Simple backup tool using duplicity back-end
-app-emulation/snapd 2.22.2: Service and tools for management of snap packages
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-i18n/maliit-framework 0.99.1_p_p0_p11: Maliit Input Method Framework
 app-misc/location-service 3.0.0_p20160912_p0_p01: Location service aggregating position/velocity/heading
