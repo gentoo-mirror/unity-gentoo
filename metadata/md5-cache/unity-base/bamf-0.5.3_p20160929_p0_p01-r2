@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0/1.0.0
 SRC_URI=mirror://unity/pool/main/b/bamf/bamf_0.5.3+16.10.20160929.orig.tar.gz mirror://unity/pool/main/b/bamf/bamf_0.5.3+16.10.20160929-0ubuntu1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_test:- src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	ea170b525f6a38a006be05c9d9429f13	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	5c5af07ec8e4e5c18c2e46681b6bf91f	python-utils-r1	50dad5f912d4c16c130f5679777f25e8	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	vala	ca3f1c504058f5de407febddfae73167	xdummy	ce12712244343d4c8349cf91d4dddd3e
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	ea170b525f6a38a006be05c9d9429f13	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	6793fc854691a2320226801400573568	python-utils-r1	50dad5f912d4c16c130f5679777f25e8	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	vala	ca3f1c504058f5de407febddfae73167	xdummy	ce12712244343d4c8349cf91d4dddd3e
 _md5_=6416099866845ec54277550c11913ab2
