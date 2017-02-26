@@ -111,7 +111,7 @@ gnome-base/gnome-menus 3.0.1-r3 3.13.3a_p_p6_p04: The GNOME menu system, impleme
 gnome-base/gnome-panel 3.20.1_p_p1_p02: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.20.2_p_p1_p07-r1: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01-r1: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.20.3_p_p1_p0301: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23: Blacklist configuration user interface for Zeitgeist
@@ -181,6 +181,7 @@ unity-base/signon-keyring-extension 0.6_p20140513_p0_p02: GNOME keyring extensio
 unity-base/signon-plugin-oauth2 0.24_p20160818_p0_p01: Single Signon oauth2 plugin used by the Unity desktop
 unity-base/signon-ui 0.17_p20160406_p0_p01: Single Sign On framework for the Unity desktop
 unity-base/ubuntu-docs 16.10.3: Help files for the Unity desktop
+unity-base/ubuntu-settings 16.10.3: Default settings for the Unity
 unity-base/ubuntu-settings-components 0.9_p20160927_p0_p01: Ubuntu Settings Components
 unity-base/ubuntu-system-settings 0.4_p20160927_p0_p03: System Settings application for Ubuntu Touch
 unity-base/ubuntu-system-settings-online-accounts 0.7_p20161004_p0_p01: Online Accounts setup for Ubuntu Touch
@@ -248,7 +249,7 @@ x11-libs/accounts-qml-module 0.6_p20151106_p0_p01: Expose Unity Online Accounts 
 x11-libs/content-hub 0.2_p20160914_p0_p01: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20160329_p0_p02: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.30_p_p4_p03 3.20.9_p_p1_p02: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.30_p_p4_p03 3.20.9_p_p1_p02-r1: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.14_p2015110601_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/libqofono 0.90_p20160901_p0_p01: QT library for accessing the ofono daemon, and a declarative plugin for Ofono
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
@@ -270,7 +271,8 @@ x11-misc/x11vnc 0.9.13_p_p0102_p01: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.11.1: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
+x11-themes/ubuntu-sounds 0.13: Default audio theme for the Unity
 x11-themes/ubuntu-themes 16.10_p20161024_p0_p01: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 16.10.2_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20141217_p0_p02: Unity desktop icon theme
-x11-wm/metacity 3.20.3_p_p1_p0201: GNOME default window manager
+x11-wm/metacity 3.20.3_p_p1_p0201-r1: GNOME default window manager
