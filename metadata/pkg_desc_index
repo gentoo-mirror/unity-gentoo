@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.3.0_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.22.2: Service and tools for management of snap packages
+app-arch/snapd 2.22.3: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-i18n/maliit-framework 0.99.1_p_p0_p11: Maliit Input Method Framework
@@ -148,7 +148,7 @@ net-misc/history-service 0.1_p2016090901_p0_p01: History service to store messag
 net-misc/telephony-service 0.1_p2016090901_p0_p01: Telephony service components for Ubuntu
 net-misc/url-dispatcher 0.1_p2016081601_p0_p01-r1: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 sys-apps/accountsservice 0.6.42_p_p0_p01: D-Bus interfaces for querying and manipulating user account information
-sys-apps/click 0.4.45.1_p20160916_p0_p01: Ubuntu mobile platform package management framework
+sys-apps/click 0.4.45.1_p20160916_p0_p01-r1: Ubuntu mobile platform package management framework
 sys-apps/libertine 1.4.2_p20161003_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01: Session init system job for launching applications
@@ -195,7 +195,7 @@ unity-base/unity-meta 16.10: Unity Desktop - merge this to pull in all Unity pac
 unity-base/unity-scopes-api 1.0.7_p20160921_p0_p02: API for Unity scopes integration
 unity-base/unity-scopes-shell 0.5.8_p20160921_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
 unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01-r1: Unity Settings Daemon
-unity-base/unity8 8.14_p20160922_p0_p02: Unity 8 desktop shell
+unity-base/unity8 8.14_p20160922_p0_p02-r1: Unity 8 desktop shell
 unity-base/unity8-desktop-session 1.0.13_p20160928_p0_p01: Unity8 desktop session
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
