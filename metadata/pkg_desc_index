@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.3.0_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.22.3: Service and tools for management of snap packages
+app-arch/snapd 2.22.6: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-i18n/maliit-framework 0.99.1_p_p0_p11: Maliit Input Method Framework
@@ -121,7 +121,7 @@ mail-client/thunderbird 45.7.0_p_p0_p00161001: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p02: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016092602_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
-media-libs/mesa 12.0.3_p_p1_p02: OpenGL-like graphic library for Linux
+media-libs/mesa 12.0.6_p_p0_p00161001: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p_p7_p02: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 9.0_p_p2_p0201: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.4.1_p_p1_p01: Music management and playback software for GNOME patched for the Unity desktop
@@ -156,7 +156,7 @@ sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desk
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
-sys-kernel/ubuntu-sources 4.8.16_p_p37_p39: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.8.17_p_p39_p42: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
@@ -237,7 +237,7 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 55.0.2883.87_p_p0_p011610: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 56.0.2924.76_p_p0_p001610: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 51.0.1_p_p0_p00161002: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20161018_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
