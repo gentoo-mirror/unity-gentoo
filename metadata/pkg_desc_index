@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.3.0_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.22.6: Service and tools for management of snap packages
+app-arch/snapd 2.23.1: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-i18n/maliit-framework 0.99.1_p_p0_p11: Maliit Input Method Framework
@@ -156,7 +156,7 @@ sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desk
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
-sys-kernel/ubuntu-sources 4.8.17_p_p39_p42: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.8.17_p_p41_p44: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
@@ -249,7 +249,7 @@ x11-libs/accounts-qml-module 0.6_p20151106_p0_p01: Expose Unity Online Accounts 
 x11-libs/content-hub 0.2_p20160914_p0_p01: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20160329_p0_p02: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.30_p_p4_p03 3.20.9_p_p1_p02-r1: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.30_p_p4_p03 3.20.9_p_p1_p0201: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.14_p2015110601_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/libqofono 0.90_p20160901_p0_p01: QT library for accessing the ofono daemon, and a declarative plugin for Ofono
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
