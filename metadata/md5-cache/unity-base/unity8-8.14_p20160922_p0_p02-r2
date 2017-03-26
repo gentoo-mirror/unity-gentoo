@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=app-admin/cgmanager[pam] sys-auth/pambase[lxcfs] sys-auth/polkit-pkla-compat unity-base/ubuntu-settings-components unity-base/unity-scopes-shell x11-libs/unity-notifications x11-misc/ubuntu-keyboard x11-themes/ubuntu-themes x11-themes/vanilla-dmz-xcursors x11-libs/gtk+:3[mir] app-misc/pay-service dev-libs/glib:2 dev-libs/libevdev dev-libs/libhybris dev-libs/libsigc++:2 dev-libs/libunity dev-libs/libusermetrics dev-perl/JSON dev-python/setuptools dev-qt/qtcore:5 dev-qt/qtdeclarative:5[xml] dev-qt/qtxmlpatterns:5 dev-util/android-headers dev-util/dbus-test-runner dev-util/pkgconfig media-fonts/ubuntu-font-family media-libs/mesa media-sound/pulseaudio net-libs/ubuntu-download-manager net-misc/telephony-service sys-apps/upstart sys-libs/libnih unity-base/hud unity-base/ubuntu-system-settings unity-base/unity-api unity-indicators/indicator-network x11-libs/dee-qt x11-libs/gsettings-qt x11-libs/libxcb x11-libs/qmenumodel x11-libs/ubuntu-ui-toolkit >=sys-apps/sed-4 sys-devel/make >=dev-util/cmake-3.7.2 virtual/pkgconfig test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DESCRIPTION=Unity 8 desktop shell
+EAPI=6
+HOMEPAGE=https://launchpad.net/unity8
+IUSE=+debug test test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 LGPL-3
+RDEPEND=app-admin/cgmanager[pam] sys-auth/pambase[lxcfs] sys-auth/polkit-pkla-compat unity-base/ubuntu-settings-components unity-base/unity-scopes-shell x11-libs/unity-notifications x11-misc/ubuntu-keyboard x11-themes/ubuntu-themes x11-themes/vanilla-dmz-xcursors x11-libs/gtk+:3[mir]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/u/unity8/unity8_8.14+16.10.20160922.orig.tar.gz
+_eclass_exported_funcs=pkg_preinst:- pkg_postrm:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	a69f3a404abc4ade0a99e523f51b989d	epatch	8233751dc5105a6ae8fcd86ce2bb0247	epunt-cxx	f8073339d152f56626493f43d8ba4691	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	e7491451996e8b54c3caeb713285b0fb	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	gnome2-utils	6d2af8c7ab84825693c3f065a37b923c	linux-info	ca370deef9d44125d829f2eb6ebc83e0	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	multiprocessing	284a473719153462f3e974d86c8cb81c	pam	3e788d86170dfcd5b06824d898315e18	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	6430592bc893829dbdd4c55a45091c32	versionator	c80ccf29e90adea7c5cae94b42eb76d0	virtualx	171580f737f5aaf18fcb456548588066	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
+_md5_=e9046cc2ccadeb24df0df06b4d659da6

@@ -152,10 +152,11 @@ sys-apps/click 0.4.45.1_p20160916_p0_p01-r1: Ubuntu mobile platform package mana
 sys-apps/libertine 1.4.2_p20161003_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p_p0_p34: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p_p0_p34-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
+sys-auth/pambase 20150213-r1: PAM base configuration files
 sys-kernel/ubuntu-sources 4.8.17_p_p42_p45: Ubuntu patched kernel sources
 sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
@@ -195,7 +196,7 @@ unity-base/unity-meta 16.10: Unity Desktop - merge this to pull in all Unity pac
 unity-base/unity-scopes-api 1.0.7_p20160921_p0_p02: API for Unity scopes integration
 unity-base/unity-scopes-shell 0.5.8_p20160921_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
 unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01-r2: Unity Settings Daemon
-unity-base/unity8 8.14_p20160922_p0_p02-r1: Unity 8 desktop shell
+unity-base/unity8 8.14_p20160922_p0_p02-r2: Unity 8 desktop shell
 unity-base/unity8-desktop-session 1.0.13_p20160928_p0_p01: Unity8 desktop session
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
