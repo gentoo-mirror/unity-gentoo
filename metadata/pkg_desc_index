@@ -158,7 +158,6 @@ sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google T
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
 sys-kernel/ubuntu-sources 4.8.17_p_p44_p47: Ubuntu patched kernel sources
-sys-libs/libapparmor 2.9.1: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
