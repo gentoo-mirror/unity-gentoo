@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.3.0_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.22.6: Service and tools for management of snap packages
+app-arch/snapd 2.24.1: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-misc/location-service 3.0.0_p20160912_p0_p01: Location service aggregating position/velocity/heading
@@ -156,7 +156,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.8.17_p_p46_p49: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.8.17_p_p49_p52: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -236,7 +236,7 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 57.0.2987.98_p_p0_p001610: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 58.0.3029.81_p_p0_p001610: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 53.0_p_p0_p00161001: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20161018_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
