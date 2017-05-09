@@ -116,7 +116,7 @@ gnome-base/nautilus 3.20.3_p_p1_p0301: A file manager for the GNOME desktop patc
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02-r1: A dbus session bus service that is used to bring up authentication dialogs
-mail-client/thunderbird 45.8.0_p_p0_p00161001: Thunderbird Mail Client
+mail-client/thunderbird 45.8.0_p_p0_p01: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p02: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016092602_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
@@ -136,7 +136,7 @@ net-libs/gnome-online-accounts 3.20.5_p_p0_p0001: GNOME framework for accessing 
 net-libs/libphonenumber 7.1.0_p_p5_p01: Google's phone number handling library
 net-libs/libsoup 2.52.2: An HTTP library implementation in C
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
-net-libs/oxide-qt 1.21.5_p_p0_p00161001: Web browser engine library for Qt
+net-libs/oxide-qt 1.21.5_p_p0_p01: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 net-libs/ubuntu-download-manager 1.3_p2016090901_p0_p01: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p20131125_p0_p02: A GeoClue provider for Ubuntu GeoIP server
@@ -156,7 +156,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.8.17_p_p49_p52: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.8_p_p20_p22: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -236,8 +236,8 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 58.0.3029.81_p_p0_p001610: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 53.0_p_p0_p00161001: Firefox Web Browser
+www-client/chromium 58.0.3029.81_p_p0_p021704: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/firefox 53.0_p_p0_p00170401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20161018_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.4_p_p1_p0601: X.Org X servers patched for the Unity desktop
