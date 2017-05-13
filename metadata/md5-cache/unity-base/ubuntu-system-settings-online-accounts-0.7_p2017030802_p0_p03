@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtxml:5 mir-base/mir net-libs/oxide-qt sys-apps/click unity-base/signon unity-base/signon-ui unity-base/ubuntu-system-settings x11-libs/libaccounts-qt x11-libs/libnotify x11-libs/ubuntu-ui-toolkit test? ( dev-qt/qttest:5 )
+DESCRIPTION=Online Accounts setup for Ubuntu Touch
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-system-settings-online-accounts
+IUSE=test python_targets_python3_4
+LICENSE=GPL-3
+PDEPEND=unity-base/online-accounts-api
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-system-settings-online-accounts/ubuntu-system-settings-online-accounts_0.7+17.04.20170308.2.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	c11fc374357e6ad9ddfe2e9f931e4d29	qmake-utils	ea78a9056543346cdc8cbbd07f16c6fb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	76bb2f590314a3fc848fadb6e950696d
+_md5_=92879a5a00926b4081b9608ae6ae6d38

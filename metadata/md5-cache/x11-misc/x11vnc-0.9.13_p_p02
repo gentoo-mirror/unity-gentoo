@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=system-libvncserver? ( >=net-libs/libvncserver-0.9.7[threads=,jpeg=,zlib=] ) !system-libvncserver? ( zlib? ( sys-libs/zlib ) jpeg? ( virtual/jpeg:0 ) ) dummy? ( x11-drivers/xf86-video-dummy ) ssl? ( dev-libs/openssl ) tk? ( dev-lang/tk ) avahi? ( >=net-dns/avahi-0.6.4 ) xinerama? ( x11-libs/libXinerama ) x11-libs/libXfixes x11-libs/libXrandr x11-libs/libX11 >=x11-libs/libXtst-1.1.0 x11-libs/libXdamage x11-libs/libXext x11-libs/libXt xinerama? ( x11-proto/xineramaproto ) x11-proto/inputproto x11-proto/trapproto x11-proto/recordproto x11-proto/xproto x11-proto/xextproto
+DESCRIPTION=A VNC server for real X displays
+EAPI=6
+HOMEPAGE=http://www.karlrunge.com/x11vnc/
+IUSE=avahi crypt dummy fbcon +jpeg ssl system-libvncserver threads tk xinerama +zlib
+LICENSE=GPL-2
+RDEPEND=system-libvncserver? ( >=net-libs/libvncserver-0.9.7[threads=,jpeg=,zlib=] ) !system-libvncserver? ( zlib? ( sys-libs/zlib ) jpeg? ( virtual/jpeg:0 ) ) dummy? ( x11-drivers/xf86-video-dummy ) ssl? ( dev-libs/openssl ) tk? ( dev-lang/tk ) avahi? ( >=net-dns/avahi-0.6.4 ) xinerama? ( x11-libs/libXinerama ) x11-libs/libXfixes x11-libs/libXrandr x11-libs/libX11 >=x11-libs/libXtst-1.1.0 x11-libs/libXdamage x11-libs/libXext
+SLOT=0
+SRC_URI=mirror://sourceforge/libvncserver/x11vnc-0.9.13.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	76bb2f590314a3fc848fadb6e950696d
+_md5_=633ed38ea7f31a23fbcf0362891dbd34

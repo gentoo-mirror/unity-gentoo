@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=dev-libs/glib:2 dev-libs/libdbusmenu:=[gtk3] x11-libs/libX11 x11-libs/gtk+:2 x11-libs/gtk+:3 !x11-misc/appmenu-gtk >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=GTK+ module for exporting old-style menus as GMenuModels
+EAPI=6
+HOMEPAGE=https://launchpad.net/unity-gtk-module
+IUSE=python_targets_python2_7
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/unity-gtk-module/unity-gtk-module_0.0.0+17.04.20170403.orig.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multibuild	72647e255187a1fadc81097b3657e5c3	multilib	0236be304ee52e7f179ed2f337075515	python-r1	0c067f080a047742ffac024b16895b45	python-utils-r1	c11fc374357e6ad9ddfe2e9f931e4d29	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	76bb2f590314a3fc848fadb6e950696d
+_md5_=4522e0563c77c8044cb91e94d4b6fbca

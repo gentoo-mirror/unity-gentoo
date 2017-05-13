@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=!x11-themes/light-themes x11-themes/hicolor-icon-theme x11-misc/icon-naming-utils dev-util/intltool sys-devel/gettext virtual/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=Monochrome icons for the Unity desktop (default icon theme)
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-themes
+IUSE=python_targets_python2_7
+LICENSE=GPL-3 CC-BY-SA-3.0
+RDEPEND=!x11-themes/light-themes x11-themes/hicolor-icon-theme
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-themes/ubuntu-themes_16.10+17.04.20170406.orig.tar.gz mirror://unity/pool/main/u/ubuntu-themes/ubuntu-themes_16.10+17.04.20170406-0ubuntu1.diff.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	gnome2-utils	8a5e0bf2b8031478ecfeaec753ef4560	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	python-single-r1	c3e54dd0dc1e70c6252f2551a55bf053	python-utils-r1	c11fc374357e6ad9ddfe2e9f931e4d29	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	76bb2f590314a3fc848fadb6e950696d	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
+_md5_=af56996e42211937e90280d9846dc04d
