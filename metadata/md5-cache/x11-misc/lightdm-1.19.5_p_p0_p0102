@@ -4,12 +4,13 @@ DESCRIPTION=A lightweight display manager
 EAPI=6
 HOMEPAGE=https://launchpad.net/lightdm
 IUSE=lightdm_greeters_gtk lightdm_greeters_kde +lightdm_greeters_unity +introspection qt4 qt5 mir test
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 LGPL-3
 PDEPEND=lightdm_greeters_gtk? ( x11-misc/lightdm-gtk-greeter ) lightdm_greeters_kde? ( x11-misc/lightdm-kde ) lightdm_greeters_unity? ( unity-extra/unity-greeter )
 RDEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam[audit] x11-libs/libX11 >=x11-libs/libxklavier-5 introspection? ( >=dev-libs/gobject-introspection-1 ) mir? ( mir-base/unity-system-compositor ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) sys-auth/pambase x11-apps/xrandr >=app-eselect/eselect-lightdm-0.2
 RESTRICT=mirror
 SLOT=0
-SRC_URI=mirror://unity/pool/main/l/lightdm/lightdm_1.22.0-0ubuntu2.tar.gz
+SRC_URI=mirror://unity/pool/main/l/lightdm/lightdm_1.19.5-0ubuntu1.2.tar.gz
 _eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	pam	3e788d86170dfcd5b06824d898315e18	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	76bb2f590314a3fc848fadb6e950696d	user	e4b567c44272a719fabf53f0f885d3f7	vala	45cd5c637ea9287eeaf983960768e17c
-_md5_=e918e3bce8ca1f361c32134c988d237e
+_md5_=e79f99f388f6f4af64c4467891dd351d
