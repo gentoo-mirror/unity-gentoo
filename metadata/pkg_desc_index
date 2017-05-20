@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.3.0_p_p0_p01 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.24.1 2.24.1a: Service and tools for management of snap packages
+app-arch/snapd 2.25 2.25a: Service and tools for management of snap packages
 app-backup/deja-dup 34.2_p_p0_p0301 34.4_p_p0_p01: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-misc/location-service 3.0.0_p20160912_p0_p01: Location service aggregating position/velocity/heading
@@ -116,7 +116,7 @@ gnome-base/nautilus 3.20.3_p_p1_p0301 3.20.4_p_p0_p02: A file manager for the GN
 gnome-extra/activity-log-manager 0.9.7_p_p0_p25 0.9.7_p_p0_p23161001: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02-r1 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
-mail-client/thunderbird 45.8.0_p_p0_p01: Thunderbird Mail Client
+mail-client/thunderbird 52.1.1_p_p0_p00170401: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p02 0.22.0_p20160108_p0_p03: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016092602_p0_p01 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
@@ -156,7 +156,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.8_p_p20_p22: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.11_p_p21_p23: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -236,7 +236,7 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 58.0.3029.96_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 58.0.3029.110_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 53.0.2_p_p0_p00170402: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20161018_p0_p01 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18 1.19: Meta package containing deps on all xorg drivers
