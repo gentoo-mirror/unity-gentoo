@@ -139,7 +139,7 @@ net-libs/libsoup 2.52.2: An HTTP library implementation in C
 net-libs/libsoup-gnome 2.52.2: GNOME plugin for libsoup
 net-libs/oxide-qt 1.21.5_p_p0_p01: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-net-libs/ubuntu-download-manager 1.3_p20161202_p0_p01 1.3_p2016090901_p0_p01: A daemon that offers a DBus API to perform downloads
+net-libs/ubuntu-download-manager 1.3_p2016090901_p0_p01 1.3a_p20161202_p0_p01: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p20131125_p0_p02: A GeoClue provider for Ubuntu GeoIP server
 net-libs/ubuntuone-credentials 15.11_p20160920 15.11_p20161107: Ubuntu One authentication library
 net-libs/zeromq3 4.1.5_p_p0_p02 4.2.1_p_p2_p01: A brokerless kernel
