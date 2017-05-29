@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity-webapps-qml/unity-webapps-qml_0.1+16.10.20160713.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_install:-
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	be89e882151ba4b847089b860d79729c	python-utils-r1	7aaf8e4bc5ba6cae58ff688b5a857866	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
 _md5_=32aee3ba4361ebf0924ab8dcdab1a0d3
