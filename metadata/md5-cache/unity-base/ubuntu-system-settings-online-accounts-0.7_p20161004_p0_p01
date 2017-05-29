@@ -11,5 +11,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-system-settings-online-accounts/ubuntu-system-settings-online-accounts_0.7+16.10.20161004.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_install:-
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	7aaf8e4bc5ba6cae58ff688b5a857866	qmake-utils	40a2ae377c3111aa116512aaf010f6ff	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	7aaf8e4bc5ba6cae58ff688b5a857866	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
 _md5_=a75bb39ec6fc17c984b4d4cb73d7eaef
