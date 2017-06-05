@@ -15,6 +15,7 @@ dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.0.4.0 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
+dev-libs/capnproto 0.5.3_p_p2_p01 0.5.3_p_p2_p02: RPC/Serialization system with capabilities support
 dev-libs/dbus-cpp 5.0.0_p20160809_p0_p01 5.0.0_p20160809_p0_p02: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p20150304_p0_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.50.2_p_p2_p01 2.52.0_p1: The GLib library of C routines patched for the Unity desktop
@@ -146,7 +147,7 @@ net-libs/zeromq3 4.1.5_p_p0_p02 4.2.1_p_p2_p01: A brokerless kernel
 net-libs/zmqpp 4.1.2_p_p0_p01: 0mq 'highlevel' C++ bindings
 net-misc/history-service 0.1_p20161130_p0_p01 0.1_p2016090901_p0_p01: History service to store messages and calls for Ubuntu
 net-misc/telephony-service 0.1_p2016090901_p0_p01 0.1_p2016121301_p0_p01: Telephony service components for Ubuntu
-net-misc/url-dispatcher 0.1_p20170328_p0_p02 0.1_p2016081601_p0_p01-r1: Service to allow sending of URLs and get handlers started, used by the Unity desktop
+net-misc/url-dispatcher 0.1_p2016081601_p0_p01-r1 0.1a_p20170328_p0_p02: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 sys-apps/accountsservice 0.6.42_p_p0_p01 0.6.42_p_p0_p02: D-Bus interfaces for querying and manipulating user account information
 sys-apps/click 0.4.45.1_p20160916_p0_p01-r1: Ubuntu mobile platform package management framework
 sys-apps/libertine 1.4.2_p20161003_p0_p01 1.7.1_p20170331_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
@@ -238,7 +239,7 @@ unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 58.0.3029.110_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 53.0.2_p_p0_p00170402: Firefox Web Browser
+www-client/firefox 53.0.3_p_p0_p00170402: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20161018_p0_p01 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.18 1.19: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 1.18.4_p_p1_p0601 1.19.3_p_p1_p01: X.Org X servers patched for the Unity desktop

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare setup
-DEPEND=dev-lang/go dev-libs/glib:2 dev-python/docutils sys-apps/systemd sys-fs/squashfs-tools sys-libs/libseccomp >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DEPEND=dev-lang/go dev-libs/glib:2 dev-python/docutils sys-apps/systemd sys-fs/squashfs-tools sys-fs/xfsprogs sys-libs/libseccomp >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
 DESCRIPTION=Service and tools for management of snap packages
 EAPI=6
 HOMEPAGE=https://github.com/snapcore/snapd
@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/s/snapd/snapd_2.25+16.10.tar.xz
 _eclass_exported_funcs=pkg_postrm:- pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	e32ea84bf82cf8987965b574672dba93	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
-_md5_=9ef2c6548a559bb7ae4fa127d83b0a5d
+_md5_=6196327ca65fb47392057b2246b6243d
