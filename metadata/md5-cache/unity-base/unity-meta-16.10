@@ -9,5 +9,5 @@ LICENSE=metapackage
 RESTRICT=mirror
 SLOT=0/yakkety
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	c6611b6fb92a3f3f589fb126aba17440
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
 _md5_=b4c5c2d94e201cf2bbea70b3ed86047e
