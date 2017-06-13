@@ -112,7 +112,7 @@ gnome-base/gnome-desktop 3.20.2_p_p1_p01 3.24.1_p_p0_p01: Libraries for the gnom
 gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p6_p04 3.13.3_p_p6_p05: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.20.1_p_p1_p02 3.22.0_p_p2_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.20.2_p_p1_p07-r1 3.24.0_p_p0_p01: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01 3.24.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01 3.24.2_p_p0_p0001: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01-r1 3.24.0_p_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.20.3_p_p1_p0301 3.20.4_p_p0_p02: A file manager for the GNOME desktop patched for the Unity desktop
