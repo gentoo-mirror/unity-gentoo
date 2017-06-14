@@ -1,7 +1,7 @@
 DEFINED_PHASES=-
 DEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) printer? ( unity-indicators/indicator-printers ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
 DESCRIPTION=Unity Desktop - merge this to pull in all Unity indicators
-EAPI=4
+EAPI=6
 HOMEPAGE=http://unity.ubuntu.com/
 IUSE=+battery bluetooth +datetime +keyboard paste +printer sensors +session +sound weather
 KEYWORDS=~amd64 ~x86
@@ -10,4 +10,4 @@ RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmen
 RESTRICT=mirror
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=58e9f8a4644f73f4ace805500cb04d2b
+_md5_=35a6a44041d8d9f3e17ffe24a1eaa158
