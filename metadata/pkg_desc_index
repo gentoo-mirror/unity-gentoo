@@ -32,7 +32,7 @@ dev-libs/libindicator 16.10.0_p20160913_p0_p01: A set of symbols and convenience
 dev-libs/libinput 1.4.3_p_p0_p01 1.6.3_p_p1_p01: Library to handle input devices in Wayland
 dev-libs/libqtdbusmock 0.5_p20151009_p0_p01 0.7_p2017031601_p0_p01: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p20160216_p0_p01 0.2_p20170106_p0_p01: Library to facilitate testing DBus interactions in Qt applications
-dev-libs/libsignon-glib 1.14_p20161117_p0_p01 1.14_p2016080202_p0_p01: GObject introspection data for the Signon library for the Unity desktop
+dev-libs/libsignon-glib 1.14_p2016080202_p0_p01 1.14a_p20161117_p0_p01: GObject introspection data for the Signon library for the Unity desktop
 dev-libs/libtimezonemap 0.4.5: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4a_p20160516_p0_p01: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p01: Miscellaneous modules for the Unity desktop
@@ -116,7 +116,7 @@ gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01 3.24.2_p_p0_p0001: Gnome Settin
 gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01-r1 3.24.0_p_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.20.3_p_p1_p0301 3.20.4_p_p0_p02: A file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p_p0_p25 0.9.7_p_p0_p23161001: Blacklist configuration user interface for Zeitgeist
+gnome-extra/activity-log-manager 0.9.7_p_p0_p23161001 0.9.7a_p_p0_p25: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02-r1 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 52.1.1_p_p0_p00170401: Thunderbird Mail Client
@@ -133,7 +133,7 @@ mir-base/qtmir 0.4.8_p20160909_p0_p01 0.5.1_p20170404_p0_p02: Qt platform abstra
 mir-base/unity-system-compositor 0.7.1_p2016090901_p0_p01 0.9.1_p20170216_p0_p01: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.12_p_p3_p01: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p_p2_p01 5.16.3_p_p0201_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
-net-libs/account-plugins 0.13_p20170314_p0_p01 0.13_p2016092901_p0_p01: Online account plugin for gnome-control-center used by the Unity desktop
+net-libs/account-plugins 0.13_p2016092901_p0_p01 0.13a_p20170314_p0_p01: Online account plugin for gnome-control-center used by the Unity desktop
 net-libs/geonames 0.2_p20160426_p0_p01 0.2_p20170220_p0_p01: Parse and query the geonames database dump
 net-libs/gnome-online-accounts 3.20.5_p_p0_p0001 3.24.0_p_p0_p01: GNOME framework for accessing online accounts
 net-libs/libphonenumber 7.1.0_p_p5_p01 7.1.0_p_p5_p02: Google's phone number handling library
@@ -174,8 +174,8 @@ unity-base/grail 3.1.0_p20160125_p0_p01: An implementation of the GRAIL (Gesture
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20160809_p0_p01 0.0.7_p20161109_p0_p01: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p20160415_p0_p01-r2 14.10_p2017010601_p0_p01: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20160714_p0_p01 4.0.8_p20170213_p0_p01: Visual rendering toolkit for the Unity desktop
-unity-base/online-accounts-api 0.1_p20161223_p0_p01 0.1_p2016100301_p0_p01: Online Accounts simplified API (D-Bus service)
-unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02 0.2.17.1_p20151117_p0_p01161001: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
+unity-base/online-accounts-api 0.1_p2016100301_p0_p01 0.1a_p20161223_p0_p01: Online Accounts simplified API (D-Bus service)
+unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p01161001 0.2.17.1a_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/qtubuntu 0.63_p2016092801_p0_p01 0.64_p20170404_p0_p01: Qt plugins for Ubuntu Platform API (desktop)
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
 unity-base/signon 8.59_p20160916_p0_p01: Single Sign On framework for the Unity desktop
@@ -193,7 +193,7 @@ unity-base/unity-build-env 16.10 17.04: Merge this to setup the Unity desktop bu
 unity-base/unity-control-center 15.04.0_p2016100301_p0_p02 15.04.0_p2017040206_p0_p01: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20160913_p0_p01 0.0.0_p20170403_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 16.10-r1 17.04: Language translations pack for Unity desktop
-unity-base/unity-meta 16.10: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-meta 16.10 17.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-scopes-api 1.0.7_p20160921_p0_p02 1.0.8_p20170116_p0_p01: API for Unity scopes integration
 unity-base/unity-scopes-shell 0.5.8_p20160921_p0_p01 0.5.8_p20170310_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
 unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01-r2 15.04.1_p20170418_p0_p01: Unity Settings Daemon
@@ -221,7 +221,7 @@ unity-indicators/indicator-applet 12.10.2_p20161202_p0_p01 12.10.2_p2014112702_p
 unity-indicators/indicator-application 12.10.1_p20161201_p0_p01 12.10.1_p20170120_p0_p01: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p20160927_p0_p01: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p20161003_p0_p01 0.0.6_p20170322_p0_p01: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p20170322_p0_p02 15.10_p2016082001_p0_p01: Date and Time Indicator used by the Unity desktop
+unity-indicators/indicator-datetime 15.10_p2016082001_p0_p01 15.10a_p20170322_p0_p02: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p20161010_p0_p01 0.0.0_p20170301_p0_p01: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20150505_p0_p01 13.10.1_p20170120_p0_p01: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-network 0.8.0_p2016093005_p0_p02 0.9.0_p20170322_p0_p01: Systems settings menu service - Network indicator
