@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure postinst prepare setup
-DEPEND=dev-libs/dee:= dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity:= net-libs/libsoup-gnome net-libs/liboauth sys-apps/util-linux unity-base/unity || ( dev-lang/vala:0.32[vapigen(+)] ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DEPEND=dev-libs/dee:= dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity:= net-libs/libsoup net-libs/liboauth sys-apps/util-linux unity-base/unity || ( dev-lang/vala:0.32[vapigen(+)] ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
 DESCRIPTION=Home scope that aggregates results from multiple scopes for the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/unity-scope-home
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity-scope-home/unity-scope-home_6.8.2+16.04.20160212.1.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	vala	f86cd45e9ae738c40c92f990266f39a7	virtualx	171580f737f5aaf18fcb456548588066
-_md5_=18c14c3436907cc48df12304aff8f7ba
+_md5_=f382c032f03cf63cc035c31355d6abe1
