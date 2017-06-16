@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/s/signon-plugin-oauth2/signon-plugin-oauth2_0.24+16.10.20160818.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
 _md5_=57afff3f669fb3a520961c0b58e5bad2
