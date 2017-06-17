@@ -117,6 +117,7 @@ gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01-r1 3.24.0_p_p0_p01: Collect
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.20.3_p_p1_p0301 3.20.4_p_p0_p02: A file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p23161001 0.9.7a_p_p0_p25: Blacklist configuration user interface for Zeitgeist
+gnome-extra/evolution-data-server 3.20.6: Evolution groupware backend
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p2_p02-r1 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 52.1.1_p_p0_p00170401: Thunderbird Mail Client
