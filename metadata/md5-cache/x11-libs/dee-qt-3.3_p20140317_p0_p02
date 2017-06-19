@@ -1,15 +1,16 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=>=dev-libs/dee-1.2.7 dev-libs/glib:2 dev-qt/qtcore:4 dev-qt/qtdeclarative:4 qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 ) sys-devel/make >=dev-util/cmake-3.7.2
+DEPEND=>=dev-libs/dee-1.2.7 dev-libs/glib:2 qt4? ( dev-qt/qtcore:4 dev-qt/qtdeclarative:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 ) sys-devel/make >=dev-util/cmake-3.7.2
 DESCRIPTION=Qt binding and QML plugin for Dee for the Unity desktop
 EAPI=6
 HOMEPAGE=http://unity.ubuntu.com/
-IUSE=qt5
+IUSE=qt4 qt5
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
-RDEPEND=>=dev-libs/dee-1.2.7 dev-libs/glib:2 dev-qt/qtcore:4 dev-qt/qtdeclarative:4 qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 )
+RDEPEND=>=dev-libs/dee-1.2.7 dev-libs/glib:2 qt4? ( dev-qt/qtcore:4 dev-qt/qtdeclarative:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 )
+REQUIRED_USE=!qt5? ( qt4 )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/d/dee-qt/dee-qt_3.3+14.04.20140317.orig.tar.gz mirror://unity/pool/main/d/dee-qt/dee-qt_3.3+14.04.20140317-0ubuntu2~gcc5.1.diff.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:- src_test:cmake-utils src_install:-
 _eclasses_=cmake-utils	026933aff3889190eeb565b642cfe252	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	284a473719153462f3e974d86c8cb81c	ninja-utils	ebb2eaddc6331c4fa000b8eb8f6fe074	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
-_md5_=5ba6e9a5b720e677fb4a4580955e7b44
+_md5_=36b601166eb4fe1d6970fea52b89af41
