@@ -89,8 +89,11 @@ net-libs/oxide-qt:plugins - Build QML plugins
 unity-base/ubuntu-settings:ubuntu-cursor - Enable DMZ-White - Ubuntu's default cursor theme
 unity-base/ubuntu-settings:ubuntu-sounds - Enable Ubuntu's default audio theme
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
+unity-base/unity-control-center:colord - Support color management using x11-misc/colord
+unity-base/unity-control-center:fcitx - Enable support for enhanced input methods through app-i18n/fcitx
 unity-base/unity-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
 unity-base/unity-control-center:i18n - Enable support for enhanced input methods through app-i18n/ibus
+unity-base/unity-control-center:language-selector - Add Language Support launcher to configure language through gnome-base/gnome-control-center
 unity-base/unity-language-pack:l10n_nb - Norwegian Bokmål
 unity-base/unity-meta:accessibility - Gnome accessibility packages
 unity-base/unity-meta:chat - Instant messaging desktop integration via the messages indicator and empathy
