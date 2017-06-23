@@ -128,7 +128,7 @@ media-libs/mesa 12.0.6_p_p0_p00161001 17.0.3_p_p1_p01: OpenGL-like graphic libra
 media-sound/banshee 2.9.0_p_p7_p02-r1: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 9.0_p_p2_p0201 10.0_p_p1_p02: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.4.1_p_p1_p01 3.4.1_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
-mir-base/mir 0.24.0_p2016081503_p0_p02 0.26.3_p20170605_p0_p01: Mir is a display server technology
+mir-base/mir 0.26.3_p20170605_p0_p01 0.26.3a_p20170605_p0_p01: Mir is a display server technology
 mir-base/platform-api 3.0.1_p20160818_p0_p01-r1 3.0.1_p20170215_p0_p01: Implementation of the Platform API for a Mir server
 mir-base/qtmir 0.4.8_p20160909_p0_p01 0.5.1_p20170404_p0_p02: Qt platform abstraction (QPA) plugin for a Mir server (desktop)
 mir-base/unity-system-compositor 0.7.1_p2016090901_p0_p01 0.9.1_p20170216_p0_p01: Compositor for Mir display server that switches graphics and input between running sessions
@@ -150,7 +150,7 @@ net-misc/history-service 0.1_p20161130_p0_p01 0.1_p2016090901_p0_p01: History se
 net-misc/telephony-service 0.1_p2016090901_p0_p01 0.1_p2016121301_p0_p01: Telephony service components for Ubuntu
 net-misc/url-dispatcher 0.1_p2016081601_p0_p01-r1 0.1a_p20170328_p0_p02: Service to allow sending of URLs and get handlers started, used by the Unity desktop
 sys-apps/accountsservice 0.6.42_p_p0_p01 0.6.42_p_p0_p02: D-Bus interfaces for querying and manipulating user account information
-sys-apps/click 0.4.45.1_p20160916_p0_p01-r1: Ubuntu mobile platform package management framework
+sys-apps/click 0.4.46_p2017060703_p0_p01 0.4.46a_p2017060703_p0_p01: Ubuntu mobile platform package management framework
 sys-apps/libertine 1.4.2_p20161003_p0_p01 1.7.1_p20170331_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01 0.12_p2017040402_p0_p02: Session init system job for launching applications
@@ -159,7 +159,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.15_p_p22_p24: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.15_p_p24_p28: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
