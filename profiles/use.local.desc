@@ -99,6 +99,7 @@ unity-base/unity-meta:accessibility - Gnome accessibility packages
 unity-base/unity-meta:chat - Instant messaging desktop integration via the messages indicator and empathy
 unity-base/unity-meta:gnome - Gnome core applications such as gnome-terminal, totem, eog etc.
 unity-base/unity-meta:gnome-extras - Gnome extra applications such as file-roller, evolution, gcalctool etc.
+unity-base/unity-meta:unity-extras - Unity extra applications deja-dup and unity-tweak-tool
 unity-base/unity-meta:webapps - Desktop webapp integration. Where common webpages such as Facebook and YouTube are seen as applications in the Dash, Launcher and indicators
 unity-base/unity-meta:xdm - Use a display manager, defaults to lightdm and unity-greeter
 unity-base/unity-settings-daemon:colord - Support color management using x11-misc/colord
