@@ -154,7 +154,7 @@ sys-apps/click 0.4.46_p2017060703_p0_p01 0.4.46a_p2017060703_p0_p01: Ubuntu mobi
 sys-apps/libertine 1.4.2_p20161003_p0_p01 1.7.1_p20170331_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01 0.12_p2017040402_p0_p02: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p_p0_p34-r1 1.13.2_p_p0_p35: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p_p0_p34-r1 1.13.2_p_p0_p35-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p01 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
