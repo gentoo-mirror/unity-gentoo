@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install postinst prepare setup
-DEPEND=net-libs/zeromq3
+DEPEND=net-libs/zeromq
 DESCRIPTION=0mq 'highlevel' C++ bindings
 EAPI=6
 HOMEPAGE=https://github.com/benjamg/zmqpp
@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/z/zmqpp/zmqpp_4.1.2.orig.tar.gz mirror://ubuntu/pool/main/z/zmqpp/zmqpp_4.1.2-0ubuntu1.debian.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
-_md5_=1c550958b968fdb680961cf6d9f776fa
+_md5_=15763633d5549c9c7158fa980c249c8a
