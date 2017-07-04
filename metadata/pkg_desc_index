@@ -1,14 +1,14 @@
-app-accessibility/onboard 1.3.0_p_p0_p01 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
-app-arch/snapd 2.25 2.25a: Service and tools for management of snap packages
+app-accessibility/onboard 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
+app-arch/snapd 2.25: Service and tools for management of snap packages
 app-arch/snapd-glib 1.9_p_p0_p01: Indicator showing active print jobs used by the Unity desktop
-app-backup/deja-dup 34.2_p_p0_p0301 34.4_p_p0_p01: Simple backup tool using duplicity back-end
+app-backup/deja-dup 34.4_p_p0_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2017.04.12: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-misc/location-service 3.0.0_p20160912_p0_p01: Location service aggregating position/velocity/heading
-app-misc/pay-service 15.10_p20160825_p0_p01 15.10_p20170211_p0_p02: Service to allow requesting payment for an item
+app-misc/pay-service 15.10_p20170211_p0_p02: Service to allow requesting payment for an item
 app-misc/whoopsie 0.2.55: Ubuntu error tracker submission
-app-text/presage 0.9.1_p_p0201_p01 0.9.1_p_p0201_p04: The intelligent predictive text entry system
-dev-cpp/gmock 1.7.0a_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
+app-text/presage 0.9.1_p_p0201_p04: The intelligent predictive text entry system
+dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p_p4_p01: Google C++ Testing Framework
 dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
 dev-db/qdjango 0.6.2_p2: QML Bindings for GSettings
@@ -17,39 +17,39 @@ dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.0.4.0 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
-dev-libs/capnproto 0.5.3_p_p2_p01 0.5.3_p_p2_p02: RPC/Serialization system with capabilities support
-dev-libs/dbus-cpp 5.0.0_p20160809_p0_p01 5.0.0_p20160809_p0_p02: Dbus-binding leveraging C++-11
+dev-libs/capnproto 0.5.3_p_p2_p02: RPC/Serialization system with capabilities support
+dev-libs/dbus-cpp 5.0.0_p20160809_p0_p02: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p20150304_p0_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.50.2_p_p2_p01 2.52.0_p1: The GLib library of C routines patched for the Unity desktop
-dev-libs/gobject-introspection 1.50.0 1.52.0: Introspection infrastructure for generating gobject library bindings for various languages
-dev-libs/gobject-introspection-common 1.50.0 1.52.0: Build infrastructure for GObject Introspection
-dev-libs/libaccounts-glib 1.22_p2016052002_p0_p01 1.23_p20161104_p0_p01: Library for single signon for the Unity desktop
-dev-libs/libappindicator 12.10.1_p20160905_p0_p01 12.10.1_p20170215_p0_p01: Application indicators used by the Unity desktop
-dev-libs/libcolumbus 1.1.0_p20150806_p0_p06 1.1.0_p20150806_p0_p07: Error tolerant matching engine used by the Unity desktop
-dev-libs/libdbusmenu 16.04.1_p2016092702_p0_p01 16.04.1_p2017010901_p0_p01: Library to pass menu structure across DBus
+dev-libs/glib 2.52.0_p1: The GLib library of C routines patched for the Unity desktop
+dev-libs/gobject-introspection 1.52.0: Introspection infrastructure for generating gobject library bindings for various languages
+dev-libs/gobject-introspection-common 1.52.0: Build infrastructure for GObject Introspection
+dev-libs/libaccounts-glib 1.23_p20161104_p0_p01: Library for single signon for the Unity desktop
+dev-libs/libappindicator 12.10.1_p20170215_p0_p01: Application indicators used by the Unity desktop
+dev-libs/libcolumbus 1.1.0_p20150806_p0_p07: Error tolerant matching engine used by the Unity desktop
+dev-libs/libdbusmenu 16.04.1_p2017010901_p0_p01: Library to pass menu structure across DBus
 dev-libs/libdbusmenu-qt 0.9.3_p20160218_p0_p01: A library providing Qt implementation of DBusMenu specification
-dev-libs/libhybris 0.1.0_p_p0_p23-r1 0.1.0_p_p0_p24: Allows to run bionic-based HW adaptations in glibc systems
+dev-libs/libhybris 0.1.0_p_p0_p24: Allows to run bionic-based HW adaptations in glibc systems
 dev-libs/libindicator 16.10.0_p20160913_p0_p01: A set of symbols and convenience functions that all indicators would like to use
-dev-libs/libinput 1.4.3_p_p0_p01 1.6.3_p_p1_p01: Library to handle input devices in Wayland
-dev-libs/libqtdbusmock 0.5_p20151009_p0_p01 0.7_p2017031601_p0_p01: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p20160216_p0_p01 0.2_p20170106_p0_p01: Library to facilitate testing DBus interactions in Qt applications
-dev-libs/libsignon-glib 1.14_p2016080202_p0_p01 1.14a_p20161117_p0_p01: GObject introspection data for the Signon library for the Unity desktop
+dev-libs/libinput 1.6.3_p_p1_p01: Library to handle input devices in Wayland
+dev-libs/libqtdbusmock 0.7_p2017031601_p0_p01: Qt Bindings for python-dbusmock
+dev-libs/libqtdbustest 0.2_p20170106_p0_p01: Library to facilitate testing DBus interactions in Qt applications
+dev-libs/libsignon-glib 1.14_p20161117_p0_p01: GObject introspection data for the Signon library for the Unity desktop
 dev-libs/libtimezonemap 0.4.5: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4a_p20160516_p0_p01: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p20160516_p0_p01: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p01: Miscellaneous modules for the Unity desktop
 dev-libs/libunity-webapps 2.5.0_p20160201_p0_p02: Webapps integration with the Unity desktop
-dev-libs/libusermetrics 1.1.1_p20160909_p0_p01 1.1.1_p2016120801_p0_p01: Library for retrieving anonymous metrics about users
+dev-libs/libusermetrics 1.1.1_p2016120801_p0_p01: Library for retrieving anonymous metrics about users
 dev-libs/libwacom 0.22: Library for identifying Wacom tablets and their model-specific features
-dev-libs/net-cpp 2.1.0_p2016091302_p0_p01 2.2.0_p2016110802_p0_p01: C++11 library for networking processes
+dev-libs/net-cpp 2.2.0_p2016110802_p0_p01: C++11 library for networking processes
 dev-libs/persistent-cache-cpp 1.0.4_p20160823_p0_p01: Cache of key-value pairs with persistent storage for C++11
-dev-libs/process-cpp 3.0.1_p_p0_p04 3.0.1_p_p0_p05: C++11 library for handling processes
+dev-libs/process-cpp 3.0.1_p_p0_p05: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.1_p20140730_p0_p01: Simple convenience library for handling properties and signals in C++11
-dev-libs/trust-store 2.0.0_p20160119_p0_p05 2.0.0_p20160119_p0_p06: API for creating, reading, updating and deleting trust requests answered by users
-dev-libs/userspace-rcu 0.9.2 0.9.3: userspace RCU (read-copy-update) library
+dev-libs/trust-store 2.0.0_p20160119_p0_p06: API for creating, reading, updating and deleting trust requests answered by users
+dev-libs/userspace-rcu 0.9.3: userspace RCU (read-copy-update) library
 dev-libs/xpathselect 1.4_p2015082401_p0_p01: Select objects in an object tree using XPath queries
-dev-python/autopilot 1.6.0_p20170313_p0_p01 1.6.0_p2016081801_p0_p01: Utility to write and run integration tests easily
+dev-python/autopilot 1.6.0_p20170313_p0_p01: Utility to write and run integration tests easily
 dev-python/configglue 1.0: Library that glues together python's optparse.OptionParser and ConfigParser.ConfigParser
-dev-python/polib 1.0.7_p1 1.0.8_p1: A library to manipulate gettext files (po and mo files)
+dev-python/polib 1.0.8_p1: A library to manipulate gettext files (po and mo files)
 dev-python/pyjunitxml 0.6_p_p0101_p01: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.4_p4: Python unittest extension for running tests in different scenarios
 dev-python/pywapi 0.3.8_p1: Python wrapper around different weather APIs
@@ -102,103 +102,102 @@ dev-qt/qtx11extras 5.6.1: Linux/X11-specific support library for the Qt5 framewo
 dev-qt/qtxml 5.6.1: SAX and DOM implementation library for the Qt5 framework
 dev-qt/qtxmlpatterns 5.6.1: XPath, XQuery, and XSLT support library for the Qt5 framework
 dev-util/android-headers 23_p_p0_p04-r1: Android Platform Headers from AOSP releases
-dev-util/cmake-extras 0.7_p20160513_p0_p01 1.3_p20170310_p0_p01: Extra CMake utility modules
+dev-util/cmake-extras 1.3_p20170310_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.50.2 2.52.0: GDBus code and documentation generator
-dev-util/lttng-tools 2.8.1_p_p1_p01 2.9.3_p_p1_p01: Linux Trace Toolkit - next generation
-dev-util/lttng-ust 2.8.1 2.9.0: Linux Trace Toolkit - UST library
+dev-util/gdbus-codegen 2.52.0: GDBus code and documentation generator
+dev-util/lttng-tools 2.9.3_p_p1_p01: Linux Trace Toolkit - next generation
+dev-util/lttng-ust 2.9.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p_p3_p07: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.16.0: Sub-meta package for the core applications integrated with GNOME 3
-gnome-base/gnome-desktop 3.20.2_p_p1_p01 3.24.2_p_p0_p0001: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
-gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p6_p04 3.13.3_p_p6_p05: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
-gnome-base/gnome-panel 3.20.1_p_p1_p02 3.22.0_p_p2_p01: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.20.2_p_p1_p07-r1 3.24.0_p_p0_p01: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.22.1_p_p0_p01 3.24.2_p_p0_p0001: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.20.0_p_p3_p01-r1 3.24.0_p_p0_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gnome-desktop 3.24.2_p_p0_p0001: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p6_p05: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
+gnome-base/gnome-panel 3.22.0_p_p2_p01: The GNOME panel patched for the Unity desktop
+gnome-base/gnome-session 3.24.0_p_p0_p01: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.24.2_p_p0_p0001: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gsettings-desktop-schemas 3.24.0_p_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.20.3_p_p1_p0301 3.20.4_p_p0_p02: A file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p_p0_p23161001 0.9.7a_p_p0_p25: Blacklist configuration user interface for Zeitgeist
-gnome-extra/evolution-data-server 3.20.6: Evolution groupware backend
+gnome-base/nautilus 3.20.4_p_p0_p02: A file manager for the GNOME desktop patched for the Unity desktop
+gnome-extra/activity-log-manager 0.9.7_p_p0_p25: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
-gnome-extra/polkit-gnome 0.105_p_p2_p02-r1 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
+gnome-extra/polkit-gnome 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 52.1.1_p_p0_p00170401: Thunderbird Mail Client
-media-gfx/shotwell 0.22.0_p20160108_p0_p02 0.22.0_p20160108_p0_p03: Open source photo manager for GNOME patched for the Unity desktop
-media-gfx/thumbnailer 2.4_p2016092602_p0_p01 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
+media-gfx/shotwell 0.22.0_p20160108_p0_p03: Open source photo manager for GNOME patched for the Unity desktop
+media-gfx/thumbnailer 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
-media-libs/mesa 12.0.6_p_p0_p00161001 17.0.3_p_p1_p01: OpenGL-like graphic library for Linux
+media-libs/mesa 17.0.3_p_p1_p01: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p_p7_p02-r1: Import, organize, play, and share your music (patched for Unity)
-media-sound/pulseaudio 9.0_p_p2_p0201 10.0_p_p1_p02: A networked sound server with an advanced plugin system patched for the Unity desktop
-media-sound/rhythmbox 3.4.1_p_p1_p01 3.4.1_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
-mir-base/mir 0.26.3_p20170605_p0_p01 0.26.3a_p20170605_p0_p01: Mir is a display server technology
-mir-base/platform-api 3.0.1_p20160818_p0_p01-r1 3.0.1_p20170215_p0_p01: Implementation of the Platform API for a Mir server
-mir-base/qtmir 0.4.8_p20160909_p0_p01 0.5.1_p20170404_p0_p02: Qt platform abstraction (QPA) plugin for a Mir server (desktop)
-mir-base/unity-system-compositor 0.7.1_p2016090901_p0_p01 0.9.1_p20170216_p0_p01: Compositor for Mir display server that switches graphics and input between running sessions
+media-sound/pulseaudio 10.0_p_p1_p02: A networked sound server with an advanced plugin system patched for the Unity desktop
+media-sound/rhythmbox 3.4.1_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
+mir-base/mir 0.26.3_p20170605_p0_p01: Mir is a display server technology
+mir-base/platform-api 3.0.1_p20170215_p0_p01: Implementation of the Platform API for a Mir server
+mir-base/qtmir 0.5.1_p20170404_p0_p02: Qt platform abstraction (QPA) plugin for a Mir server (desktop)
+mir-base/unity-system-compositor 0.9.1_p20170216_p0_p01: Compositor for Mir display server that switches graphics and input between running sessions
 net-im/empathy 3.12.12_p_p3_p01: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
-net-im/telepathy-mission-control 5.16.3_p_p2_p01 5.16.3_p_p0201_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
-net-libs/account-plugins 0.13_p2016092901_p0_p01 0.13a_p20170314_p0_p01: Online account plugin for gnome-control-center used by the Unity desktop
-net-libs/geonames 0.2_p20160426_p0_p01 0.2_p20170220_p0_p01: Parse and query the geonames database dump
-net-libs/gnome-online-accounts 3.20.5_p_p0_p0001 3.24.0_p_p0_p01: GNOME framework for accessing online accounts
-net-libs/libphonenumber 7.1.0_p_p5_p01 7.1.0_p_p5_p02: Google's phone number handling library
+net-im/telepathy-mission-control 5.16.3_p_p0201_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
+net-libs/account-plugins 0.13_p20170314_p0_p01: Online account plugin for gnome-control-center used by the Unity desktop
+net-libs/geonames 0.2_p20170220_p0_p01: Parse and query the geonames database dump
+net-libs/gnome-online-accounts 3.24.0_p_p0_p01: GNOME framework for accessing online accounts
+net-libs/libphonenumber 7.1.0_p_p5_p02: Google's phone number handling library
 net-libs/libsoup 2.56.0: An HTTP library implementation in C
 net-libs/oxide-qt 1.21.5_p_p0_p01: Web browser engine library for Qt
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-net-libs/ubuntu-download-manager 1.3_p2016090901_p0_p01 1.3a_p20161202_p0_p01: A daemon that offers a DBus API to perform downloads
+net-libs/ubuntu-download-manager 1.3_p20161202_p0_p01: A daemon that offers a DBus API to perform downloads
 net-libs/ubuntu-geoip 1.0.2_p20131125_p0_p02: A GeoClue provider for Ubuntu GeoIP server
-net-libs/ubuntuone-credentials 15.11_p20160920 15.11_p20161107: Ubuntu One authentication library
+net-libs/ubuntuone-credentials 15.11_p20161107: Ubuntu One authentication library
 net-libs/zmqpp 4.1.2_p_p0_p01: 0mq 'highlevel' C++ bindings
-net-misc/history-service 0.1_p20161130_p0_p01 0.1_p2016090901_p0_p01: History service to store messages and calls for Ubuntu
-net-misc/telephony-service 0.1_p2016090901_p0_p01 0.1_p2016121301_p0_p01: Telephony service components for Ubuntu
-net-misc/url-dispatcher 0.1_p2016081601_p0_p01-r1 0.1a_p20170328_p0_p02: Service to allow sending of URLs and get handlers started, used by the Unity desktop
-sys-apps/accountsservice 0.6.42_p_p0_p01 0.6.42_p_p0_p02: D-Bus interfaces for querying and manipulating user account information
-sys-apps/click 0.4.46_p2017060703_p0_p01 0.4.46a_p2017060703_p0_p01: Ubuntu mobile platform package management framework
-sys-apps/libertine 1.4.2_p20161003_p0_p01 1.7.1_p20170331_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
+net-misc/history-service 0.1_p20161130_p0_p01: History service to store messages and calls for Ubuntu
+net-misc/telephony-service 0.1_p2016121301_p0_p01: Telephony service components for Ubuntu
+net-misc/url-dispatcher 0.1_p20170328_p0_p02: Service to allow sending of URLs and get handlers started, used by the Unity desktop
+sys-apps/accountsservice 0.6.42_p_p0_p02: D-Bus interfaces for querying and manipulating user account information
+sys-apps/click 0.4.46_p2017060703_p0_p01: Ubuntu mobile platform package management framework
+sys-apps/libertine 1.7.1_p20170331_p0_p01: Sandbox for running Deb-packaged X11-based application under a Ubuntu "Snappy Personal" regime
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
-sys-apps/ubuntu-app-launch 0.9_p20160928_p0_p01 0.12_p2017040402_p0_p02: Session init system job for launching applications
-sys-apps/upstart 1.13.2_p_p0_p34-r1 1.13.2_p_p0_p35-r1: Desktop services daemon used by the Unity desktop
+sys-apps/ubuntu-app-launch 0.12_p2017040402_p0_p02: Session init system job for launching applications
+sys-apps/upstart 1.13.2_p_p0_p35-r1: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
-sys-auth/biometryd 0.0.1_p2016092203_p0_p01 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
+sys-auth/biometryd 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
 sys-kernel/ubuntu-sources 4.10.17_p_p26_p30: Ubuntu patched kernel sources
-sys-libs/libnih 1.0.3_p_p6_p01 1.0.3_p_p0403_p01: Light-weight 'standard library' of C functions
+sys-libs/libnih 1.0.3_p_p6_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-apps/ubuntu-terminal-app 0.7.218_p_p_p02 0.7.218_p2017040507_p0_p01: Unity8 Terminal application
-unity-base/bamf 0.5.3_p20160929_p0_p01-r2 0.5.3_p20170406_p0_p01: BAMF Application Matching Framework
-unity-base/compiz 0.9.13.0_p2016081802_p0_p02 0.9.13.1_p20170109_p0_p01: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
-unity-base/evemu 2.1.0_p_p1_p01 2.6.0_p_p_p0001: Event Emulation for the uTouch Stack
-unity-base/frame 2.5.0a_p20160809_p0_p01: uTouch Frame Library
+unity-apps/ubuntu-terminal-app 0.7.218_p2017040507_p0_p01: Unity8 Terminal application
+unity-base/bamf 0.5.3_p20170406_p0_p01: BAMF Application Matching Framework
+unity-base/compiz 0.9.13.1_p20170109_p0_p01: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/evemu 2.6.0_p_p_p0001: Event Emulation for the uTouch Stack
+unity-base/frame 2.5.0_p20160809_p0_p01: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p01: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/gnome-control-center-signon 0.1.9_p20160825_p0_p01: Online account plugin for unity-control-center used by the Unity desktop
 unity-base/grail 3.1.0_p20160125_p0_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
-unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20160809_p0_p01 0.0.7_p20161109_p0_p01: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20160415_p0_p01-r2 14.10_p2017010601_p0_p01: Backend for the Unity HUD
-unity-base/nux 4.0.8_p20160714_p0_p01 4.0.8_p20170213_p0_p01: Visual rendering toolkit for the Unity desktop
-unity-base/online-accounts-api 0.1_p2016100301_p0_p01 0.1a_p20161223_p0_p01: Online Accounts simplified API (D-Bus service)
-unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p01161001 0.2.17.1a_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
-unity-base/qtubuntu 0.63_p2016092801_p0_p01 0.64_p20170404_p0_p01: Qt plugins for Ubuntu Platform API (desktop)
+unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20161109_p0_p01: GSettings desktop-wide schemas for the Unity desktop
+unity-base/hud 14.10_p2017010601_p0_p01: Backend for the Unity HUD
+unity-base/nux 4.0.8_p20170213_p0_p01: Visual rendering toolkit for the Unity desktop
+unity-base/online-accounts-api 0.1_p20161223_p0_p01: Online Accounts simplified API (D-Bus service)
+unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
+unity-base/qtubuntu 0.64_p20170404_p0_p01: Qt plugins for Ubuntu Platform API (desktop)
 unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
 unity-base/signon 8.59_p20160916_p0_p01: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p20140513_p0_p02: GNOME keyring extension for signond used by the Unity desktop
 unity-base/signon-plugin-oauth2 0.24_p20160818_p0_p01: Single Signon oauth2 plugin used by the Unity desktop
-unity-base/signon-ui 0.17_p20160406_p0_p01 0.17_p20170320_p0_p01: Single Sign On framework for the Unity desktop
-unity-base/ubuntu-docs 16.10.3 17.04.3: Help files for the Unity desktop
-unity-base/ubuntu-settings 16.10.3 17.04.1: Default settings for the Unity
-unity-base/ubuntu-settings-components 0.9_p20160927_p0_p01 0.12_p20170118_p0_p01: Ubuntu Settings Components
-unity-base/ubuntu-system-settings 0.4_p20160927_p0_p03 0.4_p20170324_p0_p01: System Settings application for Ubuntu Touch
-unity-base/ubuntu-system-settings-online-accounts 0.7_p20161004_p0_p01 0.7_p2017030802_p0_p03: Online Accounts setup for Ubuntu Touch
-unity-base/unity 7.5.0_p20161112_p0_p01-r1 7.5.0_p2017040701_p0_p01: The Ubuntu Unity Desktop
-unity-base/unity-api 7.119_p20160909_p0_p01 8.7_p20170404_p0_p01: API for Unity shell integration
+unity-base/signon-ui 0.17_p20170320_p0_p01: Single Sign On framework for the Unity desktop
+unity-base/ubuntu-docs 17.04.3: Help files for the Unity desktop
+unity-base/ubuntu-settings 17.04.1: Default settings for the Unity
+unity-base/ubuntu-settings-components 0.12_p20170118_p0_p01: Ubuntu Settings Components
+unity-base/ubuntu-system-settings 0.4_p20170324_p0_p01: System Settings application for Ubuntu Touch
+unity-base/ubuntu-system-settings-online-accounts 0.7_p2017030802_p0_p03: Online Accounts setup for Ubuntu Touch
+unity-base/unity 7.5.0_p2017040701_p0_p01: The Ubuntu Unity Desktop
+unity-base/unity-api 8.7_p20170404_p0_p01: API for Unity shell integration
 unity-base/unity-build-env 16.10 17.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p2016100301_p0_p02 15.04.0_p2017040206_p0_p01: Unity Desktop Configuration Tool
-unity-base/unity-gtk-module 0.0.0_p20160913_p0_p01 0.0.0_p20170403_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
-unity-base/unity-language-pack 16.10-r1 17.04: Language translations pack for Unity desktop
-unity-base/unity-meta 16.10 17.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-scopes-api 1.0.7_p20160921_p0_p02 1.0.8_p20170116_p0_p01: API for Unity scopes integration
-unity-base/unity-scopes-shell 0.5.8_p20160921_p0_p01 0.5.8_p20170310_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
-unity-base/unity-settings-daemon 15.04.1_p20161003_p0_p01-r2 15.04.1_p20170418_p0_p01: Unity Settings Daemon
-unity-base/unity8 8.14_p20160922_p0_p02-r3 8.15_p2017040407_p0_p03: Unity 8 desktop shell
-unity-base/unity8-desktop-session 1.0.13_p20160928_p0_p01 1.0.13_p2017032801_p0_p01: Unity8 desktop session
+unity-base/unity-control-center 15.04.0_p2017040206_p0_p01: Unity Desktop Configuration Tool
+unity-base/unity-gtk-module 0.0.0_p20170403_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
+unity-base/unity-language-pack 17.04: Language translations pack for Unity desktop
+unity-base/unity-meta 17.04: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-scopes-api 1.0.8_p20170116_p0_p01: API for Unity scopes integration
+unity-base/unity-scopes-shell 0.5.8_p20170310_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
+unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01: Unity Settings Daemon
+unity-base/unity8 8.15_p2017040407_p0_p03: Unity 8 desktop shell
+unity-base/unity8-desktop-session 1.0.13_p2017032801_p0_p01: Unity8 desktop session
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
@@ -214,23 +213,23 @@ unity-extra/indicator-weather 13.8.0: Weather indicator used by the Unity deskto
 unity-extra/lightdm-remote-session-freerdp 1.0_p_p0_p02: Configuration and a script to do a remote session using FreeRDP.
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
-unity-extra/unity-greeter 16.10.2.2 17.04.0_p_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+unity-extra/unity-greeter 17.04.0_p_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.7_p_p_p02: Configuration manager for the Unity desktop environment
-unity-indicators/ido 13.10.0_p20161028_p0_p01 13.10.0a_p20161028_p0_p01: Widgets and other objects used for indicators by the Unity desktop
-unity-indicators/indicator-applet 12.10.2_p20161202_p0_p01 12.10.2_p2014112702_p0_p01: Gnome panel indicator for the Unity desktop
-unity-indicators/indicator-application 12.10.1_p20170120_p0_p01 12.10.1a_p20161201_p0_p01: Application indicators used by the Unity desktop
+unity-indicators/ido 13.10.0_p20161028_p0_p01: Widgets and other objects used for indicators by the Unity desktop
+unity-indicators/indicator-applet 12.10.2_p20161202_p0_p01: Gnome panel indicator for the Unity desktop
+unity-indicators/indicator-application 12.10.1_p20161201_p0_p01: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p20160927_p0_p01: Indicator for application menus used by the Unity desktop
-unity-indicators/indicator-bluetooth 0.0.6_p20161003_p0_p01 0.0.6_p20170322_p0_p01: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p2016082001_p0_p01 15.10a_p20170322_p0_p02: Date and Time Indicator used by the Unity desktop
-unity-indicators/indicator-keyboard 0.0.0_p20161010_p0_p01 0.0.0_p20170301_p0_p01: Keyboard indicator used by the Unity desktop
-unity-indicators/indicator-messages 13.10.1_p20150505_p0_p01 13.10.1_p20170120_p0_p01: Indicator that collects messages that need a response used by the Unity desktop
-unity-indicators/indicator-network 0.8.0_p2016093005_p0_p02 0.9.0_p20170322_p0_p01: Systems settings menu service - Network indicator
-unity-indicators/indicator-power 12.10.6_p20160708_p0_p01 12.10.6_p20170322_p0_p01: Indicator showing power state used by the Unity desktop
-unity-indicators/indicator-printers 0.1.7_p20150220_p0_p02 0.1.7_p20170227_p0_p01: Indicator showing active print jobs used by the Unity desktop
-unity-indicators/indicator-session 12.10.5_p20160412_p0_p03 17.3.20_p20170403_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
-unity-indicators/indicator-sound 12.10.2_p2016050201_p0_p01 12.10.2_p2017032801_p0_p01: System sound indicator used by the Unity desktop
+unity-indicators/indicator-bluetooth 0.0.6_p20170322_p0_p01: System bluetooth indicator used by the Unity desktop
+unity-indicators/indicator-datetime 15.10_p20170322_p0_p02: Date and Time Indicator used by the Unity desktop
+unity-indicators/indicator-keyboard 0.0.0_p20170301_p0_p01: Keyboard indicator used by the Unity desktop
+unity-indicators/indicator-messages 13.10.1_p20170120_p0_p01: Indicator that collects messages that need a response used by the Unity desktop
+unity-indicators/indicator-network 0.9.0_p20170322_p0_p01: Systems settings menu service - Network indicator
+unity-indicators/indicator-power 12.10.6_p20170322_p0_p01: Indicator showing power state used by the Unity desktop
+unity-indicators/indicator-printers 0.1.7_p20170227_p0_p01: Indicator showing active print jobs used by the Unity desktop
+unity-indicators/indicator-session 17.3.20_p20170403_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
+unity-indicators/indicator-sound 12.10.2_p2017032801_p0_p01: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 17.04: Unity Desktop - merge this to pull in all Unity indicators
-unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p01 7.1.0_p20160927_p0_p02: Application lens for the Unity desktop
+unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p02: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20151217_p0_p01: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p01: Music lens for the Unity desktop
@@ -241,39 +240,39 @@ unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for 
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01-r1: Home scope that aggregates results from multiple scopes for the Unity desktop
 www-client/chromium 58.0.3029.110_p_p0_p001704-r1: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 54.0_p_p0_p00170401: Firefox Web Browser
-www-client/webbrowser-app 0.23_p20161018_p0_p01 0.23_p20170321_p0_p01: Unity webapps browser application
-x11-base/xorg-drivers 1.18 1.19: Meta package containing deps on all xorg drivers
-x11-base/xorg-server 1.18.4_p_p1_p0601 1.19.3_p_p1_p01: X.Org X servers patched for the Unity desktop
-x11-drivers/xf86-video-ati 7.7.1_p1 7.9.0_p_p0_p01: ATI video driver patched for Mir display server
-x11-drivers/xf86-video-intel 2.99.917_p20160706_p1_p01 2.99.917_p20170309_p0_p01: X.Org driver for Intel cards
-x11-drivers/xf86-video-nouveau 1.0.12_p2 1.0.14_p_p0_p01: Accelerated Open Source driver for nVidia cards
-x11-libs/accounts-qml-module 0.6_p20151106_p0_p01 0.6_p20170405_p0_p01: Expose Unity Online Accounts API to QML applications
-x11-libs/content-hub 0.2_p20160914_p0_p01 0.3_p20170403_p0_p02: Content sharing/picking service to allow apps to exchange content
+www-client/webbrowser-app 0.23_p20170321_p0_p01: Unity webapps browser application
+x11-base/xorg-drivers 1.19: Meta package containing deps on all xorg drivers
+x11-base/xorg-server 1.19.3_p_p1_p01: X.Org X servers patched for the Unity desktop
+x11-drivers/xf86-video-ati 7.9.0_p_p0_p01: ATI video driver patched for Mir display server
+x11-drivers/xf86-video-intel 2.99.917_p20170309_p0_p01: X.Org driver for Intel cards
+x11-drivers/xf86-video-nouveau 1.0.14_p_p0_p01: Accelerated Open Source driver for nVidia cards
+x11-libs/accounts-qml-module 0.6_p20170405_p0_p01: Expose Unity Online Accounts API to QML applications
+x11-libs/content-hub 0.3_p20170403_p0_p02: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
-x11-libs/gsettings-qt 0.1_p20160329_p0_p02 0.1_p20160329_p0_p03: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.30_p_p4_p03 2.24.31_p_p1_p01 3.20.9_p_p1_p0201 3.22.11_p_p0_p03: Gimp ToolKit patched for the Unity desktop
-x11-libs/libaccounts-qt 1.14_p2015110601_p0_p01 1.15_p2016110401_p0_p01: QT library for Single Sign On framework for the Unity desktop
+x11-libs/gsettings-qt 0.1_p20160329_p0_p03: Qml bindings for GSettings.
+x11-libs/gtk+ 2.24.31_p_p1_p01 3.22.11_p_p0_p03: Gimp ToolKit patched for the Unity desktop
+x11-libs/libaccounts-qt 1.15_p2016110401_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/libqofono 0.90_p20160901_p0_p01: QT library for accessing the ofono daemon, and a declarative plugin for Ofono
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
-x11-libs/qmenumodel 0.2.9_p20160329_p0_p01 0.2.12_p20170404_p0_p01: GMenuModel Qt bindings
-x11-libs/ubuntu-ui-toolkit 1.3.2135_p2016100301 1.3.2190_p20170327: Qt Components for the Unity desktop - QML plugin
-x11-libs/unity-action-api 1.1.0_p20140304_p0_p02 1.1.0_p20170405_p0_p01: Allow applications to export actions in various forms to the Unity Shell
-x11-libs/unity-notifications 0.1.3_p20160819_p0_p01 0.1.3_p20161024_p0_p01: Server and client library for desktop notifications in Unity
+x11-libs/qmenumodel 0.2.12_p20170404_p0_p01: GMenuModel Qt bindings
+x11-libs/ubuntu-ui-toolkit 1.3.2190_p20170327: Qt Components for the Unity desktop - QML plugin
+x11-libs/unity-action-api 1.1.0_p20170405_p0_p01: Allow applications to export actions in various forms to the Unity Shell
+x11-libs/unity-notifications 0.1.3_p20161024_p0_p01: Server and client library for desktop notifications in Unity
 x11-libs/unity-webapps-qml 0.1_p20160713_p0_p01: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p20140305_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p2016062801_p0_p02: Application menu module for Qt
-x11-misc/lightdm 1.19.5_p_p0_p0102 1.22.0_p_p0_p0201: A lightweight display manager
+x11-misc/lightdm 1.22.0_p_p0_p0201: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p20160415_p0_p01: Canonical's on-screen-display notification agent
 x11-misc/unity-firefox-extension 3.0.0_p_p0_p01150401: Firefox extension for Unity desktop integration
 x11-misc/webaccounts-browser-extension 0.5_p_p0_p04150401: Ubuntu Online Accounts browser extension
 x11-misc/webapps-greasemonkey 2.3.6_p20140701_p0_p01150401: WebApps: Websites integration Firefox plug-in for Unity desktop
-x11-misc/x11vnc 0.9.13_p_p02 0.9.13_p_p0102_p01: A VNC server for real X displays
+x11-misc/x11vnc 0.9.13_p_p02: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.13: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.13: Default audio theme for the Unity
-x11-themes/ubuntu-themes 16.10_p20161024_p0_p01 16.10_p20170406_p0_p01: Monochrome icons for the Unity desktop (default icon theme)
+x11-themes/ubuntu-themes 16.10_p20170406_p0_p01: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 17.04.1_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20141217_p0_p02: Unity desktop icon theme
-x11-wm/metacity 3.20.3_p_p1_p0201-r1 3.24.0_p_p2_p01: GNOME default window manager
+x11-wm/metacity 3.24.0_p_p2_p01: GNOME default window manager

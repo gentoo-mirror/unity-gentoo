@@ -4,6 +4,7 @@ DESCRIPTION=The GNOME panel patched for the Unity desktop
 EAPI=6
 HOMEPAGE=http://www.gnome.org/
 IUSE=eds +introspection networkmanager
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+ FDL-1.1+ LGPL-2+
 RDEPEND=!<gnome-base/gnome-session-3.8 >=dev-libs/glib-2.46.0:2 >=dev-libs/libgweather-3.20:2= dev-libs/libxml2:2 gnome-base/dconf gnome-base/gconf:2[introspection?] gnome-base/gdm >=gnome-base/gnome-desktop-3.20:3= >=gnome-base/gnome-menus-3.13:3 gnome-base/gsettings-desktop-schemas gnome-base/librsvg:2 net-libs/telepathy-glib sys-auth/polkit x11-libs/cairo[X] x11-libs/gdk-pixbuf:2 >=x11-libs/gtk+-3.20:3[introspection?] x11-libs/libXau x11-libs/libICE x11-libs/libSM x11-libs/libXrandr x11-libs/libwnck:3 >=x11-libs/pango-1.40[introspection?] eds? ( >=gnome-extra/evolution-data-server-3.20:= ) introspection? ( >=dev-libs/gobject-introspection-1.48 ) networkmanager? ( >=net-misc/networkmanager-1.4 )
 RESTRICT=mirror
@@ -11,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/universe/g/gnome-panel/gnome-panel_3.22.0.orig.tar.xz mirror://unity/pool/universe/g/gnome-panel/gnome-panel_3.22.0-2ubuntu1.debian.tar.xz
 _eclass_exported_funcs=pkg_preinst:gnome2 pkg_postrm:gnome2 pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_compile:gnome2 src_install:gnome2
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	gnome.org	5e4cc5af3f1b17bdee155bf02e8c2df4	gnome2	64c50579ea42fbcc77a7e220a8ae8e94	gnome2-utils	8a5e0bf2b8031478ecfeaec753ef4560	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	versionator	c80ccf29e90adea7c5cae94b42eb76d0	xdg	6cd76cc914c1a759dee032778487b57f	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
-_md5_=aeaf1444d7d5359946c08ba6dd52fbd0
+_md5_=5a64eb67147eb71790f96d09bf806774

@@ -3,6 +3,7 @@ DEPEND=>=dev-libs/glib-2.30 >=sys-auth/polkit-0.102 x11-libs/gtk+:3 !lxde-base/l
 DESCRIPTION=A dbus session bus service that is used to bring up authentication dialogs
 EAPI=6
 HOMEPAGE=http://www.freedesktop.org/wiki/Software/PolicyKit
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2
 RDEPEND=>=dev-libs/glib-2.30 >=sys-auth/polkit-0.102 x11-libs/gtk+:3 !lxde-base/lxpolkit
 RESTRICT=mirror
@@ -10,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/p/policykit-1-gnome/policykit-1-gnome_0.105.orig.tar.xz mirror://unity/pool/main/p/policykit-1-gnome/policykit-1-gnome_0.105-6ubuntu2.debian.tar.xz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	e32ea84bf82cf8987965b574672dba93	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
-_md5_=e828a15a43ab173e7b7cb0e34bdd55d9
+_md5_=3673de740265f1bc4e333cd974f480ac
