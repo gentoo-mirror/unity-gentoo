@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/unity-lens-video/unity-lens-video_0.3.15+16.04.20160212.1.orig.tar.gz
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_prepare:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	vala	f86cd45e9ae738c40c92f990266f39a7
-_md5_=ccd61c51c81f2683df7a4ad2cb0089f0
+_md5_=81da3df98bf572c9d0a56165a7a1d74f

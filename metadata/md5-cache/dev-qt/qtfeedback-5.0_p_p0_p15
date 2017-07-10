@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=>=dev-qt/qtcore-5.0:5 >=dev-qt/qtdeclarative-5.0:5 >=dev-qt/qtmultimedia-5.0:5 >=dev-qt/qtxmlpatterns-5.0:5 test? ( >=dev-qt/qtgui-5.0:5 ) dev-lang/perl virtual/pkgconfig test? ( ~dev-qt/qttest-5.0_p_p0_p14:5 )
+DEPEND=>=dev-qt/qtcore-5.0:5 >=dev-qt/qtdeclarative-5.0:5 >=dev-qt/qtmultimedia-5.0:5 >=dev-qt/qtxmlpatterns-5.0:5 test? ( >=dev-qt/qtgui-5.0:5 ) dev-lang/perl virtual/pkgconfig test? ( ~dev-qt/qttest-5.0_p_p0_p15:5 )
 DESCRIPTION=Qt Feedback module
 EAPI=6
 HOMEPAGE=https://www.qt.io/
@@ -9,7 +9,7 @@ LICENSE=|| ( LGPL-2.1 LGPL-3 ) FDL-1.3
 RDEPEND=dev-qt/qtchooser
 RESTRICT=mirror
 SLOT=5/5.0
-SRC_URI=mirror://unity/pool/main/q/qtfeedback-opensource-src/qtfeedback-opensource-src_5.0~git20130529.orig.tar.gz mirror://unity/pool/main/q/qtfeedback-opensource-src/qtfeedback-opensource-src_5.0~git20130529-0ubuntu14~2.debian.tar.xz
+SRC_URI=mirror://unity/pool/main/q/qtfeedback-opensource-src/qtfeedback-opensource-src_5.0~git20130529.orig.tar.gz mirror://unity/pool/main/q/qtfeedback-opensource-src/qtfeedback-opensource-src_5.0~git20130529-0ubuntu15~1.debian.tar.xz
 _eclass_exported_funcs=pkg_postrm:qt5-build pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_unpack:qt5-build src_prepare:- src_configure:qt5-build src_compile:qt5-build src_test:- src_install:qt5-build
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	qt5-build	86ba8bda935f57369d0a055e6fa0d6d6	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	versionator	c80ccf29e90adea7c5cae94b42eb76d0	virtualx	171580f737f5aaf18fcb456548588066
-_md5_=3a0fd11e66e5d3ea841654479e2a7784
+_md5_=8dd6cf8e607536f0a7ea2b48523147a5

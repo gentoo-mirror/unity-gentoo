@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/universe/e/evolution-indicator/evolution-indicator_0.2.20.orig.tar.gz mirror://unity/pool/universe/e/evolution-indicator/evolution-indicator_0.2.20-0ubuntu28.debian.tar.xz
 _eclass_exported_funcs=pkg_preinst:- pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	gnome2-utils	8a5e0bf2b8031478ecfeaec753ef4560	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
-_md5_=4126ffa65661a3b56c71434be7f9b8fd
+_md5_=19007eda0a1af65b43ff9d3487e9c54d
