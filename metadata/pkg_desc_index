@@ -1,3 +1,4 @@
+app-accessibility/at-spi2-core 2.22.0_p_p5_p04: D-Bus accessibility specifications and registration daemon patched for the Unity desktop
 app-accessibility/onboard 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
 app-arch/snapd 2.25: Service and tools for management of snap packages
 app-arch/snapd-glib 1.9_p_p0_p01: Indicator showing active print jobs used by the Unity desktop
