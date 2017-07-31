@@ -110,7 +110,7 @@ dev-util/lttng-tools 2.9.3_p_p1_p01: Linux Trace Toolkit - next generation
 dev-util/lttng-ust 2.9.0: Linux Trace Toolkit - UST library
 gnome-base/gconf 3.2.6_p_p3_p07: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.16.0: Sub-meta package for the core applications integrated with GNOME 3
-gnome-base/gnome-desktop 3.24.2_p_p0_p0001: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.24.2_p_p0_p0001-r1: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p6_p05: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.22.0_p_p2_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.24.0_p_p0_p01: Gnome session manager patched for the Unity desktop
@@ -196,7 +196,7 @@ unity-base/unity-language-pack 17.04: Language translations pack for Unity deskt
 unity-base/unity-meta 17.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-scopes-api 1.0.8_p20170116_p0_p01: API for Unity scopes integration
 unity-base/unity-scopes-shell 0.5.8_p20170310_p0_p01: QML plugin that exposes Scopes functionality to Unity shell
-unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01-r1: Unity Settings Daemon
 unity-base/unity8 8.15_p2017040407_p0_p03: Unity 8 desktop shell
 unity-base/unity8-desktop-session 1.0.13_p2017032801_p0_p01: Unity8 desktop session
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
