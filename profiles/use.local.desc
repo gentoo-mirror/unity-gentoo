@@ -168,8 +168,9 @@ x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
 x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
 x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
 x11-misc/lightdm:introspection - Use dev-libs/gobject-introspection for introspection
-x11-misc/lightdm:lightdm_greeters_gtk - Pull in the gtk+ greeter
-x11-misc/lightdm:lightdm_greeters_kde - Pull in the kde greeter
+x11-misc/lightdm:lightdm_greeters_gtk - Pull in the GTK+ greeter
+x11-misc/lightdm:lightdm_greeters_kde - Pull in the KDE greeter
+x11-misc/lightdm:lightdm_greeters_unity - Pull in the Unity greeter
 x11-misc/lightdm:mir - Enable Mir display server support
 x11-misc/webaccounts-browser-extension:chromium - Build browser extension for Chromium browser
 x11-misc/webaccounts-browser-extension:firefox - Build browser extension for Firefox browser

@@ -262,7 +262,7 @@ x11-libs/unity-notifications 0.1.3_p20161024_p0_p01: Server and client library f
 x11-libs/unity-webapps-qml 0.1_p20160713_p0_p01: Unity Webapps QML component
 x11-misc/appmenu-qt 0.2.7_p20140305_p0_p02: Application menu module for Qt
 x11-misc/appmenu-qt5 0.3.0_p2016062801_p0_p02: Application menu module for Qt
-x11-misc/lightdm 1.22.0_p_p0_p0201: A lightweight display manager
+x11-misc/lightdm 1.22.0_p_p0_p0201-r1: A lightweight display manager
 x11-misc/lightdm-kde 0.3.2.2_p_p1_p01: LightDM KDE greeter patched for unity desktop
 x11-misc/notify-osd 0.9.35_p20160415_p0_p01: Canonical's on-screen-display notification agent
 x11-misc/unity-firefox-extension 3.0.0_p_p0_p01150401: Firefox extension for Unity desktop integration
