@@ -1,13 +1,13 @@
 app-accessibility/at-spi2-core 2.22.0_p_p5_p04: D-Bus accessibility specifications and registration daemon patched for the Unity desktop
 app-accessibility/onboard 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
 app-arch/snapd 2.25: Service and tools for management of snap packages
-app-arch/snapd-glib 1.9_p_p0_p01: Indicator showing active print jobs used by the Unity desktop
+app-arch/snapd-glib 1.13_p_p0_p00170401: Indicator showing active print jobs used by the Unity desktop
 app-backup/deja-dup 34.4_p_p0_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2017.04.12: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-misc/location-service 3.0.0_p20160912_p0_p01: Location service aggregating position/velocity/heading
 app-misc/pay-service 15.10_p20170211_p0_p02: Service to allow requesting payment for an item
-app-misc/whoopsie 0.2.55: Ubuntu error tracker submission
+app-misc/whoopsie 0.2.55.2: Ubuntu error tracker submission
 app-text/presage 0.9.1_p_p0201_p04: The intelligent predictive text entry system
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p_p4_p01: Google C++ Testing Framework
@@ -159,7 +159,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.17_p_p26_p30: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.17_p_p30_p34 4.11.8_p_p10_p15: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -177,7 +177,7 @@ unity-base/nux 4.0.8_p20170213_p0_p01: Visual rendering toolkit for the Unity de
 unity-base/online-accounts-api 0.1_p20161223_p0_p01: Online Accounts simplified API (D-Bus service)
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/qtubuntu 0.64_p20170404_p0_p01: Qt plugins for Ubuntu Platform API (desktop)
-unity-base/session-shortcuts 1.2: Allows shutdown, logout, and reboot from dash
+unity-base/session-shortcuts 1.2_p_p_p00170401: Allows shutdown, logout, and reboot from dash
 unity-base/signon 8.59_p20160916_p0_p01: Single Sign On framework for the Unity desktop
 unity-base/signon-keyring-extension 0.6_p20140513_p0_p02: GNOME keyring extension for signond used by the Unity desktop
 unity-base/signon-plugin-oauth2 0.24_p20160818_p0_p01: Single Signon oauth2 plugin used by the Unity desktop
@@ -243,7 +243,7 @@ www-client/chromium 59.0.3071.109_p_p0_p001704: Open-source version of Google Ch
 www-client/firefox 54.0_p_p0_p00170401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.19: Meta package containing deps on all xorg drivers
-x11-base/xorg-server 1.19.3_p_p1_p01: X.Org X servers patched for the Unity desktop
+x11-base/xorg-server 1.19.3_p_p1_p0101: X.Org X servers patched for the Unity desktop
 x11-drivers/xf86-video-ati 7.9.0_p_p0_p01: ATI video driver patched for Mir display server
 x11-drivers/xf86-video-intel 2.99.917_p20170309_p0_p01: X.Org driver for Intel cards
 x11-drivers/xf86-video-nouveau 1.0.14_p_p0_p01: Accelerated Open Source driver for nVidia cards
