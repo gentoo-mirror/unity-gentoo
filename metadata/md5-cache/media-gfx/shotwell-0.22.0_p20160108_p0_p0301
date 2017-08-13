@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/s/shotwell/shotwell_0.22.0.orig.tar.xz mirror://unity/pool/main/s/shotwell/shotwell_0.22.0+git20160108.r1.f2fb1f7-0ubuntu3.1.debian.tar.xz http://pkgs.fedoraproject.org/repo/pkgs/shotwell/shotwell-icons.tar.bz2/1df95b65bb7689c10840faaa765bf931/shotwell-icons.tar.bz2
 _eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	gnome2-utils	8a5e0bf2b8031478ecfeaec753ef4560	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7	vala	f86cd45e9ae738c40c92f990266f39a7	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
-_md5_=870595ff9159072e91256493d4828a2a
+_md5_=241dc6e1ebe36d33808822cd0e47585f
