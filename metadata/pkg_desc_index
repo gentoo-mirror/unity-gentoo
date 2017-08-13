@@ -72,7 +72,7 @@ net-libs/telepathy-indicator 0.3.1_p20140908_p0_p01: Desktop service to integrat
 net-libs/zmqpp 4.1.2_p_p0_p01: 0mq 'highlevel' C++ bindings
 sys-apps/accountsservice 0.6.42_p_p0_p02: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
-sys-apps/upstart 1.13.2_p_p0_p35-r1: Desktop services daemon used by the Unity desktop
+sys-apps/upstart 1.13.2_p_p0_p35-r2: Desktop services daemon used by the Unity desktop
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/pambase 20150213-r1: PAM base configuration files

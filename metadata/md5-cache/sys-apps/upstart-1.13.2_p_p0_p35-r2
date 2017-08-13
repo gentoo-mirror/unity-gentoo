@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://unity/pool/main/u/upstart/upstart_1.13.2.orig.tar.gz mirror://unity/pool/main/u/upstart/upstart_1.13.2-0ubuntu35.diff.gz
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:ubuntu-versionator src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	libtool	0081a71a261724730ec4c248494f044d	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
-_md5_=63c7bb1e4b479c087a6ba669146b1c7a
+_md5_=cb4d2e672caef8cfec947f4eb2fe0a91
