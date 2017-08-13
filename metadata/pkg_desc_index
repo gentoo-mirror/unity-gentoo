@@ -54,54 +54,9 @@ dev-python/polib 1.0.8_p1: A library to manipulate gettext files (po and mo file
 dev-python/pyjunitxml 0.6_p_p0101_p01: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.4_p4: Python unittest extension for running tests in different scenarios
 dev-python/pywapi 0.3.8_p1: Python wrapper around different weather APIs
-dev-qt/assistant 5.6.1: Tool for viewing on-line documentation in Qt help file format
-dev-qt/designer 5.6.1: WYSIWYG tool for designing and building Qt-based GUIs
-dev-qt/linguist 5.6.1: Graphical tool for translating Qt applications
-dev-qt/linguist-tools 5.6.1: Tools for working with Qt translation data files
-dev-qt/pixeltool 5.6.1: Qt screen magnifier
-dev-qt/qdbus 5.6.1: Interface to Qt applications communicating over D-Bus
-dev-qt/qdbusviewer 5.6.1: Graphical tool that lets you introspect D-Bus objects and messages
-dev-qt/qdoc 5.6.1: Qt documentation generator
-dev-qt/qt-docs 5.6.1_p1: Documentation for Qt5, for use with Qt Creator and other tools
-dev-qt/qt3d 5.7.1_p_p1_p01: Qt 3D QML module
-dev-qt/qtbluetooth 5.6.1: Bluetooth support library for the Qt5 framework
-dev-qt/qtconcurrent 5.6.1: Multi-threading concurrence support library for the Qt5 framework
-dev-qt/qtcore 5.6.1: Cross-platform application development framework
-dev-qt/qtdbus 5.6.1: The D-Bus module for the Qt5 framework
-dev-qt/qtdeclarative 5.6.1-r1: The QML and Quick modules for the Qt5 framework
-dev-qt/qtdiag 5.6.1: Tool for reporting diagnostic information about Qt and its environment
 dev-qt/qtfeedback 5.0_p_p0_p15: Qt Feedback module
-dev-qt/qtgraphicaleffects 5.6.1: Set of QML types for adding visual effects to user interfaces
-dev-qt/qtgui 5.6.1: The GUI module and platform plugins for the Qt5 framework
-dev-qt/qthelp 5.6.1: The Help module for the Qt5 framework
-dev-qt/qtimageformats 5.6.1: Additional format plugins for the Qt image I/O system
-dev-qt/qtlocation 5.6.1: The Location module for the Qt5 framework
-dev-qt/qtmultimedia 5.6.1: The Multimedia module for the Qt5 framework
-dev-qt/qtnetwork 5.6.1: Network abstraction library for the Qt5 framework
-dev-qt/qtopengl 5.6.1: OpenGL support library for the Qt5 framework (deprecated)
-dev-qt/qtpaths 5.6.1: Command line client to QStandardPaths
 dev-qt/qtpim 5.0_p_p0_p23: Qt PIM module, Organizer library
-dev-qt/qtplugininfo 5.6.1: Qt5 plugin metadata dumper
-dev-qt/qtpositioning 5.6.1: Physical position determination library for the Qt5 framework
-dev-qt/qtprintsupport 5.6.1: Printing support library for the Qt5 framework
-dev-qt/qtquickcontrols 5.6.1: Set of controls used in conjunction with Qt Quick to build complete interfaces
-dev-qt/qtscript 5.6.1: Application scripting library for the Qt5 framework (deprecated)
-dev-qt/qtsensors 5.6.1: Hardware sensor access library for the Qt5 framework
-dev-qt/qtserialport 5.6.1: Serial port abstraction library for the Qt5 framework
-dev-qt/qtsql 5.6.1: SQL abstraction library for the Qt5 tooolkit
-dev-qt/qtsvg 5.6.1: SVG rendering library for the Qt5 framework
 dev-qt/qtsystems 5.0_p_p0_p10: Qt Systems module - system info
-dev-qt/qttest 5.6.1: Unit testing library for the Qt5 framework
-dev-qt/qttranslations 5.6.1: Translation files for the Qt5 framework
-dev-qt/qtwayland 5.6.1: Wayland platform plugin for Qt
-dev-qt/qtwebchannel 5.6.1: Qt5 module for integrating C++ and QML applications with HTML/JavaScript clients
-dev-qt/qtwebengine 5.6.1: Library for rendering dynamic web content in Qt5 C++ and QML applications
-dev-qt/qtwebkit 5.6.1: WebKit rendering library for the Qt5 framework (deprecated)
-dev-qt/qtwebsockets 5.6.1: Implementation of the WebSocket protocol for the Qt5 framework
-dev-qt/qtwidgets 5.6.1: Set of components for creating classic desktop-style UIs for the Qt5 framework
-dev-qt/qtx11extras 5.6.1: Linux/X11-specific support library for the Qt5 framework
-dev-qt/qtxml 5.6.1: SAX and DOM implementation library for the Qt5 framework
-dev-qt/qtxmlpatterns 5.6.1: XPath, XQuery, and XSLT support library for the Qt5 framework
 dev-util/android-headers 23_p_p0_p04-r1: Android Platform Headers from AOSP releases
 dev-util/cmake-extras 1.3_p20170310_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
