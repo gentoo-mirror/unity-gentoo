@@ -122,10 +122,10 @@ gnome-extra/activity-log-manager 0.9.7_p_p0_p25: Blacklist configuration user in
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
 mail-client/thunderbird 52.2.1_p_p0_p00170401: Thunderbird Mail Client
-media-gfx/shotwell 0.22.0_p20160108_p0_p03: Open source photo manager for GNOME patched for the Unity desktop
+media-gfx/shotwell 0.22.0_p20160108_p0_p0301: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
-media-libs/mesa 17.0.3_p_p1_p01: OpenGL-like graphic library for Linux
+media-libs/mesa 17.0.7_p_p0_p00170401: OpenGL-like graphic library for Linux
 media-sound/banshee 2.9.0_p_p7_p02-r1: Import, organize, play, and share your music (patched for Unity)
 media-sound/pulseaudio 10.0_p_p1_p02: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.4.1_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
@@ -159,7 +159,7 @@ sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during b
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/biometryd 0.0.1_p2016092203_p0_p02: Multiplexes and mediates access to devices for biometric identification and verification
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.17_p_p30_p34 4.11.8_p_p10_p15: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.17_p_p32_p36 4.11.12_p_p13_p19: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01: Light-weight 'standard library' of C functions
 sys-libs/mtdev 1.1.5_p_p1_p02: Multitouch Protocol Translation Library
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -239,7 +239,7 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01-r1: Video lens for the U
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-click 0.1.1_p20161005_p0_p01: Click Packages Scope for Unity
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01-r1: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 59.0.3071.109_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 60.0.3112.78_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 54.0_p_p0_p00170401: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-base/xorg-drivers 1.19: Meta package containing deps on all xorg drivers
@@ -251,7 +251,7 @@ x11-libs/accounts-qml-module 0.6_p20170405_p0_p01: Expose Unity Online Accounts 
 x11-libs/content-hub 0.3_p20170403_p0_p02: Content sharing/picking service to allow apps to exchange content
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20160329_p0_p03: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.31_p_p1_p01 3.22.11_p_p0_p03: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.31_p_p1_p0101 3.22.11_p_p0_p03: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.15_p2016110401_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/libqofono 0.90_p20160901_p0_p01: QT library for accessing the ofono daemon, and a declarative plugin for Ofono
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
