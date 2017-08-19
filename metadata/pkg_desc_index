@@ -3,6 +3,7 @@ app-accessibility/onboard 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros 
 app-backup/deja-dup 34.4_p_p0_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2017.04.12: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
+app-eselect/eselect-unity-patches 0.1: Manage patches in /etc/portage/unity-patches
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
 dev-cpp/gtest 1.7.0_p_p4_p01: Google C++ Testing Framework
 dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
@@ -122,6 +123,7 @@ unity-extra/lightdm-remote-session-freerdp 1.0_p_p0_p02: Configuration and a scr
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 17.04.0_p_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+unity-extra/unity-patches 20170820: Patches from Ubuntu package archive
 unity-extra/unity-tweak-tool 0.0.7_p_p_p02: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p20161028_p0_p01: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p20161202_p0_p01: Gnome panel indicator for the Unity desktop
