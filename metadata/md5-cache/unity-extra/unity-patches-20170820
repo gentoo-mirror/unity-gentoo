@@ -1,4 +1,4 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install postinst
 DESCRIPTION=Patches from Ubuntu package archive
 EAPI=6
 HOMEPAGE=https://packages.ubuntu.com/
@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=app-eselect/eselect-unity-patches
 SLOT=0
-_eclass_exported_funcs=src_install:-
-_md5_=3cf02dc581716d5b32dc21ac5825ee39
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=a0a920322fc9d322312920a88241db44
