@@ -1,6 +1,6 @@
 app-accessibility/onboard 1.4.1_p_p0_p01: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 34.4_p_p0_p01: Simple backup tool using duplicity back-end
-app-emulation/anbox 9999.2017.04.12: Run Android applications on any GNU/Linux operating system
+app-emulation/anbox 9999.2017.07.13.3: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-eselect/eselect-unity-patches 0.1: Manage patches in /etc/portage/unity-patches
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
