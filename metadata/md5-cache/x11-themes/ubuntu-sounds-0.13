@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Default audio theme for the Unity
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-sounds
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-NC-SA-2.0
+RESTRICT=binchecks mirror strip
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-sounds/ubuntu-sounds_0.13.tar.gz
+_eclass_exported_funcs=pkg_postinst:ubuntu-versionator pkg_setup:ubuntu-versionator src_install:-
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
+_md5_=454c7b0133284b5723b691b0eb50b1bf
