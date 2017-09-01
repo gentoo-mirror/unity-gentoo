@@ -59,7 +59,6 @@ media-gfx/shotwell 0.22.0_p20160108_p0_p0301: Open source photo manager for GNOM
 media-gfx/thumbnailer 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-sound/banshee 2.9.0_p_p7_p02-r1: Import, organize, play, and share your music (patched for Unity)
-media-sound/pulseaudio 10.0_p_p1_p02: A networked sound server with an advanced plugin system patched for the Unity desktop
 media-sound/rhythmbox 3.4.1_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.12.12_p_p3_p01: Telepathy instant messaging and video/audio call client for GNOME patched for the Unity desktop
 net-im/telepathy-mission-control 5.16.3_p_p0201_p01: An account manager and channel dispatcher for the Telepathy framework patched for the Unity desktop
