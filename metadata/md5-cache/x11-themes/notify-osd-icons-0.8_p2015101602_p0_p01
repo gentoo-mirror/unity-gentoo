@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Icons for on-screen-display notification agent
+EAPI=6
+HOMEPAGE=http://launchpad.net/notify-osd
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-SA-3.0
+RDEPEND=x11-misc/notify-osd
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/n/notify-osd-icons/notify-osd-icons_0.8+15.10.20151016.2.orig.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
+_md5_=32c5bfe4556b2483d52daabd2d10fbea

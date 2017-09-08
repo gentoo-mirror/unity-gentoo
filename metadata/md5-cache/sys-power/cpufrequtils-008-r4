@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=nls? ( virtual/libintl ) virtual/pkgconfig
+DESCRIPTION=Userspace utilities for the Linux kernel cpufreq subsystem
+EAPI=6
+HOMEPAGE=http://www.kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html
+IUSE=debug nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://kernel/linux/utils/kernel/cpufreq/cpufrequtils-008.tar.xz
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	34815d3b76e745c5ca33eec9f95074c2	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
+_md5_=6d070ea6172786db28319b0f8cfe83be
