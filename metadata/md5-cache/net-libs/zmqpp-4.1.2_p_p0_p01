@@ -8,5 +8,5 @@ LICENSE=MPL-2.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/z/zmqpp/zmqpp_4.1.2.orig.tar.gz mirror://ubuntu/pool/main/z/zmqpp/zmqpp_4.1.2-0ubuntu1.debian.tar.xz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	fd61312682bcaad88ed7e88e79c4b688
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	67d76b4583a9321ce565ba9c96dea9f6
 _md5_=42a8d9a948b21bea1ca6c47da5b59540
