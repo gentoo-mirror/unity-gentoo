@@ -7,5 +7,5 @@ LICENSE=CC-BY-SA-3.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_17.04.1.orig.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	3ca3ba65b8c261fa96372910dbc46cd7
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	fd61312682bcaad88ed7e88e79c4b688
 _md5_=7970ef5a845dcb318f75aa45dda49e36
