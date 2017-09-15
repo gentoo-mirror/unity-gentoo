@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst
-DESCRIPTION=Patches from Ubuntu package archive
-EAPI=6
-HOMEPAGE=https://packages.ubuntu.com/
-KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2
-RDEPEND=app-eselect/eselect-unity-patches
-SLOT=0
-_md5_=696a7dc032af63c232d4f6dd16ae71d5
