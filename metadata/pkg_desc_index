@@ -54,7 +54,7 @@ gnome-base/nautilus 3.20.4_p_p0_p02: A file manager for the GNOME desktop patche
 gnome-extra/activity-log-manager 0.9.7_p_p0_p25: Blacklist configuration user interface for Zeitgeist
 gnome-extra/nm-applet 1.4.2_p_p1_p04: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p6_p02: A dbus session bus service that is used to bring up authentication dialogs
-mail-client/thunderbird 52.2.1_p_p0_p00170401: Thunderbird Mail Client
+mail-client/thunderbird 52.3.0_p_p0_p00170401: Thunderbird Mail Client
 media-gfx/shotwell 0.22.0_p20160108_p0_p0301: Open source photo manager for GNOME patched for the Unity desktop
 media-gfx/thumbnailer 2.4_p2016111401_p0_p01: Ubuntu's thumbnailer service
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
@@ -75,7 +75,7 @@ sys-apps/upstart 1.13.2_p_p0_p35-r3: Desktop services daemon used by the Unity d
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.17_p_p33_p37 4.12.8_p_p12_p13: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.17_p_p33_p37 4.12.10_p_p13_p14: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p20170406_p0_p01: BAMF Application Matching Framework
