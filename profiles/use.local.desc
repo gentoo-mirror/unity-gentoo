@@ -71,18 +71,11 @@ unity-base/unity-settings-daemon:i18n - Enable support for enhanced input method
 unity-base/unity-settings-daemon:packagekit - Enable support for the distro-neutral package manager GUI app-admin/packagekit
 unity-base/unity-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
 unity-extra/unity-greeter:battery - Build power state indicator for login screen
-unity-indicators/indicator-bluetooth:dispatcher - Enable support for net-misc/url-dispatcher
-unity-indicators/indicator-datetime:dispatcher - Enable support for net-misc/url-dispatcher
 unity-indicators/indicator-datetime:eds - Enable support for Evolution-Data-Server
-unity-indicators/indicator-keyboard:dispatcher - Enable support for net-misc/url-dispatcher
-unity-indicators/indicator-power:dispatcher - Enable support for net-misc/url-dispatcher
-unity-indicators/indicator-session:dispatcher - Enable support for net-misc/url-dispatcher
 unity-indicators/indicator-session:help - Enable 'Unity Help' menu item linking to Unity documentation
-unity-indicators/indicator-sound:dispatcher - Enable support for net-misc/url-dispatcher
 unity-indicators/unity-indicators-meta:battery - Battery power indicator
 unity-indicators/unity-indicators-meta:bluetooth - Bluetooth settings and transfers indicator
 unity-indicators/unity-indicators-meta:datetime - Date, time and calendar indicator
-unity-indicators/unity-indicators-meta:dispatcher - Enable support for net-misc/url-dispatcher
 unity-indicators/unity-indicators-meta:keyboard - Keyboard layout indicator
 unity-indicators/unity-indicators-meta:paste - Copy/Paste clipboard indicator
 unity-indicators/unity-indicators-meta:printer - Printer jobs indicator
