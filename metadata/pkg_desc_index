@@ -101,7 +101,7 @@ unity-base/unity 7.5.0_p2017040701_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p01: API for Unity shell integration
 unity-base/unity-build-env 16.10 17.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p2017040206_p0_p01: Unity Desktop Configuration Tool
-unity-base/unity-gtk-module 0.0.0_p20170403_p0_p01-r1: GTK+ module for exporting old-style menus as GMenuModels
+unity-base/unity-gtk-module 0.0.0_p20170403_p0_p01-r2: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 17.04: Language translations pack for Unity desktop
 unity-base/unity-meta 17.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01-r1: Unity Settings Daemon
