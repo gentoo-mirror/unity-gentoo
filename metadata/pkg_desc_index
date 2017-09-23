@@ -104,7 +104,7 @@ unity-base/unity-control-center 15.04.0_p2017040206_p0_p01: Unity Desktop Config
 unity-base/unity-gtk-module 0.0.0_p20170403_p0_p01-r2: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 17.04: Language translations pack for Unity desktop
 unity-base/unity-meta 17.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01-r1: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01-r2: Unity Settings Daemon
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
