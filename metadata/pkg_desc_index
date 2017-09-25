@@ -13,6 +13,7 @@ dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking l
 dev-dotnet/taglib-sharp 2.0.4.0 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
 dev-libs/dbus-cpp 5.0.0_p20160809_p0_p02: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p20150304_p0_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
+dev-libs/gjs 1.48.7: Javascript bindings for GNOME
 dev-libs/glib 2.52.0_p1: The GLib library of C routines patched for the Unity desktop
 dev-libs/gobject-introspection 1.52.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.52.0: Build infrastructure for GObject Introspection
@@ -42,11 +43,12 @@ dev-util/cmake-extras 1.3_p20170310_p0_p01: Extra CMake utility modules
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.52.0: GDBus code and documentation generator
 gnome-base/gconf 3.2.6_p_p3_p07: GNOME configuration system and daemon patched for the Unity desktop
-gnome-base/gnome-core-apps 3.22: Sub-meta package for the core applications integrated with GNOME 3
+gnome-base/gnome-core-apps 3.24: Sub-meta package for the core applications integrated with GNOME 3
+gnome-base/gnome-core-libs 3.24: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.24.2_p_p0_p0001-r1: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p6_p05: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.22.0_p_p2_p01: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.24.0_p_p0_p01: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-session 3.24.0_p_p0_p01-r1: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.24.2_p_p0_p0001: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.24.0_p_p0_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
