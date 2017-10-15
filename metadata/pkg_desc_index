@@ -77,7 +77,7 @@ sys-apps/upstart 1.13.2_p_p0_p35-r3: Desktop services daemon used by the Unity d
 sys-apps/ureadahead 0.100.0_p19_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01: X.Org dummy testing environment for Google Test
 sys-auth/pambase 20150213-r1: PAM base configuration files
-sys-kernel/ubuntu-sources 4.10.17_p_p35_p39 4.13.1_p_p11_p12: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 4.10.17_p_p37_p41 4.13.1_p_p16_p19: Ubuntu patched kernel sources
 sys-libs/libnih 1.0.3_p_p6_p01: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p20170406_p0_p01: BAMF Application Matching Framework
@@ -146,8 +146,8 @@ unity-lenses/unity-lens-photos 1.0_p_p0_p01-r1: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01-r1: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01-r1: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 61.0.3163.79_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
-www-client/firefox 55.0.2_p_p0_p00170401: Firefox Web Browser
+www-client/chromium 61.0.3163.100_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/firefox 56.0_p_p0_p00170402: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20160329_p0_p03: Qml bindings for GSettings.
