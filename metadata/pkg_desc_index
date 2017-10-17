@@ -110,7 +110,7 @@ unity-base/unity-settings-daemon 15.04.1_p20170418_p0_p01-r2: Unity Settings Dae
 unity-base/webapps 2.4.17_p20150616_p0_p02: WebApps: Complete set of Apps for the Unity desktop
 unity-base/webapps-base 2.4.17_p20150616_p0_p02: WebApps: Initial set of Apps for the Unity desktop
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
-unity-extra/ehooks 20170914: Ebuild hooks customizing packages for use with Unity desktop
+unity-extra/ehooks 20171017: Ebuild hooks customizing packages for use with Unity desktop
 unity-extra/glipper 2.4_p6: A PyGTK+ based advanced clipboard manager
 unity-extra/indicator-classicmenu 0.10.1_p_p0_p01: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p02: CPU frequency scaling indicator for the Unity desktop environment
