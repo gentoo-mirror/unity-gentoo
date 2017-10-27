@@ -116,6 +116,7 @@ unity-extra/indicator-classicmenu 0.10.1_p_p0_p01: Indicator to provide the main
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p02: CPU frequency scaling indicator for the Unity desktop environment
 unity-extra/indicator-evolution 0.2.20_p_p0_p28: Indicator for the Evolution mail client used by the Unity desktop
 unity-extra/indicator-multiload 0.4_p_p0_p04: Graphical system load indicator for CPU, ram, etc. used by the Unity desktop
+unity-extra/indicator-netspeed 9999: Network speed indicator for Unity
 unity-extra/indicator-privacy 0.05: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.5_p_p1_p01: Indicator for monitoring hardware temperature used by the Unity desktop
 unity-extra/indicator-remindor 13.02: Indicator application to schedule reminders
@@ -146,7 +147,7 @@ unity-lenses/unity-lens-photos 1.0_p_p0_p01-r1: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p01-r1: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p2016021201_p0_p01-r1: Home scope that aggregates results from multiple scopes for the Unity desktop
-www-client/chromium 61.0.3163.100_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
+www-client/chromium 62.0.3202.62_p_p0_p001704: Open-source version of Google Chrome web browser patched for the Unity desktop
 www-client/firefox 56.0_p_p0_p00170402: Firefox Web Browser
 www-client/webbrowser-app 0.23_p20170321_p0_p01: Unity webapps browser application
 x11-libs/dee-qt 3.3_p20140317_p0_p02: Qt binding and QML plugin for Dee for the Unity desktop
