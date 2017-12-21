@@ -4,7 +4,7 @@ dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.0.4.0 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
-gnome-base/gnome-core-apps 3.24: Sub-meta package for the core applications integrated with GNOME 3
+gnome-base/gnome-core-apps 3.24.0: Sub-meta package for the core applications integrated with GNOME 3
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 net-libs/libsoup 2.56.0: An HTTP library implementation in C
 sys-auth/pambase 20150213-r1: PAM base configuration files
