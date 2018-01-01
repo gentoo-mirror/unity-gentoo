@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/w/webapps-greasemonkey/webapps-greasemonkey_2.3.6+14.10.20140701.orig.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	ubuntu-versionator	67d76b4583a9321ce565ba9c96dea9f6
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	67d76b4583a9321ce565ba9c96dea9f6
 _md5_=20341696d794fa156c360a545db80226
