@@ -7,5 +7,5 @@ LICENSE=CC-BY-NC-SA-2.0
 RESTRICT=binchecks mirror strip
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-sounds/ubuntu-sounds_0.13.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	7aea629d2f7a0cd336f00c1694dbaaba
-_md5_=454c7b0133284b5723b691b0eb50b1bf
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	9679c05406b6a9d19c623de5d0c3ca06
+_md5_=df11b4384b5e49c1cba39295f363c9e4
