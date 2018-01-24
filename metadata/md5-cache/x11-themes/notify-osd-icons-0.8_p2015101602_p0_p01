@@ -9,4 +9,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/n/notify-osd-icons/notify-osd-icons_0.8+15.10.20151016.2.orig.tar.gz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	9679c05406b6a9d19c623de5d0c3ca06
-_md5_=16e07936d1e5cba8efcc6cacce317e0e
+_md5_=a8ced558f0250e36d70bc0fe2bf701a9

@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/universe/u/ubuntu-mate-settings/ubuntu-mate-settings_17.10.24.tar.xz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	9679c05406b6a9d19c623de5d0c3ca06
-_md5_=2c61f2cc80df1ec96bd825cdbed6f006
+_md5_=f244a1d0a9126e0bf578591aa1405e64

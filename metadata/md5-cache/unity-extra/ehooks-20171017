@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=app-eselect/eselect-ehooks
 SLOT=0
-_md5_=facd28b1b01b78b6e63ec955a0f8abff
+_md5_=38c307836eed5e713c7b86a3b957293c

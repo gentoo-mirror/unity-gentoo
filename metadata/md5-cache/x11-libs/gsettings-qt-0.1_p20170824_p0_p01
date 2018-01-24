@@ -9,4 +9,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/universe/g/gsettings-qt/gsettings-qt_0.1+17.10.20170824.orig.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	ubuntu-versionator	9679c05406b6a9d19c623de5d0c3ca06
-_md5_=b55f4f64c6741c1073c39e8b7fe09e67
+_md5_=7e7288bbb9d08b55fde153884a07cbdf
