@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/universe/g/gsettings-qt/gsettings-qt_0.1+17.10.20170824.orig.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	7a297a2a4b6acce35f661ce7c09f51e2
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
 _md5_=2e7eb17a7e9faff5735fd2b5ebf87484

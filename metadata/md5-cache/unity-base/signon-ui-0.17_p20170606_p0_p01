@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure postinst prepare setup
+DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtdeclarative:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtxmlpatterns:5 dev-qt/qtwebkit:5 dev-qt/qtwidgets:5 net-libs/libproxy[-kde] unity-base/signon x11-libs/libaccounts-qt:= x11-libs/libnotify test? ( dev-qt/qttest:5 )
+DESCRIPTION=Single Sign On framework for the Unity desktop
+EAPI=6
+HOMEPAGE=https://launchpad.net/signon-ui
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/universe/s/signon-ui/signon-ui_0.17+17.10.20170606.orig.tar.gz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
+_md5_=bec7e08914917553321f0cafdffa84c1

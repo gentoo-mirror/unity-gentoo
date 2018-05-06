@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst setup test
+DESCRIPTION=Ubuntu wallpapers
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-wallpapers
+KEYWORDS=amd64 x86
+LICENSE=CC-BY-SA-3.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_18.04.1.orig.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
+_md5_=b58bb473e47ac01d5326a77dc7c39c0f

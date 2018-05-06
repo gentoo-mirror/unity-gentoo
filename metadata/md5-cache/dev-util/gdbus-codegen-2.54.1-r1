@@ -1,0 +1,6 @@
+DEFINED_PHASES=-
+DESCRIPTION=GDBus code and documentation generator
+EAPI=6
+KEYWORDS=~amd64 ~x86
+SLOT=0
+_md5_=b935c2d59916785c92ca36eb541357b5

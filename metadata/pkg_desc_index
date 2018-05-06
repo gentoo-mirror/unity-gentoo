@@ -1,7 +1,8 @@
+dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
-dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
+dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 gnome-base/gnome-core-apps 3.24.2: Sub-meta package for the core applications integrated with GNOME 3
@@ -10,4 +11,4 @@ net-libs/libsoup 2.58.2: An HTTP library implementation in C
 sys-auth/pambase 20150213-r1: PAM base configuration files
 unity-base/unity-build-env 17.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
-x11-themes/ubuntu-wallpapers 17.10.1_p_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 18.04.1_p_p0_p01: Ubuntu wallpapers
