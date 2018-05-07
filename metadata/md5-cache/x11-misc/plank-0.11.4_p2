@@ -1,4 +1,4 @@
-DEFINED_PHASES=postinst prepare setup
+DEFINED_PHASES=install postinst prepare setup
 DEPEND=dev-libs/glib:2 dev-libs/libdbusmenu dev-libs/libgee:0.8 unity-base/bamf x11-libs/gtk+:3 x11-libs/libwnck:3 x11-libs/libX11 dev-util/intltool gnome-base/gnome-common sys-devel/gettext virtual/pkgconfig || ( dev-lang/vala:0.36[vapigen(+)] dev-lang/vala:0.34[vapigen(+)] dev-lang/vala:0.32[vapigen(+)] ) >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Dock panel famious docky
 EAPI=6
@@ -9,6 +9,6 @@ LICENSE=LGPL-3
 RDEPEND=dev-libs/glib:2 dev-libs/libdbusmenu dev-libs/libgee:0.8 unity-base/bamf x11-libs/gtk+:3 x11-libs/libwnck:3 x11-libs/libX11
 RESTRICT=mirror
 SLOT=0
-SRC_URI=mirror://unity/pool/universe/p/plank/plank_0.11.4.orig.tar.xz
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/plank_0.11.4.orig.tar.xz
 _eclasses_=autotools	4842e626555a9a4344f34cef2e190b67	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	libtool	0081a71a261724730ec4c248494f044d	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd	vala	103e6885c83965507391cdc5b6fa0e67	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=cf79092b3e15fd33a4089acaf3395add
+_md5_=8d434ce1be0a41e30fdd9c2db4872acc
