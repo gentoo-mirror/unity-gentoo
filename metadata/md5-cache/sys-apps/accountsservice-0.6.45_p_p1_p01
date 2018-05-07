@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure postinst prepare setup
+DEPEND=>=dev-libs/glib-2.37.3:2 sys-auth/polkit introspection? ( >=dev-libs/gobject-introspection-0.9.12 ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit ) app-crypt/gcr dev-libs/libxslt dev-util/gdbus-codegen >=dev-util/gtk-doc-am-1.15 >=dev-util/gtk-doc-1.18 >=dev-util/intltool-0.40 sys-devel/gettext virtual/pkgconfig doc? ( app-text/docbook-xml-dtd:4.1.2 app-text/xmlto ) vala? ( || ( dev-lang/vala:0.36[vapigen(+)] dev-lang/vala:0.34[vapigen(+)] dev-lang/vala:0.32[vapigen(+)] ) ) >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-apps/sed-4 virtual/pkgconfig
+DESCRIPTION=D-Bus interfaces for querying and manipulating user account information
+EAPI=6
+HOMEPAGE=http://www.fedoraproject.org/wiki/Features/UserAccountDialog
+IUSE=doc +introspection systemd vala
+LICENSE=GPL-3+
+RDEPEND=>=dev-libs/glib-2.37.3:2 sys-auth/polkit introspection? ( >=dev-libs/gobject-introspection-0.9.12 ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit )
+REQUIRED_USE=vala? ( introspection )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_0.6.45.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_0.6.45-1ubuntu1.debian.tar.xz
+_eclasses_=autotools	4842e626555a9a4344f34cef2e190b67	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	gnome2-utils	4d211d7614f303710fca59db6ec12c88	libtool	0081a71a261724730ec4c248494f044d	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	systemd	a31844b675f1a1fea87fbe1144aee5f5	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd	vala	103e6885c83965507391cdc5b6fa0e67	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_md5_=1076ff1c757eabc74f771885134337c6
