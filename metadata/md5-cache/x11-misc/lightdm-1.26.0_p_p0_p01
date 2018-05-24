@@ -4,6 +4,7 @@ DESCRIPTION=A lightweight display manager
 EAPI=6
 HOMEPAGE=https://launchpad.net/lightdm
 IUSE=lightdm_greeters_gtk +lightdm_greeters_unity audit +introspection qt4 qt5 test
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 LGPL-3
 PDEPEND=lightdm_greeters_gtk? ( x11-misc/lightdm-gtk-greeter ) lightdm_greeters_unity? ( unity-extra/unity-greeter )
 RDEPEND=dev-libs/glib:2 dev-libs/libxml2 sys-apps/accountsservice sys-libs/pam x11-libs/libX11 >=x11-libs/libxklavier-5 audit? ( sys-process/audit ) introspection? ( >=dev-libs/gobject-introspection-1 ) qt4? ( dev-qt/qtcore:4 dev-qt/qtdbus:4 dev-qt/qtgui:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 ) sys-auth/pambase x11-apps/xrandr >=app-eselect/eselect-lightdm-0.2
@@ -11,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/lightdm_1.26.0.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/lightdm_1.26.0-0ubuntu1.debian.tar.xz
 _eclasses_=autotools	d0e5375d47f4c809f406eb892e531513	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	flag-o-matic	5128c4729303400bd8d4b0b966530955	libtool	0081a71a261724730ec4c248494f044d	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	pam	3e788d86170dfcd5b06824d898315e18	preserve-libs	ef207dc62baddfddfd39a164d9797648	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	systemd	a31844b675f1a1fea87fbe1144aee5f5	toolchain-funcs	fa02994d0beba88681127d93da4411ec	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd	user	8bc2845510e2109af75e3eeac607ec81	vala	103e6885c83965507391cdc5b6fa0e67	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=b71ae7919bb57465a772fc272e247224
+_md5_=fea79687e95764f4e676e8ce8e42b7f6
