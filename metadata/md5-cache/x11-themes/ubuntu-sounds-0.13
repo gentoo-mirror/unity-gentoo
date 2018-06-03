@@ -8,4 +8,4 @@ RESTRICT=binchecks mirror strip
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-sounds/ubuntu-sounds_0.13.tar.gz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
-_md5_=26f2040277482951ac924f2d26658984
+_md5_=a81c023f09a6d4037b8e11ee66c5a8dc
