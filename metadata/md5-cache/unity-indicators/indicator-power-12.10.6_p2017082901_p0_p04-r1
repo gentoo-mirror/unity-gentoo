@@ -1,14 +1,13 @@
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
-DEPEND=unity-base/unity-language-pack app-admin/system-config-printer dev-cpp/gtest dev-libs/glib:2 dev-libs/libappindicator:= dev-libs/libdbusmenu:= dev-libs/libindicate-qt help? ( gnome-extra/yelp gnome-extra/gnome-user-docs unity-base/ubuntu-docs ) sys-devel/make >=dev-util/cmake-3.9.6 >=sys-apps/sed-4
-DESCRIPTION=Indicator showing session management, status and user switching used by the Unity desktop
+DEPEND=gnome-extra/gnome-power-manager dev-libs/glib:2 dev-libs/libappindicator dev-libs/libdbusmenu sys-power/upower unity-base/unity-settings-daemon sys-devel/make >=dev-util/cmake-3.9.6 >=sys-apps/sed-4
+DESCRIPTION=Indicator showing power state used by the Unity desktop
 EAPI=6
-HOMEPAGE=https://launchpad.net/indicator-session
-IUSE=+help
+HOMEPAGE=https://launchpad.net/indicator-power
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=unity-base/unity-language-pack
+RDEPEND=gnome-extra/gnome-power-manager
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-session_17.3.20+17.10.20171006.orig.tar.gz
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-power_12.10.6+17.10.20170829.1.orig.tar.gz
 _eclasses_=cmake-utils	57384a259cf0c7985ce651b2c0865405	desktop	1b286a7e7143d8c4ec89cd0d2743a097	eapi7-ver	d97a56a62c7df8614afddcb25f5ff00f	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	5b8ce72259e08104b337fe28c6de5dbc	flag-o-matic	5128c4729303400bd8d4b0b966530955	gnome2-utils	29bb8f7881c95139e532a2d5e47ff834	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	d2e7e7d290428bb25c56dcf2502badc1	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
-_md5_=ae45566190955d94eb603aed7c9fe4ec
+_md5_=12c660af33466cf831dcf716e379f094
