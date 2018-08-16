@@ -1,5 +1,5 @@
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
-dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
+dev-dotnet/google-gdata-sharp 1.4.0.2-r2: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
@@ -7,7 +7,6 @@ dev-dotnet/taglib-sharp 2.1.0.0_p_p3_p01: Taglib# 2.0 - Managed tag reader/write
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 gnome-base/gnome-core-apps 3.24.2 3.24.2-r9: Sub-meta package for the core applications integrated with GNOME 3
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
-media-video/cheese 3.28.0: A cheesy program to take pictures and videos from your webcam
 net-libs/libsoup 2.58.2: An HTTP library implementation in C
 sys-auth/pambase 20150213-r1: PAM base configuration files
 unity-base/unity-build-env 18.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
