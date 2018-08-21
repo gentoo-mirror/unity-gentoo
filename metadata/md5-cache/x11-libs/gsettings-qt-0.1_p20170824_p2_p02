@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824-2fakesync1build2.debian.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
 _md5_=ea757212f3cbe7296bc638c56f09c8d8
