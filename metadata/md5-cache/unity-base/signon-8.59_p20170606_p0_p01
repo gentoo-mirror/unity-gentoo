@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/signon_8.59+17.10.20170606.orig.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	89d986cb5c4ed5f2ac25090f487cc8fd
 _md5_=bf6695c3fb999ce713f9e37c38773b48
