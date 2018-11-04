@@ -11,4 +11,4 @@ media-video/cheese 3.28.0: A cheesy program to take pictures and videos from you
 net-libs/libsoup 2.58.2: An HTTP library implementation in C
 unity-base/unity-build-env 18.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
-x11-themes/ubuntu-wallpapers 18.04.1_p_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 18.10.2_p_p0_p01: Ubuntu wallpapers
