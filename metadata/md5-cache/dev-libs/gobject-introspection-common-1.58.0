@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst setup
+DEPEND=app-arch/xz-utils
+DESCRIPTION=Build infrastructure for GObject Introspection
+EAPI=6
+HOMEPAGE=https://wiki.gnome.org/Projects/GObjectIntrospection
+LICENSE=HPND
+RDEPEND=!<dev-libs/gobject-introspection-1.58.0
+SLOT=0
+SRC_URI=mirror://gnome/sources/gobject-introspection/1.58/gobject-introspection-1.58.0.tar.xz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	gnome.org	5e4cc5af3f1b17bdee155bf02e8c2df4	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	a81ca151c8a22bbfa1cfc04c295704be	versionator	2352c3fc97241f6a02042773c8287748
+_md5_=a6c22acc27231dd7dd8ebee669fef3f8
