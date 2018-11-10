@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install postinst prepare setup test
+DEPEND=app-i18n/ibus dev-cpp/gtest dev-libs/boost:= dev-libs/glib:2 dev-libs/libpcre dev-libs/libsigc++:2 gnome-base/gnome-common media-libs/libpng:0 sys-apps/pciutils unity-base/geis x11-base/xorg-proto x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXxf86vm x11-libs/pango doc? ( app-doc/doxygen ) test? ( dev-cpp/gmock dev-cpp/gtest ) >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 test? ( !prefix? ( x11-misc/x11vnc[dummy] ) x11-apps/xhost )
+DESCRIPTION=Visual rendering toolkit for the Unity desktop
+EAPI=6
+HOMEPAGE=http://launchpad.net/nux
+IUSE=debug doc examples test test
+LICENSE=GPL-3 LGPL-3
+RESTRICT=mirror
+SLOT=0/4
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/nux_4.0.8+18.10.20180623.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/nux_4.0.8+18.10.20180623-0ubuntu1.diff.gz mirror://sourceforge/glew/glew-1.13.0.tgz
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	a81ca151c8a22bbfa1cfc04c295704be	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdummy	02c74153f07ad84fbdf5896554a6a704
+_md5_=396bdfd5cc9a673e011b9067613f157c
