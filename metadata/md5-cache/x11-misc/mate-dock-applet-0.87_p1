@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure postinst prepare setup
+DEPEND=>=sys-devel/automake-1.15:1.15 >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Application dock for the MATE panel
+EAPI=6
+HOMEPAGE=https://github.com/robint99/dock-applet
+IUSE=python_targets_python3_5 python_targets_python3_6
+LICENSE=GPL-3
+RDEPEND=dev-python/python-xlib[python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-)] dev-python/pygobject:3[python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_python3_5(-),-python_single_target_python3_6(-)] dev-python/pillow >=mate-base/mate-panel-1.17.0[introspection] x11-libs/libwnck:3[introspection]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/robint99/mate-dock-applet/archive/V0.87.tar.gz -> mate-dock-applet-0.87.tar.gz
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multibuild	40fe59465edacd730c644ec2bc197809	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	a81ca151c8a22bbfa1cfc04c295704be	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=4be9a839a5fd1e4a1691b49aae05dfb4
