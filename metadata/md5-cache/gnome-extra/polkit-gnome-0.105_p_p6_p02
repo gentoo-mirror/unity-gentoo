@@ -9,5 +9,5 @@ RDEPEND=>=dev-libs/glib-2.30 >=sys-auth/polkit-0.102 x11-libs/gtk+:3 !lxde-base/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/policykit-1-gnome_0.105.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/policykit-1-gnome_0.105-6ubuntu2.debian.tar.xz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	a81ca151c8a22bbfa1cfc04c295704be
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	b7adf2e8423304dac5d00b01f77f7eda
 _md5_=0488c2aca86366a9d50644ca1db01a5e

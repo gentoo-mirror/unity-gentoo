@@ -5,6 +5,7 @@ dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p4: Taglib# 2.0 - Managed tag reader/writer
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
+dev-util/glib-utils 2.56.3: Build utilities for GLib using projects
 gnome-base/gnome-core-apps 3.24.2-r9: Sub-meta package for the core applications integrated with GNOME 3
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/mesa 18.2.4: OpenGL-like graphic library for Linux
