@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install postinst prepare setup
-DEPEND=!!x11-libs/gsettings-qt dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdeclarative:5 test? ( dev-qt/qttest:5 )
+DEPEND=!!<x11-libs/gsettings-qt-0.1_p20170824_p6_p01 dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdeclarative:5 test? ( dev-qt/qttest:5 )
 DESCRIPTION=Qml bindings for GSettings.
 EAPI=6
 HOMEPAGE=https://launchpad.net/gsettings-qt
@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824-6fakesync1ubuntu1.debian.tar.xz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	ubuntu-versionator	b7adf2e8423304dac5d00b01f77f7eda
-_md5_=8fe96022c31022e9a97662d3004ce69b
+_md5_=83e71e7f1a0617842c1820f6b42e1703
