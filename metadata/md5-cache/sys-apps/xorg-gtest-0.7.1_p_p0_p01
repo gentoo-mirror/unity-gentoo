@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/xorg-gtest_0.7.1.orig.tar.bz2 https://launchpad.net/ubuntu/+archive/primary/+files/xorg-gtest_0.7.1-0ubuntu1.debian.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	b7adf2e8423304dac5d00b01f77f7eda
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
 _md5_=cd4fd61d56c747d8b0d3d6718e47783e

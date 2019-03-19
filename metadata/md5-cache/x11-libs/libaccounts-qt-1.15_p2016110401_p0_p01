@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RESTRICT=mirror
 SLOT=0/1.2.0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/libaccounts-qt_1.15+17.04.20161104.1.orig.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	b7adf2e8423304dac5d00b01f77f7eda
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
 _md5_=3d6bf9ce3a2d776d2eca1855a1c3414d

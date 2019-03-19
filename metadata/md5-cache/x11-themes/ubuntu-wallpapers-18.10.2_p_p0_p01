@@ -7,5 +7,5 @@ LICENSE=CC-BY-SA-3.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_18.10.2.orig.tar.gz
-_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	b7adf2e8423304dac5d00b01f77f7eda
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
 _md5_=d21ee3b86189fe9f880d73057b96778a
