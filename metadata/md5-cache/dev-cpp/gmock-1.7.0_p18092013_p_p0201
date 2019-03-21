@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install postinst prepare setup unpack
-DEPEND==dev-cpp/gtest-1.7.0* app-arch/unzip python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),python_single_target_python2_7(+)] >=app-portage/elt-patches-20170815
+DEPEND==dev-cpp/gtest-1.7.0* app-arch/unzip python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),python_single_target_python2_7(+)] >=app-portage/elt-patches-20170815
 DESCRIPTION=Google's C++ mocking framework patched for the Unity desktop
 EAPI=6
 HOMEPAGE=http://code.google.com/p/googlemock/
@@ -10,5 +10,5 @@ RDEPEND==dev-cpp/gtest-1.7.0*
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/google-mock_1.7.0-18092013.orig.tar.bz2 https://launchpad.net/ubuntu/+archive/primary/+files/google-mock_1.7.0-18092013-2.1.debian.tar.xz
-_eclasses_=libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	python-single-r1	3a0fc81f484bfdbd9c2b7448015a36e4	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
+_eclasses_=libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	python-single-r1	3a0fc81f484bfdbd9c2b7448015a36e4	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
 _md5_=73b11657566598505f5291643baf6e9d
