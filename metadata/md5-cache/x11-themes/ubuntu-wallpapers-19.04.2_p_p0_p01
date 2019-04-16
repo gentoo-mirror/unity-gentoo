@@ -6,6 +6,6 @@ KEYWORDS=amd64 x86
 LICENSE=CC-BY-SA-3.0
 RESTRICT=mirror
 SLOT=0
-SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_19.04.1.orig.tar.gz
+SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_19.04.2.orig.tar.gz
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
 _md5_=2d88046ff7780b237a2e47685a52a532
