@@ -1,0 +1,7 @@
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+EAPI=6
+HOMEPAGE=http://unity.ubuntu.com/
+LICENSE=GPL-2
+SLOT=0/disco
+_md5_=60ffe5811ba94db6f50a809d66c2d94b
