@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=>=dev-libs/glib-2.30 >=sys-auth/polkit-0.102 x11-libs/gtk+:3 !lxde-base/lxpolkit dev-util/intltool gnome-base/gnome-common virtual/pkgconfig sys-devel/gettext >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A dbus session bus service that is used to bring up authentication dialogs
+EAPI=6
+HOMEPAGE=http://www.freedesktop.org/wiki/Software/PolicyKit
+LICENSE=LGPL-2
+RDEPEND=>=dev-libs/glib-2.30 >=sys-auth/polkit-0.102 x11-libs/gtk+:3 !lxde-base/lxpolkit
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/policykit-1-gnome_0.105.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/policykit-1-gnome_0.105-7ubuntu2.debian.tar.xz
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
+_md5_=bdd46c76fe510eda00b3714ade6fb7af
