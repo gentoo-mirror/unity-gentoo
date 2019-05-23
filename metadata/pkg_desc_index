@@ -7,7 +7,7 @@ dev-dotnet/taglib-sharp 2.1.0.0_p4: Taglib# 2.0 - Managed tag reader/writer
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 dev-util/glib-utils 2.58.1: Build utilities for GLib using projects
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
-net-libs/libsoup 2.58.2: An HTTP library implementation in C
-unity-base/unity-build-env 18.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+net-libs/libsoup 2.64.2: An HTTP library implementation in C
+unity-base/unity-build-env 18.10 19.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-themes/ubuntu-wallpapers 19.04.2_p_p0_p01: Ubuntu wallpapers

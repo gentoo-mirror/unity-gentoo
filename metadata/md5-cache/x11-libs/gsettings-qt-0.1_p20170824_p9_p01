@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install postinst prepare setup
-DEPEND=!!<x11-libs/gsettings-qt-0.1_p20170824_p9_p01 dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdeclarative:5 test? ( dev-qt/qttest:5 )
+DEPEND=dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtdeclarative:5 test? ( dev-qt/qttest:5 )
 DESCRIPTION=Qml bindings for GSettings.
 EAPI=6
 HOMEPAGE=https://launchpad.net/gsettings-qt
@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824-9fakesync1.debian.tar.xz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	6424e9d718a6afa0639d42a76e13c024
-_md5_=57f4aa7b80aefe7e889427f48942520b
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	f05ed5f065cf9c9c3223a83873d5bee0
+_md5_=dc5fd13d01fde5ee0acd3d2c8053bb0f
