@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=metapackage
 RESTRICT=mirror
 SLOT=0/disco
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	f05ed5f065cf9c9c3223a83873d5bee0
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e
 _md5_=3c33c760d69ed5374a299c45a69d193d

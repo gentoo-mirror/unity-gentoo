@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=x11-libs/gtk+-3.12.0:3 x11-libs/cairo x11-libs/gdk-pixbuf >=dev-libs/libpeas-1.2.0 X? ( x11-libs/libX11 ) wnck? ( >=x11-libs/libwnck-3.4.0:3 ) dev-util/cmake dev-util/cmake-vala dev-lang/vala virtual/pkgconfig sys-devel/gettext || ( dev-lang/vala:0.36[vapigen(+)] ) sys-devel/make >=dev-util/cmake-3.9.6
+DEPEND=>=x11-libs/gtk+-3.12.0:3 x11-libs/cairo x11-libs/gdk-pixbuf >=dev-libs/libpeas-1.2.0 X? ( x11-libs/libX11 ) wnck? ( >=x11-libs/libwnck-3.4.0:3 ) dev-util/cmake dev-util/cmake-vala dev-lang/vala virtual/pkgconfig sys-devel/gettext || ( dev-lang/vala:0.42[vapigen(+)] ) sys-devel/make >=dev-util/cmake-3.9.6
 DESCRIPTION=Lightweight desktop panel
 EAPI=6
 HOMEPAGE=http://github.com/rilian-la-te/vala-panel
@@ -8,6 +8,6 @@ LICENSE=LGPL-3
 RDEPEND=>=x11-libs/gtk+-3.12.0:3 x11-libs/cairo x11-libs/gdk-pixbuf >=dev-libs/libpeas-1.2.0 X? ( x11-libs/libX11 ) wnck? ( >=x11-libs/libwnck-3.4.0:3 )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel_0.4.87+dfsg1.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel-appmenu_0.7.1+dfsg1.orig.tar.xz
-_eclasses_=cmake-utils	959a7fda0dce63de9a4e73a22294d6ec	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	a09389deba2c0a7108b581e02c7cecbf	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	f05ed5f065cf9c9c3223a83873d5bee0	vala	cfb1d97eac9fead928d3240c8636b9ae	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=de0e993c457d18ffe6a0a0ad42180ecd
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel_0.4.87+dfsg1.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel_0.4.87+dfsg1-1ubuntu1.debian.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel-appmenu_0.7.1+dfsg1.orig.tar.xz
+_eclasses_=cmake-utils	959a7fda0dce63de9a4e73a22294d6ec	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	a09389deba2c0a7108b581e02c7cecbf	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e	vala	cfb1d97eac9fead928d3240c8636b9ae	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=92953d7504f7c5fd33a8f538d49a8991
