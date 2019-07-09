@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst
-DESCRIPTION=Ebuild hooks customizing packages for use with Unity desktop
-EAPI=6
-HOMEPAGE=https://packages.ubuntu.com/
-KEYWORDS=~amd64 ~x86
-LICENSE=GPL-2
-RDEPEND=app-eselect/eselect-ehooks
-SLOT=0
-_md5_=e0b4af5e40465010ba71c5b3e72cc76a

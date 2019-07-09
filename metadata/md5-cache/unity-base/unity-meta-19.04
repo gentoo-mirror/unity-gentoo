@@ -1,12 +1,12 @@
 DEFINED_PHASES=postinst setup
-DEPEND=gnome-base/gnome-core-libs gnome-base/nautilus gnome-extra/activity-log-manager gnome-extra/nm-applet unity-base/hud unity-base/unity unity-base/unity-build-env unity-base/unity-control-center unity-indicators/unity-indicators-meta unity-lenses/unity-lens-meta x11-misc/notify-osd x11-themes/ubuntu-wallpapers accessibility? ( app-accessibility/at-spi2-atk app-accessibility/at-spi2-core app-accessibility/caribou app-accessibility/orca gnome-extra/mousetweaks ) chat? ( net-im/empathy net-libs/telepathy-indicator ) ehooks? ( unity-extra/ehooks ) gnome? ( gnome-base/gnome-core-apps ) gnome-extras? ( gnome-base/gnome-extra-apps ) nocsd? ( x11-misc/gtk3-nocsd ) unity-extras? ( app-backup/deja-dup[nautilus] unity-extra/unity-tweak-tool ) xdm? ( || ( unity-extra/unity-greeter gnome-base/gdm ) )
+DEPEND=gnome-base/gnome-core-libs gnome-base/nautilus gnome-extra/activity-log-manager gnome-extra/nm-applet unity-base/hud unity-base/unity unity-base/unity-build-env unity-base/unity-control-center unity-extra/ehooks unity-indicators/unity-indicators-meta unity-lenses/unity-lens-meta x11-misc/notify-osd x11-themes/ubuntu-wallpapers accessibility? ( app-accessibility/at-spi2-atk app-accessibility/at-spi2-core app-accessibility/caribou app-accessibility/orca gnome-extra/mousetweaks ) chat? ( net-im/empathy net-libs/telepathy-indicator ) gnome? ( gnome-base/gnome-core-apps ) gnome-extras? ( gnome-base/gnome-extra-apps ) nocsd? ( x11-misc/gtk3-nocsd ) unity-extras? ( app-backup/deja-dup[nautilus] unity-extra/unity-tweak-tool ) xdm? ( || ( unity-extra/unity-greeter gnome-base/gdm ) )
 DESCRIPTION=Unity Desktop - merge this to pull in all Unity packages
 EAPI=6
 HOMEPAGE=http://unity.ubuntu.com/
-IUSE=accessibility +chat +ehooks gnome gnome-extras +nocsd +unity-extras +xdm
+IUSE=accessibility +chat gnome gnome-extras +nocsd +unity-extras +xdm
 KEYWORDS=~amd64 ~x86
 LICENSE=metapackage
 RESTRICT=mirror
 SLOT=0/disco
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e
-_md5_=3c33c760d69ed5374a299c45a69d193d
+_md5_=ba797cb855f7b82cfbe1d646eaf05ce4

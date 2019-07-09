@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst preinst
+DESCRIPTION=Ebuild hooks patching system
+EAPI=6
+HOMEPAGE=https://github.com/shiznix/unity-gentoo
+IUSE=audacity_menu eog_menu evince_menu gnome-screenshot_adjust gnome-terminal_theme libreoffice_theme pidgin_chat totem_menu zim_theme
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+SLOT=0
+_md5_=c368125c5d1314214fbfc36eb13b0b4e
