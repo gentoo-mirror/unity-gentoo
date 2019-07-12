@@ -5,4 +5,4 @@ HOMEPAGE=https://github.com/shiznix/unity-gentoo
 IUSE=audacity_menu eog_menu evince_menu gnome-screenshot_adjust gnome-terminal_theme libreoffice_theme nemo_noroot pidgin_chat totem_menu zim_theme
 LICENSE=GPL-2+
 SLOT=0
-_md5_=7953e122ae4fd71eaf17a85e522cd80f
+_md5_=bf8729630060c4a7e8eaa4286eac2ec3
