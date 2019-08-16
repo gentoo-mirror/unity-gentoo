@@ -4,7 +4,7 @@ DESCRIPTION=Service to log activities and present to other apps
 EAPI=6
 HOMEPAGE=https://launchpad.net/zeitgeist/
 IUSE=+datahub downloads-monitor +fts introspection nls sql-debug telepathy python_targets_python2_7
-KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2+ LGPL-3+ GPL-2+
 RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-libs/json-glib dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/rdflib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] media-libs/raptor:2 >=dev-libs/glib-2.35.4:2 >=dev-db/sqlite-3.7.11:3 sys-apps/dbus datahub? ( x11-libs/gtk+:3 ) fts? ( dev-libs/xapian:0=[inmemory] ) introspection? ( dev-libs/gobject-introspection ) telepathy? ( net-libs/telepathy-glib )
 REQUIRED_USE=|| ( python_targets_python2_7 ) downloads-monitor? ( datahub )
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/zeitgeist_1.0.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/zeitgeist_1.0-0.1ubuntu1.debian.tar.xz
 _eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e	vala	682da46cf615b9f7a7d3680058139dcd	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	2352c3fc97241f6a02042773c8287748	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=497a8adbc26564aaae11608a0936278b
+_md5_=00b628e697c57d03763f80cd1f502150
