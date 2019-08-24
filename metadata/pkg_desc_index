@@ -41,7 +41,7 @@ dev-util/cmake-extras 1.3_p20170310_p_p5 1.3_p20170310_p3_p02: Extra CMake utili
 dev-util/cmake-vala 1_p_p_p01: CMake utility modules needed for building Vala Panel
 dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.58.1 2.60.4: GDBus code and documentation generator
-dev-util/glib-utils 2.58.1 2.60.0: Build utilities for GLib using projects
+dev-util/glib-utils 2.58.1 2.60.4: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p0401_p02: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.30.2: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.30.2: Sub-meta package for the core libraries of GNOME 3
@@ -125,7 +125,7 @@ unity-indicators/indicator-datetime 15.10_p20190207_p0_p01 15.10_p2017082902_p0_
 unity-indicators/indicator-internode 9999: Unity indicator to monitor internet usage for the Internode ISP
 unity-indicators/indicator-keyboard 0.0.0_p20180216_p0_p01-r1 0.0.0_p20190716_p0_p01: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p01: Indicator that collects messages that need a response used by the Unity desktop
-unity-indicators/indicator-power 12.10.6_p2017082901_p0_p04-r1: Indicator showing power state used by the Unity desktop
+unity-indicators/indicator-power 12.10.6_p2017082901_p0_p04-r2: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p01: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 17.3.20_p20171006_p0_p01-r2 17.3.20_p20190209_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p01: System sound indicator used by the Unity desktop
