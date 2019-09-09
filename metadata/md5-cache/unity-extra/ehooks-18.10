@@ -6,4 +6,4 @@ IUSE=audacity_menu eog_menu evince_menu gnome-screenshot_adjust gnome-terminal_t
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 SLOT=0
-_md5_=5e1c45f758fa8dbaef4b6d1606781c3e
+_md5_=44b59f361a61993382f6bc6eac3e9422
