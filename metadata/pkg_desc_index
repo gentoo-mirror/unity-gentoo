@@ -76,6 +76,7 @@ sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 5.0.8_p_p20_p21: Ubuntu patched kernel sources
+sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p2018020702_p0_p01-r1: BAMF Application Matching Framework
