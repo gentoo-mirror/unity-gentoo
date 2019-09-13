@@ -7,5 +7,5 @@ LICENSE=CC-BY-SA-3.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://unity/pool/main/u/ubuntu-wallpapers/ubuntu-wallpapers_19.04.2.orig.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	ubuntu-versionator	455a066d29e5a57cfc79210d87fed30e
 _md5_=51cc8faaf739e19d5fc35c6aaa6638ef
