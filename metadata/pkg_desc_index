@@ -148,7 +148,7 @@ x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets 
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
 x11-misc/lightdm 1.28.0_p_p0_p01: A lightweight display manager
 x11-misc/mate-dock-applet 0.87_p1 0.89_p_p0_p01: Application dock for the MATE panel
-x11-misc/notify-osd 0.9.35_p20160415_p0_p03: Canonical's on-screen-display notification agent
+x11-misc/notify-osd 0.9.35_p20160415_p0_p03-r1: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.4_p4: Dock panel famious docky
 x11-misc/vala-panel 0.4.63_p_p_p01 0.4.87_p_p1_p01: Lightweight desktop panel
 x11-misc/vala-panel-appmenu 0.7.1_p_p_p1: Global Menu plugin for xfce4 and vala-panel
