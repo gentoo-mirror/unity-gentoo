@@ -94,7 +94,7 @@ unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20190304_p0_p01-r1 7.5.0_p20190304_p0_p01-r9: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
 unity-base/unity-build-env 18.10 19.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p20180216_p0_p01-r5 15.04.0_p20190209_p0_p03: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p20180216_p0_p01-r5 15.04.0_p20190209_p0_p03-r1: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 18.10-r1: Language translations pack for Unity desktop
 unity-base/unity-meta 18.10 19.04: Unity Desktop - merge this to pull in all Unity packages
