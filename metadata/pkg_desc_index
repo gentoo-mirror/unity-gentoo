@@ -44,7 +44,7 @@ dev-util/gdbus-codegen 2.58.1 2.60.4: GDBus code and documentation generator
 dev-util/glib-utils 2.58.1 2.60.4: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p0401_p02: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.30.2: Sub-meta package for the core applications integrated with GNOME 3
-gnome-base/gnome-core-libs 3.30.2: Sub-meta package for the core libraries of GNOME 3
+gnome-base/gnome-core-libs 3.30.2 3.32.2: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.30.1_p_p1_p0101 3.32.1_p_p1_p0102: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p11_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.30.0_p_p1_p02 3.30.0_p_p1_p03: The GNOME panel patched for the Unity desktop
