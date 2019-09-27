@@ -1,6 +1,6 @@
 app-accessibility/onboard 1.4.1_p_p2_p02-r1 1.4.1_p_p2_p04: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 38.0_p_p1_p0001 38.4_p_p_p1: Simple backup tool using duplicity back-end
-app-emulation/anbox 9999.2018.07.19-r1: Run Android applications on any GNU/Linux operating system
+app-emulation/anbox 9999.2018.07.19-r2: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-text/evince 3.32.0: Simple document viewer for GNOME
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
@@ -158,6 +158,6 @@ x11-themes/humanity-icon-theme 0.6.15: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 19.04_p_p0_p01-r1: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 19.04.2_p_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
 x11-wm/metacity 3.30.1_p_p_p01 3.30.1_p_p_p02: GNOME default window manager
