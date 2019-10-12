@@ -57,7 +57,7 @@ gnome-extra/activity-log-manager 0.9.7_p_p0_p26-r2: Blacklist configuration user
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.18_p_p2_p02 1.8.20_p_p1_p01: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p6_p02 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/zeitgeist 1.0_p_p0001_p1-r1 1.0.2_p_p0_p01: Service to log activities and present to other apps
+gnome-extra/zeitgeist 1.0_p_p0001_p1-r2 1.0.2_p_p0_p01: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.5.0_p_p8_p01 0.5.0_p_p10_p01: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 18.10.1_p_p0_p01 19.10.0_p_p0_p01: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
 mate-extra/mate-menu 19.04.0_p_p0_p0101: Advanced MATE menu
@@ -157,7 +157,7 @@ x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for
 x11-themes/humanity-icon-theme 0.6.15: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
-x11-themes/ubuntu-themes 19.04_p_p0_p01-r1: Monochrome icons for the Unity desktop (default icon theme)
+x11-themes/ubuntu-themes 19.04_p_p0_p01-r2: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
 x11-wm/metacity 3.30.1_p_p_p01 3.30.1_p_p_p02: GNOME default window manager
