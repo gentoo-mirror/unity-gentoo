@@ -14,7 +14,7 @@ dev-dotnet/taglib-sharp 2.1.0.0_p4: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.2: Global Menu for Java applications
 dev-libs/dbus-cpp 5.0.0_p20160809_p0_p02: Dbus-binding leveraging C++-11
 dev-libs/dee 1.2.7_p20170616_p0_p04 1.2.7_p20170616_p4_p01: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.58.1_p_p_p2-r1 2.60.4_p_p0_p00190401: The GLib library of C routines
+dev-libs/glib 2.58.1_p_p2_p002 2.60.4_p_p0_p00190401: The GLib library of C routines
 dev-libs/gobject-introspection 1.58.0 1.60.1: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.58.0 1.60.1: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r1: Library for single signon for the Unity desktop
@@ -58,11 +58,11 @@ gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.18_p_p2_p02 1.8.20_p_p1_p01: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p6_p02 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0_p_p0001_p1-r2 1.0.2_p_p0_p01: Service to log activities and present to other apps
-mate-extra/brisk-menu 0.5.0_p_p8_p01 0.5.0_p_p10_p01: Solus Project's Brisk Menu MATE Panel Applet
-mate-extra/mate-hud 18.10.1_p_p0_p01 19.10.0_p_p0_p01: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
-mate-extra/mate-menu 19.04.0_p_p0_p0101: Advanced MATE menu
-mate-extra/mate-tweak 18.10.2_p_p0_p01 19.10.1_p_p0_p01: MATE desktop tweak tool
-mate-extra/ubuntu-mate-settings 18.04.17 19.10.3: Default settings for Ubuntu MATE
+mate-extra/brisk-menu 0.6.0_p_p_p01: Solus Project's Brisk Menu MATE Panel Applet
+mate-extra/mate-hud 19.10.1_p_p0_p01: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
+mate-extra/mate-menu 19.10.2_p_p0_p01: Advanced MATE menu
+mate-extra/mate-tweak 19.10.4_p_p_p01: MATE desktop tweak tool
+mate-extra/ubuntu-mate-settings 19.10.7: Default settings for Ubuntu MATE
 media-gfx/shotwell 0.30.1_p_p0_p03 0.30.2_p_p0_p02: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your music (patched for Unity)
@@ -75,7 +75,7 @@ sys-apps/accountsservice 0.6.45_p_p1_p01 0.6.50_p_p0_p01: D-Bus interfaces for q
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p0_p01 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 5.3.0_p_p10_p11: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 5.3.1_p_p18_p19: Ubuntu patched kernel sources
 sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -147,11 +147,11 @@ x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
 x11-misc/lightdm 1.28.0_p_p0_p01: A lightweight display manager
-x11-misc/mate-dock-applet 0.87_p1 0.89_p_p0_p01: Application dock for the MATE panel
+x11-misc/mate-dock-applet 19.10.0_p_p1_p01: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20160415_p0_p03-r1: Canonical's on-screen-display notification agent
-x11-misc/plank 0.11.4_p4: Dock panel famious docky
-x11-misc/vala-panel 0.4.63_p_p_p01 0.4.87_p_p1_p01: Lightweight desktop panel
-x11-misc/vala-panel-appmenu 0.7.1_p_p_p1: Global Menu plugin for xfce4 and vala-panel
+x11-misc/plank 0.11.89_p1: Dock panel famious docky
+x11-misc/vala-panel 0.4.91_p_p1_p01: Lightweight desktop panel
+x11-misc/vala-panel-appmenu 0.7.3_p_p1_p01: Global Menu plugin for xfce4 and vala-panel
 x11-misc/x11vnc 0.9.13_p_p06: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.15: A nice and well polished icon theme
