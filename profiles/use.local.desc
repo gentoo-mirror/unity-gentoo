@@ -3,6 +3,8 @@
 # * generated automatically using pmaint *
 
 app-backup/deja-dup:nautilus - Build gnome-base/nautilus extension
+app-emulation/anbox:playstore - Install Google proprietary openGAPPS including Google Play.
+app-emulation/anbox:privileged - Decides if lxc will run conteiner as privileged or unprivileged. Recommended option is unprivileged.
 app-text/evince:dvi - Enable the built-in DVI viewer
 app-text/evince:nautilus - Enable property page extension in gnome-base/nautilus
 app-text/evince:t1lib - Enable the Type-1 fonts for the built-in DVI viewer (media-libs/t1lib)

@@ -1,6 +1,6 @@
 app-accessibility/onboard 1.4.1_p_p2_p02-r1 1.4.1_p_p2_p04: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 38.0_p_p1_p0001-r1 38.4_p_p_p1: Simple backup tool using duplicity back-end
-app-emulation/anbox 9999.2018.07.19-r6: Run Android applications on any GNU/Linux operating system
+app-emulation/anbox 9999.2018.07.19-r7: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 app-text/evince 3.32.0: Simple document viewer for GNOME
 dev-cpp/gmock 1.7.0_p18092013_p_p0201: Google's C++ mocking framework patched for the Unity desktop
