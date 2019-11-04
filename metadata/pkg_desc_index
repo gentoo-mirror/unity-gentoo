@@ -92,7 +92,7 @@ unity-base/nux 4.0.8_p20180623_p0_p01: Visual rendering toolkit for the Unity de
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4: Allows shutdown, logout, and reboot from dash
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.5.0_p20190304_p0_p01-r1 7.5.0_p20190304_p0_p01-r10: The Ubuntu Unity Desktop
+unity-base/unity 7.5.0_p20190304_p0_p01-r2 7.5.0_p20190304_p0_p01-r10: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
 unity-base/unity-build-env 18.10 19.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20180216_p0_p01-r5 15.04.0_p20190209_p0_p03-r1: Unity Desktop Configuration Tool
