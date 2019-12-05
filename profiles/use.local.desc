@@ -31,6 +31,7 @@ gnome-extra/zeitgeist:downloads-monitor - Monitor the XDG_DOWNLOAD_DIRECTORY
 gnome-extra/zeitgeist:fts - Enable the full text search extension
 gnome-extra/zeitgeist:sql-debug - Enable SQL debugging
 gnome-extra/zeitgeist:telepathy - Enable telepathy framework as data source
+media-fonts/fonts-noto-cjk:extra - CJK all weight
 media-sound/banshee:bpm - Build beats per minute detection extension
 media-sound/banshee:daap - Build with Daap support
 media-sound/banshee:karma - Build with karma support
@@ -109,3 +110,24 @@ x11-misc/lightdm:mir - Enable Mir display server support
 x11-misc/x11vnc:dummy - Install Xdummy application to start dummy Xsession using x11-drivers/xf86-video-dummy
 x11-misc/x11vnc:system-libvncserver - Build x11vnc against the system libvncserver (experimental)
 x11-misc/x11vnc:tk - Support the simple tcl/tk -gui option
+x11-themes/ubuntu-wallpapers:artful - Ubuntu Artful backgrounds
+x11-themes/ubuntu-wallpapers:bionic - Ubuntu Bionic backgrounds
+x11-themes/ubuntu-wallpapers:cosmic - Ubuntu Cosmic backgrounds
+x11-themes/ubuntu-wallpapers:disco - Ubuntu Disco backgrounds
+x11-themes/ubuntu-wallpapers:gnome - Gnome backgrounds
+x11-themes/ubuntu-wallpapers:karmic - Ubuntu Karmic backgrounds
+x11-themes/ubuntu-wallpapers:lucid - Ubuntu Lucid backgrounds
+x11-themes/ubuntu-wallpapers:maverick - Ubuntu Maverick backgrounds
+x11-themes/ubuntu-wallpapers:natty - Ubuntu Natty backgrounds
+x11-themes/ubuntu-wallpapers:oneiric - Ubuntu Oneiric backgrounds
+x11-themes/ubuntu-wallpapers:precise - Ubuntu Precise backgrounds
+x11-themes/ubuntu-wallpapers:quantal - Ubuntu Quantal backgrounds
+x11-themes/ubuntu-wallpapers:raring - Ubuntu Raring backgrounds
+x11-themes/ubuntu-wallpapers:saucy - Ubuntu Saucy backgrounds
+x11-themes/ubuntu-wallpapers:trusty - Ubuntu Trusty backgrounds
+x11-themes/ubuntu-wallpapers:utopic - Ubuntu Utopic backgrounds
+x11-themes/ubuntu-wallpapers:vivid - Ubuntu Vivid backgrounds
+x11-themes/ubuntu-wallpapers:wily - Ubuntu Wily backgrounds
+x11-themes/ubuntu-wallpapers:xenial - Ubuntu Xenial backgrounds
+x11-themes/ubuntu-wallpapers:yakkety - Ubuntu Yakkety backgrounds
+x11-themes/ubuntu-wallpapers:zesty - Ubuntu Zesty backgrounds

@@ -63,6 +63,7 @@ mate-extra/mate-hud 19.10.1_p_p0_p01: MATE menubar commands, like the Unity 7 He
 mate-extra/mate-menu 19.10.2_p_p0_p01: Advanced MATE menu
 mate-extra/mate-tweak 19.10.4_p_p_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 19.10.7: Default settings for Ubuntu MATE
+media-fonts/fonts-noto-cjk 20170601_p1_p_p3: No Tofu font families with large Unicode coverage
 media-gfx/shotwell 0.30.1_p_p0_p03 0.30.2_p_p0_p02: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
@@ -159,6 +160,6 @@ x11-themes/humanity-icon-theme 0.6.15: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 19.04_p_p0_p01-r2: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01-r1: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
 x11-wm/metacity 3.30.1_p_p_p01 3.30.1_p_p_p02: GNOME default window manager
