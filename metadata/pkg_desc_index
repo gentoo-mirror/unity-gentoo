@@ -103,7 +103,7 @@ unity-base/unity-meta 18.10 19.04: Unity Desktop - merge this to pull in all Uni
 unity-base/unity-settings 18.10-r1 19.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20180413_p0_p03 15.04.1_p20190209_p0_p02: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
-unity-extra/ehooks 18.10 19.04: Ebuild hooks patching system
+unity-extra/ehooks 18.10-r1 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6: A PyGTK+ based advanced clipboard manager
 unity-extra/indicator-classicmenu 0.10.1_p_p0_p01: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p02 0.2.2_p_p0_p03: CPU frequency scaling indicator for the Unity desktop environment

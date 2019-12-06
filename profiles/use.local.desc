@@ -77,6 +77,7 @@ unity-base/unity-settings-daemon:short-touchpad-timeout - Change the touchpad ti
 unity-extra/ehooks:audacity_menu - Add Unity's Global menu for media-sound/audacity
 unity-extra/ehooks:eog_menu - Add Unity's Global menu for media-gfx/eog
 unity-extra/ehooks:evince_menu - Add Unity's Global menu for app-text/evince
+unity-extra/ehooks:fontconfig_adjust - Adjust fonts configuration according to Ubuntu
 unity-extra/ehooks:gnome-screenshot_adjust - Adjust media-gfx/gnome-screenshot when running under Unity
 unity-extra/ehooks:gnome-terminal_theme - Add Unity's theme for x11-terms/gnome-terminal
 unity-extra/ehooks:libreoffice_theme - Add Ubuntu's Human icon theme for app-office/libreoffice
