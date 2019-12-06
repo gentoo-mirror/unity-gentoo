@@ -21,6 +21,7 @@ dev-libs/libdbusmenu:introspection - Use dev-libs/gobject-introspection for intr
 gnome-base/gnome-session:xdg-dirs - Manage user directories (Desktop, Music...)
 gnome-base/gnome-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-base/gnome-settings-daemon:openrc-force - Skip systemd dependency (#480336), enabling this flag will become your setup to be fully unsupported by upstream and downstream Gnome team. Do not try to enable it unless completely needed
+gnome-base/gnome-settings-daemon:schemas - Install only shared schemas for gnome-settings-daemon
 gnome-base/gnome-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
 gnome-base/gsettings-desktop-schemas:unico - Install the Unico GTK+ 3.x theming engine
 gnome-base/nautilus:packagekit - Use packagekit to search for programs to open unknown file types
