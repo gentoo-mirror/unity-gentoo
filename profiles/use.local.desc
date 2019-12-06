@@ -18,10 +18,11 @@ dev-libs/gobject-introspection:doctool - Install g-ir-doc-tool for generating do
 dev-libs/libappindicator:java - Enable Global Menu for Java applications
 dev-libs/libdbusmenu:gtk3 - Enable support for GTK+3
 dev-libs/libdbusmenu:introspection - Use dev-libs/gobject-introspection for introspection
-gnome-base/gnome-session:gconf - Optional support for gnome-base/gconf configuration storage system
+gnome-base/gnome-session:xdg-dirs - Manage user directories (Desktop, Music...)
 gnome-base/gnome-settings-daemon:colord - Support color management using x11-misc/colord
 gnome-base/gnome-settings-daemon:openrc-force - Skip systemd dependency (#480336), enabling this flag will become your setup to be fully unsupported by upstream and downstream Gnome team. Do not try to enable it unless completely needed
 gnome-base/gnome-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
+gnome-base/gsettings-desktop-schemas:unico - Install the Unico GTK+ 3.x theming engine
 gnome-base/nautilus:packagekit - Use packagekit to search for programs to open unknown file types
 gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
 gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
@@ -47,6 +48,7 @@ net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accoun
 net-im/empathy:map - Enable world map support through media-libs/libchamplain
 net-libs/libsoup:gssapi - Enable GSSAPI support
 net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
+unity-base/unity:hud - Enable the backend for Unity's HUD
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
 unity-base/unity-control-center:colord - Support color management using x11-misc/colord
 unity-base/unity-control-center:fcitx - Enable support for enhanced input methods through app-i18n/fcitx
@@ -87,7 +89,10 @@ unity-extra/ehooks:totem_menu - Add Unity's Global menu for media-video/totem
 unity-extra/ehooks:zim_theme - Add Ubuntu Mono icon theme for x11-misc/zim
 unity-extra/unity-greeter:battery - Use power state indicator for login screen
 unity-extra/unity-greeter:sound - Use sound indicator for login screen
+unity-extra/unity-tweak-tool:files - Enable Files lens support
 unity-indicators/indicator-datetime:eds - Enable support for Evolution-Data-Server
+unity-indicators/indicator-keyboard:charmap - Enable Character Map
+unity-indicators/indicator-power:powerman - Enable Gnome Power Manager
 unity-indicators/indicator-session:help - Enable 'Unity Help' menu item linking to Unity documentation
 unity-indicators/unity-indicators-meta:battery - Battery power indicator
 unity-indicators/unity-indicators-meta:bluetooth - Bluetooth settings and transfers indicator
@@ -115,6 +120,7 @@ x11-misc/lightdm:mir - Enable Mir display server support
 x11-misc/x11vnc:dummy - Install Xdummy application to start dummy Xsession using x11-drivers/xf86-video-dummy
 x11-misc/x11vnc:system-libvncserver - Build x11vnc against the system libvncserver (experimental)
 x11-misc/x11vnc:tk - Support the simple tcl/tk -gui option
+x11-themes/humanity-icon-theme:extra - Install Tangerine icon theme from Ubuntu Art Team
 x11-themes/ubuntu-wallpapers:artful - Ubuntu Artful backgrounds
 x11-themes/ubuntu-wallpapers:bionic - Ubuntu Bionic backgrounds
 x11-themes/ubuntu-wallpapers:cosmic - Ubuntu Cosmic backgrounds
