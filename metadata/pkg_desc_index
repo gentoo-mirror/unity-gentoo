@@ -100,7 +100,7 @@ unity-base/unity-control-center 15.04.0_p20180216_p0_p01-r6 15.04.0_p20190209_p0
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 18.10-r1: Language translations pack for Unity desktop
 unity-base/unity-meta 18.10 19.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings 18.10 19.04: Default settings for the Unity
+unity-base/unity-settings 18.10-r1 19.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20180413_p0_p03 15.04.1_p20190209_p0_p02: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/ehooks 18.10 19.04: Ebuild hooks patching system
@@ -135,7 +135,7 @@ unity-indicators/indicator-sound 12.10.2_p20180612_p0_p01: System sound indicato
 unity-indicators/unity-indicators-meta 17.04: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p03: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
-unity-lenses/unity-lens-meta 7.1.2: Unity Desktop - merge this to pull in all Unity lenses
+unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p03-r1 1.0_p20170605_p0_p04: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
@@ -160,6 +160,6 @@ x11-themes/humanity-icon-theme 0.6.15: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p01: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 19.04_p_p0_p01-r2: Monochrome icons for the Unity desktop (default icon theme)
-x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01-r1: Ubuntu wallpapers
+x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01-r2: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
 x11-wm/metacity 3.30.1_p_p_p01 3.30.1_p_p_p02: GNOME default window manager

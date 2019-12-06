@@ -1,0 +1,13 @@
+DEFINED_PHASES=-
+DEPEND=unity-lenses/unity-lens-applications unity-scopes/unity-scope-home files? ( unity-lenses/unity-lens-files ) music? ( unity-lenses/unity-lens-music ) photos? ( unity-lenses/unity-lens-photos ) plugins? ( unity-scopes/smart-scopes ) video? ( unity-lenses/unity-lens-video )
+DESCRIPTION=Unity Desktop - merge this to pull in all Unity lenses
+EAPI=4
+HOMEPAGE=http://unity.ubuntu.com/
+IUSE=+files +music +photos +plugins +video
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PDEPEND=unity-base/unity-settings[files=,music=,photos=,video=]
+RDEPEND=unity-lenses/unity-lens-applications unity-scopes/unity-scope-home files? ( unity-lenses/unity-lens-files ) music? ( unity-lenses/unity-lens-music ) photos? ( unity-lenses/unity-lens-photos ) plugins? ( unity-scopes/smart-scopes ) video? ( unity-lenses/unity-lens-video )
+RESTRICT=mirror
+SLOT=0
+_md5_=f0a182cff1c963f6c33b504679de8d68

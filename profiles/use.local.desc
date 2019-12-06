@@ -62,8 +62,13 @@ unity-base/unity-meta:nocsd - Disable Gtk+ 3 client side decorations (CSD)
 unity-base/unity-meta:unity-extras - Unity extra applications deja-dup and unity-tweak-tool
 unity-base/unity-meta:webapps - Desktop webapp integration. Where common webpages such as Facebook and YouTube are seen as applications in the Dash, Launcher and indicators
 unity-base/unity-meta:xdm - Use a display manager, defaults to lightdm and unity-greeter
+unity-base/unity-settings:files - Enable Files lens in Dash
+unity-base/unity-settings:lowgfx - Enable Low Graphics Mode
+unity-base/unity-settings:music - Enable Music lens in Dash
+unity-base/unity-settings:photos - Enable Photos lens in Dash
 unity-base/unity-settings:ubuntu-cursor - Enable DMZ-White - Ubuntu's default cursor theme
 unity-base/unity-settings:ubuntu-sounds - Enable Ubuntu's default audio theme
+unity-base/unity-settings:video - Enable Video lens in Dash
 unity-base/unity-settings-daemon:colord - Support color management using x11-misc/colord
 unity-base/unity-settings-daemon:fcitx - Enable support for enhanced input methods through app-i18n/fcitx
 unity-base/unity-settings-daemon:i18n - Enable support for enhanced input methods through app-i18n/ibus
@@ -93,7 +98,6 @@ unity-indicators/unity-indicators-meta:sensors - Hardware sensors indicator such
 unity-indicators/unity-indicators-meta:session - Session management indicator
 unity-indicators/unity-indicators-meta:sound - Audio control and application launching indicator
 unity-indicators/unity-indicators-meta:weather - Weather indicator
-unity-lenses/unity-lens-meta:applications - Applications lens for the Dash
 unity-lenses/unity-lens-meta:files - Files/folders lens for the Dash
 unity-lenses/unity-lens-meta:music - Music collection lens for the Dash
 unity-lenses/unity-lens-meta:photos - Photo collection lens for the Dash
