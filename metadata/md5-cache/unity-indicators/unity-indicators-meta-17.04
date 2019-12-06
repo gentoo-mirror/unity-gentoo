@@ -1,12 +1,12 @@
 DEFINED_PHASES=-
-DEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) printer? ( unity-indicators/indicator-printers ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
+DEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) cups? ( unity-indicators/indicator-printers ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
 DESCRIPTION=Unity Desktop - merge this to pull in all Unity indicators
 EAPI=6
 HOMEPAGE=http://unity.ubuntu.com/
-IUSE=+battery bluetooth +datetime +keyboard paste +printer sensors +session +sound weather
+IUSE=+battery bluetooth +cups +datetime +keyboard paste sensors +session +sound weather
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) printer? ( unity-indicators/indicator-printers ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
+RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) cups? ( unity-indicators/indicator-printers ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( unity-extra/glipper ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/indicator-weather )
 RESTRICT=mirror
 SLOT=0
-_md5_=6b5cb8785e88f4899645c83eecebf004
+_md5_=8739b308354e97578000d87ec5098c5c

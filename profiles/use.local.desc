@@ -51,6 +51,7 @@ net-libs/libsoup:gssapi - Enable GSSAPI support
 net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
 unity-base/unity:hud - Enable the backend for Unity's HUD
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
+unity-base/unity-build-env:minimal - Install a very minimal build
 unity-base/unity-control-center:colord - Support color management using x11-misc/colord
 unity-base/unity-control-center:fcitx - Enable support for enhanced input methods through app-i18n/fcitx
 unity-base/unity-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
