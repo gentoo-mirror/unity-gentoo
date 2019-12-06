@@ -56,13 +56,12 @@ unity-base/unity-control-center:gnome-online-accounts - Enable configuration pan
 unity-base/unity-control-center:i18n - Enable support for enhanced input methods through app-i18n/ibus
 unity-base/unity-language-pack:l10n_nb - Norwegian Bokmål
 unity-base/unity-meta:accessibility - Gnome accessibility packages
-unity-base/unity-meta:chat - Instant messaging desktop integration via the messages indicator and empathy
-unity-base/unity-meta:ehooks - Ebuild hooks customizing packages for use with Unity desktop
-unity-base/unity-meta:gnome - Gnome core applications such as gnome-terminal, totem, eog etc.
-unity-base/unity-meta:gnome-extras - Gnome extra applications such as file-roller, evolution, gcalctool etc.
-unity-base/unity-meta:nocsd - Disable Gtk+ 3 client side decorations (CSD)
-unity-base/unity-meta:unity-extras - Unity extra applications deja-dup and unity-tweak-tool
-unity-base/unity-meta:webapps - Desktop webapp integration. Where common webpages such as Facebook and YouTube are seen as applications in the Dash, Launcher and indicators
+unity-base/unity-meta:apps - Install Unity core applications
+unity-base/unity-meta:chat - Instant messaging desktop integration via the messages indicator, defaults to pidgin
+unity-base/unity-meta:extras - Install additional Unity applications
+unity-base/unity-meta:fonts - Install Unity fonts
+unity-base/unity-meta:games - Install Unity games
+unity-base/unity-meta:utils - Install Unity utilities
 unity-base/unity-meta:xdm - Use a display manager, defaults to lightdm and unity-greeter
 unity-base/unity-settings:files - Enable Files lens in Dash
 unity-base/unity-settings:lowgfx - Enable Low Graphics Mode

@@ -43,7 +43,6 @@ dev-util/dbus-test-runner 15.04.0_p20160906_p0_p01 15.04.0_p20190115_p0_p01: Run
 dev-util/gdbus-codegen 2.58.1 2.60.4: GDBus code and documentation generator
 dev-util/glib-utils 2.58.1 2.60.4: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p0401_p02: GNOME configuration system and daemon patched for the Unity desktop
-gnome-base/gnome-core-apps 3.30.2 3.32.2: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.30.2 3.32.2: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.30.1_p_p1_p0101-r1 3.32.1_p_p1_p0102: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p11_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
@@ -99,7 +98,7 @@ unity-base/unity-build-env 18.10 19.04: Merge this to setup the Unity desktop bu
 unity-base/unity-control-center 15.04.0_p20180216_p0_p01-r7 15.04.0_p20190209_p0_p03-r2: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 18.10-r2: Language translations pack for Unity desktop
-unity-base/unity-meta 18.10 19.04: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-meta 18.10-r1 19.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 18.10-r1 19.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20180413_p0_p03-r1 15.04.1_p20190209_p0_p02: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
