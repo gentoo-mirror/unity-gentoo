@@ -18,7 +18,7 @@ dev-libs/glib 2.60.4_p_p0_p00190401: The GLib library of C routines
 dev-libs/gobject-introspection 1.60.1: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.60.1: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r2: Library for single signon for the Unity desktop
-dev-libs/libappindicator 12.10.1_p2018032201_p0_p02-r1: Application indicators used by the Unity desktop
+dev-libs/libappindicator 12.10.1_p2018032201_p0_p02-r2: Application indicators used by the Unity desktop
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p16: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 16.04.1_p20180917_p0_p01: Library to pass menu structure across DBus
 dev-libs/libgdata 0.17.9-r666: GLib-based library for accessing online service APIs using the GData protocol
