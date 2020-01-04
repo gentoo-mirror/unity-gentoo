@@ -5,5 +5,5 @@ HOMEPAGE=http://unity.ubuntu.com/
 IUSE=minimal
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
-SLOT=0/cosmic
-_md5_=bca9c954e1c6c6e42a67406275b287cd
+SLOT=0/disco
+_md5_=42f92e083f6d10a37a00386c2c139dcf

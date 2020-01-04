@@ -42,16 +42,16 @@ dev-util/cmake-vala 1_p_p_p01: CMake utility modules needed for building Vala Pa
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.60.4: GDBus code and documentation generator
 dev-util/glib-utils 2.60.4: Build utilities for GLib using projects
-gnome-base/gconf 3.2.6_p_p05_p01: GNOME configuration system and daemon patched for the Unity desktop
+gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p05_p03: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-libs 3.32.2: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.32.1_p_p1_p0102: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
-gnome-base/gnome-menus 3.0.1-r3 3.13.3_p_p11_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
-gnome-base/gnome-panel 3.30.0_p_p1_p03: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.32.0_p_p1_p01: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.32.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.31.91_p_p1_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gnome-desktop 3.32.1_p_p1_p0102 3.34.1_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
+gnome-base/gnome-panel 3.30.0_p_p1_p03 3.34.0_p_p1_p01: The GNOME panel patched for the Unity desktop
+gnome-base/gnome-session 3.32.0_p_p1_p01 3.34.1_p_p1_p01: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.32.1_p_p0_p01 3.34.1_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gsettings-desktop-schemas 3.31.91_p_p1_p01 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.32.3_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.32.3_p_p0_p01 3.34.1_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p26-r2: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.20_p_p1_p01: GNOME applet for NetworkManager
@@ -81,7 +81,7 @@ sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p2018020702_p0_p01-r1: BAMF Application Matching Framework
-unity-base/compiz 0.9.14.0_p2019022301_p0_p01: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/compiz 0.9.14.0_p20190918_p0_p01 0.9.14.0_p2019022301_p0_p01: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.7.0_p_p_p01: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p20160809_p0_p01: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p04: An implementation of the GEIS (Gesture Engine Interface and Support) interface
@@ -92,15 +92,15 @@ unity-base/nux 4.0.8_p20180623_p0_p01: Visual rendering toolkit for the Unity de
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.5.0_p20190304_p0_p01-r11: The Ubuntu Unity Desktop
+unity-base/unity 7.5.0_p20190304_p0_p01-r11 7.5.0_p20190924_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
-unity-base/unity-build-env 18.10-r1 19.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p20190209_p0_p03-r3: Unity Desktop Configuration Tool
+unity-base/unity-build-env 19.04 19.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-control-center 15.04.0_p20190209_p0_p03-r3 15.04.0_p20190921_p0_p01: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 18.10-r3: Language translations pack for Unity desktop
-unity-base/unity-meta 19.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings 19.04: Default settings for the Unity
-unity-base/unity-settings-daemon 15.04.1_p20190209_p0_p02: Unity Settings Daemon
+unity-base/unity-meta 19.04 19.10: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-settings 19.04 19.10: Default settings for the Unity
+unity-base/unity-settings-daemon 15.04.1_p20190209_p0_p02 15.04.1_p20190921_p0_p01: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/ehooks 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6-r1: A PyGTK+ based advanced clipboard manager
@@ -123,16 +123,16 @@ unity-indicators/indicator-applet 12.10.2_p20170425_p0_p02: Gnome panel indicato
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p01-r9: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p20160927_p0_p03-r1: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p20190207_p0_p01: Date and Time Indicator used by the Unity desktop
+unity-indicators/indicator-datetime 15.10_p20190207_p0_p01 15.10_p2019081901_p0_p01: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-internode 9999: Unity indicator to monitor internet usage for the Internode ISP
-unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p01: Keyboard indicator used by the Unity desktop
-unity-indicators/indicator-messages 13.10.1_p20180918_p0_p01: Indicator that collects messages that need a response used by the Unity desktop
+unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p02: Keyboard indicator used by the Unity desktop
+unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p04-r3: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p01: Indicator showing active print jobs used by the Unity desktop
-unity-indicators/indicator-session 17.3.20_p20190209_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
+unity-indicators/indicator-session 17.3.20_p20190209_p0_p01 17.3.20_p20190921_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p01: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 17.04: Unity Desktop - merge this to pull in all Unity indicators
-unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p03: Application lens for the Unity desktop
+unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p04: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03: Music lens for the Unity desktop
@@ -142,12 +142,12 @@ unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p02-r2: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20170824_p9_p01: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.8_p_p1_p01: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.12_p_p1_p01: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.15_p2016110401_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
-x11-misc/lightdm 1.28.0_p_p0_p01: A lightweight display manager
+x11-misc/lightdm 1.28.0_p_p0_p01 1.30.0_p_p0_p01: A lightweight display manager
 x11-misc/mate-dock-applet 19.10.0_p_p1_p01: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20160415_p0_p03-r1: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.89_p1: Dock panel famious docky
@@ -161,4 +161,4 @@ x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 19.04_p_p0_p01-r2: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01-r2: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
-x11-wm/metacity 3.30.1_p_p_p02: GNOME default window manager
+x11-wm/metacity 3.30.1_p_p_p02 3.34.1_p_p_p01: GNOME default window manager
