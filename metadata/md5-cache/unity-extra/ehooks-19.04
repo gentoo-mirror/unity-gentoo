@@ -8,4 +8,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=fontconfig_adjust? ( media-libs/freetype:2[adobe-cff,cleartype_hinting,-bindist,-infinality] )
 SLOT=0
-_md5_=f6cb1f10a43bfb1fe9b16159f27ed565
+_md5_=da9a887d6787b1ee56bd4506f7b81284
