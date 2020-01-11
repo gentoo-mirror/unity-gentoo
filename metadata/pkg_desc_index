@@ -38,8 +38,8 @@ dev-python/pywapi 0.3.8_p1-r1: Python wrapper around different weather APIs
 dev-util/cmake-extras 1.3_p20170310_p_p5: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.60.4: GDBus code and documentation generator
-dev-util/glib-utils 2.60.4: Build utilities for GLib using projects
+dev-util/gdbus-codegen 2.60.4 2.62.1: GDBus code and documentation generator
+dev-util/glib-utils 2.60.4 2.62.1: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p05_p03: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-libs 3.32.2: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.32.1_p_p1_p0102 3.34.1_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
