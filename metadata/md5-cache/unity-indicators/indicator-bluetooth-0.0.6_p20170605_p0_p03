@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst postrm preinst prepare setup
+DEFINED_PHASES=postinst postrm preinst prepare setup
 DEPEND=>=net-wireless/bluez-5 media-sound/pulseaudio[bluetooth] dev-libs/glib:2 dev-libs/libappindicator:= dev-libs/libdbusmenu:= dev-libs/libindicator:3= gnome-base/dconf unity-base/unity-control-center unity-indicators/ido:= x11-libs/gtk+:3 || ( dev-lang/vala:0.44[vapigen(+)] ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=System bluetooth indicator used by the Unity desktop
 EAPI=6
@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-bluetooth_0.0.6+17.10.20170605.orig.tar.gz
 _eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	ubuntu-versionator	73a42bca07991cc2368795d438c27e1f	vala	cd46635fb3b81d6bc07830b4afe87066	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=d2ce96bd06db40c6d89b5a2ecc529e75
+_md5_=c0ae90b39583dbcc3949ceada6e14847
