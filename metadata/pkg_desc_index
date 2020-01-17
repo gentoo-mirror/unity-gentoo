@@ -136,8 +136,9 @@ unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p04: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
-unity-scopes/smart-scopes 0.1_p_p0_p01-r1: Online scopes for the Unity Dash
+unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
+unity-scopes/unity-scope-onlinemusic 0.1_p20140306_p0_p01: Unity Scope that provides online music to the Dash
 x11-libs/dee-qt 3.3_p20140317_p0_p02-r2: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20170824_p9_p01: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.12_p_p1_p01: Gimp ToolKit patched for the Unity desktop

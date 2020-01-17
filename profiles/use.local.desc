@@ -111,6 +111,33 @@ unity-lenses/unity-lens-meta:music - Music collection lens for the Dash
 unity-lenses/unity-lens-meta:photos - Photo collection lens for the Dash
 unity-lenses/unity-lens-meta:plugins - Additional scopes for the Dash
 unity-lenses/unity-lens-meta:video - Online and local video collection lens for the Dash
+unity-scopes/smart-scopes:audacious - Audacious scope for Unity
+unity-scopes/smart-scopes:calculator - Calculator scope for Unity
+unity-scopes/smart-scopes:chromiumbookmarks - Chromium bookmarks scope for Unity
+unity-scopes/smart-scopes:clementine - Clementine scope for Unity
+unity-scopes/smart-scopes:colourlovers - COLOURlovers scope for Unity
+unity-scopes/smart-scopes:devhelp - devhelp scope for Unity
+unity-scopes/smart-scopes:deviantart - deviantART scope for Unity
+unity-scopes/smart-scopes:firefoxbookmarks - Firefox bookmarks scope for Unity
+unity-scopes/smart-scopes:gallica - gallica scope for Unity
+unity-scopes/smart-scopes:github - GitHub scope for Unity
+unity-scopes/smart-scopes:gmusicbrowser - gmusicbrowser scope for Unity
+unity-scopes/smart-scopes:gnote - Gnote scope for Unity
+unity-scopes/smart-scopes:googlenews - Google News scope for Unity
+unity-scopes/smart-scopes:gourmet - Gourmet Recipe Manager scope for Unity
+unity-scopes/smart-scopes:guayadeque - Guayadeque scope for Unity
+unity-scopes/smart-scopes:manpages - Manual pages scope for Unity
+unity-scopes/smart-scopes:musique - Musique scope for Unity
+unity-scopes/smart-scopes:onlinemusic - Unity Scope that provides online music to the Dash
+unity-scopes/smart-scopes:openclipart - OpenClipArt scope for Unity
+unity-scopes/smart-scopes:openweathermap - Openweathermap scope for Unity
+unity-scopes/smart-scopes:soundcloud - SoundCloud scope for Unity
+unity-scopes/smart-scopes:sshsearch - SSH search scope for Unity
+unity-scopes/smart-scopes:texdoc - Texdoc scope for Unity
+unity-scopes/smart-scopes:virtualbox - VirtualBox scope for Unity
+unity-scopes/smart-scopes:yahoostock - Yahoo! Finance scope for Unity
+unity-scopes/smart-scopes:yelp - Help scope for Unity
+unity-scopes/smart-scopes:zotero - Zotero scope for Unity
 x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
 x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
 x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
