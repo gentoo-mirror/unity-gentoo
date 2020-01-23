@@ -127,7 +127,7 @@ unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p02: Keyboard indicator u
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p04-r4: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p01: Indicator showing active print jobs used by the Unity desktop
-unity-indicators/indicator-session 17.3.20_p20190209_p0_p01-r1 17.3.20_p20190921_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
+unity-indicators/indicator-session 17.3.20_p20190209_p0_p01-r2 17.3.20_p20190921_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p01-r1: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 17.04: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p04: Application lens for the Unity desktop
@@ -138,7 +138,6 @@ unity-lenses/unity-lens-photos 1.0_p20170605_p0_p04: Photo lens for the Unity de
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
-unity-scopes/unity-scope-onlinemusic 0.1_p20140306_p0_p01: Unity Scope that provides online music to the Dash
 x11-libs/dee-qt 3.3_p20140317_p0_p02-r2: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20170824_p9_p01: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.12_p_p1_p01: Gimp ToolKit patched for the Unity desktop
