@@ -139,7 +139,7 @@ unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p01: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p02-r2: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.1_p20170824_p9_p01: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.12_p_p1_p01: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.32_p_p4_p01 3.24.12_p_p1_p01-r1: Gimp ToolKit patched for the Unity desktop
 x11-libs/libaccounts-qt 1.15_p2016110401_p0_p01: QT library for Single Sign On framework for the Unity desktop
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
