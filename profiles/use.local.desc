@@ -25,7 +25,7 @@ gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the 
 gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
 gnome-base/nautilus:tracker - Add support for app-misc/tracker search
 gnome-extra/gnome-recipes:archive - Enable archives support using app-arch/gnome-autoar
-gnome-extra/gnome-recipes:fcitx - Enable sound event support using media-libs/libcanberra
+gnome-extra/gnome-recipes:libcanberra - Enable sound event support using media-libs/libcanberra
 gnome-extra/zeitgeist:datahub - Use build datahub for passive event injection
 gnome-extra/zeitgeist:downloads-monitor - Monitor the XDG_DOWNLOAD_DIRECTORY
 gnome-extra/zeitgeist:fts - Enable the full text search extension
