@@ -11,7 +11,6 @@ dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networkin
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.3: Global Menu for Java applications
 dev-libs/dee 1.2.7_p20170616_p4_p01-r1 1.2.7_p20170616_p4_p03: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.60.4_p_p0_p00190401-r1 2.62.1_p_p_p1: The GLib library of C routines
 dev-libs/gobject-introspection 1.60.1 1.62.0: Introspection infrastructure for generating gobject library bindings for various languages
 dev-libs/gobject-introspection-common 1.60.1 1.62.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r2: Library for single signon for the Unity desktop
