@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.4.1_p_p2_p04 1.4.1_p_p2_p05: Simple on-screen Keyboard with macros and easy layout creation
-app-backup/deja-dup 38.4_p_p_p1-r1 40.1_p_p1_p02: Simple backup tool using duplicity back-end
+app-backup/deja-dup 38.4_p_p_p1-r2 40.1_p_p1_p02-r1: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r9: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
@@ -47,7 +47,7 @@ gnome-base/gnome-session 3.32.0_p_p1_p01 3.34.1_p_p1_p02: Gnome session manager 
 gnome-base/gnome-settings-daemon 3.32.1_p_p0_p01 3.34.1_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.31.91_p_p1_p01 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.32.3_p_p0_p01-r1 3.34.1_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.32.3_p_p0_p01-r2 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p26-r2 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.20_p_p1_p01 1.8.22_p_p2_p01: GNOME applet for NetworkManager
@@ -96,7 +96,7 @@ unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01-r1: GTK+ module for exporting
 unity-base/unity-language-pack 18.10-r4: Language translations pack for Unity desktop
 unity-base/unity-meta 19.04 19.10: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 19.04-r1 19.10: Default settings for the Unity
-unity-base/unity-settings-daemon 15.04.1_p20190209_p0_p02 15.04.1_p20190921_p0_p01: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p20190209_p0_p02-r1 15.04.1_p20190921_p0_p01-r1: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/ehooks 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6-r1: A PyGTK+ based advanced clipboard manager
