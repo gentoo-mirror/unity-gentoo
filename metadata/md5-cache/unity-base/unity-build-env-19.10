@@ -6,4 +6,4 @@ IUSE=minimal
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/eoan
-_md5_=be0fa5f70f89ff20d9ffd9aa37189c5f
+_md5_=51bc829ffbb4ea7af0fe5d3c612896dd
