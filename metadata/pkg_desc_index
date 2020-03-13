@@ -3,7 +3,6 @@ app-backup/deja-dup 38.4_p_p_p1-r2 40.1_p_p1_p02-r1: Simple backup tool using du
 app-emulation/anbox 9999.2018.07.19-r9: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
-dev-db/desktopcouch 1.0.8: Desktop-oriented interface to CouchDB
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
