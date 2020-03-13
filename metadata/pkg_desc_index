@@ -47,7 +47,7 @@ gnome-base/gnome-session 3.32.0_p_p1_p01 3.34.1_p_p1_p02: Gnome session manager 
 gnome-base/gnome-settings-daemon 3.32.1_p_p0_p01 3.34.1_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.31.91_p_p1_p01 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.32.3_p_p0_p01-r2 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.32.3_p_p0_p01-r3 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p26-r2 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.20_p_p1_p01 1.8.22_p_p2_p01: GNOME applet for NetworkManager
