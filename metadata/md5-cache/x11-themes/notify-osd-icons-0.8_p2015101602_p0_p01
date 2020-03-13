@@ -8,5 +8,5 @@ RDEPEND=x11-misc/notify-osd
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/notify-osd-icons_0.8+15.10.20151016.2.orig.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	ubuntu-versionator	73a42bca07991cc2368795d438c27e1f
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	ubuntu-versionator	1eebc222a9ece2829990b94ff1cd45b1
 _md5_=10cd57615842737a52a5f81960b14781

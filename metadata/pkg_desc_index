@@ -65,7 +65,7 @@ media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your music (patched for Unity)
 media-sound/rhythmbox 3.4.3_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
-net-im/empathy 3.25.90: Telepathy instant messaging and video/audio call client for GNOME
+net-im/empathy 3.25.90_p_p0_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p02: Parse and query the geonames database dump
 net-libs/libsoup 2.64.2: An HTTP library implementation in C
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
