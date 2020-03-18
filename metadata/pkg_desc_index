@@ -43,7 +43,7 @@ gnome-base/gnome-core-libs 3.32.2 3.34.4: Sub-meta package for the core librarie
 gnome-base/gnome-desktop 3.32.1_p_p1_p0102 3.34.2_p1_p2_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.30.0_p_p1_p03 3.34.0_p_p1_p01: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.32.0_p_p1_p01 3.34.1_p_p1_p02: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-session 3.32.0_p_p1_p01-r1 3.34.1_p_p1_p02-r1: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.32.1_p_p0_p01 3.34.1_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.31.91_p_p1_p01 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
@@ -93,7 +93,7 @@ unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
 unity-base/unity-build-env 19.04 19.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20190209_p0_p03-r4 15.04.0_p20190921_p0_p01: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01-r1: GTK+ module for exporting old-style menus as GMenuModels
-unity-base/unity-language-pack 19.04: Language translations pack for Unity desktop
+unity-base/unity-language-pack 19.04-r1 19.10: Language translations pack for Unity desktop
 unity-base/unity-meta 19.04 19.10: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 19.04-r1 19.10: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20190209_p0_p02-r1 15.04.1_p20190921_p0_p01-r1: Unity Settings Daemon
