@@ -39,7 +39,7 @@ dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new 
 dev-util/gdbus-codegen 2.60.4 2.62.1: GDBus code and documentation generator
 dev-util/glib-utils 2.60.4 2.62.1: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p05_p01 3.2.6_p_p05_p03: GNOME configuration system and daemon patched for the Unity desktop
-gnome-base/gnome-core-libs 3.32.2: Sub-meta package for the core libraries of GNOME 3
+gnome-base/gnome-core-libs 3.32.2 3.34.4: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.32.1_p_p1_p0102 3.34.2_p1_p2_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.30.0_p_p1_p03 3.34.0_p_p1_p01: The GNOME panel patched for the Unity desktop
@@ -72,7 +72,7 @@ sys-apps/accountsservice 0.6.50_p_p0_p01 0.6.55_p_p0_p10: D-Bus interfaces for q
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 5.3.18_p_p40_p32: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 5.3.18_p_p42_p34: Ubuntu patched kernel sources
 sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
