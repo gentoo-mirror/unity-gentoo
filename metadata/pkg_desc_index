@@ -52,7 +52,7 @@ gnome-extra/activity-log-manager 0.9.7_p_p0_p26-r2 0.9.7_p_p0_p27: Blacklist con
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.20_p_p1_p01 1.8.22_p_p2_p01: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/zeitgeist 1.0.2_p_p0_p01: Service to log activities and present to other apps
+gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.0_p_p_p01: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 19.10.1_p_p0_p01: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
 mate-extra/mate-menu 19.10.2_p_p0_p01: Advanced MATE menu
@@ -88,7 +88,7 @@ unity-base/nux 4.0.8_p20180623_p0_p01-r1: Visual rendering toolkit for the Unity
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.5.0_p20190304_p0_p01-r12 7.5.0_p20190924_p0_p01-r1: The Ubuntu Unity Desktop
+unity-base/unity 7.5.0_p20190304_p0_p01-r13 7.5.0_p20190924_p0_p01-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
 unity-base/unity-build-env 19.04 19.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20190209_p0_p03-r4 15.04.0_p20190921_p0_p01: Unity Desktop Configuration Tool
