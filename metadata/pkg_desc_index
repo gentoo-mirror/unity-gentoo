@@ -51,7 +51,7 @@ gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
-gnome-extra/nm-applet 1.8.22_p_p2_p01: GNOME applet for NetworkManager
+gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.0_p_p_p01: Solus Project's Brisk Menu MATE Panel Applet
@@ -67,6 +67,7 @@ media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your mu
 media-sound/rhythmbox 3.4.3_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p02: Parse and query the geonames database dump
+net-libs/libnma 1.8.24: NetworkManager GUI library
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 0.6.55_p_p0_p10: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
