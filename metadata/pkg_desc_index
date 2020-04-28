@@ -67,7 +67,6 @@ media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your mu
 media-sound/rhythmbox 3.4.3_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p02: Parse and query the geonames database dump
-net-libs/libsoup 2.64.2: An HTTP library implementation in C
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 0.6.55_p_p0_p10: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
