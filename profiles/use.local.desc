@@ -151,6 +151,7 @@ x11-themes/ubuntu-wallpapers:artful - Ubuntu Artful backgrounds
 x11-themes/ubuntu-wallpapers:bionic - Ubuntu Bionic backgrounds
 x11-themes/ubuntu-wallpapers:cosmic - Ubuntu Cosmic backgrounds
 x11-themes/ubuntu-wallpapers:disco - Ubuntu Disco backgrounds
+x11-themes/ubuntu-wallpapers:eoan - Ubuntu Eoan backgrounds
 x11-themes/ubuntu-wallpapers:gnome - Gnome backgrounds
 x11-themes/ubuntu-wallpapers:karmic - Ubuntu Karmic backgrounds
 x11-themes/ubuntu-wallpapers:lucid - Ubuntu Lucid backgrounds
