@@ -50,7 +50,11 @@ gnome-base/gsettings-desktop-schemas 3.34.0_p_p1_p01: Collection of GSettings sc
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
+gnome-extra/cinnamon-desktop 4.0.1-r1: A collection of libraries and utilites used by Cinnamon
+gnome-extra/cinnamon-settings-daemon 4.0.2: Cinnamon's settings daemon
+gnome-extra/cinnamon-translations 4.0.0-r1: Translation data for Cinnamon
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
+gnome-extra/nemo 4.0.6: A file manager for Cinnamon, forked from Nautilus
 gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1: Service to log activities and present to other apps
