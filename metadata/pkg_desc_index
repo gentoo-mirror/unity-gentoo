@@ -45,16 +45,16 @@ gnome-base/gnome-desktop 3.34.2_p1_p2_p01: Libraries for the gnome desktop that 
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.34.0_p_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.34.1_p_p1_p02-r1: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.34.1_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.34.1_p_p1_p01-r1: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
-gnome-extra/cinnamon-desktop 4.0.1-r1: A collection of libraries and utilites used by Cinnamon
+gnome-extra/cinnamon-desktop 4.0.1-r2: A collection of libraries and utilites used by Cinnamon
 gnome-extra/cinnamon-settings-daemon 4.0.2: Cinnamon's settings daemon
 gnome-extra/cinnamon-translations 4.0.0-r1: Translation data for Cinnamon
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
-gnome-extra/nemo 4.0.6: A file manager for Cinnamon, forked from Nautilus
+gnome-extra/nemo 4.0.6-r1: A file manager for Cinnamon, forked from Nautilus
 gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1: Service to log activities and present to other apps
@@ -96,12 +96,12 @@ unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20190924_p0_p01-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03: API for Unity shell integration
 unity-base/unity-build-env 19.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p20190921_p0_p01: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p20190921_p0_p01-r1: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 19.10: Language translations pack for Unity desktop
 unity-base/unity-meta 19.10-r2: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 19.10: Default settings for the Unity
-unity-base/unity-settings-daemon 15.04.1_p20190921_p0_p01-r1: Unity Settings Daemon
+unity-base/unity-settings-daemon 15.04.1_p20190921_p0_p01-r2: Unity Settings Daemon
 unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/ehooks 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6-r2: A PyGTK+ based advanced clipboard manager
