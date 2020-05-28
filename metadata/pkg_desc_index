@@ -102,7 +102,6 @@ unity-base/unity-language-pack 19.10: Language translations pack for Unity deskt
 unity-base/unity-meta 19.10-r2: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 19.10: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20190921_p0_p01-r2: Unity Settings Daemon
-unity-extra/drawers 13.3.1: Organise the Unity Launcher
 unity-extra/ehooks 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6-r2: A PyGTK+ based advanced clipboard manager
 unity-extra/indicator-classicmenu 0.10.1_p_p0_p01: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment
