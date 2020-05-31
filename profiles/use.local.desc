@@ -26,8 +26,6 @@ gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files 
 gnome-base/nautilus:tracker - Add support for app-misc/tracker search
 gnome-extra/gnome-recipes:archive - Enable archives support using app-arch/gnome-autoar
 gnome-extra/gnome-recipes:libcanberra - Enable sound event support using media-libs/libcanberra
-gnome-extra/nemo:packagekit - Use packagekit to search for programs to open unknown file types
-gnome-extra/nemo:tracker - Add support for app-misc/tracker search
 gnome-extra/zeitgeist:datahub - Use build datahub for passive event injection
 gnome-extra/zeitgeist:downloads-monitor - Monitor the XDG_DOWNLOAD_DIRECTORY
 gnome-extra/zeitgeist:fts - Enable the full text search extension
