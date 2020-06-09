@@ -34,7 +34,6 @@ dev-python/gconf-python 2.28.1-r1: Python bindings for the GConf library
 dev-python/gnome-python-base 2.28.1-r1: Provides the base files for the gnome-python bindings
 dev-python/pyjunitxml 0.6_p_p_p0103: PyUnit extension for reporting in JUnit compatible XML
 dev-python/python-testscenarios 0.5.0_p2: Python unittest extension for running tests in different scenarios
-dev-python/pywapi 0.3.8_p1-r1: Python wrapper around different weather APIs
 dev-util/cmake-extras 1.3_p20170310_p_p5: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
@@ -111,9 +110,9 @@ unity-extra/indicator-netspeed 9999: Network speed indicator for Unity
 unity-extra/indicator-privacy 0.05: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.5_p_p0101_p01: Indicator for monitoring hardware temperature used by the Unity desktop
 unity-extra/indicator-remindor 13.02: Indicator application to schedule reminders
-unity-extra/indicator-weather 13.8.0-r2: Weather indicator used by the Unity desktop
 unity-extra/lightdm-remote-session-freerdp 1.0_p_p0_p02: Configuration and a script to do a remote session using FreeRDP.
 unity-extra/lightdm-remote-session-uccsconfigure 1.1_p_p0_p02: Configuration files to bring up a session with a browser to configure the UCCS service.
+unity-extra/meteo-qt 1.8: System tray application for weather status information
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 18.04.0_p20190921_p0_p01: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.7_p_p0_p05: Configuration manager for the Unity desktop environment
