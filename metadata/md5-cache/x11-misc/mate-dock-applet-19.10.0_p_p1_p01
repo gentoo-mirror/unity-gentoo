@@ -3,12 +3,12 @@ DEPEND=>=sys-devel/automake-1.15:1.15 >=app-portage/elt-patches-20170815 || ( >=
 DESCRIPTION=Application dock for the MATE panel
 EAPI=6
 HOMEPAGE=https://github.com/robint99/dock-applet
-IUSE=python_targets_python3_6 python_targets_python3_7
+IUSE=python_targets_python3_7 python_targets_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=dev-python/python-xlib[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/pillow >=mate-base/mate-panel-1.17.0[introspection] x11-libs/libwnck:3[introspection]
+RDEPEND=dev-python/python-xlib[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/pygobject:3[python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-)] dev-python/pillow >=mate-base/mate-panel-1.17.0[introspection] x11-libs/libwnck:3[introspection]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/mate-dock-applet_19.10.0.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/mate-dock-applet_19.10.0-1ubuntu1.debian.tar.xz
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	2729691420b6deeda2a90b1f1183fb55	multibuild	40fe59465edacd730c644ec2bc197809	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-r1	8386b016a2b3bbefa88443fdaa898057	python-utils-r1	ace0a9a129fcfeaae542c0d15c07f36a	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	ubuntu-versionator	f0b9771422bb51e7d22fc531253d85bd	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=76312d1db2e7f9a62b956551757cd264
+_md5_=de684cf69ff43c26941b54b39e33ab3b
