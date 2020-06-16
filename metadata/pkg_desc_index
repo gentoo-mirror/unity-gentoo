@@ -1,76 +1,76 @@
-app-accessibility/onboard 1.4.1_p_p2_p05: Simple on-screen Keyboard with macros and easy layout creation
-app-backup/deja-dup 40.1_p_p1_p02-r1: Simple backup tool using duplicity back-end
+app-accessibility/onboard 1.4.1_p_p2_p05 1.4.1_p_p2_p07: Simple on-screen Keyboard with macros and easy layout creation
+app-backup/deja-dup 40.1_p_p1_p02-r1 40.6_p_p1_p02: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r10: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
-dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
+dev-cpp/gtest 1.8.1_p_p_p3-r1 1.10.0_p_p_p02: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.3: Global Menu for Java applications
-dev-libs/dee 1.2.7_p20170616_p4_p03: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.62.4_p2_p_p1: The GLib library of C routines
-dev-libs/gobject-introspection 1.62.0: Introspection infrastructure for generating gobject library bindings for various languages
-dev-libs/gobject-introspection-common 1.62.0: Build infrastructure for GObject Introspection
-dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r2: Library for single signon for the Unity desktop
-dev-libs/libappindicator 12.10.1_p2018032201_p0_p04: Application indicators used by the Unity desktop
-dev-libs/libcolumbus 1.1.0_p20150806_p0_p16: Error tolerant matching engine used by the Unity desktop
-dev-libs/libdbusmenu 16.04.1_p20180917_p0_p02: Library to pass menu structure across DBus
+dev-libs/dee 1.2.7_p20170616_p4_p03 1.2.7_p20170616_p4_p06: Provide objects allowing to create Model-View-Controller type programs across DBus
+dev-libs/glib 2.62.4_p2_p_p1 2.64.2_p_p1_p01: The GLib library of C routines
+dev-libs/gobject-introspection 1.62.0 1.64.0: Introspection infrastructure for generating gobject library bindings for various languages
+dev-libs/gobject-introspection-common 1.62.0 1.64.0: Build infrastructure for GObject Introspection
+dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r2 1.23_p20161104_p0_p03: Library for single signon for the Unity desktop
+dev-libs/libappindicator 12.10.1_p2018032201_p0_p04 12.10.1_p2020040801_p0_p01: Application indicators used by the Unity desktop
+dev-libs/libcolumbus 1.1.0_p20150806_p0_p16 1.1.0_p20150806_p0_p21: Error tolerant matching engine used by the Unity desktop
+dev-libs/libdbusmenu 16.04.1_p20180917_p0_p02 16.04.1_p20180917_p0_p06: Library to pass menu structure across DBus
 dev-libs/libgdata 0.17.9-r666: GLib-based library for accessing online service APIs using the GData protocol
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
-dev-libs/libqtdbusmock 0.7_p_p1_p03: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p_p1_p5: Library to facilitate testing DBus interactions in Qt applications
-dev-libs/libtimezonemap 0.4.6: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4_p20190319_p0_p01: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libqtdbusmock 0.7_p_p1_p03 0.7_p1_p3_p01: Qt Bindings for python-dbusmock
+dev-libs/libqtdbustest 0.2_p_p1_p5 0.2_p1_p5_p01: Library to facilitate testing DBus interactions in Qt applications
+dev-libs/libtimezonemap 0.4.6 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
+dev-libs/libunity 7.1.4_p20190319_p0_p01 7.1.4_p20190319_p0_p03: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
-dev-libs/process-cpp 3.0.1_p_p_p05-r1: C++11 library for handling processes
-dev-libs/properties-cpp 0.0.1_p20140730_p0_p01-r1: Simple convenience library for handling properties and signals in C++11
-dev-libs/xpathselect 1.4_p2015082401_p0_p01: Select objects in an object tree using XPath queries
-dev-python/autopilot 1.6.0_p20170313_p0_p03: Utility to write and run integration tests easily
+dev-libs/process-cpp 3.0.1_p_p_p05-r1 3.0.1_p_p6_p01: C++11 library for handling processes
+dev-libs/properties-cpp 0.0.1_p20140730_p0_p01-r1 0.0.2_p_p_p03: Simple convenience library for handling properties and signals in C++11
+dev-libs/xpathselect 1.4_p2015082401_p0_p01 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
+dev-python/autopilot 1.6.0_p20170313_p0_p03 1.6.0_p20170313_p0_p08: Utility to write and run integration tests easily
 dev-python/configglue 1.0: Library that glues together python's optparse.OptionParser and ConfigParser.ConfigParser
 dev-python/gconf-python 2.28.1-r1: Python bindings for the GConf library
 dev-python/gnome-python-base 2.28.1-r1: Provides the base files for the gnome-python bindings
-dev-python/pyjunitxml 0.6_p_p_p0103: PyUnit extension for reporting in JUnit compatible XML
-dev-python/python-testscenarios 0.5.0_p2: Python unittest extension for running tests in different scenarios
-dev-util/cmake-extras 1.3_p20170310_p_p5: Extra CMake utility modules
+dev-python/pyjunitxml 0.6_p_p_p0103 0.6_p_p2_p01: PyUnit extension for reporting in JUnit compatible XML
+dev-python/python-testscenarios 0.5.0_p_p3_p01 0.5.0_p2: Python unittest extension for running tests in different scenarios
+dev-util/cmake-extras 1.3_p20170310_p_p5 1.5_p_p_p1: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.62.4: GDBus code and documentation generator
-dev-util/glib-utils 2.62.4: Build utilities for GLib using projects
-gnome-base/gconf 3.2.6_p_p05_p03: GNOME configuration system and daemon patched for the Unity desktop
+dev-util/gdbus-codegen 2.62.4 2.64.2: GDBus code and documentation generator
+dev-util/glib-utils 2.62.4 2.64.2: Build utilities for GLib using projects
+gnome-base/gconf 3.2.6_p_p05_p03 3.2.6_p_p06_p01: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.34.4: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.34.2_p1_p2_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.34.2_p1_p2_p01 3.36.2_p_p0_p02: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
-gnome-base/gnome-panel 3.34.0_p_p1_p01: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.34.1_p_p1_p02-r1: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.34.1_p_p1_p01-r1: Gnome Settings Daemon patched for the Unity desktop
-gnome-base/gsettings-desktop-schemas 3.34.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/gnome-panel 3.34.0_p_p1_p01 3.36.0_p_p1_p01: The GNOME panel patched for the Unity desktop
+gnome-base/gnome-session 3.34.1_p_p1_p02-r1 3.36.0_p_p2_p01: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.34.1_p_p1_p01-r1 3.36.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gsettings-desktop-schemas 3.34.0_p_p1_p01 3.36.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
-gnome-base/nautilus 3.34.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.34.1_p_p1_p01-r1 3.36.2_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1: Service to log activities and present to other apps
-mate-extra/brisk-menu 0.6.0_p_p_p01: Solus Project's Brisk Menu MATE Panel Applet
+gnome-extra/zeitgeist 1.0.2_p_p0_p01-r1 1.0.2_p_p3_p02: Service to log activities and present to other apps
+mate-extra/brisk-menu 0.6.0_p_p1_p01: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 19.10.1_p_p0_p01: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
-mate-extra/mate-menu 19.10.2_p_p0_p01: Advanced MATE menu
-mate-extra/mate-tweak 19.10.4_p_p_p01: MATE desktop tweak tool
-mate-extra/ubuntu-mate-settings 19.10.7: Default settings for Ubuntu MATE
-media-fonts/fonts-noto-cjk 20190410_p1_p_p1: No Tofu font families with large Unicode coverage
-media-gfx/shotwell 0.30.7_p_p0_p01-r1: Open source photo manager for GNOME
+mate-extra/mate-menu 20.04.3_p_p0_p01: Advanced MATE menu
+mate-extra/mate-tweak 20.04.0_p_p1_p03: MATE desktop tweak tool
+mate-extra/ubuntu-mate-settings 20.04.3: Default settings for Ubuntu MATE
+media-fonts/fonts-noto-cjk 20190410_p1_p_p1 20190410_p1_p_p2: No Tofu font families with large Unicode coverage
+media-gfx/shotwell 0.30.8_p_p0_p02: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your music (patched for Unity)
-media-sound/rhythmbox 3.4.3_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
+media-sound/rhythmbox 3.4.4_p_p1_p02: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
-net-libs/geonames 0.2_p20170220_p0_p02: Parse and query the geonames database dump
+net-libs/geonames 0.2_p20170220_p0_p02 0.2_p20170220_p0_p03: Parse and query the geonames database dump
 net-libs/libnma 1.8.24: NetworkManager GUI library
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-sys-apps/accountsservice 0.6.55_p_p0_p10: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 0.6.55_p_p0_p10 0.6.55_p_p0_p11: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
@@ -149,8 +149,8 @@ x11-misc/lightdm 1.30.0_p_p0_p01 1.30.0_p_p0_p0301: A lightweight display manage
 x11-misc/mate-dock-applet 19.10.0_p_p1_p01 20.04.0_p_p_p01: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20160415_p0_p03-r1 0.9.35_p20191129_p0_p01: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.89_p1: Dock panel famious docky
-x11-misc/vala-panel 0.4.91_p_p1_p01 0.4.91_p_p1_p02: Lightweight desktop panel
-x11-misc/vala-panel-appmenu 0.7.3_p_p1_p01 0.7.3_p_p1_p02: Global Menu plugin for xfce4 and vala-panel
+x11-misc/vala-panel 0.4.91_p_p1_p02: Lightweight desktop panel
+x11-misc/vala-panel-appmenu 0.7.3_p_p1_p02: Global Menu plugin for xfce4 and vala-panel
 x11-misc/x11vnc 0.9.13_p_p06 0.9.16_p_p03: A VNC server for real X displays
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.15-r1: A nice and well polished icon theme
