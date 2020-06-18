@@ -2,7 +2,7 @@ app-accessibility/onboard 1.4.1_p_p2_p05 1.4.1_p_p2_p07: Simple on-screen Keyboa
 app-backup/deja-dup 40.1_p_p1_p02-r1 40.6_p_p1_p02: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r10: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
-dev-cpp/gtest 1.8.1_p_p_p3-r1 1.10.0_p_p_p02: Google C++ Testing Framework
+dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
@@ -11,7 +11,7 @@ dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.3: Global Menu for Java applications
 dev-libs/dee 1.2.7_p20170616_p4_p03 1.2.7_p20170616_p4_p06: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.62.4_p2_p_p1 2.64.2_p_p1_p01: The GLib library of C routines
-dev-libs/gobject-introspection 1.62.0 1.64.0: Introspection infrastructure for generating gobject library bindings for various languages
+dev-libs/gobject-introspection 1.62.0 1.64.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.62.0 1.64.0: Build infrastructure for GObject Introspection
 dev-libs/libaccounts-glib 1.23_p20161104_p0_p01-r2 1.23_p20161104_p0_p03: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p2018032201_p0_p04 12.10.1_p2020040801_p0_p01: Application indicators used by the Unity desktop
@@ -93,7 +93,7 @@ unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from da
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20190924_p0_p01-r2 7.5.0_p20200312_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p03 8.7_p20170404_p0_p04: API for Unity shell integration
-unity-base/unity-build-env 19.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-build-env 19.10 20.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20190921_p0_p01-r1 15.04.0_p20190921_p0_p03: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p01-r1 0.0.0_p20171202_p0_p02: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 19.10: Language translations pack for Unity desktop
@@ -159,4 +159,4 @@ x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 19.04_p_p0_p01-r6 19.04_p_p0_p03: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 19.10.2_p_p0_p01 20.04.2_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p01-r1: Unity desktop icon theme
-x11-wm/metacity 3.34.1_p_p_p01 3.36.1_p_p_p01: GNOME default window manager
+x11-wm/metacity 3.34.1_p_p_p01-r1 3.36.1_p_p_p01: GNOME default window manager
