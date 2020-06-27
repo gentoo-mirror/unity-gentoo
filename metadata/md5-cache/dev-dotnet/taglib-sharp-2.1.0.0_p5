@@ -9,5 +9,5 @@ RDEPEND=dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/taglib-sharp_2.1.0.0.orig.tar.gz
-_eclasses_=mono	a59df07822fcb0dec319e09526d84c1f	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	ubuntu-versionator	f0b9771422bb51e7d22fc531253d85bd
-_md5_=f34866e702f0cb47100b37eac37d5ac1
+_eclasses_=mono	a59df07822fcb0dec319e09526d84c1f	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	ubuntu-versionator	3b79cccb67c377e34c44b3ac91c55a4b
+_md5_=0a5cb68910ff647a546fdb325b1be4b3
