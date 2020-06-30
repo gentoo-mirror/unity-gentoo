@@ -99,7 +99,7 @@ unity-base/unity-control-center 15.04.0_p20190921_p0_p03: Unity Desktop Configur
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 20.04: Language translations pack for Unity desktop
 unity-base/unity-meta 20.04: Unity Desktop - merge this to pull in all Unity packages
-unity-base/unity-settings 20.04: Default settings for the Unity
+unity-base/unity-settings 20.04-r1: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20200325_p0_p01: Unity Settings Daemon
 unity-extra/ehooks 19.04: Ebuild hooks patching system
 unity-extra/glipper 2.4_p6-r2: A PyGTK+ based advanced clipboard manager
