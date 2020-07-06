@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) cups? ( unity-indicators/indicator-printers ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( x11-apps/copyq ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/meteo-qt )
+DESCRIPTION=Unity Desktop - merge this to pull in all Unity indicators
+EAPI=6
+HOMEPAGE=http://unity.ubuntu.com/
+IUSE=+battery bluetooth +cups +datetime +keyboard paste sensors +session +sound weather
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) cups? ( unity-indicators/indicator-printers ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( x11-apps/copyq ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/meteo-qt )
+RESTRICT=mirror
+SLOT=0
+_md5_=c598aa11a7577df11ce69e28f14822ee
