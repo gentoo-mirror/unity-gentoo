@@ -99,7 +99,7 @@ unity-base/unity-language-pack 20.04: Language translations pack for Unity deskt
 unity-base/unity-meta 20.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 20.04-r1: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20200325_p0_p01: Unity Settings Daemon
-unity-extra/ehooks 19.04: Ebuild hooks patching system
+unity-extra/ehooks 20.04: Ebuild hooks patching system
 unity-extra/indicator-classicmenu 0.11_p_p0_p01: Indicator to provide the main menu of Gnome2/Gnome Classic for the Unity desktop environment
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p03: CPU frequency scaling indicator for the Unity desktop environment
 unity-extra/indicator-evolution 0.2.20_p_p0_p42: Indicator for the Evolution mail client used by the Unity desktop
