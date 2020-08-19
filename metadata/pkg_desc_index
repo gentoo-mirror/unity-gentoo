@@ -19,7 +19,7 @@ dev-libs/libcolumbus 1.1.0_p20150806_p0_p21: Error tolerant matching engine used
 dev-libs/libdbusmenu 16.04.1_p20180917_p0_p06: Library to pass menu structure across DBus
 dev-libs/libgdata 0.17.9-r666: GLib-based library for accessing online service APIs using the GData protocol
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
-dev-libs/libqtdbusmock 0.7_p1_p3_p01-r1: Qt Bindings for python-dbusmock
+dev-libs/libqtdbusmock 0.7_p1_p3_p01-r2: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p1_p5_p01: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p20190319_p0_p03: Library for instrumenting and integrating with all aspects of the Unity shell
@@ -40,7 +40,7 @@ dev-util/glib-utils 2.64.2: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
-gnome-base/gnome-core-libs 3.36.4: Sub-meta package for the core libraries of GNOME 3
+gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.36.2_p_p0_p02: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.36.1_p_p1_p01: The GNOME panel patched for the Unity desktop
