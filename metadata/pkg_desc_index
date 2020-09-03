@@ -78,7 +78,7 @@ sys-kernel/ubuntu-sources 5.4.41_p_p39_p43: Ubuntu patched kernel sources
 sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
-unity-base/bamf 0.5.3_p2018020702_p0_p02: BAMF Application Matching Framework
+unity-base/bamf 0.5.3_p2018020702_p0_p02-r1: BAMF Application Matching Framework
 unity-base/compiz 0.9.14.1_p20200211_p0_p01: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.7.0_p_p_p02: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p20160809_p0_p02: uTouch Frame Library
