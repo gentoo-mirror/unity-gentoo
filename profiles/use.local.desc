@@ -75,6 +75,7 @@ unity-base/unity-settings-daemon:fcitx - Enable support for enhanced input metho
 unity-base/unity-settings-daemon:i18n - Enable support for enhanced input methods through app-i18n/ibus
 unity-base/unity-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
 unity-extra/ehooks:audacity_menu - Add Unity's Global menu for media-sound/audacity
+unity-extra/ehooks:copyq_theme - Set ubuntu-mono-dark tray icon color for x11-apps/copyq
 unity-extra/ehooks:eog_menu - Add Unity's Global menu for media-gfx/eog
 unity-extra/ehooks:evince_menu - Add Unity's Global menu for app-text/evince
 unity-extra/ehooks:fontconfig_adjust - Adjust fonts configuration according to Ubuntu
@@ -83,6 +84,7 @@ unity-extra/ehooks:gnome-terminal_theme - Add Unity's theme for x11-terms/gnome-
 unity-extra/ehooks:libreoffice_theme - Add Ubuntu's Human icon theme for app-office/libreoffice
 unity-extra/ehooks:nemo_noroot - Remove "Open as Root" context menu action for gnome-extra/nemo
 unity-extra/ehooks:pidgin_chat - Add chat section into Unity's Messaging menu for net-im/pidgin
+unity-extra/ehooks:telegram_theme - Add ubuntu-mono-dark tray icons for net-im/telegram-desktop
 unity-extra/ehooks:totem_menu - Add Unity's Global menu for media-video/totem
 unity-extra/ehooks:zim_theme - Add Ubuntu Mono icon theme for x11-misc/zim
 unity-extra/unity-greeter:battery - Use power state indicator for login screen
