@@ -47,7 +47,6 @@ gnome-base/gnome-panel 3.36.2_p_p0_p01: The GNOME panel patched for the Unity de
 gnome-base/gnome-session 3.36.0_p_p2_p01: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.36.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.36.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
-gnome-base/libgdu 3.0.2: GNOME Disk Utility libraries
 gnome-base/nautilus 3.36.3_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
