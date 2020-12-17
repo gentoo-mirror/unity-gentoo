@@ -22,7 +22,7 @@ dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenien
 dev-libs/libqtdbusmock 0.7_p1_p3_p01-r2: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p1_p5_p01: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4_p20190319_p0_p03: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p20190319_p0_p03-r1: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 dev-libs/process-cpp 3.0.1_p_p6_p01: C++11 library for handling processes
@@ -48,7 +48,7 @@ gnome-base/gnome-session 3.36.0_p_p2_p01: Gnome session manager patched for the 
 gnome-base/gnome-settings-daemon 3.36.1_p_p0_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.36.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/nautilus 3.36.3_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p_p0_p27: Blacklist configuration user interface for Zeitgeist
+gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
@@ -120,7 +120,7 @@ unity-indicators/indicator-appmenu 15.02.0_p20160927_p0_p05: Indicator for appli
 unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 15.10_p20200217_p0_p01: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-internode 9999: Unity indicator to monitor internet usage for the Internode ISP
-unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03: Keyboard indicator used by the Unity desktop
+unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r1: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p05: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p02: Indicator showing active print jobs used by the Unity desktop
