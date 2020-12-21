@@ -62,6 +62,7 @@ media-fonts/fonts-noto-cjk 20190410_p1_p_p2: No Tofu font families with large Un
 media-gfx/shotwell 0.30.10_p_p0_p0001: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
+media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your music (patched for Unity)
 media-sound/rhythmbox 3.4.4_p_p1_p02: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p03: Parse and query the geonames database dump
