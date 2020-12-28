@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=dev-libs/libaccounts-glib:= dev-qt/qtcore:5 dev-qt/qtxml:5 doc? ( app-doc/doxygen ) test? ( dev-qt/qttest:5 )
+DESCRIPTION=QT library for Single Sign On framework for the Unity desktop
+EAPI=7
+HOMEPAGE=http://code.google.com/p/accounts-sso/
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RESTRICT=mirror
+SLOT=0/1.2.0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/libaccounts-qt_1.15+17.04.20161104.1.orig.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	ubuntu-versionator	6f60f820945236852b6351aa00032b45
+_md5_=745f12e8c67d48dd10faceed3eea440c

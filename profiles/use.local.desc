@@ -32,11 +32,6 @@ gnome-extra/zeitgeist:fts - Enable the full text search extension
 gnome-extra/zeitgeist:sql-debug - Enable SQL debugging
 gnome-extra/zeitgeist:telepathy - Enable telepathy framework as data source
 media-fonts/fonts-noto-cjk:extra - CJK all weight
-media-sound/banshee:bpm - Build beats per minute detection extension
-media-sound/banshee:daap - Build with Daap support
-media-sound/banshee:karma - Build with karma support
-media-sound/banshee:web - Enable support for plugins that access web-based services such as Amazon and wikipedia (requires net-libs/webkit-gtk)
-media-sound/banshee:youtube - Enable the Youtube plugin
 media-sound/rhythmbox:daap - Build the local network music sharing plugin which uses the DAAP protocol using net-libs/libdmapsharing
 media-sound/rhythmbox:html - Use net-libs/webkit-gtk for detecting and displaying HTML podcast episode descriptions.
 media-sound/rhythmbox:libsecret - Enable libsecret support to store login credentials

@@ -62,7 +62,6 @@ media-fonts/fonts-noto-cjk 20190410_p1_p_p2: No Tofu font families with large Un
 media-gfx/shotwell 0.30.10_p_p0_p0001: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
-media-sound/banshee 2.9.0_p_p7_p03-r2: Import, organize, play, and share your music (patched for Unity)
 media-sound/rhythmbox 3.4.4_p_p1_p02: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p03: Parse and query the geonames database dump
@@ -112,6 +111,7 @@ unity-extra/lightdm-remote-session-uccsconfigure 1.1_p_p0_p02: Configuration fil
 unity-extra/meteo-qt 1.8: System tray application for weather status information
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 18.04.0_p20200312_p0_p02: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+unity-extra/unity-tweak-tool 0.0.7_p_p0_p06-r1: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p20161028_p0_p02: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p20200409_p0_p01: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application indicators used by the Unity desktop
@@ -135,7 +135,9 @@ unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unit
 unity-scopes/smart-scopes 0.1_p_p0_p01: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
+x11-libs/gsettings-qt 0.2_p_p_p01-r1: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.32_p_p4_p04 3.24.20_p_p0_p01: Gimp ToolKit patched for the Unity desktop
+x11-libs/libaccounts-qt 1.15_p2016110401_p0_p03-r1: QT library for Single Sign On framework for the Unity desktop
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
