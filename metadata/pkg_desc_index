@@ -41,7 +41,7 @@ gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched 
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.36.3.1_p_p0_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.36.8_p_p0_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.36.2_p_p0_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.36.0_p_p2_p01: Gnome session manager patched for the Unity desktop
@@ -50,7 +50,7 @@ gnome-base/gsettings-desktop-schemas 3.36.0_p_p1_p01: Collection of GSettings sc
 gnome-base/nautilus 3.36.3_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
-gnome-extra/nm-applet 1.8.24_p_p1_p02: GNOME applet for NetworkManager
+gnome-extra/nm-applet 1.8.24_p_p1_p03: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.2_p_p3_p02: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.0_p_p1_p01: Solus Project's Brisk Menu MATE Panel Applet
@@ -67,11 +67,12 @@ net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio cal
 net-libs/geonames 0.2_p20170220_p0_p03: Parse and query the geonames database dump
 net-libs/libnma 1.8.24: NetworkManager GUI library
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-sys-apps/accountsservice 0.6.55_p1_p0_p12: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 0.6.55_p4_p0_p12: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
+sys-kernel/ubuntu-sources 5.4.78_p_p62_p70: Ubuntu patched kernel sources
 sys-libs/consolation 0.0.7_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
