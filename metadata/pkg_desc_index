@@ -136,7 +136,6 @@ unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p01-r1: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.32_p_p4_p04 3.24.20_p_p0_p01: Gimp ToolKit patched for the Unity desktop
-x11-libs/libaccounts-qt 1.15_p2016110401_p0_p03-r2 1.15_p2016110401_p0_p04: QT library for Single Sign On framework for the Unity desktop
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
