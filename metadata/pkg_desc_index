@@ -13,7 +13,6 @@ dev-libs/dee 1.2.7_p20170616_p4_p06: Provide objects allowing to create Model-Vi
 dev-libs/glib 2.64.3_p_p1_p01: The GLib library of C routines
 dev-libs/gobject-introspection 1.64.1: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.64.1: Build infrastructure for GObject Introspection
-dev-libs/libaccounts-glib 1.23_p20161104_p0_p03: Library for single signon for the Unity desktop
 dev-libs/libappindicator 12.10.1_p2020040801_p0_p01-r1: Application indicators used by the Unity desktop
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p21: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 16.04.1_p20180917_p0_p06: Library to pass menu structure across DBus
@@ -117,7 +116,7 @@ unity-indicators/indicator-applet 12.10.2_p20200409_p0_p01: Gnome panel indicato
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p20160927_p0_p05: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p20200217_p0_p01: Date and Time Indicator used by the Unity desktop
+unity-indicators/indicator-datetime 15.10_p20200217_p0_p01-r1 15.10_p20200217_p0_p0301: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-internode 9999: Unity indicator to monitor internet usage for the Internode ISP
 unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r1: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02: Indicator that collects messages that need a response used by the Unity desktop
@@ -137,7 +136,7 @@ unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p01-r1: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.32_p_p4_p04 3.24.20_p_p0_p01: Gimp ToolKit patched for the Unity desktop
-x11-libs/libaccounts-qt 1.15_p2016110401_p0_p03-r1: QT library for Single Sign On framework for the Unity desktop
+x11-libs/libaccounts-qt 1.15_p2016110401_p0_p03-r2 1.15_p2016110401_p0_p04: QT library for Single Sign On framework for the Unity desktop
 x11-libs/mx 1.99.4_p1: A widget toolkit using Clutter
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
