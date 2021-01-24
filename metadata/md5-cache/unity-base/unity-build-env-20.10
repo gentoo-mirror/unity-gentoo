@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+EAPI=6
+HOMEPAGE=http://unity.ubuntu.com/
+IUSE=minimal
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0/groovy
+_md5_=e1b2c7893f00140080ffc3e9f481e94a
