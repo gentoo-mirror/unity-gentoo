@@ -20,7 +20,7 @@ dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenien
 dev-libs/libqtdbusmock 0.7_p1_p3_p01-r2 0.7_p1_p4_p: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p1_p5_p01 0.2_p1_p9_p: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4_p20190319_p0_p03-r1 7.1.4_p20190319_p2_p: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p20190319_p0_p03-r1 7.1.4_p20190319_p2: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 dev-libs/process-cpp 3.0.1_p_p6_p01: C++11 library for handling processes
@@ -89,7 +89,7 @@ unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20200312_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p04: API for Unity shell integration
 unity-base/unity-build-env 20.04 20.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p20190921_p0_p03-r1: Unity Desktop Configuration Tool
+unity-base/unity-control-center 15.04.0_p20190921_p0_p03-r1 15.04.0_p20190921_p0_p03-r2: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 20.04: Language translations pack for Unity desktop
 unity-base/unity-meta 20.04-r3 20.10: Unity Desktop - merge this to pull in all Unity packages
