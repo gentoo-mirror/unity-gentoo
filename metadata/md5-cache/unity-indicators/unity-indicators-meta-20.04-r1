@@ -9,4 +9,4 @@ LICENSE=GPL-3
 RDEPEND=unity-indicators/indicator-application unity-indicators/indicator-appmenu battery? ( unity-indicators/indicator-power ) bluetooth? ( unity-indicators/indicator-bluetooth ) cups? ( unity-indicators/indicator-printers ) datetime? ( unity-indicators/indicator-datetime ) keyboard? ( unity-indicators/indicator-keyboard ) paste? ( x11-misc/copyq ) sensors? ( unity-extra/indicator-psensor ) session? ( unity-indicators/indicator-session ) sound? ( unity-indicators/indicator-sound ) weather? ( unity-extra/meteo-qt )
 RESTRICT=mirror
 SLOT=0
-_md5_=ee7d7493ae989bcd13920f7b294cf06e
+_md5_=9e11117f15cc68080712c1f43cb2299d
