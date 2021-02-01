@@ -1,6 +1,7 @@
 app-accessibility/onboard 1.4.1_p5: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 42.2_p_p1_p01: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
+dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
@@ -71,6 +72,7 @@ sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C function
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.3_p2018020702_p0_p02-r1 0.5.5_p20210119_p0_p01: BAMF Application Matching Framework
 unity-base/compiz 0.9.14.1_p20200813_p0_p01 0.9.14.1_p20200813_p0_p04: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
+unity-base/evemu 2.7.0_p_p_p02 2.7.0_p3: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p20160809_p0_p02 2.5.0_p20160809_p0_p03: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p06 2.2.17_p20160126_p0_p07: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/grail 3.1.1_p_p2_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
