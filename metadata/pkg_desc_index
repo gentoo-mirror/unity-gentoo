@@ -25,24 +25,24 @@ dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 dev-libs/process-cpp 3.0.1_p_p6_p01: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.2_p_p_p03: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
-dev-python/autopilot 1.6.0_p20170313_p0_p09: Utility to write and run integration tests easily
+dev-python/autopilot 1.6.0_p20170313_p0_p09 1.6.1_p20210120_p0_p01: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.6_p_p2_p01: PyUnit extension for reporting in JUnit compatible XML
-dev-util/cmake-extras 1.5_p_p1_p01: Extra CMake utility modules
+dev-util/cmake-extras 1.5_p_p1_p01 1.5_p7: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
-dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01: Run executables under a new DBus session for testing
+dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01 16.10.0_p_p_p0401: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.66.1: GDBus code and documentation generator
 dev-util/glib-utils 2.66.1: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.38.1_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.38.1_p_p1_p01 3.38.3_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.38.0_p_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.38.0_p_p1_p01: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.38.0_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.38.0_p_p1_p01 3.38.1_p_p3_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.38.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
-gnome-base/nautilus 3.38.1_p_p1_p01-r1: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.38.1_p_p1_p01-r1 3.38.2_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.18.0_p_p1_p02: GNOME applet for NetworkManager
@@ -53,20 +53,20 @@ mate-extra/mate-hud 19.10.1_p3: MATE menubar commands, like the Unity 7 Heads-Up
 mate-extra/mate-menu 20.04.3_p1: Advanced MATE menu
 mate-extra/mate-tweak 20.10.0_p_p0_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 20.10.1: Default settings for Ubuntu MATE
-media-fonts/fonts-noto-cjk 20190410_p1_p_p2: No Tofu font families with large Unicode coverage
-media-gfx/shotwell 0.30.10_p_p0_p01: Open source photo manager for GNOME
+media-fonts/fonts-noto-cjk 20190410_p1_p_p2 20201206_p1_p1: No Tofu font families with large Unicode coverage
+media-gfx/shotwell 0.30.10_p_p0_p01 0.30.11_p_p0_p01: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
-media-sound/rhythmbox 3.4.4_p_p1_p0301: Music management and playback software for GNOME patched for the Unity desktop
+media-sound/rhythmbox 3.4.4_p_p1_p04: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
-net-libs/geonames 0.2_p20170220_p0_p03: Parse and query the geonames database dump
+net-libs/geonames 0.2_p20170220_p0_p03 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 0.6.55_p_p0_p1302: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
 sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
-sys-kernel/ubuntu-sources 5.8.18_p_p40_p45: Ubuntu patched kernel sources
+sys-kernel/ubuntu-sources 5.8.18_p_p41_p46: Ubuntu patched kernel sources
 sys-libs/consolation 0.0.8_p1_p_p: Console pointer support for copy-paste
 sys-libs/libnih 1.0.3_p_p6_p02-r1: Light-weight 'standard library' of C functions
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -120,7 +120,7 @@ unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05: Application lens fo
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03: Music lens for the Unity desktop
-unity-lenses/unity-lens-photos 1.0_p20170605_p0_p04-r1: Photo lens for the Unity desktop
+unity-lenses/unity-lens-photos 1.0_p20170605_p0_p04-r1 1.0_p20170605_p0_p07: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 20.10: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
