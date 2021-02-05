@@ -7,4 +7,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2+
 PDEPEND=>=dev-libs/glib-2.59.2
 SLOT=0
-_md5_=6b0eeada10f750920fe3cf1f103a198b
+_md5_=fc106c160e593a6dd4e5d7b1f234c683

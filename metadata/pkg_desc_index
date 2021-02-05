@@ -8,7 +8,7 @@ dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.3: Global Menu for Java applications
-dev-libs/dee 1.2.7_p20170616_p6_p01: Provide objects allowing to create Model-View-Controller type programs across DBus
+dev-libs/dee 1.2.7_p20170616_p6_p01-r1: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.66.1_p2: The GLib library of C routines
 dev-libs/gobject-introspection 1.66.1: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.66.1: Build infrastructure for GObject Introspection
@@ -19,18 +19,18 @@ dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenien
 dev-libs/libqtdbusmock 0.7_p1_p4_p: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p1_p9_p: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
-dev-libs/libunity 7.1.4_p20190319_p2: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p20190319_p2_p-r1 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
 dev-libs/process-cpp 3.0.1_p_p6_p01: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.2_p_p_p03: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
-dev-python/autopilot 1.6.0_p20170313_p0_p09 1.6.1_p20210120_p0_p01: Utility to write and run integration tests easily
-dev-python/pyjunitxml 0.6_p_p2_p01: PyUnit extension for reporting in JUnit compatible XML
+dev-python/autopilot 1.6.0_p20170313_p0_p09-r1 1.6.1_p20210120_p0_p01: Utility to write and run integration tests easily
+dev-python/pyjunitxml 0.6_p_p2_p01-r1: PyUnit extension for reporting in JUnit compatible XML
 dev-util/cmake-extras 1.5_p_p1_p01 1.5_p7: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01 16.10.0_p_p_p0401: Run executables under a new DBus session for testing
-dev-util/gdbus-codegen 2.66.1: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.66.1-r1: GDBus code and documentation generator
 dev-util/glib-utils 2.66.1: Build utilities for GLib using projects
 gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
