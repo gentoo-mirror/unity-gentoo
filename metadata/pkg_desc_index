@@ -36,7 +36,7 @@ gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched 
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.38.1_p_p1_p01 3.38.3_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.38.3_p_p0_p01 3.38.3_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.38.0_p_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.38.0_p_p1_p01: Gnome session manager patched for the Unity desktop
