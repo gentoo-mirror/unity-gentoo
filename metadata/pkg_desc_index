@@ -1,29 +1,29 @@
-app-accessibility/onboard 1.4.1_p5: Simple on-screen Keyboard with macros and easy layout creation
-app-backup/deja-dup 42.2_p_p1_p01: Simple backup tool using duplicity back-end
+app-accessibility/onboard 1.4.1_p5 1.4.1_p5_p2: Simple on-screen Keyboard with macros and easy layout creation
+app-backup/deja-dup 42.2_p_p1_p01 42.6_p_p1_p01: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
-dev-dotnet/mono-zeroconf 0.9.0_p6: a cross platform Zero Configuration Networking library for Mono and .NET
+dev-dotnet/mono-zeroconf 0.9.0_p6 0.9.0_p6_p01: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.3: Global Menu for Java applications
 dev-libs/dee 1.2.7_p20170616_p6_p01-r1: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.66.1_p2: The GLib library of C routines
+dev-libs/glib 2.66.1_p2 2.66.4_p1: The GLib library of C routines
 dev-libs/gobject-introspection 1.66.1: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.66.1: Build infrastructure for GObject Introspection
 dev-libs/libappindicator 12.10.1_p2020070601_p0_p01: Application indicators used by the Unity desktop
-dev-libs/libcolumbus 1.1.0_p20150806_p0_p22: Error tolerant matching engine used by the Unity desktop
+dev-libs/libcolumbus 1.1.0_p20150806_p0_p22 1.1.0_p20150806_p0_p24: Error tolerant matching engine used by the Unity desktop
 dev-libs/libdbusmenu 16.04.1_p20180917_p0_p06: Library to pass menu structure across DBus
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
-dev-libs/libqtdbusmock 0.7_p1_p4_p: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p1_p9_p: Library to facilitate testing DBus interactions in Qt applications
+dev-libs/libqtdbusmock 0.7_p_p1_p05 0.7_p1_p4_p: Qt Bindings for python-dbusmock
+dev-libs/libqtdbustest 0.2_p_p1_p11 0.2_p1_p9_p: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p20190319_p2_p-r1 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18: Client library to interact with zeitgeist
-dev-libs/process-cpp 3.0.1_p_p6_p01: C++11 library for handling processes
-dev-libs/properties-cpp 0.0.2_p_p_p03: Simple convenience library for handling properties and signals in C++11
+dev-libs/process-cpp 3.0.1_p_p6_p01 3.0.1_p_p8_p01: C++11 library for handling processes
+dev-libs/properties-cpp 0.0.2_p_p_p03 0.0.2_p6: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.6.0_p20170313_p0_p09-r1 1.6.1_p20210120_p0_p01: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.6_p_p2_p01-r1: PyUnit extension for reporting in JUnit compatible XML
@@ -37,7 +37,7 @@ gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure vari
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.38.1_p_p1_p01 3.38.3_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
-gnome-base/gnome-menus 3.0.1-r3 3.32.0_p_p1_p01: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
+gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.38.0_p_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.38.0_p_p1_p01: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.38.0_p_p1_p01 3.38.1_p_p3_p01: Gnome Settings Daemon patched for the Unity desktop
