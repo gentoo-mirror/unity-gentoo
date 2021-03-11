@@ -2,7 +2,6 @@ app-accessibility/onboard 1.4.1_p5 1.4.1_p5_p2: Simple on-screen Keyboard with m
 app-backup/deja-dup 42.2_p_p1_p01 42.6_p_p1_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
-dev-cpp/gtest 1.8.1_p_p_p3-r1: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
