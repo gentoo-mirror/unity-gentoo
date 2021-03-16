@@ -77,7 +77,7 @@ unity-base/frame 2.5.0_p20160809_p0_p02 2.5.0_p20160809_p0_p03: uTouch Frame Lib
 unity-base/geis 2.2.17_p20160126_p0_p06 2.2.17_p20160126_p0_p07: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/grail 3.1.1_p_p2_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20170922_p0_p01: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20170619_p0_p0301: Backend for the Unity HUD
+unity-base/hud 14.10_p20170619_p0_p0301-r1: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20180623_p0_p03: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
