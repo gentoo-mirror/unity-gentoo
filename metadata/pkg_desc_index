@@ -2,6 +2,7 @@ app-accessibility/onboard 1.4.1_p5 1.4.1_p5_p2: Simple on-screen Keyboard with m
 app-backup/deja-dup 42.2_p_p1_p01 42.6_p_p1_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
+dev-cpp/gtest 1.10.0_p_p_p3: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
@@ -17,7 +18,7 @@ dev-libs/libcolumbus 1.1.0_p20150806_p0_p22 1.1.0_p20150806_p0_p24: Error tolera
 dev-libs/libdbusmenu 16.04.1_p20180917_p0_p06: Library to pass menu structure across DBus
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.7_p_p1_p05 0.7_p1_p4_p: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p_p1_p11 0.2_p1_p9_p: Library to facilitate testing DBus interactions in Qt applications
+dev-libs/libqtdbustest 0.2_p_p1_p11 0.2_p1_p9_p-r1: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p20190319_p2_p-r1 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
