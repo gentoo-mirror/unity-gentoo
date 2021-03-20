@@ -74,7 +74,7 @@ sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq 
 unity-base/bamf 0.5.3_p2018020702_p0_p02-r1 0.5.5_p20210119_p0_p01: BAMF Application Matching Framework
 unity-base/compiz 0.9.14.1_p20200813_p0_p01 0.9.14.1_p20200813_p0_p04: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.7.0_p_p_p02 2.7.0_p3: Event Emulation for the uTouch Stack
-unity-base/frame 2.5.0_p20160809_p0_p02 2.5.0_p20160809_p0_p03: uTouch Frame Library
+unity-base/frame 2.5.0_p20160809_p0_p02-r1 2.5.0_p20160809_p0_p03: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p06 2.2.17_p20160126_p0_p07: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/grail 3.1.1_p_p2_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20170922_p0_p01: GSettings desktop-wide schemas for the Unity desktop
