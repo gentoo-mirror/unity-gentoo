@@ -114,7 +114,7 @@ unity-indicators/indicator-datetime 15.10_p20200217_p0_p0301-r1: Date and Time I
 unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r1: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p06: Indicator showing power state used by the Unity desktop
-unity-indicators/indicator-printers 0.1.7_p20171101_p0_p02 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
+unity-indicators/indicator-printers 0.1.7_p20171101_p0_p02-r1 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 17.3.20_p20190921_p0_p01 17.3.20_p20190921_p0_p02: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p03-r1: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 20.04-r1: Unity Desktop - merge this to pull in all Unity indicators
