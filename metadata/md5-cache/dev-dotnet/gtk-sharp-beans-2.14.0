@@ -3,10 +3,11 @@ DEPEND=dev-dotnet/gio-sharp >=dev-dotnet/gtk-sharp-2.12.21 virtual/pkgconfig >=a
 DESCRIPTION=GTK+ API C# binding
 EAPI=2
 HOMEPAGE=https://github.com/mono/gtk-sharp-beans
+INHERIT=autotools mono
 KEYWORDS=amd64 x86
 LICENSE=LGPL-2.1
 RDEPEND=dev-dotnet/gio-sharp >=dev-dotnet/gtk-sharp-2.12.21
 SLOT=0
 SRC_URI=https://github.com/mono/gtk-sharp-beans/tarball/2.14.0 -> gtk-sharp-beans-2.14.0.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	mono	6b9c26a7a64b4530f483c30a494ac0a1	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	mono	6b9c26a7a64b4530f483c30a494ac0a1
 _md5_=9c13b90f9497406419dc85d880d31044
