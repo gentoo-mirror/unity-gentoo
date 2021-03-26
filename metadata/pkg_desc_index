@@ -54,7 +54,6 @@ mate-extra/mate-hud 19.10.1_p3: MATE menubar commands, like the Unity 7 Heads-Up
 mate-extra/mate-menu 20.04.3_p1: Advanced MATE menu
 mate-extra/mate-tweak 20.10.0_p_p0_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 20.10.1: Default settings for Ubuntu MATE
-media-fonts/fonts-noto-cjk 20190410_p1_p_p2 20201206_p1_p1: No Tofu font families with large Unicode coverage
 media-gfx/shotwell 0.30.10_p_p0_p01 0.30.11_p_p0_p01: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
