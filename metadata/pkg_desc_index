@@ -9,7 +9,6 @@ dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
 dev-dotnet/mono-zeroconf 0.9.0_p6 0.9.0_p6_p01: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.6: Global Menu for Java applications
-dev-libs/dee 1.2.7_p20170616_p6_p01-r1: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/glib 2.66.1_p2 2.66.4_p1: The GLib library of C routines
 dev-libs/gobject-introspection 1.66.1: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.66.1: Build infrastructure for GObject Introspection
