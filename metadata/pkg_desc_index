@@ -21,6 +21,7 @@ dev-libs/libqtdbustest 0.2_p_p1_p11 0.2_p1_p9_p-r1: Library to facilitate testin
 dev-libs/libtimezonemap 0.4.6_p_p_p02: GTK+3 timezone map widget used by the Unity desktop
 dev-libs/libunity 7.1.4_p20190319_p2_p-r1 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
+dev-libs/libzeitgeist 0.3.18_p_p1_p03: Client library to interact with zeitgeist
 dev-libs/process-cpp 3.0.1_p_p6_p01 3.0.1_p_p8_p01: C++11 library for handling processes
 dev-libs/properties-cpp 0.0.2_p_p_p03 0.0.2_p6: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
