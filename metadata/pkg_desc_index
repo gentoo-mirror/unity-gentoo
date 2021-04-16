@@ -54,7 +54,7 @@ mate-extra/mate-menu 20.04.3_p1: Advanced MATE menu
 mate-extra/mate-tweak 20.10.0_p_p0_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 20.10.1: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20190410_p1_p_p2-r1 20201206_p1_p1: No Tofu font families with large Unicode coverage
-media-gfx/shotwell 0.30.10_p_p0_p01 0.30.11_p_p0_p01: Open source photo manager for GNOME
+media-gfx/shotwell 0.30.10_p_p0_p01-r1 0.30.11_p_p0_p01: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/rhythmbox 3.4.4_p_p1_p04: Music management and playback software for GNOME patched for the Unity desktop
@@ -120,7 +120,7 @@ unity-indicators/unity-indicators-meta 20.04-r1: Unity Desktop - merge this to p
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all Unity lenses
-unity-lenses/unity-lens-music 6.9.1_p_p0_p03: Music lens for the Unity desktop
+unity-lenses/unity-lens-music 6.9.1_p_p0_p03-r1: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p04-r1 1.0_p20170605_p0_p07: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 20.10: Online scopes for the Unity Dash
