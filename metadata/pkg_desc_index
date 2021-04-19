@@ -1,5 +1,5 @@
 app-accessibility/onboard 1.4.1_p5 1.4.1_p5_p2: Simple on-screen Keyboard with macros and easy layout creation
-app-backup/deja-dup 42.2_p_p1_p01 42.6_p_p1_p01: Simple backup tool using duplicity back-end
+app-backup/deja-dup 42.2_p_p1_p01 42.7_p_p1_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-cpp/gtest 1.10.0_p_p_p3: Google C++ Testing Framework
@@ -32,29 +32,29 @@ dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Pa
 dev-util/dbus-test-runner 15.04.0_p20190115_p0_p01 16.10.0_p_p_p0401: Run executables under a new DBus session for testing
 dev-util/gdbus-codegen 2.66.1-r1: GDBus code and documentation generator
 dev-util/glib-utils 2.66.1: Build utilities for GLib using projects
-gnome-base/gconf 3.2.6_p_p06_p01: GNOME configuration system and daemon patched for the Unity desktop
+gnome-base/gconf 3.2.6_p_p06_p01 3.2.6_p_p07_p01: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.38.3_p_p0_p01 3.38.3_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.38.3_p_p0_p01 3.38.5_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
-gnome-base/gnome-panel 3.38.0_p_p1_p01: The GNOME panel patched for the Unity desktop
-gnome-base/gnome-session 3.38.0_p_p1_p01-r1: Gnome session manager patched for the Unity desktop
-gnome-base/gnome-settings-daemon 3.38.0_p_p1_p01 3.38.1_p_p3_p01: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gnome-panel 3.38.0_p_p1_p01 3.40.0_p_p1_p01: The GNOME panel patched for the Unity desktop
+gnome-base/gnome-session 3.38.0_p_p1_p01-r1 3.38.0_p_p3_p02: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.38.0_p_p1_p01 3.38.1_p_p3_p03: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.38.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/nautilus 3.38.1_p_p1_p01-r1 3.38.2_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.18.0_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/zeitgeist 1.0.2_p_p3_p02: Service to log activities and present to other apps
+gnome-extra/zeitgeist 1.0.2_p_p3_p02 1.0.3_p_p4_p01: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.2_p1: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 19.10.1_p3: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
 mate-extra/mate-menu 20.04.3_p1: Advanced MATE menu
 mate-extra/mate-tweak 20.10.0_p_p0_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 20.10.1: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20190410_p1_p_p2-r1 20201206_p1_p1: No Tofu font families with large Unicode coverage
-media-gfx/shotwell 0.30.10_p_p0_p01-r1 0.30.11_p_p0_p01: Open source photo manager for GNOME
+media-gfx/shotwell 0.30.11_p_p0_p02: Open source photo manager for GNOME
 media-libs/libkarma 0.1.2: Support library for using Rio devices with mtp
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/rhythmbox 3.4.4_p_p1_p04: Music management and playback software for GNOME patched for the Unity desktop
@@ -75,9 +75,9 @@ unity-base/compiz 0.9.14.1_p20200813_p0_p01-r1 0.9.14.1_p20200813_p0_p04: Compiz
 unity-base/evemu 2.7.0_p_p_p02 2.7.0_p3: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p20160809_p0_p02-r1 2.5.0_p20160809_p0_p03: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p06 2.2.17_p20160126_p0_p07: An implementation of the GEIS (Gesture Engine Interface and Support) interface
-unity-base/grail 3.1.1_p_p2_p01: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
+unity-base/grail 3.1.1_p_p2_p01 3.1.1_p3: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20170922_p0_p01: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20170619_p0_p0301-r1: Backend for the Unity HUD
+unity-base/hud 14.10_p20170619_p0_p04 14.10_p20170619_p0_p0301-r1: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20180623_p0_p03: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
@@ -88,7 +88,7 @@ unity-base/unity-build-env 20.10 21.04: Merge this to setup the Unity desktop bu
 unity-base/unity-control-center 15.04.0_p20190921_p0_p03-r3 15.04.0_p20190921_p0_p04: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 20.10: Language translations pack for Unity desktop
-unity-base/unity-meta 20.10-r1: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-meta 20.10-r1 21.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 20.10-r1: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20200325_p0_p01 15.04.1_p20200325_p0_p02: Unity Settings Daemon
 unity-extra/ehooks 20.10: Ebuild hooks patching system
