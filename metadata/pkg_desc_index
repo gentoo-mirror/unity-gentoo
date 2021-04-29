@@ -90,7 +90,6 @@ unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02-r1: GTK+ module for exporting
 unity-base/unity-language-pack 20.10: Language translations pack for Unity desktop
 unity-base/unity-meta 20.10-r1 21.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 20.10-r2: Default settings for the Unity
-unity-base/unity-settings-daemon 15.04.1_p20200325_p0_p01 15.04.1_p20200325_p0_p02: Unity Settings Daemon
 unity-extra/ehooks 20.10: Ebuild hooks patching system
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p03: CPU frequency scaling indicator for the Unity desktop environment
 unity-extra/indicator-evolution 0.2.20_p_p0_p42: Indicator for the Evolution mail client used by the Unity desktop
