@@ -5,7 +5,6 @@ app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being use
 dev-cpp/gtest 1.10.0_p_p_p3: Google C++ Testing Framework
 dev-dotnet/google-gdata-sharp 1.4.0.2-r2: C# bindings for the Google GData API
 dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
-dev-dotnet/mono-zeroconf 0.9.0_p6 0.9.0_p6_p01: a cross platform Zero Configuration Networking library for Mono and .NET
 dev-dotnet/taglib-sharp 2.1.0.0_p5: Taglib# 2.0 - Managed tag reader/writer
 dev-java/jayatana 0.7.6: Global Menu for Java applications
 dev-libs/dee 1.2.7_p20170616_p6_p01-r2: Provide objects allowing to create Model-View-Controller type programs across DBus
@@ -85,7 +84,6 @@ unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20200312_p0_p01-r1: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p04 8.7_p20170404_p0_p05: API for Unity shell integration
 unity-base/unity-build-env 20.10 21.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
-unity-base/unity-control-center 15.04.0_p20190921_p0_p03-r3 15.04.0_p20190921_p0_p04: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 20.10: Language translations pack for Unity desktop
 unity-base/unity-meta 20.10-r1 21.04: Unity Desktop - merge this to pull in all Unity packages
