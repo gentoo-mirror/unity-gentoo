@@ -61,7 +61,7 @@ media-sound/rhythmbox 3.4.4_p_p1_p04: Music management and playback software for
 net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p03 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-sys-apps/accountsservice 0.6.55_p_p0_p1302: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 0.6.55_p_p0_p1302-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/ureadahead 0.100.0_p20_p_p: Ureadahead - Read files in advance during boot
