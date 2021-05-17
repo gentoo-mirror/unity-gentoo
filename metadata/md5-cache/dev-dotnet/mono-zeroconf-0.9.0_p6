@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=>=dev-lang/mono-2.0
+DESCRIPTION=a cross platform Zero Configuration Networking library for Mono and .NET
+EAPI=7
+HOMEPAGE=http://www.mono-project.com/Mono.Zeroconf
+INHERIT=mono ubuntu-versionator
+IUSE=doc
+KEYWORDS=amd64 ppc x86
+LICENSE=MIT
+RDEPEND=>=net-dns/avahi-0.6[mono]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/mono-zeroconf_0.9.0.orig.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	mono	2269269843205af77edc1bdd65887e1b	ubuntu-versionator	ceb8875ddb47b15999c2008bcfd7bc71
+_md5_=55f090d0b193d0cd954b8e8eb30c5628
