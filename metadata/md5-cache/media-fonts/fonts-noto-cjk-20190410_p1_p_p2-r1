@@ -12,4 +12,4 @@ RESTRICT=mirror binchecks strip
 SLOT=0
 SRC_URI=mirror://unity/pool/main/f/fonts-noto-cjk/fonts-noto-cjk_20190410+repack1.orig.tar.xz mirror://unity/pool/main/f/fonts-noto-cjk/fonts-noto-cjk_20190410+repack1-2.debian.tar.xz mirror://unity/pool/main/l/language-selector/language-selector_0.204.tar.xz
 _eclasses_=font	0667878c2b594871023dd1833d05996f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	ubuntu-versionator	ceb8875ddb47b15999c2008bcfd7bc71
-_md5_=3b93737fb3973981663157ede3131bb6
+_md5_=286aa9b56acb20949438036eddd6a03f
