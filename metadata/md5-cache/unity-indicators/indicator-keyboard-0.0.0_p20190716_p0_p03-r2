@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
-DEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap ) app-i18n/ibus[vala] >=dev-libs/glib-2.37 dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu gnome-base/dconf gnome-base/libgnomekbd sys-apps/accountsservice unity-base/bamf x11-libs/gtk+:3 x11-libs/libxklavier x11-libs/pango x11-misc/lightdm fcitx? ( >=app-i18n/fcitx-4.2.8.5 ) || ( dev-lang/vala:0.48[vapigen(+)] ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,-python_single_target_python3_8(-)] sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap ) app-i18n/ibus[vala] >=dev-libs/glib-2.37 dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu gnome-base/dconf gnome-base/libgnomekbd sys-apps/accountsservice unity-base/bamf x11-libs/gtk+:3 x11-libs/libxklavier x11-libs/pango x11-misc/lightdm fcitx? ( >=app-i18n/fcitx-4.2.8.5 ) || ( dev-lang/vala:0.48[vapigen(+)] ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_8(-),-python_single_target_python3_9(-)] sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Keyboard indicator used by the Unity desktop
 EAPI=6
 HOMEPAGE=https://launchpad.net/indicator-keyboard
 INHERIT=autotools eutils flag-o-matic gnome2-utils python-r1 ubuntu-versionator vala
-IUSE=+charmap +fcitx python_targets_python3_8
+IUSE=+charmap +fcitx python_targets_python3_8 python_targets_python3_9
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap )
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-keyboard_0.0.0+19.10.20190716.orig.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	9f813bb3c47cf2e60619a663b87c5f4e	l10n	8cdd85e169b835d518bc2fd59f780d8e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	ltprune	4f3f2db5ce3ccbeeacdf3f94954043aa	preserve-libs	ef207dc62baddfddfd39a164d9797648	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	gnuconfig	9f91b4b0c84e734a87492d4293f03de5	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	9e63f92c2a5d867fea55ecb160c7d354	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	gnome2-utils	c8e3fff820d850c0e003e22208d2eea3	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-r1	26e4ad0a4190b14f70973dc253e86535	ubuntu-versionator	ceb8875ddb47b15999c2008bcfd7bc71	vala	12de027593aabf8f7d7df8d6c702db16
-_md5_=55b908988b1fc3dc1598a9a33cfa8c72
+_md5_=1e24df6e536440cf08fc7b69bb1554da
