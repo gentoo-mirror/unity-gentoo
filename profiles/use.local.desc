@@ -41,6 +41,13 @@ net-im/empathy:chat - Enable Unity's Messaging menu support
 net-im/empathy:geoloc - Enable geolocation support through app-misc/geoclue
 net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization (e.g. for Google Talk)
 net-im/empathy:map - Enable world map support through media-libs/libchamplain
+net-libs/glib-networking:gnome - Extract HTTP/HTTPS/SOCKS proxy configuration stored using GSettings
+net-libs/glib-networking:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
+net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
+net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
+net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 unity-base/unity:hud - Enable the backend for Unity's HUD
 unity-base/unity:nemo - Enable desktop icons via gnome-extra/nemo
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
