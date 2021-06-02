@@ -47,7 +47,7 @@ gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.18.0_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/zeitgeist 1.0.2_p_p3_p02 1.0.3_p_p4_p01: Service to log activities and present to other apps
+gnome-extra/zeitgeist 1.0.2_p_p3_p02-r1 1.0.3_p_p4_p01: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.2_p1: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 19.10.1_p3: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
 mate-extra/mate-menu 20.04.3_p1: Advanced MATE menu
