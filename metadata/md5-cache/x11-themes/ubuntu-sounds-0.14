@@ -8,5 +8,5 @@ LICENSE=CC-BY-NC-SA-2.0
 RESTRICT=binchecks mirror strip
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/ubuntu-sounds_0.14.tar.xz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	ubuntu-versionator	495e27c0c88e3b91394cdc9fed582ffd
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	ubuntu-versionator	495e27c0c88e3b91394cdc9fed582ffd
 _md5_=68164f55bb57912e3c074d31d9844446
