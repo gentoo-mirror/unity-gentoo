@@ -70,7 +70,7 @@ unity-extra/lightdm-remote-session-uccsconfigure 1.1_p_p0_p02: Configuration fil
 unity-extra/meteo-qt 1.8: System tray application for weather status information
 unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 18.04.0_p20200312_p0_p03: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
-unity-extra/unity-tweak-tool 0.0.7_p_p0_p06-r1: Configuration manager for the Unity desktop environment
+unity-extra/unity-tweak-tool 0.0.7_p_p0_p06-r2: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p20161028_p0_p02: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p20200915_p0_p01: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application indicators used by the Unity desktop
