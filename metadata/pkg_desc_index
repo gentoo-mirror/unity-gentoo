@@ -3,7 +3,7 @@ app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Lin
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-java/jayatana 0.7.6: Global Menu for Java applications
 dev-libs/dee 1.2.7_p20170616_p6_p01-r2: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/glib 2.68.2: The GLib library of C routines
+dev-libs/glib 2.68.2-r1: The GLib library of C routines
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p24: Error tolerant matching engine used by the Unity desktop
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.7_p_p1_p05: Qt Bindings for python-dbusmock
