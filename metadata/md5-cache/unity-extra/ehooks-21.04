@@ -1,0 +1,11 @@
+BDEPEND=unity-base/unity-build-env
+DEFINED_PHASES=install postinst preinst
+DESCRIPTION=Ebuild hooks patching system
+EAPI=7
+HOMEPAGE=https://github.com/shiznix/unity-gentoo
+IUSE=+audacity_menu +copyq_theme +eog_menu +evince_menu +fontconfig_adjust +gnome-screenshot_adjust +gnome-terminal_theme +headerbar_adjust +libreoffice_theme +nemo_noroot +pidgin_chat +telegram_theme +totem_menu +zim_theme
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=fontconfig_adjust? ( media-libs/freetype:2[adobe-cff,cleartype_hinting,-bindist,-infinality] ) headerbar_adjust? ( x11-misc/gtk3-nocsd )
+SLOT=0
+_md5_=5a8f58b3b9b464be38a636f88b10f1c2

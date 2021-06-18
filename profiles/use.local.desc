@@ -2,28 +2,15 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-backup/deja-dup:nautilus - Build gnome-base/nautilus extension
 app-emulation/anbox:playstore - Install Google Playstore from https://opengapps.org
 app-emulation/anbox:privileged - Decides if lxc will run container as privileged or unprivileged (recommended option is unprivileged)
 dev-java/jayatana:system-wide - Enable Jayatana system-wide way
 dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
+dev-libs/glib:elf - Enable support for listing and extracting from ELF resource files with gresource tool
 dev-libs/glib:mime - Pull in shared MIME database that many glib-based applications require at runtime to detect or open files. Warning: do not disable this flag unless installing on a headless server.
+dev-libs/glib:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
-dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software.
-dev-libs/gobject-introspection:doctool - Install g-ir-doc-tool for generating documentation from introspected data
-dev-libs/libappindicator:java - Enable Global Menu for Java applications
-dev-libs/libdbusmenu:gtk3 - Enable support for GTK+3
-dev-libs/libdbusmenu:introspection - Use dev-libs/gobject-introspection for introspection
-gnome-base/gnome-session:xdg-dirs - Manage user directories (Desktop, Music...)
-gnome-base/gnome-settings-daemon:colord - Support color management using x11-misc/colord
-gnome-base/gnome-settings-daemon:openrc-force - Skip systemd dependency (#480336), enabling this flag will become your setup to be fully unsupported by upstream and downstream Gnome team. Do not try to enable it unless completely needed
-gnome-base/gnome-settings-daemon:schemas - Install only shared schemas for gnome-settings-daemon
-gnome-base/gnome-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
-gnome-base/gsettings-desktop-schemas:unico - Install the Unico GTK+ 3.x theming engine
-gnome-base/nautilus:packagekit - Use packagekit to search for programs to open unknown file types
-gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
-gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
-gnome-base/nautilus:tracker - Add support for app-misc/tracker search
+dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 gnome-extra/gnome-recipes:archive - Enable archives support using app-arch/gnome-autoar
 gnome-extra/gnome-recipes:libcanberra - Enable sound event support using media-libs/libcanberra
 gnome-extra/zeitgeist:datahub - Use build datahub for passive event injection
@@ -32,22 +19,6 @@ gnome-extra/zeitgeist:fts - Enable the full text search extension
 gnome-extra/zeitgeist:sql-debug - Enable SQL debugging
 gnome-extra/zeitgeist:telepathy - Enable telepathy framework as data source
 media-fonts/fonts-noto-cjk:extra - CJK all weight
-media-sound/rhythmbox:daap - Build the local network music sharing plugin which uses the DAAP protocol using net-libs/libdmapsharing
-media-sound/rhythmbox:html - Use net-libs/webkit-gtk for detecting and displaying HTML podcast episode descriptions.
-media-sound/rhythmbox:libsecret - Enable libsecret support to store login credentials
-media-sound/rhythmbox:visualizer - Enable support for visualizations using media-plugins/gst-plugins-libvisual
-media-sound/rhythmbox:zeitgeist - Build the plugin to inject events to gnome-extra/zeitgeist
-net-im/empathy:chat - Enable Unity's Messaging menu support
-net-im/empathy:geoloc - Enable geolocation support through app-misc/geoclue
-net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization (e.g. for Google Talk)
-net-im/empathy:map - Enable world map support through media-libs/libchamplain
-net-libs/glib-networking:gnome - Extract HTTP/HTTPS/SOCKS proxy configuration stored using GSettings
-net-libs/glib-networking:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
-net-libs/webkit-gtk:egl - Enable EGL support
-net-libs/webkit-gtk:examples - Install the MiniBrowser example application
-net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
-net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
-net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 unity-base/unity:hud - Enable the backend for Unity's HUD
 unity-base/unity:nemo - Enable desktop icons via gnome-extra/nemo
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
@@ -83,6 +54,7 @@ unity-extra/ehooks:evince_menu - Add Unity's Global menu for app-text/evince
 unity-extra/ehooks:fontconfig_adjust - Adjust fonts configuration according to Ubuntu
 unity-extra/ehooks:gnome-screenshot_adjust - Adjust media-gfx/gnome-screenshot when running under Unity
 unity-extra/ehooks:gnome-terminal_theme - Add Unity's theme for x11-terms/gnome-terminal
+unity-extra/ehooks:headerbar_adjust - Adjust headerbar and re-enable original titlebar when running under Unity
 unity-extra/ehooks:libreoffice_theme - Add Ubuntu's Human icon theme for app-office/libreoffice
 unity-extra/ehooks:nemo_noroot - Remove "Open as Root" context menu action for gnome-extra/nemo
 unity-extra/ehooks:pidgin_chat - Add chat section into Unity's Messaging menu for net-im/pidgin
@@ -138,9 +110,6 @@ unity-scopes/smart-scopes:virtualbox - VirtualBox scope for Unity
 unity-scopes/smart-scopes:yahoostock - Yahoo! Finance scope for Unity
 unity-scopes/smart-scopes:yelp - Help scope for Unity
 unity-scopes/smart-scopes:zotero - Zotero scope for Unity
-x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
-x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
-x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
 x11-misc/lightdm:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/lightdm:lightdm_greeters_gtk - Pull in the GTK+ greeter
 x11-misc/lightdm:lightdm_greeters_kde - Pull in the KDE greeter
