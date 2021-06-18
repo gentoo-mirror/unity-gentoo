@@ -64,6 +64,7 @@ unity-extra/ehooks:zim_theme - Add Ubuntu Mono icon theme for x11-misc/zim
 unity-extra/unity-greeter:battery - Use power state indicator for login screen
 unity-extra/unity-greeter:sound - Use sound indicator for login screen
 unity-extra/unity-tweak-tool:files - Enable Files lens support
+unity-indicators/indicator-appmenu:java - Enable Global Menu for Java applications
 unity-indicators/indicator-datetime:eds - Enable support for Evolution-Data-Server
 unity-indicators/indicator-keyboard:charmap - Enable Character Map
 unity-indicators/indicator-power:powerman - Enable Gnome Power Manager
