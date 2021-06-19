@@ -12,5 +12,5 @@ RDEPEND=dev-libs/glib:2 gnome-extra/zeitgeist
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/libzeitgeist_0.3.18.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/libzeitgeist_0.3.18-1ubuntu3.debian.tar.xz
-_eclasses_=gnuconfig	9f91b4b0c84e734a87492d4293f03de5	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	9e63f92c2a5d867fea55ecb160c7d354	ubuntu-versionator	795827f62ab408e70ebbd9d9fe6a93b9
+_eclasses_=gnuconfig	9f91b4b0c84e734a87492d4293f03de5	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	9e63f92c2a5d867fea55ecb160c7d354	ubuntu-versionator	53b2a4d7fe2103ef4b2ed9c917fcec64
 _md5_=5fd39f2e7491e51c9b59b46aa4ddfbff
