@@ -100,7 +100,6 @@ x11-misc/plank 0.11.89_p3: Dock panel famious docky
 x11-misc/vala-panel 0.5.0_p1: Lightweight desktop panel
 x11-misc/vala-panel-appmenu 0.7.6_p_p1_p03: Global Menu plugin for xfce4 and vala-panel
 x11-misc/x11vnc 0.9.16_p_p07: A VNC server for real X displays
-x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.15-r1: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p03: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
