@@ -30,7 +30,6 @@ media-fonts/fonts-noto-cjk 20201206_p1_p1: No Tofu font families with large Unic
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
-sys-apps/remote-login-service 1.0.0_p_p0_p03: A service that lists remote logins.
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -63,7 +62,6 @@ unity-extra/indicator-netspeed 9999: Network speed indicator for Unity
 unity-extra/indicator-privacy 0.7: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.5_p_p0103_p02: Indicator for monitoring hardware temperature used by the Unity desktop
 unity-extra/meteo-qt 1.8: System tray application for weather status information
-unity-extra/thin-client-config-agent 0.8: Retrieve the list of remote desktop servers for a user.
 unity-extra/unity-greeter 18.04.0_p20200312_p0_p03: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.7_p_p0_p06-r2: Configuration manager for the Unity desktop environment
 unity-indicators/ido 13.10.0_p20161028_p0_p02: Widgets and other objects used for indicators by the Unity desktop
