@@ -110,9 +110,6 @@ x11-misc/lightdm:lightdm_greeters_gtk - Pull in the GTK+ greeter
 x11-misc/lightdm:lightdm_greeters_kde - Pull in the KDE greeter
 x11-misc/lightdm:lightdm_greeters_unity - Pull in the Unity greeter
 x11-misc/lightdm:mir - Enable Mir display server support
-x11-misc/x11vnc:dummy - Install Xdummy application to start dummy Xsession using x11-drivers/xf86-video-dummy
-x11-misc/x11vnc:system-libvncserver - Build x11vnc against the system libvncserver (experimental)
-x11-misc/x11vnc:tk - Support the simple tcl/tk -gui option
 x11-themes/humanity-icon-theme:extra - Install Tangerine icon theme from Ubuntu Art Team
 x11-themes/ubuntu-themes:nemo - Mimic gnome-base/nautilus theme
 x11-themes/ubuntu-wallpapers:artful - Ubuntu Artful backgrounds
