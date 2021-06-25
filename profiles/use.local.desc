@@ -5,12 +5,6 @@
 app-emulation/anbox:playstore - Install Google Playstore from https://opengapps.org
 app-emulation/anbox:privileged - Decides if lxc will run container as privileged or unprivileged (recommended option is unprivileged)
 dev-java/jayatana:system-wide - Enable Jayatana system-wide way
-dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
-dev-libs/glib:elf - Enable support for listing and extracting from ELF resource files with gresource tool
-dev-libs/glib:mime - Pull in shared MIME database that many glib-based applications require at runtime to detect or open files. Warning: do not disable this flag unless installing on a headless server.
-dev-libs/glib:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
-dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
-dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 gnome-extra/gnome-recipes:archive - Enable archives support using app-arch/gnome-autoar
 gnome-extra/gnome-recipes:libcanberra - Enable sound event support using media-libs/libcanberra
 gnome-extra/zeitgeist:datahub - Use build datahub for passive event injection
