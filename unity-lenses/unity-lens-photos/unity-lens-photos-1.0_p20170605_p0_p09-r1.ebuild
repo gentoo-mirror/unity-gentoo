@@ -3,9 +3,8 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python{3_7,3_8,3_9} )
+PYTHON_COMPAT=( python3_{7..9} )
 DISTUTILS_SINGLE_IMPL=1
-DISTUTILS_USE_SETUPTOOLS=no
 
 URELEASE="hirsute"
 inherit distutils-r1 eutils ubuntu-versionator
@@ -66,7 +65,7 @@ src_prepare() {
 
 src_configure() {
 	# Workaround for distutils-r1.eclass: install --skip-build #
-	mydistutilsargs=( build )
+	local mydistutilsargs=( build )
 	distutils-r1_src_configure
 }
 

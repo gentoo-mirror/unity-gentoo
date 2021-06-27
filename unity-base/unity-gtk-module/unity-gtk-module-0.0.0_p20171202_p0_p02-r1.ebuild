@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python{3_7,3_8,3_9} )
+PYTHON_COMPAT=( python3_{7..9} )
 
 URELEASE="hirsute"
 inherit autotools eutils python-r1 ubuntu-versionator
@@ -15,7 +15,7 @@ SRC_URI="${UURL}/${MY_P}${UVER_PREFIX}.orig.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 RESTRICT="mirror"
 

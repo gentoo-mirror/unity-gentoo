@@ -57,27 +57,18 @@ src_install() {
 
 pkg_postinst() {
 	if ! use system-wide; then
-		einfo
+		echo
 		elog "Enabling Jayatana"
-		einfo
 		elog "1. System-wide way (recommended only if you have many Java programs with menus):"
-		einfo
 		elog "   Set 'system-wide' USE flag."
-		einfo
 		elog "2. Application-specific ways (useful if you usually have one or 2 Java programs, like Android Studio) and if above does not work."
-		einfo
-		elog "2.1. Intellij programs (Idea, PhpStorm, CLion, Android Studio)"
-		einfo
-		elog "   Edit *.vmoptions file, and add -javaagent:${JAVA_PKG_JARDEST}/${PN}ag.jar to the end of file."
-		elog "   Edit *.properties file, and add linux.native.menu=true to the end of it."
-		einfo
-		elog "2.2. Netbeans"
-		einfo
-		elog "   Edit netbeans.conf, and add -J-javaagent:${JAVA_PKG_JARDEST}/${PN}ag.jar to the end of it."
-		einfo
+		elog "   2.1. Intellij programs (Idea, PhpStorm, CLion, Android Studio)"
+		elog "        Edit *.vmoptions file, and add -javaagent:${JAVA_PKG_JARDEST}/${PN}ag.jar to the end of file."
+		elog "        Edit *.properties file, and add linux.native.menu=true to the end of it."
+		elog "   2.2. Netbeans"
+		elog "        Edit netbeans.conf, and add -J-javaagent:${JAVA_PKG_JARDEST}/${PN}ag.jar to the end of it."
 		elog "3. Enable agent via desktop file (for any single application)"
-		einfo
 		elog "   Add -javaagent:${JAVA_PKG_JARDEST}/${PN}ag.jar after Exec or TryExec line of application's desktop file (if application executes JAR directly). If application executes JAR via wrapper, and this option to the end of JVM options for running actual JAR."
-		einfo
+		echo
 	fi
 }

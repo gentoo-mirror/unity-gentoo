@@ -1,28 +1,28 @@
 # Copyright 1999-2021 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-URELEASE="hirsute"
 inherit gnome2-utils
-
-UVER=
 
 DESCRIPTION="Default settings for the Unity"
 HOMEPAGE="https://launchpad.net/ubuntu/+source/ubuntu-settings"
 SRC_URI="" ## We are providing own gschema overrides based on Zesty ##
+
+URELEASE="hirsute"
+UVER=
 
 LICENSE="GPL-2+"
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="+files lowgfx +music +photos +ubuntu-cursor +ubuntu-sounds +video"
 
-DEPEND="x11-themes/ubuntu-wallpapers:=" # change picture_uri
-RDEPEND="${DEPEND}
-	media-fonts/ubuntu-font-family
+RDEPEND="media-fonts/ubuntu-font-family
 	x11-themes/ubuntu-themes
+	x11-themes/ubuntu-wallpapers:=
 	ubuntu-cursor? ( x11-themes/vanilla-dmz-xcursors )
 	ubuntu-sounds? ( x11-themes/ubuntu-sounds )"
+
 PDEPEND="unity-lenses/unity-lens-meta[files=,music=,photos=,video=]"
 
 S="${FILESDIR}"
@@ -40,8 +40,8 @@ src_install() {
 		# Do the following only if there #
 		#  is no file collision detected #
 		local index_dir="/usr/share/cursors/xorg-x11/default"
-		[[ -e "${EROOT%/}${index_dir}"/index.theme ]] \
-			&& local index_owner=$(portageq owners "${EROOT}" "${EROOT%/}${index_dir}"/index.theme 2>/dev/null | grep "${CATEGORY}/${PN}-[0-9]" 2>/dev/null)
+		[[ -e "${EROOT}${index_dir}"/index.theme ]] \
+			&& local index_owner=$(portageq owners "${EROOT}/" "${EROOT}${index_dir}"/index.theme 2>/dev/null | grep "${CATEGORY}/${PN}-[0-9]" 2>/dev/null)
 		## pass when not null or unset
 		if [[ -n "${index_owner-unset}" ]]; then
 			insinto "${index_dir}"
@@ -83,7 +83,7 @@ src_install() {
 
 pkg_preinst() {
 	# Modified gnome2_schemas_savelist to find *.gschema.override files #
-	export GNOME2_ECLASS_GLIB_SCHEMAS=$(find "${ED}usr/share/glib-2.0/schemas" -name "*.gschema.override" 2>/dev/null)
+	export GNOME2_ECLASS_GLIB_SCHEMAS=$(find "${ED}/usr/share/glib-2.0/schemas" -name "*.gschema.override" 2>/dev/null)
 }
 
 pkg_postinst() {
