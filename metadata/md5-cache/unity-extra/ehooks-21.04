@@ -1,11 +1,13 @@
-DEFINED_PHASES=install postinst preinst
+DEFINED_PHASES=install postinst preinst setup
 DEPEND=unity-base/unity-build-env
 DESCRIPTION=Ebuild hooks patching system
 EAPI=7
 HOMEPAGE=https://github.com/shiznix/unity-gentoo
+INHERIT=ubuntu-versionator
 IUSE=+audacity_menu +copyq_theme +eog_menu +evince_menu +fontconfig_adjust +gnome-screenshot_adjust +gnome-terminal_theme +headerbar_adjust +libreoffice_theme +nemo_noroot +pidgin_chat +telegram_theme +totem_menu +zim_theme
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=fontconfig_adjust? ( media-libs/freetype:2[adobe-cff,cleartype_hinting,-bindist,-infinality] ) headerbar_adjust? ( x11-misc/gtk3-nocsd )
 SLOT=0
-_md5_=9bd89457c54f817b6e3d3e13a5246738
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	ubuntu-versionator	53b2a4d7fe2103ef4b2ed9c917fcec64
+_md5_=0b4f23a09de4e2b39ddc0266b99a2f7f
