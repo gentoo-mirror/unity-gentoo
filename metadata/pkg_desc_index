@@ -45,11 +45,11 @@ unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from da
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20200312_p0_p01 7.5.1_p2021060101_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p05: API for Unity shell integration
-unity-base/unity-build-env 21.04 21.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-build-env 21.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20190921_p0_p04: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02-r1: GTK+ module for exporting old-style menus as GMenuModels
-unity-base/unity-language-pack 21.04: Language translations pack for Unity desktop
-unity-base/unity-meta 21.04 21.10: Unity Desktop - merge this to pull in all Unity packages
+unity-base/unity-language-pack 21.04 21.10: Language translations pack for Unity desktop
+unity-base/unity-meta 21.04: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 21.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20200325_p0_p02: Unity Settings Daemon
 unity-extra/ehooks 21.04: Ebuild hooks patching system
@@ -74,14 +74,14 @@ unity-indicators/indicator-power 12.10.6_p2017082901_p0_p07: Indicator showing p
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 17.3.20_p20210327_p0_p01 17.3.20_p2021061301_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p03-r1: System sound indicator used by the Unity desktop
-unity-indicators/unity-indicators-meta 20.04-r1: Unity Desktop - merge this to pull in all Unity indicators
+unity-indicators/unity-indicators-meta 7.5.0: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05-r1: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
-unity-lenses/unity-lens-meta 7.1.2-r1: Unity Desktop - merge this to pull in all Unity lenses
+unity-lenses/unity-lens-meta 7.5.0: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03-r1: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p09-r1: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
-unity-scopes/smart-scopes 21.04: Online scopes for the Unity Dash
+unity-scopes/smart-scopes 7.5.0: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.

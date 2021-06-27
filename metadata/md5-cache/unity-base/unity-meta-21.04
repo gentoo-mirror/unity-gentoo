@@ -1,7 +1,7 @@
 DEFINED_PHASES=postinst setup
 DEPEND=unity-base/unity-build-env unity-extra/ehooks
 DESCRIPTION=Unity Desktop - merge this to pull in all Unity packages
-EAPI=6
+EAPI=7
 HOMEPAGE=http://unity.ubuntu.com/
 INHERIT=ubuntu-versionator
 IUSE=+accessibility +apps chat extras +fonts +games +utils +xdm
@@ -11,4 +11,4 @@ RDEPEND=gnome-base/gnome-core-libs gnome-base/nautilus gnome-extra/activity-log-
 RESTRICT=mirror
 SLOT=0/hirsute
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	ubuntu-versionator	53b2a4d7fe2103ef4b2ed9c917fcec64
-_md5_=21f78c9828942f4ac68a001f91926b8a
+_md5_=830cbd8c5d6df882fefd883cf845fe17
