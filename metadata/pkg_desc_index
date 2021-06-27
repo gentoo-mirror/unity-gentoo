@@ -45,7 +45,7 @@ unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from da
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
 unity-base/unity 7.5.0_p20200312_p0_p01 7.5.1_p2021060101_p0_p01: The Ubuntu Unity Desktop
 unity-base/unity-api 8.7_p20170404_p0_p05: API for Unity shell integration
-unity-base/unity-build-env 21.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
+unity-base/unity-build-env 21.04-r1: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20190921_p0_p04: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p02-r1: GTK+ module for exporting old-style menus as GMenuModels
 unity-base/unity-language-pack 21.04 21.10: Language translations pack for Unity desktop
