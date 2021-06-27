@@ -10,7 +10,7 @@ dev-libs/libqtdbustest 0.2_p_p1_p11: Library to facilitate testing DBus interact
 dev-libs/libunity 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18_p_p1_p03: Client library to interact with zeitgeist
-dev-libs/properties-cpp 0.0.2_p6-r1: Simple convenience library for handling properties and signals in C++11
+dev-libs/properties-cpp 0.0.2_p6: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.6.1_p20210120_p0_p01: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.6_p_p2_p01-r2: PyUnit extension for reporting in JUnit compatible XML
