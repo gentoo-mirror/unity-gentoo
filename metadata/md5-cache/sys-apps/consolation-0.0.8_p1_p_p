@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=dev-libs/libevdev dev-libs/libinput virtual/pkgconfig
+DESCRIPTION=Console pointer support for copy-paste
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu/+source/consolation
+INHERIT=systemd ubuntu-versionator
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/consolation_0.0.8.orig.tar.xz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	bd82a2f06f5594b2ed0889539a4f9a9f	ubuntu-versionator	53b2a4d7fe2103ef4b2ed9c917fcec64
+_md5_=af78e8612fdbaf7923fecf7a6148fe18
