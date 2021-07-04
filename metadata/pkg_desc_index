@@ -2,9 +2,12 @@ app-accessibility/onboard 1.4.1_p5_p2: Simple on-screen Keyboard with macros and
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-java/jayatana 0.7.6: Global Menu for Java applications
+dev-libs/ayatana-ido 0.8.2: Widgets and other objects used for Ayatana Indicators
 dev-libs/dee 1.2.7_p20170616_p6_p01-r2: Provide objects allowing to create Model-View-Controller type programs across DBus
+dev-libs/libayatana-appindicator 0.5.5: Ayatana Application Indicators
+dev-libs/libayatana-indicator 0.8.4: Panel indicator applet
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p24-r1: Error tolerant matching engine used by the Unity desktop
-dev-libs/libindicator 16.10.0_p2018032101_p0_p04: A set of symbols and convenience functions that all indicators would like to use
+dev-libs/libindicator 16.10.0_p2018032101_p0_p04-r1: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.7_p_p1_p05: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p_p1_p11: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libunity 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
