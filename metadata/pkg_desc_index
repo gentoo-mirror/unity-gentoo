@@ -19,8 +19,21 @@ dev-python/autopilot 1.6.1_p20210120_p0_p01: Utility to write and run integratio
 dev-python/pyjunitxml 0.6_p_p2_p01-r2: PyUnit extension for reporting in JUnit compatible XML
 dev-util/cmake-extras 1.5_p7-r1: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
+gnome-base/gconf 3.2.6_p_p07_p01: GNOME configuration system and daemon patched for the Unity desktop
+gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
+gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
+gnome-base/gnome-desktop 3.38.5_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
+gnome-base/gnome-panel 3.40.0_p_p1_p01: The GNOME panel patched for the Unity desktop
+gnome-base/gnome-session 3.38.0_p_p3_p02: Gnome session manager patched for the Unity desktop
+gnome-base/gnome-settings-daemon 3.38.1_p_p3_p03: Gnome Settings Daemon patched for the Unity desktop
+gnome-base/gsettings-desktop-schemas 3.38.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
+gnome-base/nautilus 3.38.2_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
+gnome-extra/nm-applet 1.18.0_p_p1_p02: GNOME applet for NetworkManager
+gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.3_p_p4_p01: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.2_p1: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/mate-hud 19.10.1_p3: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
@@ -31,6 +44,7 @@ media-fonts/fonts-noto-cjk 20201206_p1_p1: No Tofu font families with large Unic
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
+sys-apps/accountsservice 0.6.55_p_p0_p1302-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/consolation 0.0.8_p1_p_p: Console pointer support for copy-paste
 sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google Test
@@ -90,6 +104,7 @@ unity-scopes/smart-scopes 7.5.0: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
+x11-libs/gtk+ 2.24.33_p_p1_p02 3.24.25_p_p1_p04: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
 x11-misc/lightdm 1.30.0_p_p0_p04: A lightweight display manager

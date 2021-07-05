@@ -5,6 +5,16 @@
 app-emulation/anbox:playstore - Install Google Playstore from https://opengapps.org
 app-emulation/anbox:privileged - Decides if lxc will run container as privileged or unprivileged (recommended option is unprivileged)
 dev-java/jayatana:system-wide - Enable Jayatana system-wide way
+gnome-base/gnome-session:xdg-dirs - Manage user directories (Desktop, Music...)
+gnome-base/gnome-settings-daemon:colord - Support color management using x11-misc/colord
+gnome-base/gnome-settings-daemon:openrc-force - Skip systemd dependency (#480336), enabling this flag will become your setup to be fully unsupported by upstream and downstream Gnome team. Do not try to enable it unless completely needed
+gnome-base/gnome-settings-daemon:schemas - Install only shared schemas for gnome-settings-daemon
+gnome-base/gnome-settings-daemon:short-touchpad-timeout - Change the touchpad timeout so that it's effective for fast typists
+gnome-base/gsettings-desktop-schemas:unico - Install the Unico GTK+ 3.x theming engine
+gnome-base/nautilus:packagekit - Use packagekit to search for programs to open unknown file types
+gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
+gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
+gnome-base/nautilus:tracker - Add support for app-misc/tracker search
 gnome-extra/gnome-recipes:archive - Enable archives support using app-arch/gnome-autoar
 gnome-extra/gnome-recipes:libcanberra - Enable sound event support using media-libs/libcanberra
 gnome-extra/zeitgeist:datahub - Use build datahub for passive event injection
@@ -105,6 +115,9 @@ unity-scopes/smart-scopes:virtualbox - VirtualBox scope for Unity
 unity-scopes/smart-scopes:yahoostock - Yahoo! Finance scope for Unity
 unity-scopes/smart-scopes:yelp - Help scope for Unity
 unity-scopes/smart-scopes:zotero - Zotero scope for Unity
+x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
+x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
+x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
 x11-misc/lightdm:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/lightdm:lightdm_greeters_gtk - Pull in the GTK+ greeter
 x11-misc/lightdm:lightdm_greeters_kde - Pull in the KDE greeter
