@@ -2,15 +2,15 @@ app-accessibility/onboard 1.4.1_p5_p2: Simple on-screen Keyboard with macros and
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-java/jayatana 0.7.6: Global Menu for Java applications
-dev-libs/ayatana-ido 0.8.2: Widgets and other objects used for Ayatana Indicators
+dev-libs/ayatana-ido 0.8.2_p1: Widgets and other objects used for Ayatana Indicators
 dev-libs/dee 1.2.7_p20170616_p6_p01-r2: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/libayatana-appindicator 0.5.5: Ayatana Application Indicators
+dev-libs/libayatana-appindicator 0.5.5_p2: Ayatana Application Indicators
 dev-libs/libayatana-indicator 0.8.4: Panel indicator applet
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p24-r1: Error tolerant matching engine used by the Unity desktop
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04-r1: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.7_p_p1_p05: Qt Bindings for python-dbusmock
 dev-libs/libqtdbustest 0.2_p_p1_p11: Library to facilitate testing DBus interactions in Qt applications
-dev-libs/libunity 7.1.4_p20190319_p5: Library for instrumenting and integrating with all aspects of the Unity shell
+dev-libs/libunity 7.1.4_p20190319_p5_p-r1: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18_p_p1_p03: Client library to interact with zeitgeist
 dev-libs/properties-cpp 0.0.2_p6: Simple convenience library for handling properties and signals in C++11
@@ -87,17 +87,17 @@ unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application i
 unity-indicators/indicator-appmenu 15.02.0_p2020061702_p0_p01: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03-r1: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 15.10_p20210304_p0_p01: Date and Time Indicator used by the Unity desktop
-unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r3: Keyboard indicator used by the Unity desktop
+unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r4: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p02-r1: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p07: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 17.3.20_p20210327_p0_p01 17.3.20_p2021061301_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p03-r1: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 7.5.0: Unity Desktop - merge this to pull in all Unity indicators
-unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05-r1: Application lens for the Unity desktop
+unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05-r2: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.5.0: Unity Desktop - merge this to pull in all Unity lenses
-unity-lenses/unity-lens-music 6.9.1_p_p0_p03-r1: Music lens for the Unity desktop
+unity-lenses/unity-lens-music 6.9.1_p_p0_p03-r2: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p09-r1: Photo lens for the Unity desktop
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 7.5.0: Online scopes for the Unity Dash
