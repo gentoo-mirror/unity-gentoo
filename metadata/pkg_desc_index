@@ -20,8 +20,9 @@ dev-python/pyjunitxml 0.6_p_p2_p01-r2: PyUnit extension for reporting in JUnit c
 dev-util/cmake-extras 1.5_p7-r1: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 gnome-base/gconf 3.2.6_p_p07_p01: GNOME configuration system and daemon patched for the Unity desktop
-gnome-base/gnome-control-center 3.36.2: GNOME's main interface to configure various aspects of the desktop
-gnome-base/gnome-core-apps 3.34.4: Sub-meta package for the core applications integrated with GNOME 3
+gnome-base/gnome 3.38: Meta package for GNOME 3, merge this package to install
+gnome-base/gnome-control-center 3.36.4: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-core-apps 3.36.5: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
 gnome-base/gnome-desktop 3.38.5_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
@@ -32,6 +33,7 @@ gnome-base/gsettings-desktop-schemas 3.38.0_p_p1_p01: Collection of GSettings sc
 gnome-base/nautilus 3.38.2_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
+gnome-extra/gnome-shell-extensions 3.36.7: JavaScript extensions for GNOME Shell
 gnome-extra/nm-applet 1.18.0_p_p1_p02: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p02: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.3_p_p4_p01: Service to log activities and present to other apps
