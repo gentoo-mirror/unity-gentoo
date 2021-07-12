@@ -5,7 +5,7 @@ dev-java/jayatana 0.7.6: Global Menu for Java applications
 dev-libs/ayatana-ido 0.8.2_p1: Widgets and other objects used for Ayatana Indicators
 dev-libs/dee 1.2.7_p20170616_p6_p01-r2: Provide objects allowing to create Model-View-Controller type programs across DBus
 dev-libs/libayatana-appindicator 0.5.5_p2: Ayatana Application Indicators
-dev-libs/libayatana-indicator 0.8.4: Panel indicator applet
+dev-libs/libayatana-indicator 0.8.4_p1: Panel indicator applet
 dev-libs/libcolumbus 1.1.0_p20150806_p0_p24-r1: Error tolerant matching engine used by the Unity desktop
 dev-libs/libindicator 16.10.0_p2018032101_p0_p04-r1: A set of symbols and convenience functions that all indicators would like to use
 dev-libs/libqtdbusmock 0.7_p_p1_p05: Qt Bindings for python-dbusmock
@@ -24,13 +24,13 @@ gnome-base/gnome 3.38: Meta package for GNOME 3, merge this package to install
 gnome-base/gnome-control-center 3.36.4: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.36.5: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5: Sub-meta package for the core libraries of GNOME 3
-gnome-base/gnome-desktop 3.38.5_p_p1_p01: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
+gnome-base/gnome-desktop 3.38.5_p1_p1_p02: Libraries for the gnome desktop that are not part of the UI patched for the Unity desktop
 gnome-base/gnome-menus 3.36.0_p_p1_p1: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-panel 3.40.0_p_p1_p01: The GNOME panel patched for the Unity desktop
 gnome-base/gnome-session 3.38.0_p_p3_p02: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 3.38.1_p_p3_p03: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 3.38.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
-gnome-base/nautilus 3.38.2_p_p1_p01: Default file manager for the GNOME desktop patched for the Unity desktop
+gnome-base/nautilus 3.38.2_p_p1_p02: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/activity-log-manager 0.9.7_p_p0_p27-r1: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/gnome-shell-extensions 3.36.7: JavaScript extensions for GNOME Shell
@@ -106,7 +106,7 @@ unity-scopes/smart-scopes 7.5.0: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
-x11-libs/gtk+ 2.24.33_p_p1_p02 3.24.25_p_p1_p04: Gimp ToolKit patched for the Unity desktop
+x11-libs/gtk+ 2.24.33_p_p1_p02 3.24.25_p_p1_p0401: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
 x11-misc/lightdm 1.30.0_p_p0_p04: A lightweight display manager
