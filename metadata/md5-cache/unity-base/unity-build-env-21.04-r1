@@ -1,11 +1,9 @@
-DEFINED_PHASES=install postinst setup
+DEFINED_PHASES=install postinst
 DESCRIPTION=Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 EAPI=7
 HOMEPAGE=http://unity.ubuntu.com/
-INHERIT=ubuntu-versionator
 IUSE=minimal
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/hirsute
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	ubuntu-versionator	7e9495da293a381304f913ada8750642
-_md5_=969ea7faa8c95a1f48e4660c2e0707e2
+_md5_=94dfdf687fffd7850eabb97a66d106d5
