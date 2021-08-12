@@ -1,4 +1,5 @@
 app-accessibility/onboard 1.4.1_p5_p2: Simple on-screen Keyboard with macros and easy layout creation
+app-backup/deja-dup 42.7_p_p1_p01: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
 dev-java/jayatana 0.7.6: Global Menu for Java applications
@@ -44,6 +45,8 @@ mate-extra/mate-tweak 21.04.3_p_p0_p01: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 21.04.8: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20201206_p1_p1: No Tofu font families with large Unicode coverage
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
+media-sound/rhythmbox 3.4.4_p_p1_p04: Music management and playback software for GNOME patched for the Unity desktop
+net-im/empathy 3.25.90_p_p1_p01: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p02-r1: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 0.6.55_p_p0_p1302-r1: D-Bus interfaces for querying and manipulating user account information
@@ -115,9 +118,11 @@ x11-misc/notify-osd 0.9.35_p20191129_p0_p01: Canonical's on-screen-display notif
 x11-misc/plank 0.11.89_p3: Dock panel famious docky
 x11-misc/vala-panel 0.5.0_p1: Lightweight desktop panel
 x11-misc/vala-panel-appmenu 0.7.6_p_p1_p03: Global Menu plugin for xfce4 and vala-panel
+x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
 x11-themes/humanity-icon-theme 0.6.15-r1: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p03-r1: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-themes 20.10_p_p0_p01-r2: Monochrome icons for the Unity desktop (default icon theme)
 x11-themes/ubuntu-wallpapers 21.04.1_p_p0_p01: Ubuntu wallpapers
 x11-themes/unity-asset-pool 0.8.24_p20170507_p0_p03: Unity desktop icon theme
+x11-wm/metacity 3.40.0_p_p_p01: GNOME default window manager

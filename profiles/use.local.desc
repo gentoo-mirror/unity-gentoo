@@ -2,6 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-backup/deja-dup:nautilus - Build gnome-base/nautilus extension
 app-emulation/anbox:playstore - Install Google Playstore from https://opengapps.org
 app-emulation/anbox:privileged - Decides if lxc will run container as privileged or unprivileged (recommended option is unprivileged)
 dev-java/jayatana:system-wide - Enable Jayatana system-wide way
@@ -23,6 +24,15 @@ gnome-extra/zeitgeist:fts - Enable the full text search extension
 gnome-extra/zeitgeist:sql-debug - Enable SQL debugging
 gnome-extra/zeitgeist:telepathy - Enable telepathy framework as data source
 media-fonts/fonts-noto-cjk:extra - CJK all weight
+media-sound/rhythmbox:daap - Build the local network music sharing plugin which uses the DAAP protocol using net-libs/libdmapsharing
+media-sound/rhythmbox:html - Use net-libs/webkit-gtk for detecting and displaying HTML podcast episode descriptions.
+media-sound/rhythmbox:libsecret - Enable libsecret support to store login credentials
+media-sound/rhythmbox:visualizer - Enable support for visualizations using media-plugins/gst-plugins-libvisual
+media-sound/rhythmbox:zeitgeist - Build the plugin to inject events to gnome-extra/zeitgeist
+net-im/empathy:chat - Enable Unity's Messaging menu support
+net-im/empathy:geoloc - Enable geolocation support through app-misc/geoclue
+net-im/empathy:gnome-online-accounts - Enable using net-libs/gnome-online-accounts for authorization (e.g. for Google Talk)
+net-im/empathy:map - Enable world map support through media-libs/libchamplain
 unity-base/unity:hud - Enable the backend for Unity's HUD
 unity-base/unity:nemo - Enable desktop icons via gnome-extra/nemo
 unity-base/unity:systray - Enable system tray support in the Unity menu bar
