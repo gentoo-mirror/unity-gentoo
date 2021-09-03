@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 RDEPEND=fontconfig_adjust? ( media-libs/freetype:2[adobe-cff,cleartype_hinting,-bindist,-infinality] ) headerbar_adjust? ( x11-misc/gtk3-nocsd )
 SLOT=0
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	ubuntu-versionator	7e9495da293a381304f913ada8750642
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	ubuntu-versionator	7e9495da293a381304f913ada8750642
 _md5_=0b4f23a09de4e2b39ddc0266b99a2f7f
