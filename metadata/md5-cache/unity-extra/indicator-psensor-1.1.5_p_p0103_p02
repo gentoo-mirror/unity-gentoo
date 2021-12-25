@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/psensor_1.1.5.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/psensor_1.1.5-1.3ubuntu2.debian.tar.xz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	gnome2-utils	239e7afa214b50012f83b8bb61de7555	ubuntu-versionator	7e9495da293a381304f913ada8750642
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	gnome2-utils	239e7afa214b50012f83b8bb61de7555	ubuntu-versionator	7e9495da293a381304f913ada8750642
 _md5_=616e41329d70f44d0d2ec6ccd864f4de
