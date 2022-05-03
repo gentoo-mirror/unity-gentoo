@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm preinst prepare setup
+DEPEND=dev-libs/libindicator gnome-base/gnome-desktop:3= media-libs/freetype:2 media-libs/libcanberra unity-base/unity-settings-daemon unity-indicators/ido x11-libs/cairo x11-libs/gtk+:3 >=x11-misc/lightdm-1.4.0 || ( dev-lang/vala:0.50[vapigen(+)] ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DESCRIPTION=The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+EAPI=6
+HOMEPAGE=https://launchpad.net/unity-greeter
+INHERIT=autotools flag-o-matic gnome2-utils ubuntu-versionator vala
+IUSE=+accessibility +battery +branding +networkmanager nls +sound
+LICENSE=GPL-3
+RDEPEND=accessibility? ( app-accessibility/onboard app-accessibility/orca ) battery? ( unity-indicators/indicator-power ) networkmanager? ( >=gnome-extra/nm-applet-0.9.8.0 ) sound? ( unity-indicators/indicator-sound ) >=app-eselect/eselect-lightdm-0.1 >=gnome-base/gsettings-desktop-schemas-3.8 media-fonts/ubuntu-font-family sys-auth/polkit-pkla-compat unity-base/unity-language-pack unity-indicators/indicator-session unity-indicators/indicator-datetime unity-indicators/indicator-application x11-themes/ubuntu-wallpapers
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/unity-greeter_22.04.1-0ubuntu2.tar.xz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	9f813bb3c47cf2e60619a663b87c5f4e	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	b46e8992a8126c894fbdc8084fc040c4	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	148231388c582d8368e72451ccb6716c	vala	9badd41d5aab740ae5ac301c4416c5f8
+_md5_=7831110c069179909679bce9da652218

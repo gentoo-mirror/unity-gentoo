@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit ) app-crypt/gcr dev-libs/libxslt dev-util/gdbus-codegen >=dev-util/gtk-doc-am-1.15 >=dev-util/gtk-doc-1.18 >=dev-util/intltool-0.40 sys-devel/gettext virtual/pkgconfig doc? ( app-text/docbook-xml-dtd:4.1.2 app-text/xmlto ) vala? ( || ( dev-lang/vala:0.56[vapigen(+)] dev-lang/vala:0.54[vapigen(+)] dev-lang/vala:0.52[vapigen(+)] dev-lang/vala:0.50[vapigen(+)] ) ) >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
+DESCRIPTION=D-Bus interfaces for querying and manipulating user account information
+EAPI=6
+HOMEPAGE=http://www.fedoraproject.org/wiki/Features/UserAccountDialog
+INHERIT=meson gnome2-utils systemd vala ubuntu-versionator
+IUSE=doc +introspection +systemd vala
+LICENSE=GPL-3+
+RDEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit )
+REQUIRED_USE=vala? ( introspection )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_22.07.5.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_22.07.5-2ubuntu1.debian.tar.xz
+_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	891c4d3862cbc1ce8808ea427facbcd1	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	6d4bdf68f7dcd9a5491613be687ae665	meson	4e69b4b5d15387549776392e83e8c42c	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	systemd	2736b403a83f194b59b767f3b344c2c1	desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	9f813bb3c47cf2e60619a663b87c5f4e	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	vala	9badd41d5aab740ae5ac301c4416c5f8	ubuntu-versionator	148231388c582d8368e72451ccb6716c
+_md5_=bd2150cd672380174b0329d3b01471fb

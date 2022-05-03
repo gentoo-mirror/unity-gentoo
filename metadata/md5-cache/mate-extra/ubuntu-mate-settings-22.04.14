@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=dev-libs/glib:2 gnome-base/gvfs
+DESCRIPTION=Default settings for Ubuntu MATE
+EAPI=6
+HOMEPAGE=https://github.com/ubuntu-mate/ubuntu-mate-settings
+INHERIT=ubuntu-versionator
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 gnome-base/gvfs
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/ubuntu-mate-settings_22.04.14.tar.xz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	ubuntu-versionator	148231388c582d8368e72451ccb6716c
+_md5_=0e9659b59971b5413028d055175a683f

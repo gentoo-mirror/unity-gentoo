@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst prepare setup test
+DEPEND=dev-libs/gobject-introspection dev-libs/libdbusmenu[gtk3] dev-util/gdbus-codegen gnome-base/libgtop x11-libs/gtk+:2 x11-libs/gtk+:3 x11-libs/libwnck:1 x11-libs/libwnck:3 x11-libs/libXfixes python_single_target_python3_8? ( dev-libs/libunity[python_targets_python3_8(-)] dev-libs/libxml2[python_targets_python3_8(-)] dev-python/lxml[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-libs/libunity[python_targets_python3_9(-)] dev-libs/libxml2[python_targets_python3_9(-)] dev-python/lxml[python_targets_python3_9(-)] ) || ( dev-lang/vala:0.50[vapigen(+)] ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 test? ( x11-apps/xhost !prefix? ( x11-misc/x11vnc x11-drivers/xf86-video-dummy ) )
+DESCRIPTION=BAMF Application Matching Framework
+EAPI=6
+HOMEPAGE=https://launchpad.net/bamf
+INHERIT=autotools eutils python-single-r1 ubuntu-versionator vala xdummy
+IUSE=test python_single_target_python3_8 python_single_target_python3_9 test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RESTRICT=mirror
+SLOT=0/1.0.0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/bamf_0.5.5+21.04.20210119.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/bamf_0.5.5+21.04.20210119-0ubuntu1.diff.gz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	9f813bb3c47cf2e60619a663b87c5f4e	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	b46e8992a8126c894fbdc8084fc040c4	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	6d4bdf68f7dcd9a5491613be687ae665	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	ubuntu-versionator	148231388c582d8368e72451ccb6716c	vala	9badd41d5aab740ae5ac301c4416c5f8	xdummy	0a7410c3e6a8f07ceee12815b21ad154
+_md5_=b0bd9367d6021e9c645728a770d1fac9

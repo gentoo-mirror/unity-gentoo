@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup
+DEPEND=!x11-themes/light-themes x11-themes/hicolor-icon-theme unity-extra/ehooks x11-misc/icon-naming-utils dev-util/intltool sys-devel/gettext virtual/pkgconfig
+DESCRIPTION=Monochrome icons for the Unity desktop (default icon theme)
+EAPI=6
+HOMEPAGE=https://launchpad.net/ubuntu-themes
+INHERIT=eutils gnome2-utils ubuntu-versionator xdg-utils
+IUSE=+nemo
+LICENSE=GPL-3 CC-BY-SA-3.0
+PDEPEND=nemo? ( gnome-extra/nemo )
+RDEPEND=!x11-themes/light-themes x11-themes/hicolor-icon-theme
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/ubuntu-themes_20.10.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/ubuntu-themes_20.10-0ubuntu2.diff.gz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	9f813bb3c47cf2e60619a663b87c5f4e	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	148231388c582d8368e72451ccb6716c
+_md5_=70aecc5a16c634bfd206b8b5e9baa81e
