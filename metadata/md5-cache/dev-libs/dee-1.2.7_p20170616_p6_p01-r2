@@ -1,6 +1,6 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install postinst prepare setup
-DEPEND=dev-libs/glib:2 dev-libs/icu:= dev-util/gtk-doc test? ( dev-util/dbus-test-runner ) python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) || ( dev-lang/vala:0.50[vapigen(+)] )
+DEPEND=dev-libs/glib:2 dev-libs/icu:= dev-util/gtk-doc test? ( dev-util/dbus-test-runner ) python_targets_python3_8? ( >=dev-lang/python-3.8.13:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.12:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 ) || ( dev-lang/vala:0.50[vapigen(+)] )
 DESCRIPTION=Provide objects allowing to create Model-View-Controller type programs across DBus
 EAPI=7
 HOMEPAGE=https://launchpad.net/dee/
@@ -12,5 +12,5 @@ RDEPEND=dev-libs/glib:2 dev-libs/icu:=
 RESTRICT=mirror
 SLOT=0/4.2.1
 SRC_URI=mirror://unity/pool/main/d/dee/dee_1.2.7+17.10.20170616.orig.tar.gz mirror://unity/pool/main/d/dee/dee_1.2.7+17.10.20170616-6ubuntu1.debian.tar.xz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	2fd69a56a527d12409ba43c733b7ac8f	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	ubuntu-versionator	148231388c582d8368e72451ccb6716c	vala	9badd41d5aab740ae5ac301c4416c5f8
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	2fd69a56a527d12409ba43c733b7ac8f	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	ubuntu-versionator	148231388c582d8368e72451ccb6716c	vala	9badd41d5aab740ae5ac301c4416c5f8
 _md5_=13e8cd99f77d274355503b09391d3176
