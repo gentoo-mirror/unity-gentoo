@@ -1,0 +1,13 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install postinst postrm preinst setup test
+DEPEND=dev-libs/glib:2 dev-perl/XML-Parser dev-util/intltool gnome-base/dconf mate-base/mate-panel sys-devel/gettext x11-libs/gtk+:3
+DESCRIPTION=Solus Project's Brisk Menu MATE Panel Applet
+EAPI=7
+HOMEPAGE=https://github.com/solus-project/brisk-menu
+INHERIT=autotools gnome2-utils meson ubuntu-versionator
+LICENSE=GPL-2 CC-BY-SA-4.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/brisk-menu_0.6.2.orig.tar.xz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	2fd69a56a527d12409ba43c733b7ac8f	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	meson	2cc95670908abda0d67e9e16a6b4341e	ubuntu-versionator	148231388c582d8368e72451ccb6716c
+_md5_=a25f68b9d201401d7aca56643be14f6a
