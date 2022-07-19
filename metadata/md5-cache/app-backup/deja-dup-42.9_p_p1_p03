@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
-DEPEND=>=app-backup/duplicity-0.7.14 app-crypt/libsecret[vala] >=dev-libs/glib-2.46:2 dev-libs/json-glib dev-libs/libgpg-error >=net-libs/gnome-online-accounts-3.8.0 net-libs/libsoup >=x11-libs/gtk+-3.22:3 nautilus? ( gnome-base/nautilus ) app-text/yelp-tools dev-libs/appstream-glib dev-util/desktop-file-utils sys-apps/dbus dev-perl/Locale-gettext virtual/pkgconfig dev-util/intltool sys-devel/gettext || ( dev-lang/vala:0.50[vapigen(+)] ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEPEND=>=app-backup/duplicity-0.7.14 app-crypt/libsecret[vala] >=dev-libs/glib-2.46:2 dev-libs/json-glib dev-libs/libgpg-error >=gui-libs/libhandy-1.6 >=net-libs/gnome-online-accounts-3.8.0 net-libs/libsoup >=x11-libs/gtk+-3.22:3 nautilus? ( gnome-base/nautilus ) app-text/yelp-tools dev-libs/appstream-glib dev-util/desktop-file-utils sys-apps/dbus dev-perl/Locale-gettext virtual/pkgconfig dev-util/intltool sys-devel/gettext || ( dev-lang/vala:0.50[vapigen(+)] ) dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=Simple backup tool using duplicity back-end
 EAPI=7
 HOMEPAGE=https://launchpad.net/deja-dup/
@@ -8,9 +8,9 @@ INHERIT=gnome2-utils meson ubuntu-versionator vala xdg
 IUSE=test +nautilus
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=>=app-backup/duplicity-0.7.14 app-crypt/libsecret[vala] >=dev-libs/glib-2.46:2 dev-libs/json-glib dev-libs/libgpg-error >=net-libs/gnome-online-accounts-3.8.0 net-libs/libsoup >=x11-libs/gtk+-3.22:3 nautilus? ( gnome-base/nautilus ) dev-libs/atk gnome-base/dconf gnome-base/gvfs[fuse] sys-auth/polkit x11-libs/pango
+RDEPEND=>=app-backup/duplicity-0.7.14 app-crypt/libsecret[vala] >=dev-libs/glib-2.46:2 dev-libs/json-glib dev-libs/libgpg-error >=gui-libs/libhandy-1.6 >=net-libs/gnome-online-accounts-3.8.0 net-libs/libsoup >=x11-libs/gtk+-3.22:3 nautilus? ( gnome-base/nautilus ) dev-libs/atk gnome-base/dconf gnome-base/gvfs[fuse] sys-auth/polkit x11-libs/pango
 RESTRICT=mirror test
 SLOT=0
-SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/deja-dup_42.7.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/deja-dup_42.7-1ubuntu1.debian.tar.xz
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/deja-dup_42.9.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/deja-dup_42.9-1ubuntu3.debian.tar.xz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	667174e2df1036a5520d3b3b3fb33e98	meson	46c25780996ffc397131ecd35a2194a2	ubuntu-versionator	148231388c582d8368e72451ccb6716c	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	vala	9badd41d5aab740ae5ac301c4416c5f8	xdg	6024fbc93167fad782e2032933654857
-_md5_=b300300abf4257a621847e6aaac20f76
+_md5_=9f1acdedc2582aee993dc16c654f423f

@@ -6,4 +6,4 @@ IUSE=minimal
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0/jammy
-_md5_=dc1fd0fd8eeda96c6e3669795577a21b
+_md5_=bfe00c9b3ce53ea2261a19a9032bd65c

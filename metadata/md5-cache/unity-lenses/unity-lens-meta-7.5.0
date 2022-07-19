@@ -9,4 +9,4 @@ PDEPEND=unity-base/unity-settings[files=,music=,photos=,video=]
 RDEPEND=unity-lenses/unity-lens-applications unity-scopes/unity-scope-home files? ( unity-lenses/unity-lens-files ) music? ( unity-lenses/unity-lens-music ) photos? ( unity-lenses/unity-lens-photos ) plugins? ( unity-scopes/smart-scopes ) video? ( unity-lenses/unity-lens-video )
 RESTRICT=mirror
 SLOT=0
-_md5_=b9e1bb3da37f8b4824dbd8865fbbdee4
+_md5_=0790372b483c113f9bfc63378d78db53

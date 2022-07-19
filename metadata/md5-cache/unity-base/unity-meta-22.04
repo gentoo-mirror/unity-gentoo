@@ -11,4 +11,4 @@ RDEPEND=gnome-base/gnome-core-libs gnome-base/nautilus gnome-extra/activity-log-
 RESTRICT=mirror
 SLOT=0/jammy
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	ubuntu-versionator	148231388c582d8368e72451ccb6716c
-_md5_=2841d0a2e18142cdaba9f7a367d745df
+_md5_=3d904a3475bb03deaa0cd0061686f69e

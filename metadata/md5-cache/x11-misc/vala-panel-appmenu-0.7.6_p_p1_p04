@@ -6,6 +6,7 @@ EAPI=7
 HOMEPAGE=http://github.com/rilian-la-te/vala-panel-appmenu
 INHERIT=eutils gnome2-utils meson ubuntu-versionator vala
 IUSE=+bamf +vala-panel mate xfce
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 RDEPEND=>=x11-libs/gtk+-3.12.0:3 x11-libs/cairo x11-libs/gdk-pixbuf unity-base/bamf mate? ( mate-base/mate-panel ) vala-panel? ( x11-misc/vala-panel ) bamf? ( unity-base/bamf ) xfce? ( >=xfce-base/xfce4-panel-4.11.2 )
 REQUIRED_USE=|| ( xfce vala-panel )
@@ -13,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel-appmenu_0.7.6+dfsg1.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/vala-panel-appmenu_0.7.6+dfsg1-4.debian.tar.xz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	667174e2df1036a5520d3b3b3fb33e98	meson	46c25780996ffc397131ecd35a2194a2	ubuntu-versionator	148231388c582d8368e72451ccb6716c	vala	9badd41d5aab740ae5ac301c4416c5f8
-_md5_=05baf35ba70df844d952e305a2d71181
+_md5_=320ce9f5e0d002c906779896d636b60b
