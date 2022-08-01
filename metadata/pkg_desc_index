@@ -1,26 +1,14 @@
 app-accessibility/onboard 1.4.1_p5_p5: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 42.9_p_p1_p03: Simple backup tool using duplicity back-end
-app-emulation/anbox 9999.2018.07.19-r11: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
-dev-java/jayatana 0.7.6: Global Menu for Java applications
 dev-lang/vala 0.44.11: Compiler for the GObject type system
-dev-libs/ayatana-ido 0.9.1_p1: Widgets and other objects used for Ayatana Indicators
 dev-libs/dee 1.2.7_p20170616_p6_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
-dev-libs/libayatana-appindicator 0.5.90_p_p7_p2: Ayatana Application Indicators
-dev-libs/libayatana-indicator 0.9.1_p1: Panel indicator applet
-dev-libs/libcolumbus 1.1.0_p20150806_p0_p26: Error tolerant matching engine used by the Unity desktop
 dev-libs/libindicator 16.10.0_p2018032101_p0_p05: A set of symbols and convenience functions that all indicators would like to use
-dev-libs/libqtdbusmock 0.7_p_p1_p05: Qt Bindings for python-dbusmock
-dev-libs/libqtdbustest 0.2_p_p1_p11: Library to facilitate testing DBus interactions in Qt applications
 dev-libs/libunity 7.1.4_p20190319_p6_p1: Library for instrumenting and integrating with all aspects of the Unity shell
 dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity desktop
 dev-libs/libzeitgeist 0.3.18_p_p1_p03: Client library to interact with zeitgeist
-dev-libs/properties-cpp 0.0.2_p6: Simple convenience library for handling properties and signals in C++11
-dev-libs/xpathselect 1.4_p2015082401_p0_p02: Select objects in an object tree using XPath queries
 dev-python/autopilot 1.6.1_p20210120_p0_p06: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.7_p1: PyUnit extension for reporting in JUnit compatible XML
-dev-util/cmake-extras 1.6_p1: Extra CMake utility modules
-dev-util/cmake-vala 3_p_p_p01: CMake utility modules needed for building Vala Panel
 gnome-base/gconf 3.2.6_p_p07_p02: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome 3.38: Meta package for GNOME 3, merge this package to install
 gnome-base/gnome-control-center 3.36.4 41.4-r1: GNOME's main interface to configure various aspects of the desktop
@@ -43,7 +31,6 @@ mate-extra/mate-menu 22.04.2_p_p0_p01: Advanced MATE menu
 mate-extra/mate-tweak 22.04.8_p_p0_p03: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 22.04.14: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20220127_p1_p1: No Tofu font families with large Unicode coverage
-media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/rhythmbox 3.4.4_p_p5_p01: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p2_p02: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
@@ -55,19 +42,15 @@ sys-apps/xorg-gtest 0.7.1_p_p5_p01: X.Org dummy testing environment for Google T
 sys-kernel/ubuntu-sources 5.15.39_p_p41_p44: Ubuntu patched kernel sources
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
 unity-base/bamf 0.5.6_p20220217_p0_p01: BAMF Application Matching Framework
-unity-base/compiz 0.9.14.1_p20211217_p0_p02: Compiz Fusion OpenGL window and compositing manager patched for the Unity desktop
 unity-base/evemu 2.7.0_p3: Event Emulation for the uTouch Stack
 unity-base/frame 2.5.0_p20160809_p0_p03-r1: uTouch Frame Library
 unity-base/geis 2.2.17_p20160126_p0_p08: An implementation of the GEIS (Gesture Engine Interface and Support) interface
 unity-base/grail 3.1.1_p3: An implementation of the GRAIL (Gesture Recognition And Instantiation Library) interface
 unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20210712_p0_p02: GSettings desktop-wide schemas for the Unity desktop
-unity-base/hud 14.10_p20170619_p0_p04-r1: Backend for the Unity HUD
 unity-base/nux 4.0.8_p20180623_p0_p04: Visual rendering toolkit for the Unity desktop
 unity-base/overlay-scrollbar 0.2.17.1_p20151117_p0_p02: Ayatana Scrollbars use an overlay to ensure scrollbars take up no active screen real-estate
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/ubuntu-docs 16.04.4: Help files for the Unity desktop
-unity-base/unity 7.5.1_p2021102602_p0_p01-r1: The Ubuntu Unity Desktop
-unity-base/unity-api 8.7_p20170404_p0_p05: API for Unity shell integration
 unity-base/unity-build-env 22.04: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20220207_p0_p03: Unity Desktop Configuration Tool
 unity-base/unity-gtk-module 0.0.0_p20171202_p0_p03: GTK+ module for exporting old-style menus as GMenuModels
@@ -90,13 +73,9 @@ unity-indicators/indicator-applet 12.10.2_p20200915_p0_p01: Gnome panel indicato
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p2020061702_p0_p01: Indicator for application menus used by the Unity desktop
 unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03-r1: System bluetooth indicator used by the Unity desktop
-unity-indicators/indicator-datetime 15.10_p20210304_p0_p01: Date and Time Indicator used by the Unity desktop
 unity-indicators/indicator-keyboard 0.0.0_p20190716_p0_p03-r4: Keyboard indicator used by the Unity desktop
 unity-indicators/indicator-messages 13.10.1_p20180918_p0_p03: Indicator that collects messages that need a response used by the Unity desktop
-unity-indicators/indicator-power 12.10.6_p2017082901_p0_p07: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
-unity-indicators/indicator-session 17.3.20_p2021061301_p0_p01: Indicator showing session management, status and user switching used by the Unity desktop
-unity-indicators/indicator-sound 12.10.2_p20180612_p0_p04: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 7.5.0: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05-r3: Application lens for the Unity desktop
 unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
@@ -106,7 +85,6 @@ unity-lenses/unity-lens-photos 1.0_p20170605_p0_p09-r2: Photo lens for the Unity
 unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 7.5.1: Online scopes for the Unity Dash
 unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02: Home scope that aggregates results from multiple scopes for the Unity desktop
-x11-libs/dee-qt 3.3_p20140317_p0_p04: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.33_p_p2_p02 3.24.33_p_p1_p02: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
