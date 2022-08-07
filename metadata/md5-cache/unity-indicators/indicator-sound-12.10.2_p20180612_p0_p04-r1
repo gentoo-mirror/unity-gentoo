@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=sys-auth/polkit-pkla-compat unity-base/gsettings-ubuntu-touch-schemas sys-apps/accountsservice dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu:= dev-util/dbus-test-runner media-sound/pulseaudio unity-base/bamf:= unity-base/unity-api unity-indicators/ido:= >=x11-libs/libnotify-0.7.6 test? ( >=dev-cpp/gtest-1.8.1 dev-libs/libqtdbusmock dev-libs/libqtdbustest ) || ( dev-lang/vala:0.50[vapigen(+)] )
+DESCRIPTION=System sound indicator used by the Unity desktop
+EAPI=7
+HOMEPAGE=https://launchpad.net/indicator-sound
+INHERIT=cmake gnome2-utils ubuntu-versionator vala
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sys-auth/polkit-pkla-compat unity-base/gsettings-ubuntu-touch-schemas
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-sound_12.10.2+18.10.20180612.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/indicator-sound_12.10.2+18.10.20180612-0ubuntu4.diff.gz
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	38d6ec96711cea42a5cb1cc723a6e906	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	f950efbe5e8e135dcddf94df51e1d394	vala	1c07e7167d9ef851ad187f5f3f02d34d
+_md5_=d4244d8f302c04d85e792280c8e7f1a1
