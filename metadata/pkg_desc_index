@@ -1,6 +1,8 @@
 app-accessibility/onboard 1.4.1_p5_p5: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 42.9_p_p1_p03: Simple backup tool using duplicity back-end
+app-emulation/anbox 9999.2018.07.19-r12: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
+dev-java/jayatana 0.7.6-r1: Global Menu for Java applications
 dev-lang/vala 0.44.11: Compiler for the GObject type system
 dev-libs/ayatana-ido 0.9.1_p1-r1: Widgets and other objects used for Ayatana Indicators
 dev-libs/dee 1.2.7_p20170616_p6_p04: Provide objects allowing to create Model-View-Controller type programs across DBus
@@ -18,6 +20,7 @@ dev-libs/xpathselect 1.4_p2015082401_p0_p02-r1: Select objects in an object tree
 dev-python/autopilot 1.6.1_p20210120_p0_p06: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.7_p1: PyUnit extension for reporting in JUnit compatible XML
 dev-util/cmake-extras 1.6_p1-r1: Extra CMake utility modules
+dev-util/cmake-vala 3_p_p_p01-r1: CMake utility modules needed for building Vala Panel
 gnome-base/gconf 3.2.6_p_p07_p02: GNOME configuration system and daemon patched for the Unity desktop
 gnome-base/gnome 3.38: Meta package for GNOME 3, merge this package to install
 gnome-base/gnome-control-center 3.36.4 41.4-r1: GNOME's main interface to configure various aspects of the desktop
@@ -40,6 +43,7 @@ mate-extra/mate-menu 22.04.2_p_p0_p01: Advanced MATE menu
 mate-extra/mate-tweak 22.04.8_p_p0_p03: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 22.04.14-r1: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20220127_p1_p1: No Tofu font families with large Unicode coverage
+media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/rhythmbox 3.4.4_p_p5_p01: Music management and playback software for GNOME patched for the Unity desktop
 net-im/empathy 3.25.90_p_p2_p02: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
