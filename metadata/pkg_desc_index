@@ -50,7 +50,6 @@ net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database du
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p03: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 22.07.5_p_p2_p0103: D-Bus interfaces for querying and manipulating user account information
 sys-apps/consolation 0.0.8_p1_p_p: Console pointer support for copy-paste
-sys-apps/timekpr-next 0.3.7: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/xorg-gtest 0.7.1_p_p5_p01-r1: X.Org dummy testing environment for Google Test
 sys-kernel/ubuntu-sources 5.15.39_p_p46_p49: Ubuntu patched kernel sources
 sys-power/cpufrequtils 008-r4: Userspace utilities for the Linux kernel cpufreq subsystem
@@ -112,7 +111,6 @@ x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.33_p_p2_p02-r1 3.24.33_p_p1_p02: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
-x11-misc/lightdm 1.30.0_p_p0_p05: A lightweight display manager
 x11-misc/mate-dock-applet 21.10.0_p_p_p01-r1: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20191129_p0_p02: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.89_p4-r1: Dock panel famious docky
