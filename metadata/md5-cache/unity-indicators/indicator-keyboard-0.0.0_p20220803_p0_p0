@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
+DEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap ) app-i18n/fcitx app-i18n/ibus[vala] >=dev-libs/glib-2.37 dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu gnome-base/dconf gnome-base/libgnomekbd sys-apps/accountsservice unity-base/bamf x11-libs/gtk+:3 x11-libs/libxklavier x11-libs/pango x11-misc/lightdm python_targets_python3_8? ( >=dev-lang/python-3.8.15_p3:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.15_p3:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.8_p3:3.10 ) || ( dev-lang/vala:0.56[vapigen(+)] ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DESCRIPTION=Keyboard indicator used by the Unity desktop
+EAPI=6
+HOMEPAGE=https://launchpad.net/indicator-keyboard
+INHERIT=autotools eutils flag-o-matic gnome2-utils python-r1 ubuntu-versionator vala
+IUSE=+charmap python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-keyboard_0.0.0+19.10.20220803.orig.tar.gz
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	447396341f5f896d722e435a06f87a4f	eqawarn	c9847c43b3253a276ae2eabddedab3d7	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	flag-o-matic	69394e25812406faa1f90edaf4969395	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	multibuild	d26d81f242cb193d899a72bca423d0bd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-r1	2d51fd03931e743811ce30d198e4dcfd	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821	vala	160a8a30a6cb9aa601e5441c643a7c61
+_md5_=0abffb3872af877cbb93b0fdf3b8682e
