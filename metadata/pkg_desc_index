@@ -1,3 +1,4 @@
+app-accessibility/onboard 1.4.1_p5_p5_p-r1: Simple on-screen Keyboard with macros and easy layout creation
 app-backup/deja-dup 42.9_p_p1_p03: Simple backup tool using duplicity back-end
 app-emulation/anbox 9999.2018.07.19-r12: Run Android applications on any GNU/Linux operating system
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
@@ -16,6 +17,7 @@ dev-libs/libunity-misc 4.0.5_p_p0_p03: Miscellaneous modules for the Unity deskt
 dev-libs/libzeitgeist 0.3.18_p_p1_p03: Client library to interact with zeitgeist
 dev-libs/properties-cpp 0.0.2_p6-r1: Simple convenience library for handling properties and signals in C++11
 dev-libs/xpathselect 1.4_p2015082401_p0_p02-r1: Select objects in an object tree using XPath queries
+dev-python/autopilot 1.6.1_p20210120_p0_p06-r1: Utility to write and run integration tests easily
 dev-python/pyjunitxml 0.7_p1: PyUnit extension for reporting in JUnit compatible XML
 dev-util/cmake-extras 1.6_p1-r1: Extra CMake utility modules
 dev-util/cmake-vala 3_p_p_p01-r1: CMake utility modules needed for building Vala Panel
@@ -36,6 +38,9 @@ gnome-extra/nm-applet 1.24.0_p_p1_p03: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p03: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.3_p_p4_p01-r1: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.2_p_p1_p00: Solus Project's Brisk Menu MATE Panel Applet
+mate-extra/mate-hud 22.04.4_p_p0_p01-r1: MATE menubar commands, like the Unity 7 Heads-Up Display (HUD)
+mate-extra/mate-menu 22.04.2_p_p0_p01-r1: Advanced MATE menu
+mate-extra/mate-tweak 22.04.8_p_p0_p03-r2: MATE desktop tweak tool
 mate-extra/ubuntu-mate-settings 22.04.14-r1: Default settings for Ubuntu MATE
 media-fonts/fonts-noto-cjk 20220127_p1_p1: No Tofu font families with large Unicode coverage
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
@@ -70,11 +75,15 @@ unity-base/unity-meta 22.04: Unity Desktop - merge this to pull in all Unity pac
 unity-base/unity-settings 21.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20220207_p0_p01: Unity Settings Daemon
 unity-extra/ehooks 21.04-r1: Ebuild hooks patching system
+unity-extra/indicator-cpufreq 0.2.2_p_p0_p03-r1: CPU frequency scaling indicator for the Unity desktop environment
 unity-extra/indicator-evolution 0.2.20_p_p0_p42: Indicator for the Evolution mail client used by the Unity desktop
 unity-extra/indicator-multiload 0.4_p_p0_p05: Graphical system load indicator for CPU, ram, etc. used by the Unity desktop
 unity-extra/indicator-netspeed 9999: Network speed indicator for Unity
+unity-extra/indicator-privacy 0.7-r1: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.5_p_p0103_p02: Indicator for monitoring hardware temperature used by the Unity desktop
+unity-extra/meteo-qt 3.2-r1: System tray application for weather status information
 unity-extra/unity-greeter 22.04.1_p_p0_p02: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+unity-extra/unity-tweak-tool 0.0.7_p_p0_p10-r1: Configuration manager for the Unity desktop environment
 unity-indicators/ayatana-indicator-application 22.2.0_p1: Ayatana Applications Indicator (SNI provider)
 unity-indicators/ido 13.10.0_p20161028_p0_p03: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p20200915_p0_p01: Gnome panel indicator for the Unity desktop
@@ -102,6 +111,7 @@ x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.33_p_p2_p02-r1 3.24.33_p_p1_p02: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
+x11-misc/lightdm 1.30.0_p_p0_p05-r1: A lightweight display manager
 x11-misc/mate-dock-applet 21.10.0_p_p_p01-r1: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20191129_p0_p02: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.89_p4-r1: Dock panel famious docky
