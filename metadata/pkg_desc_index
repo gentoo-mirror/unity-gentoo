@@ -30,7 +30,6 @@ gnome-base/gnome-session 42.0_p_p1_p02-r1: Gnome session manager patched for the
 gnome-base/gnome-settings-daemon 42.1_p_p1_p0201: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 42.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/nautilus 42.2_p_p0_p01: Default file manager for the GNOME desktop patched for the Unity desktop
-gnome-extra/activity-log-manager 0.9.7_p_p0_p28: Blacklist configuration user interface for Zeitgeist
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
 gnome-extra/nm-applet 1.24.0_p_p1_p03: GNOME applet for NetworkManager
 gnome-extra/polkit-gnome 0.105_p_p7_p03: A dbus session bus service that is used to bring up authentication dialogs
@@ -73,37 +72,28 @@ unity-extra/indicator-netspeed 9999: Network speed indicator for Unity
 unity-extra/indicator-privacy 0.7-r1: Indicator to change user privacy settings
 unity-extra/indicator-psensor 1.1.5_p_p0103_p02: Indicator for monitoring hardware temperature used by the Unity desktop
 unity-extra/meteo-qt 3.2-r1: System tray application for weather status information
-unity-extra/unity-greeter 22.04.1_p_p0_p02: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.7_p_p0_p10-r1: Configuration manager for the Unity desktop environment
 unity-indicators/ayatana-indicator-application 22.2.0_p1: Ayatana Applications Indicator (SNI provider)
-unity-indicators/ido 13.10.0_p20161028_p0_p03: Widgets and other objects used for indicators by the Unity desktop
 unity-indicators/indicator-applet 12.10.2_p20200915_p0_p01: Gnome panel indicator for the Unity desktop
 unity-indicators/indicator-application 12.10.1_p2019030801_p0_p03: Application indicators used by the Unity desktop
 unity-indicators/indicator-appmenu 15.02.0_p2020061702_p0_p01: Indicator for application menus used by the Unity desktop
-unity-indicators/indicator-bluetooth 0.0.6_p20170605_p0_p03-r1: System bluetooth indicator used by the Unity desktop
 unity-indicators/indicator-datetime 15.10_p20210304_p0_p01-r1: Date and Time Indicator used by the Unity desktop
-unity-indicators/indicator-messages 13.10.1_p20180918_p0_p03: Indicator that collects messages that need a response used by the Unity desktop
 unity-indicators/indicator-power 12.10.6_p2017082901_p0_p07-r1: Indicator showing power state used by the Unity desktop
 unity-indicators/indicator-printers 0.1.7_p20171101_p0_p03: Indicator showing active print jobs used by the Unity desktop
 unity-indicators/indicator-session 17.3.20_p2021061301_p0_p01-r1: Indicator showing session management, status and user switching used by the Unity desktop
 unity-indicators/indicator-sound 12.10.2_p20180612_p0_p04-r2: System sound indicator used by the Unity desktop
 unity-indicators/unity-indicators-meta 7.5.0: Unity Desktop - merge this to pull in all Unity indicators
 unity-lenses/unity-lens-applications 7.1.0_p20160927_p0_p05-r3: Application lens for the Unity desktop
-unity-lenses/unity-lens-files 7.1.0_p20170605_p0_p02: File lens for the Unity desktop
 unity-lenses/unity-lens-meta 7.5.0: Unity Desktop - merge this to pull in all Unity lenses
 unity-lenses/unity-lens-music 6.9.1_p_p0_p03-r3: Music lens for the Unity desktop
 unity-lenses/unity-lens-photos 1.0_p20170605_p0_p09-r2: Photo lens for the Unity desktop
-unity-lenses/unity-lens-video 0.3.15_p2016021201_p0_p03: Video lens for the Unity desktop
 unity-scopes/smart-scopes 7.5.1: Online scopes for the Unity Dash
-unity-scopes/unity-scope-home 6.8.2_p20190412_p0_p02-r1: Home scope that aggregates results from multiple scopes for the Unity desktop
 x11-libs/dee-qt 3.3_p20140317_p0_p04-r1: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
 x11-libs/gtk+ 2.24.33_p_p2_p02-r1 3.24.33_p_p1_p02: Gimp ToolKit patched for the Unity desktop
 x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
 x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
-x11-misc/lightdm 1.30.0_p_p0_p05-r1: A lightweight display manager
 x11-misc/notify-osd 0.9.35_p20191129_p0_p02: Canonical's on-screen-display notification agent
-x11-misc/plank 0.11.89_p4-r1: Dock panel famious docky
 x11-misc/vala-panel 0.5.0_p2-r1: Lightweight desktop panel
 x11-misc/vala-panel-appmenu 0.7.6_p_p1_p04: Global Menu plugin for xfce4 and vala-panel
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
