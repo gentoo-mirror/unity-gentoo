@@ -116,6 +116,7 @@ x11-misc/gtk3-nocsd 3_p_p1_p01: Disable Gtk+ 3 client side decorations (CSD)
 x11-misc/lightdm 1.30.0_p_p0_p05-r2: A lightweight display manager
 x11-misc/mate-dock-applet 21.10.0_p_p_p01-r2: Application dock for the MATE panel
 x11-misc/notify-osd 0.9.35_p20191129_p0_p02: Canonical's on-screen-display notification agent
+x11-misc/plank 0.11.89_p4-r2: Dock panel famious docky
 x11-misc/vala-panel 0.5.0_p2-r1: Lightweight desktop panel
 x11-misc/vala-panel-appmenu 0.7.6_p_p1_p04: Global Menu plugin for xfce4 and vala-panel
 x11-plugins/pidgin-libnotify 0.14_p_p9_p02: pidgin-libnotify provides popups for pidgin via a libnotify interface
