@@ -126,7 +126,6 @@ unity-scopes/smart-scopes:yahoostock - Yahoo! Finance scope for Unity
 unity-scopes/smart-scopes:yelp - Help scope for Unity
 unity-scopes/smart-scopes:zotero - Zotero scope for Unity
 x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
-x11-libs/gtk+:cloudprint - Enable printing via Google Cloud Print.
 x11-libs/gtk+:colord - Use x11-misc/colord for color management in printing
 x11-misc/lightdm:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/lightdm:lightdm_greeters_gtk - Pull in the GTK+ greeter

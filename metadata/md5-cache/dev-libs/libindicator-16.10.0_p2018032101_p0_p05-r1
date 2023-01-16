@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=>=x11-libs/gtk+-2.18:2 >=x11-libs/gtk+-3.2:3 x11-libs/libXfixes >=dev-libs/glib-2.37 >=unity-indicators/ido-13.10.0 virtual/pkgconfig !<dev-libs/libindicator-0.4.1-r201
+DESCRIPTION=A set of symbols and convenience functions that all indicators would like to use
+EAPI=7
+HOMEPAGE=https://launchpad.net/libindicator
+INHERIT=autotools eutils ubuntu-versionator
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=x11-libs/gtk+-2.18:2 >=x11-libs/gtk+-3.2:3 x11-libs/libXfixes
+RESTRICT=mirror
+SLOT=3/7.0.0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/libindicator_16.10.0+18.04.20180321.1.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/libindicator_16.10.0+18.04.20180321.1-0ubuntu5.diff.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821
+_md5_=754c68be3acc7c6606a0221eb8bb60f3

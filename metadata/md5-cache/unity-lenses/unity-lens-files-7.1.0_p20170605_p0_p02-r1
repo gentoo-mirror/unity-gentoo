@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=postinst postrm preinst prepare setup
+DEPEND=dev-libs/dee:= dev-libs/libunity:= dev-libs/libgee dev-libs/libzeitgeist >=gnome-extra/zeitgeist-0.9.14[datahub,fts] unity-base/unity unity-lenses/unity-lens-applications || ( dev-lang/vala:0.56[vapigen(+)] )
+DESCRIPTION=File lens for the Unity desktop
+EAPI=7
+HOMEPAGE=https://launchpad.net/unity-lens-files
+INHERIT=autotools eutils gnome2-utils ubuntu-versionator vala
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/dee:= dev-libs/libunity:=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/unity-lens-files_7.1.0+17.10.20170605.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/unity-lens-files_7.1.0+17.10.20170605-0ubuntu2.diff.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821	vala	2633382950a3a9ce912c9258150d5db8
+_md5_=4689504f8998d6ad12b1c4cd1250f4c0

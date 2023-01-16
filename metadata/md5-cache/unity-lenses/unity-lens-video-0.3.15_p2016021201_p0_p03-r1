@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=postinst prepare setup
+DEPEND=dev-libs/dee dev-libs/glib:2 dev-libs/json-glib dev-libs/libgee dev-libs/libunity dev-libs/libzeitgeist net-libs/libsoup unity-base/unity || ( dev-lang/vala:0.56[vapigen(+)] )
+DESCRIPTION=Video lens for the Unity desktop
+EAPI=7
+HOMEPAGE=https://launchpad.net/unity-lens-video
+INHERIT=autotools eutils ubuntu-versionator vala
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!unity-lenses/unity-scope-video-remote dev-libs/dee:= dev-libs/libunity:=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/unity-lens-video_0.3.15+16.04.20160212.1.orig.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821	vala	2633382950a3a9ce912c9258150d5db8
+_md5_=9fc6fc0aab1454d1a8a93fc39b248371

@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit ) app-crypt/gcr dev-libs/libxslt dev-util/gdbus-codegen >=dev-util/gtk-doc-am-1.15 >=dev-util/gtk-doc-1.18 >=dev-util/intltool-0.40 sys-devel/gettext virtual/pkgconfig doc? ( app-text/docbook-xml-dtd:4.1.2 app-text/xmlto ) vala? ( || ( dev-lang/vala:0.56[vapigen(+)] ) )
+DEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit ) virtual/libcrypt:= app-crypt/gcr dev-libs/libxslt dev-util/gdbus-codegen >=dev-util/gtk-doc-am-1.15 >=dev-util/gtk-doc-1.18 >=dev-util/intltool-0.40 sys-devel/gettext virtual/pkgconfig doc? ( app-text/docbook-xml-dtd:4.1.2 app-text/xmlto ) vala? ( || ( dev-lang/vala:0.56[vapigen(+)] ) )
 DESCRIPTION=D-Bus interfaces for querying and manipulating user account information
 EAPI=7
 HOMEPAGE=http://www.fedoraproject.org/wiki/Features/UserAccountDialog
@@ -8,10 +8,10 @@ INHERIT=meson gnome2-utils systemd vala ubuntu-versionator
 IUSE=doc +introspection +systemd vala
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
-RDEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit )
+RDEPEND=dev-libs/glib:2 sys-auth/polkit introspection? ( dev-libs/gobject-introspection ) systemd? ( >=sys-apps/systemd-186 ) !systemd? ( sys-auth/consolekit ) virtual/libcrypt:=
 REQUIRED_USE=vala? ( introspection )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_22.07.5.orig.tar.xz https://launchpad.net/ubuntu/+archive/primary/+files/accountsservice_22.07.5-2ubuntu1.3.debian.tar.xz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	meson	1994a5aef5d4f5798b92f64d6f9a6003	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	systemd	5f4bb0758df2e483babf68cd517078ca	vala	2633382950a3a9ce912c9258150d5db8	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821
-_md5_=5f46ef5d1132898701140adf612118d8
+_md5_=bef28dd9d760c07a7ff17f85de5300cd

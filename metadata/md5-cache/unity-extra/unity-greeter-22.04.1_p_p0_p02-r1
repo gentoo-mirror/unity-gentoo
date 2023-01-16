@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install postinst postrm preinst prepare setup
+DEPEND=dev-libs/libindicator gnome-base/gnome-desktop:3= media-libs/freetype:2 media-libs/libcanberra unity-base/unity-settings-daemon unity-indicators/ido x11-libs/cairo x11-libs/gtk+:3 >=x11-misc/lightdm-1.4.0 || ( dev-lang/vala:0.56[vapigen(+)] )
+DESCRIPTION=The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
+EAPI=7
+HOMEPAGE=https://launchpad.net/unity-greeter
+INHERIT=autotools flag-o-matic gnome2-utils ubuntu-versionator vala
+IUSE=+accessibility +battery +branding +networkmanager nls +sound
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=accessibility? ( app-accessibility/onboard app-accessibility/orca ) battery? ( unity-indicators/indicator-power ) networkmanager? ( >=gnome-extra/nm-applet-0.9.8.0 ) sound? ( unity-indicators/indicator-sound ) >=app-eselect/eselect-lightdm-0.1 >=gnome-base/gsettings-desktop-schemas-3.8 media-fonts/ubuntu-font-family sys-auth/polkit-pkla-compat unity-base/unity-language-pack unity-indicators/indicator-session unity-indicators/indicator-datetime unity-indicators/indicator-application x11-themes/ubuntu-wallpapers
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/unity-greeter_22.04.1-0ubuntu2.tar.xz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	69394e25812406faa1f90edaf4969395	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	3b3862351dde1c7495c307e28e10a821	vala	2633382950a3a9ce912c9258150d5db8
+_md5_=5d12d2e3bf019b9be7215405e9945e97
