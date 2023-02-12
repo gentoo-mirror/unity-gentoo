@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=dev-libs/libevdev dev-libs/libinput
+DESCRIPTION=Console pointer support for copy-paste
+EAPI=7
+HOMEPAGE=https://launchpad.net/ubuntu/+source/consolation
+INHERIT=systemd ubuntu-versionator
+LICENSE=GPL-3
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/consolation_0.0.9.orig.tar.xz
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_md5_=708f76cc316a56e519f02ab791ee709a

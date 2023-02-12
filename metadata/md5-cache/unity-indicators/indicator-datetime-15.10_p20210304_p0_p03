@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=dev-libs/libdbusmenu:= dev-libs/libtimezonemap:= net-libs/libaccounts-glib:= media-libs/gstreamer:1.0 sys-apps/util-linux unity-indicators/ido:= unity-indicators/indicator-messages >=x11-libs/libnotify-0.7.6 eds? ( >=gnome-extra/evolution-data-server-3.34:= ) test? ( >=dev-cpp/gtest-1.8.1 ) dev-libs/properties-cpp
+DESCRIPTION=Date and Time Indicator used by the Unity desktop
+EAPI=8
+HOMEPAGE=https://launchpad.net/indicator-datetime
+INHERIT=cmake gnome2-utils ubuntu-versionator
+IUSE=+eds test
+LICENSE=GPL-3
+PDEPEND=unity-base/unity-control-center
+RDEPEND=dev-libs/libdbusmenu:= dev-libs/libtimezonemap:= net-libs/libaccounts-glib:= media-libs/gstreamer:1.0 sys-apps/util-linux unity-indicators/ido:= unity-indicators/indicator-messages >=x11-libs/libnotify-0.7.6 eds? ( >=gnome-extra/evolution-data-server-3.34:= ) test? ( >=dev-cpp/gtest-1.8.1 ) unity-base/unity-language-pack
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-datetime_15.10+21.04.20210304.orig.tar.gz
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_md5_=5598a91b4845d5f14d2bc82e875e7b8b
