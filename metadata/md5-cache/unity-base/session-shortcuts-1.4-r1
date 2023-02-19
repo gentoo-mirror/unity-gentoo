@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/session-shortcuts_1.4.tar.xz
-_eclasses_=toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=5632355bd4acd12cc6ac0a9212665c6e
