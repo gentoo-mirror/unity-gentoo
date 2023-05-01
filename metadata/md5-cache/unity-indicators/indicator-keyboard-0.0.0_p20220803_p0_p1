@@ -1,16 +1,16 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup
-DEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap ) app-i18n/fcitx app-i18n/ibus[vala] >=dev-libs/glib-2.37 dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu gnome-base/dconf gnome-base/libgnomekbd sys-apps/accountsservice unity-base/bamf x11-libs/gtk+:3 x11-libs/libxklavier x11-libs/pango x11-misc/lightdm python_targets_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) || ( dev-lang/vala:0.56[vapigen(+)] )
+DEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap ) app-i18n/fcitx app-i18n/ibus[vala] >=dev-libs/glib-2.37 dev-libs/libappindicator dev-libs/libgee:0.8 dev-libs/libdbusmenu gnome-base/dconf gnome-base/libgnomekbd sys-apps/accountsservice unity-base/bamf x11-libs/gtk+:3 x11-libs/libxklavier x11-libs/pango x11-misc/lightdm python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) || ( dev-lang/vala:0.56[vapigen(+)] )
 DESCRIPTION=Keyboard indicator used by the Unity desktop
 EAPI=7
 HOMEPAGE=https://launchpad.net/indicator-keyboard
 INHERIT=autotools eutils flag-o-matic gnome2-utils python-r1 ubuntu-versionator vala
-IUSE=+charmap python_targets_python3_9 python_targets_python3_10
+IUSE=+charmap python_targets_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=gnome-base/gnome-desktop:3= charmap? ( gnome-extra/gucharmap )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-keyboard_0.0.0+19.10.20220803.orig.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	eapi8-dosym	741bfa77afb2a9321261501aca58c208	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-r1	3c6cd0f418ba702c186a9865b85e704d	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f	vala	1343f639cc74d2aa8b36fc08677da58d
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	eapi8-dosym	741bfa77afb2a9321261501aca58c208	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-r1	3c6cd0f418ba702c186a9865b85e704d	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f	vala	1343f639cc74d2aa8b36fc08677da58d
 _md5_=f89991e8171a4bc1063106b6fa806d87

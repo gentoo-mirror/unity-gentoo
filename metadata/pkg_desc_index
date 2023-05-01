@@ -46,7 +46,6 @@ mate-extra/ubuntu-mate-settings 22.04.14-r1 22.10.2: Default settings for Ubuntu
 media-fonts/fonts-noto-cjk 20220127_p1_p1: No Tofu font families with large Unicode coverage
 media-libs/swiftshader 9999: CPU-based implementation of the Vulkan, OpenGL ES, and Direct3D 9 graphics APIs
 media-sound/rhythmbox 3.4.4_p_p5_p01-r2 3.4.6_p_p2_p01: Music management and playback software for GNOME patched for the Unity desktop
-net-im/empathy 3.25.90_p_p2_p02-r1: Telepathy instant messaging and video/audio call client for GNOME
 net-libs/geonames 0.2_p20170220_p0_p04: Parse and query the geonames database dump
 net-libs/telepathy-indicator 0.3.1_p20140908_p0_p03: Desktop service to integrate Telepathy with the messaging menu used by the Unity desktop
 sys-apps/accountsservice 22.07.5_p_p2_p0103-r1 22.08.8_p_p1_p01: D-Bus interfaces for querying and manipulating user account information
