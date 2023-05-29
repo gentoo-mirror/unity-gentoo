@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 PDEPEND=unity-lenses/unity-lens-meta[files=,music=,photos=,video=]
 RDEPEND=media-fonts/ubuntu-font-family x11-themes/ubuntu-themes x11-themes/ubuntu-wallpapers:= ubuntu-cursor? ( x11-themes/vanilla-dmz-xcursors ) ubuntu-sounds? ( x11-themes/ubuntu-sounds )
 SLOT=0
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116
 _md5_=4f3697cce5a038a734453a978966ed63
