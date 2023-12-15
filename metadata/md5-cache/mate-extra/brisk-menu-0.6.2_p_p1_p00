@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-util/meson-1.2.1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-util/meson-1.2.1 app-alternatives/ninja dev-util/meson-format-array
 DEFINED_PHASES=compile configure install postinst postrm preinst setup test
 DEPEND=dev-libs/glib:2 dev-perl/XML-Parser dev-util/intltool gnome-base/dconf mate-base/mate-panel sys-devel/gettext x11-libs/gtk+:3
 DESCRIPTION=Solus Project's Brisk Menu MATE Panel Applet
@@ -10,5 +10,5 @@ LICENSE=GPL-2 CC-BY-SA-4.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/brisk-menu_0.6.2.orig.tar.xz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	b0183db3b2e07b18f3b77bffec72e116	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=28aad9e0330e3dfcef015fa068b34f21
