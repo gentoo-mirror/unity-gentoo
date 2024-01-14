@@ -1,4 +1,4 @@
-BDEPEND=app-alternatives/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig virtual/pkgconfig
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig virtual/pkgconfig
 DEFINED_PHASES=compile config configure install postinst prepare setup test unpack
 DEPEND=dev-util/android-tools net-firewall/iptables softrender? ( media-libs/swiftshader ) >=app-containers/lxc-3 dev-cpp/gtest dev-libs/boost:= dev-libs/glib:2 dev-libs/properties-cpp dev-libs/protobuf media-libs/glm media-libs/libsdl2[wayland?,X?] >=media-libs/mesa-19.3.5[gles2] media-libs/sdl2-image sys-apps/dbus sys-libs/libcap sys-apps/systemd[iptables] playstore? ( app-arch/lzip app-arch/tar app-arch/unzip net-misc/curl sys-fs/squashfs-tools ) test? ( >=dev-cpp/gtest-1.8.1 )
 DESCRIPTION=Run Android applications on any GNU/Linux operating system
@@ -14,5 +14,5 @@ REQUIRED_USE=|| ( wayland X )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://build.anbox.io/android-images/2018/07/19/android_amd64.img playstore? ( http://dl.android-x86.org/houdini/7_y/houdini.sfs -> houdini_y.sfs http://dl.android-x86.org/houdini/7_z/houdini.sfs -> houdini_z.sfs )
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	b7ccad6f1800c4ea58dbbdafb0b1b5e0	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-single-r1	75118e916668a74c660a13b0ecb22562	systemd	c8b03e8df84486aa991d4396686e8942	udev	eec0bbab06977f1cfc5597269c1fa152
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	linux-info	c4f1201b96a8a2c1f3b86cc8b2c71c91	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-single-r1	75118e916668a74c660a13b0ecb22562	systemd	c8b03e8df84486aa991d4396686e8942	udev	eec0bbab06977f1cfc5597269c1fa152
 _md5_=b4f25e1d90a38317fd2f67bf81010a18
