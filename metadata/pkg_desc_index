@@ -21,7 +21,6 @@ gnome-base/gnome 3.38: Meta package for GNOME 3, merge this package to install
 gnome-base/gnome-control-center 3.36.4 41.4-r1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 3.36.5: Sub-meta package for the core applications integrated with GNOME 3
 gnome-base/gnome-core-libs 3.36.5 42.0: Sub-meta package for the core libraries of GNOME
-gnome-base/gnome-menus 3.36.0_p_p1_p3: The GNOME menu system, implementing the F.D.O cross-desktop spec, patched for the Unity desktop
 gnome-base/gnome-session 42.0_p_p1_p02-r1 43.0_p_p1_p02: Gnome session manager patched for the Unity desktop
 gnome-base/gnome-settings-daemon 42.1_p_p1_p0201 43.0_p_p1_p01: Gnome Settings Daemon patched for the Unity desktop
 gnome-base/gsettings-desktop-schemas 42.0_p_p1_p01 43.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
@@ -38,7 +37,6 @@ sys-apps/accountsservice 22.07.5_p_p2_p0103-r1 22.08.8_p_p1_p01: D-Bus interface
 sys-apps/consolation 0.0.8_p1_p_p 0.0.9_p1_p_p: Console pointer support for copy-paste
 sys-apps/timekpr-next 0.5.4: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 sys-apps/xorg-gtest 0.7.1_p_p5_p01-r1: X.Org dummy testing environment for Google Test
-unity-base/gsettings-ubuntu-touch-schemas 0.0.7_p20210712_p0_p02: GSettings desktop-wide schemas for the Unity desktop
 unity-base/hud 14.10_p20170619_p0_p04-r2: Backend for the Unity HUD
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/unity-api 8.7_p20170404_p0_p05-r1: API for Unity shell integration
@@ -50,10 +48,7 @@ unity-base/unity-settings 21.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20220207_p0_p01-r1 15.04.1_p20220802_p0_p01: Unity Settings Daemon
 unity-extra/ehooks 21.04-r1: Ebuild hooks patching system
 unity-extra/indicator-cpufreq 0.2.2_p_p0_p03-r1: CPU frequency scaling indicator for the Unity desktop environment
-unity-extra/indicator-evolution 0.2.20_p_p0_p42: Indicator for the Evolution mail client used by the Unity desktop
-unity-extra/indicator-multiload 0.4_p_p0_p05: Graphical system load indicator for CPU, ram, etc. used by the Unity desktop
 unity-extra/indicator-privacy 0.7-r1: Indicator to change user privacy settings
-unity-extra/indicator-psensor 1.1.5_p_p0103_p02-r1: Indicator for monitoring hardware temperature used by the Unity desktop
 unity-extra/meteo-qt 3.2-r1: System tray application for weather status information
 unity-extra/unity-greeter 22.04.1_p_p0_p02-r1: The greeter (login screen) application for Unity. It is implemented as a LightDM greeter.
 unity-extra/unity-tweak-tool 0.0.7_p_p0_p10-r2: Configuration manager for the Unity desktop environment
@@ -66,10 +61,7 @@ unity-indicators/unity-indicators-meta 7.5.0: Unity Desktop - merge this to pull
 unity-lenses/unity-lens-meta 7.5.0: Unity Desktop - merge this to pull in all Unity lenses
 x11-libs/dee-qt 3.3_p20140317_p0_p04-r1: Qt binding and QML plugin for Dee for the Unity desktop
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
-x11-libs/topmenu-gtk 0.3_p1_p_p: A Gtk+ module and Mate/Xfce/LXDE panel applets for a global menubar
-x11-misc/notify-osd 0.9.35_p20191129_p0_p02: Canonical's on-screen-display notification agent
 x11-misc/plank 0.11.89_p4-r2: Dock panel famious docky
-x11-themes/humanity-icon-theme 0.6.16: A nice and well polished icon theme
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p03-r1: Icons for on-screen-display notification agent
 x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-wallpapers 22.04.4_p_p0_p01 22.10.2_p_p0_p01: Ubuntu wallpapers
