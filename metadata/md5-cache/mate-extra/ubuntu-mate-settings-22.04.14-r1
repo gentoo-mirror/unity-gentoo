@@ -10,5 +10,5 @@ RDEPEND=dev-libs/glib:2 gnome-base/gvfs
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/ubuntu-mate-settings_22.04.14.tar.xz
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=5ba8c952568503f369d0017508f87f95

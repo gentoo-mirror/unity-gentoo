@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/consolation_0.0.8.orig.tar.xz
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=91463a38c6e133315f20300cf31ed59c
