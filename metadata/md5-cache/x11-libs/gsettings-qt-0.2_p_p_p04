@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.2.orig.tar.gz https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.2-4.debian.tar.xz
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=111579868a0942670436af5ac57b1336
