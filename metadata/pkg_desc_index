@@ -36,11 +36,9 @@ sys-apps/accountsservice 22.07.5_p_p2_p0103-r1 22.08.8_p_p1_p01: D-Bus interface
 sys-apps/consolation 0.0.8_p1_p_p 0.0.9_p1_p_p: Console pointer support for copy-paste
 sys-apps/timekpr-next 0.5.4: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
 unity-base/hud 14.10_p20170619_p0_p04-r2: Backend for the Unity HUD
-unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/unity-api 8.7_p20170404_p0_p05-r1: API for Unity shell integration
 unity-base/unity-build-env 22.04 22.10: Merge this to setup the Unity desktop build environment package.{accept_keywords,mask,use} files
 unity-base/unity-control-center 15.04.0_p20220207_p0_p03 15.04.0_p2022091601_p0_p01: Unity Desktop Configuration Tool
-unity-base/unity-language-pack 22.04: Language translations pack for Unity desktop
 unity-base/unity-meta 22.04 22.10: Unity Desktop - merge this to pull in all Unity packages
 unity-base/unity-settings 21.04: Default settings for the Unity
 unity-base/unity-settings-daemon 15.04.1_p20220207_p0_p01-r1 15.04.1_p20220802_p0_p01: Unity Settings Daemon
@@ -61,6 +59,5 @@ x11-libs/dee-qt 3.3_p20140317_p0_p04-r1: Qt binding and QML plugin for Dee for t
 x11-libs/gsettings-qt 0.2_p_p_p04: Qml bindings for GSettings.
 x11-misc/plank 0.11.89_p4-r2: Dock panel famious docky
 x11-themes/notify-osd-icons 0.8_p2015101602_p0_p03-r1: Icons for on-screen-display notification agent
-x11-themes/ubuntu-sounds 0.14: Default audio theme for the Unity
 x11-themes/ubuntu-wallpapers 22.04.4_p_p0_p01 22.10.2_p_p0_p01: Ubuntu wallpapers
 x11-wm/mutter 42.0-r1: GNOME compositing window manager based on Clutter
