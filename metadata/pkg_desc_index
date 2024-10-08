@@ -26,7 +26,6 @@ gnome-base/gnome-settings-daemon 42.1_p_p1_p0201 43.0_p_p1_p01: Gnome Settings D
 gnome-base/gsettings-desktop-schemas 42.0_p_p1_p01 43.0_p_p1_p01: Collection of GSettings schemas for GNOME desktop
 gnome-base/nautilus 42.2_p_p0_p0201 43.0_p_p1_p0201: Default file manager for the GNOME desktop patched for the Unity desktop
 gnome-extra/gnome-recipes 2.0.2: Cooking recipe application
-gnome-extra/polkit-gnome 0.105_p_p7_p03: A dbus session bus service that is used to bring up authentication dialogs
 gnome-extra/zeitgeist 1.0.3_p_p4_p01-r2: Service to log activities and present to other apps
 mate-extra/brisk-menu 0.6.2_p_p1_p00: Solus Project's Brisk Menu MATE Panel Applet
 mate-extra/ubuntu-mate-settings 22.04.14-r1 22.10.2: Default settings for Ubuntu MATE
@@ -36,7 +35,6 @@ media-sound/rhythmbox 3.4.4_p_p5_p01-r2 3.4.6_p_p2_p01: Music management and pla
 sys-apps/accountsservice 22.07.5_p_p2_p0103-r1 22.08.8_p_p1_p01: D-Bus interfaces for querying and manipulating user account information
 sys-apps/consolation 0.0.8_p1_p_p 0.0.9_p1_p_p: Console pointer support for copy-paste
 sys-apps/timekpr-next 0.5.4: Control computer usage of users. Limit daily usage based on timed access duration, configure periods when they can log in
-sys-apps/xorg-gtest 0.7.1_p_p5_p01-r1: X.Org dummy testing environment for Google Test
 unity-base/hud 14.10_p20170619_p0_p04-r2: Backend for the Unity HUD
 unity-base/session-shortcuts 1.4-r1: Allows shutdown, logout, and reboot from dash
 unity-base/unity-api 8.7_p20170404_p0_p05-r1: API for Unity shell integration
