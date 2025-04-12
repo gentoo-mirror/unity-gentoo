@@ -12,5 +12,5 @@ RDEPEND=dev-libs/libdbusmenu:= dev-libs/libtimezonemap:= net-libs/libaccounts-gl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/indicator-datetime_15.10+21.04.20210304.orig.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=5598a91b4845d5f14d2bc82e875e7b8b

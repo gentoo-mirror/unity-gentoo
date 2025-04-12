@@ -12,5 +12,5 @@ RDEPEND=dev-libs/glib:2 dev-libs/libdbusmenu dev-libs/libgee:0.8 unity-base/bamf
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/plank_0.11.89.orig.tar.xz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	e8de74bac929ba17427e740e95707d00	vala	e477903dbe0105930c51f170a592dc16	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	f20ecf7ab0a7c34e83238b3ed4aaf6d6	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	vala	e477903dbe0105930c51f170a592dc16	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	f20ecf7ab0a7c34e83238b3ed4aaf6d6	ubuntu-versionator	e263acf8bef429003800fc8fb723f72f
 _md5_=7a22dabc3faeaa34b3295cb9052f89bf
