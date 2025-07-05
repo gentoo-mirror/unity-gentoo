@@ -12,5 +12,5 @@ RDEPEND=>=dev-libs/glib-2.40.0 >=dev-libs/libdbusmenu-16.04.0 >=virtual/jdk-1.8 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/vala-panel-project/vala-panel-appmenu/uploads/6a09b01b13637454c268a4e1c050a266/jayatana-0.7.6.tar.xz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	java-utils-2	c610b1541a10e37cb26ab5b707a744f1
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	java-utils-2	c610b1541a10e37cb26ab5b707a744f1
 _md5_=578fc182b8c476e2c34a09607ac2730f
