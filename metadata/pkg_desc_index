@@ -1,7 +1,6 @@
 acct-group/timekpr 0: A group for sys-apps/timekpr-next
 app-backup/deja-dup 42.9_p_p1_p03 43.4_p_p1_p01: Simple backup tool using duplicity back-end
 app-eselect/eselect-lightdm 0.2: Utility to change the LightDM greeter being used
-dev-java/jayatana 0.7.6-r1: Global Menu for Java applications
 dev-lang/vala 0.44.11 0.52.10: Compiler for the GObject type system
 dev-libs/ayatana-ido 0.9.1_p1-r1 0.9.2_p1: Widgets and other objects used for Ayatana Indicators
 dev-libs/libayatana-appindicator 0.5.90_p_p7_p2-r1 0.5.91_p1: Ayatana Application Indicators
